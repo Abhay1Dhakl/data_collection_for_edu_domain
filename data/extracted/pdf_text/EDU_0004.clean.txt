@@ -1,0 +1,6524 @@
+MY MATHEMATICS
+Grade 5
+Government of Nepal
+Ministry of Education
+Curriculum Development Centre
+
+Publisher:
+Government of Nepal
+Ministry of Education
+Curriculum Development Centre
+Sanothimi, Bhaktapur
+©Copy right: Curriculum Development Centre
+ISBN:
+First edition:
+2055 BS (Nepali Version)
+Revised Edition:
+2066 BS (Nepali Version)
+Price:
+Printed by:
+No part or whole of this book may be republished, published it with some
+change or transmitted by any means; electronic, photocopying or recording.
+Constructive suggestions are requested to be sent to: The Editing & publishing
+Section, Curriculum Development Centre.
+
+Foreword
+Continuity on the process of development and updating of curriculum and textbooks has
+been given so as to make school level education objective oriented, practical, contemporary
+and employment oriented. Fostering the feelings of unity towards the nation & nationality,
+developing attributes like morality, discipline, self-reliance, promoting fundamental language
+related and mathematical skills through the basic knowledge of science, environment and
+health-related issues. Education should instill life skills, create interest in art and beauty
+promote tolerance among different ethnicities, gender, religion, language, culture. Likewise
+it should make learners responsible citizen who can safeguard social values and norms.
+To fulfill this need this textbook has been revised and developed based on the curriculum
+2065 which was updated according to the suggestions of various level committees,
+teachers, guardians and the final decisions of seminars and interactions including other
+stakeholders of education.
+Previously, based on the old curriculum My Mathematics class 5 was written by Sambhu
+Narayan Vaidya & Hari Narayan Upadhya. Re-writing & revision work has been done on it,
+according to the suggestions of teachers, experts, guardians students & other stakeholders
+matching it up with the latest styles of national & international textbooks. We have tried to
+make this text book pictorial, activity oriented and child centered keeping in view with the
+all round development of grade five students. Based on the curriculum 2065, writing and
+revision work of this book was done by a panel comprised of Dinesh Kumar Shrestha,
+Chitra Prasad Devkota, Barun Prasad Vaidya, Hari Narayan Upadhya, Dilliswor Pradhan,
+Dandapani Sharma, Ram Chandra Poudel and Shyam Singha Dhami. Haribol Khanal, Dr.
+Siddhi Prasad Koirala, Dr. Siva Ram Neupane, Mukunda Raj Sharma, Nirmala Gautam
+were also involved in this work. Content editing was done by Dinesh Kumar Shrestha,
+Dandapani Sharma & Shyam Singha Dhami & language editing was done by Bishnu
+Prasad Adhikari and Lok Prasad Pandit. Type setting & layout design was done by Jayaram
+Kuikel and Ujwal Kundan Jyapu and Himalaya Gautam did the work of Illustration.
+Curriculum Development Centre remains grateful to all those who have contributed to the
+development & revision of this book. This English Version editon has been translated by
+Krishna Raj Hamal.
+Textbook is an important tool of teaching learning process. To achieve the learning outcomes
+of the curriculum, experienced teachers & inquisitive students will use various resources
+and materials in teaching learning process. Effort has been put to make this book activity
+oriented and more interesting, however, there might be some rooms for corrections in its
+language, presentation style and illustrations. Teachers, students, guardians, intellectuals
+and general readers of the book can contribute a lot to eliminate these weakness by
+sending their suggetions. Curriculum Development Centre cordially invites for their
+constructive suggestions.
+Government of Nepal
+Ministry of Education
+Curriculum Development Centre
+
+Table of Content
+Unit
+Lesson
+Page
+1
+Geometry
+1
+2
+Concept of Numbers
+18
+3
+Fundamental Operation In Mathematics
+34
+4
+Time
+39
+5
+Money
+44
+6
+Distance
+51
+7
+Perimeter
+55
+8
+Area
+59
+9
+Capacity
+63
+10
+Volume
+67
+11
+Weight
+72
+12
+Fraction and Decimal
+77
+13
+Percentage
+96
+14
+Unitary Method and Simple Interest
+102
+15
+Bill and Budget
+106
+16
+Statics
+110
+17
+Set
+118
+18
+Algebra
+120
+
+18
+My Mathematics: Grade- 5
+Lesson 2
+Concept of Numbers
+2.1 Counting of numbers and place value up to hundred million.
+There are ten numbers in Hindu-Arabic. They are 0,1,2,3,4,5,6,7,8 and 9.
+Let's make a figure using these numbers 36582292. Let's put them in the fol-
+lowing place value table. Let's see what is the place value of 5.
+Number 5 is at the place value of lakh. So the place value of 5 is 5 lakh= 5,00,000.
+In the above table number 3 is at the place of crore. Therefore the place value
+of 3 is 3 crore = 3, 00, 00,000.
+Thus the figure is read as three crore, sixty five lakh, eight two thousand, two
+hundred and ninety two.
+In the following table counting figures up to ten crore and the way they are read
+or their numerical names are given. Look at the table carefully and discuss
+what you found out:
+Made of how many numbers?
+Figures
+Numerical names
+The smallest figure made of one number
+1
+1(one)
+The smallest figure made of two numbers
+10
+10(ten)
+The smallest figure made of three numbers 100
+100(Hundred)
+The smallest figure made of four numbers
+1000
+1000(Thousand)
+The smallest figure made of five numbers
+10000
+10000( Ten Thousand)
+The smallest figure made of six numbers
+100000
+100000(Lakh)
+The smallest figure made of seven numbers 1000000
+1000000( Ten Lakh)
+The smallest figure made of eight numbers 10000000
+10000000(Crore)
+The smallest figure made of nine numbers 100000000
+100000000(Ten crore)
+Crore
+Ten Lakh
+Lakh
+Ten
+Thousand Hundred
+Ten
+One
+Thousand
+3
+6
+5
+8
+2
+2
+9
+2
+
+My Mathematics: Grade- 5
+19
+Method of writing figures into words:
+Figure 106739862 is written in the place value table in the following way:
+Figure
+Place Value
+Crore
+Lakh
+Thousand
+Units
+
+Ten Crore Crore Ten Lakh Lakh Ten Thousand Thousand Hundred Ten One
+106739862
+1
+0
+6
+7
+3
+9
+8
+6
+2
+
+We use comma (,) to show the place value so as to make reading a figure
+easier. So we write figure 106739862 by using comma in this way: 10,67,39,862.
+While reading it we say: Ten crore, sixty seven Lakh, thirty nine thousand, eight
+Hundred and sixty two.
+Example 1:
+Write in words: 19,56,02,183.
+19,56,02,183 = Nineteen crore, fifty six lakh, two thousand, one hundred and
+eighty three.
+Method of writing word figures into numbers:
+While writing ten crore, sixteen lakh, eight thousand, nine hundred and thirty
+six into figures we write:
+Ten crore, sixteen lakj, eight thousand, nine hundred and thirty six = 10, 16,
+08, 936.
+Likewise if we have to write ten crore, eighty two lakh, fifteen thousand and
+fifteen we write: 10, 82, 15, 015.
+Example 2:
+Write in figures: Eighteen crore, eleven lakh, four thousand and sixty.
+Eighteen crore, eleven lakh four thousand and sixty = 18,11,04,060.
+
+20
+My Mathematics: Grade- 5
+Exercise 2.1:
+1. Write the place value of 2 in each of the figures below:
+a. 13524
+b. 1235497
+c. 2305343
+d. 4263578
+2. How many lakhs are there in each of the figures below?
+a. 1234567
+b. 50031247
+c. 67853479
+3. How many thousands are there in a crore?
+4. Place comma (,) in each of the figures below:
+a. 1350739
+b. 2467893
+c. 275403016
+d. 75003052
+e. 105300274
+f. 592070593
+5. Write each figure in question 4 into words.
+6. Write in figures/ numbers:
+a. One crore, eighty two lakh and fifteen.
+b. Seventeen crore, seventy five lakh, three thousand, six hundred and five.
+c. Twenty two crore, sixty five thousand, seven hundred and seventy.
+d. Thirty six crore, fifty lakh, six hundred and ninety.
+e. Ninety nine crore, five.
+
+My Mathematics: Grade- 5
+21
+2.2 Writing numbers into international system:
+International system is different from the Nepali System in placing comma in a
+figure e.g. 57363542. We keep on placing comma after every three number in
+international system from the right-hand side. According to this the above
+figure is written in the following way: 57,363,542.
+Placing it in place value table:
+Million
+Thousand
+Unit
+Number
+Hundred
+Ten One
+Hundred
+Ten One
+Hundred
+Ten One
+57363542
+-
+5
+7
+3
+6
+3
+5
+4
+2
+
+We read it as 57 million, 363 thousand and 542.
+Or fifty seven million, three hundred sixty three thousand, five hundred and
+forty two.
+Example 1:
+Write in words: 123, 430, 316
+123, 430, 316 = 123 million, 430 thousand and 316
+= one hundred twenty three million, four hundred thirty thousand, three
+hundred and sixteen.
+Writing word figures into numbers in international system
+sixty million, three hundred forty two thousand and eighty two.
+= 60 million, 342 thousand and 082 = 60, 342, 082.
+Example 2:
+Write in figures:
+One hundred seven million, two hundred ninety three thousand, six hundred
+and fifty.
+= 107, 293, 650.
+= 107,293,650
+
+22
+My Mathematics: Grade- 5
+Exercise 2.2
+1.
+Put comma (,) in each of these figures according to the international
+system:
+a. 35768229
+b. 38962352
+c. 158632932
+d. 628293563
+2.
+Place it in the place value table and write in words according
+International System:
+a. 32, 567, 832
+b. 178, 625, 123
+c. 595, 207, 257
+d. 185, 090, 159
+3.
+Write in figures:
+a. Fifty seven million, nine hundred twenty-sex thousand, one hundred and
+thirty-three.
+b. One hundred twenty-four million, sixty-sex thousand and three hundred
+four.
+c. Two hundred fifty-seven million, four hundred twenty thousand and sev
+enty-four.
+d. Seven hundred thirty-four million, thirty seven thousand, two hundred and
+sixty-three.
+Tip to the teacher: Ask students to make their own questions like in the
+above exercise and hold quiz contest in groups.
+
+My Mathematics: Grade- 5
+23
+2.3 Prime and composite numbers
+Given below are the prime and composite numbers from 1-20. Dot used in the
+figure represents that it is a factor of the number just below them. Find and list
+how many factors are there between numbers 1-20 using the figure below.
+Multiplication
+Look at the table you have made and give the answers to the questions below.
+1) List the numbers which have the factor itself and 1?
+2) What can you say about the numbers which have been underlined?
+12
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12 13 14 15
+16 17
+18 19
+20
+Numbers
+
+24
+My Mathematics: Grade- 5
+3) List and discuss the numbers between 1-20 which have factors other than
+itself and 1.
+Numbers multiple of itself and 1 is called Prime number. The number multiple
+of itself, 1 and also other numbers is called Composite number. A Prime
+number is only multiple of itself and 1. There are 8 prime numbers between
+1-20; 2,3,5,7,11,13,17,19. 1 is neither prime number nor composite number.
+2 is the only even prime number. All other prime numbers are odd.
+Exercise 2.3:
+1.
+A) Write all the numbers between 1-100 in 10x10 boxed lined paper.
+B) Cut number 1.
+C) Leaving number 2 cut all the numbers divisible by 2.
+D) Leaving number 3 cut all the numbers divisible by 3.
+E) Leaving number 5 cut all the numbers divisible by 5.
+F) Leaving number 7 cut all the numbers divisible by 7.
+G) What are the numbers left after fifnished cutting prime or composite?
+H) How many prime numbers are there between 1-100?
+I)
+How many prime numbers are there which are greater than 50 and
+less than 60?
+Note: the method by wich we find prime number like we did in question
+number one is called “eratoesthiniko chalno”. It is named after eratoesthini
+who first derived this method.
+2)
+Find out which numbers given below are prime or composite:
+A) 2 B) 5
+C) 6 D) 7 E) 13 F) 23
+G) 33 H) 41 I) 53 J) 72 K) 75 L) 79
+M) 81 N) 83
+O) 9
+3)
+Write all the prime numbers between 75 and 85.
+4)
+11 x 11= 121, 11 is a prime number. What is 121?
+
+My Mathematics: Grade- 5
+25
+2.4 Rounding off the numbers
+Look and discuss
+In number line 800 is near to 830 but far from 900. So 800 is the near round off
+of 830.
+In the number line 1000 is near to 980 but far from 900. So the near rounding
+off of 980 is 1000. Similarly both 1000 and 900 are equidistant from 950 for
+which near round off of 950 will be 1000.
+Example1:
+Round off 1200 into nearest thousand.
+1000 is nearest to 1200. Hence nearest thousand round off of 1200 is 1000.
+Example2:
+Round off 3657 into nearest thousand.
+3657 is nearest to 4000. Hence nearest thousand round off of 3657 is 4000.
+near
+3657
+.........
+800
+810
+820
+830
+840
+850
+860
+870
+880
+890
+900
+900
+910
+920
+930
+940
+950
+960
+970
+980
+990
+1000
+1000
+1100
+1200
+1300
+1400
+1500
+1600
+1700
+1800
+1900
+2000
+3000
+3100
+3200
+3300
+3400
+3500
+3600
+3700
+3800 3900
+4000
+
+26
+My Mathematics: Grade- 5
+Example3:
+Round off 36500 into neareset thousand.
+36500 lies just in between 36000 and 37000. The nearest thousand round
+off of 36500 is 37000.
+Teachers note: using number lines discuss about the nearest hundred and
+thousand round off.
+Exercise 2.4
+1)
+Find nearest hundred round off of the given numbers:
+A) 2684
+B) 3824,
+C)5613,
+D) 6123,
+E) 12345
+2)
+Find nearest thousand round off of the given numbers:
+A) 5692
+B) 24287
+C)24500
+D) 1697, E) 15287, F) 58999, G) 93902
+5692
+24287
+2684
+36000
+36100
+36200
+36300
+36400
+36500
+36600
+36700
+36800
+36900
+37000
+2000
+2100
+2200
+2300
+2400
+2500
+2600
+2700
+2800
+2900
+3000
+5000
+5100
+5200
+5300
+5400
+5500
+5600
+5700
+5800
+5900
+6000
+24000
+24100
+24200
+24300
+24400
+24500
+24600
+24700 24800
+24900
+25000
+24000
+24100
+24200
+24300
+24400
+24500
+24600
+24700
+24800
+24900
+25000
+
+My Mathematics: Grade- 5
+27
+2.5
+Square numbers and cubic numbers
+2.5.1 Square numbers
+Read and discuss the table below. (table from the book)
+x
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+1
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+2
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+3
+3
+6
+9
+12
+15
+18
+21
+24
+27
+30
+4
+4
+8
+12
+16
+20
+24
+28
+32
+36
+40
+5
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+6
+6
+12
+18
+24
+30
+36
+42
+48
+54
+60
+7
+7
+14
+21
+28
+35
+42
+49
+56
+63
+70
+8
+8
+16
+24
+32
+40
+48
+56
+64
+72
+80
+9
+9
+18
+27
+36
+45
+54
+63
+72
+81
+90
+10
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+What can we say about the numbers circled in the table?
+1 x 1 = 1
+2 x 2 = 4
+3 x 3 = 9
+Are the circles numbers multiple of same two numbers?
+Can all the circled numbers be expressed the same way? Multiply and see.
+
+28
+My Mathematics: Grade- 5
+Now, draw the circled numbers in a dotted pattern in a box and see what hap-
+pens?
+1
+4
+9
+16
+25
+36
+49
+Here every dotted pattern makes a square. Thus all numbers which represent
+a dotted square are called a square numbers.
+These square numbers can be found by multiplying the number by itself.
+Look at the table below:
+Number
+Multiply (number x number
+...............
+1
+1 x 1
+1
+2
+2 x 2
+4
+3
+3 x 3
+9
+4
+4 x 4
+16
+5
+5 x 5
+25
+Thus a square numer is the product of a number multiplied by itself. So to find
+out whether a number is a square number or not we have to see whether the
+number can be expressed or not in the multiplication of two similar numbers.
+For example 64 = 8 x 8 so 64 is a square number but 15 = 3 x 5 so 15 is not
+a square number.
+Here, two similar factors of 64 are 8 x 8 = 64. 8 is the square root of 64 and
+64 is the square number of 8.
+
+My Mathematics: Grade- 5
+29
+Look at the flowchart below to understand square number and square root:
+square
+1
+4
+9
+16
+25
+.......
+100
+factors
+1 x 1
+2 x 2
+3 x 3
+4 x 4
+5 x 5
+.......
+10 x 10
+Square
+1
+2
+3
+4
+5
+.......
+10
+In the above chart when we see from top to bottom it gives sqaure numbers.
+Sqaure of 3 is 9. When we see from bottom to top it gives square root.
+Square root of 16 is 4. Similarly square root of 100 is 10.
+Example1:
+Find sqaure number of 9.
+Here,
+Given number
+= 9.
+Hence square number = 9 x 9 = 81.
+Example2:
+Chessboard is square in shape and has 64 small square boxes. How many
+square boxes are there in each rows and column?
+Here,
+Picture of page 29
+Square boxes in chessboard = 64.
+64 = 8 x 8.
+Hence in each row and column sqaure boxes = 8.
+Example 3
+Find square root of 25.
+Here,
+25 = 5 x 5.
+Hence, square root of 25 = 5.
+number
+root
+
+30
+My Mathematics: Grade- 5
+Exercise 2.5.1
+1)
+Find square numbers of given numbers:
+(a) 2
+(b) 5 (c) 6 (d) 7 (e) 8 (f) 9
+(g) 10 (h) 11 (i) 12 (j) 13 (k) 14 (l) 15
+2)
+Find which of the given numbers are square numbers:
+(a) 16 (b) 25 (c) 42 (d) 49 (e) 60 (f) 81
+(g) 100 (h) 120 (i) 121 (j) 225
+3)
+Find square root of given numbers:
+(a) 36 (b) 49 (c) 64 (d) 81 (e) 100 (f) 121
+(g) 144 (h) 169 (i) 196 (j) 225
+4)
+How many seedlings of cauliflowers are required to plant in an square
+field where in each line 20 seedlings can be planted?
+5)
+In a class 35 students are seated in a square pattern then how many
+students are there in each line?
+6)
+If 144 soldiers are kept in a square pattern during parading, how many
+soldiers are there in each line?
+7)
+When a line is maintained using 45 students in a square pattern, 6
+students was not required, what is the total number of students?
+8)
+From 1-100 how many square numbers are there?
+
+My Mathematics: Grade- 5
+31
+2.5.2
+Cubic Numbers
+A dice has length, breadth and height of each 2/2cm.
+It is a cubical object. Multiple of its length, breadth and
+height gives; 2 x 2 x 2=8. Here there are three sides
+of 8cm. these numbers are called cubic numbers.
+In table below, cubic numbers of 1- 5 are given.
+Numbers Product multiplied by three times
+Cubic numbers
+1
+1 x 1 x 1
+1
+2
+2 x 2 x 2
+8
+3
+3 x 3 x 3
+27
+4
+4 x 4 x 4
+64
+5
+5 x 5 x 5
+125
+Hence , to find out the cubic numbers of a given number we should multiply the
+given number by two similar numbers.
+Example 1
+Find the cubic number of six.
+Here,
+Cubic number of 6
+= 6 x 6x 6
+=36 x 6 = 216
+Example 2
+Find cubic root of 64?
+Here,
+64= 4 x 4 x 4.
+Hence cubic root of 64 = 4.
+Exercise 2.5.2
+1. Find the cubic numbers of given numbers:
+(a) 2 (b) 5 (c) 7 (d) 8 (e) 10
+2 cm
+2 cm
+2 cm
+
+32
+My Mathematics: Grade- 5
+2.
+This is a volumetric object with length, breadth and height
+of 3cm. when it is cut so that its length, breadth and height
+are 1/1how many pieces will it be?
+3. If one of the three similar sides of an object is 5 then what is the cubic
+number?
+4. Which of the numbers are cubic numbers?
+2.6 Prime factorization of numbers
+Look at the example below:
+12 = 12 x 1 two multiple factorization (12 is the composite number)
+= 6 x 2 two multiple factorization (6 is the composite number)
+= 4 x 3 two multiple factorization (4 is the composite number)
+= 2 x 2 x 3 three multiple factorization (all are prime factorization)
+Can these numbers be more factorised? Discuss.
+This process of multiplying a number multiplying it by two similar numbers is
+called factorization. The process of expressing number in the fora of prime
+numbers is called prime factorization.
+Prime factorization can be done in two methods:
+1. Continious division process
+Example 1
+What is the prime factorization of 12?
+Here,
+2 12
+12 is even so divided by 2
+2 6
+6 is even so divided by 2
+3
+3 is a prime number so cannot be divided.
+Hence, 12 = 2 x 2 x 3
+o;/L efu ubf{ ;aeGbf ;fgf]
+¿9 ;ª\Vofx¿n] efu ug'{
+kb{5 .
+
+My Mathematics: Grade- 5
+33
+Example 2
+What is the prime factorization of 675?
+Here, 3 675
+675 was divided by 3
+3 225
+225 was divided by 3
+3 75
+75 was divided by 3
+5 25
+25 was divided by 3
+5
+Hence, 675 = 3 x 3 x 3 x 5 x 5
+B) Factor tree method
+Example 3
+Factorize 675 by factor tree method.
+Here,
+675
+3 x 225
+3 x 3 x 75
+3 x 3 x 3 x 25
+3 x 3 x 3 x 5 x 5
+Hence, 675 = 3 x 3 x 3 x 5 x 5
+Exercise 2.6
+1. Using continious factorization method find the prime factors of
+numbers below:
+(a) 8
+(b) 12
+(c) 18
+(d) 24
+(e) 42
+(f) 62
+(g) 64
+(h) 85
+(i) 121
+(j) 144
+2. Use factor tree method to find the prime factors of the numbers
+below:
+a)16
+b) 30
+c) 44
+d)70
+e)162
+f)252
+g) 676
+h) 625
+i) 750
+j) 925
+
+34
+My Mathematics: Grade- 5
+Lesson 3
+Fundamental Operation in Mathematics
+3.1 Simplifications for fundamental operations of a problem
+Read, discuss and learn
+Solution of problems using four basic rules of mathematics; addition (+), sub-
+straction (-), multiplication (x) and division (/) is called simplification. During
+simplification multiplication or division whichever comes first can be operated.
+Then addition or substraction which ever comes first can be operated.
+Example1:
+Simplify : 15 ÷ 5 x 3 + 7 - 15
+This problem when expressed in words respresents; 5 parts of 15 is
+multiplied by 3 which is added with 7 and 15 is substracted from it becomes
+easier to simplify with order of division, multiplication, addition and
+substraction.
+Hence,
+15 / 5 x 3 + 7 – 15
+= 3 x 3 + 7 – 15 (15/3=3, division)
+= 9 + 7 – 15 (3x3=9, multiplication)
+= 16 – 15 (9+7=16, addition)
+= 1 (16-15=1, substraction)
+Example 2
+Simplify: 55 - 576 ÷ 12 + 11 x 3
+Here, 55 - 576 ÷ 12 + 11 x 3
+= 55 - 48 + 11 x 3
+[by dividing]
+= 55 - 48 + 33
+[by multiplying]
+= 7 + 33
+[by substraction]
+= 40
+[by addition]
+
+My Mathematics: Grade- 5
+35
+Example 3
+How much when Twice the 16 is substracted by 20 and 13 is added to it?
+When this is represented in mathematical form it becomes 16x2-20+13.
+Hence, 16 x 2 - 20 + 13
+= 32 - 20 + 13
+[by multiplying]
+= 12 + 13
+[by substraction]
+= 25
+[by addition]
+Exercise 3.1
+Simplify:
+(1) 44 + 24 ÷ 3 - 30
+(2) 63 ÷ 9 x 7 + 4 - 52
+(3) 6 x 64 ÷ 16 + 7 - 21
+(4) 24 x 12 ÷ 12 - 24 + 17
+(5) 55 ÷ 11 + 7 x 3 - 13
+(6) 132 ÷ 12 x 12 - 124 ÷ 31
+(7) 422 + 124 ÷ 4 x 2 - 355
+(8) 144 ÷ 24 - 3 x 15 ÷ 5 + 16
+(9) 625 ÷ 25 - 25 x 25 ÷ 5 + 100
+(10)576 ÷ 24 + 51 ÷ 17 - 20
+(11) Convert all the word form of problem into mathematical form:
+A) How much is five times two is added by 3?
+B) How much is 12 times 3 added by 7?
+C) How much is one third of 36 substracted by 5 and aded by 7?
+D) How much is 10 times 15 added by 50 and 200 is substracted to it?
+E) How much is when thrice of one third of 9 is substracted from 9?
+Or,
+16 x 2 - 20 + 13
+= 32 - 20 + 13
+= 32 + 13 - 20
+= 45 - 20
+= 25
+
+36
+My Mathematics: Grade- 5
+3.2 Uses of brackets in Simplification
+Read, discuss and learn
+How much will it cost to buy copy of Rs.10 eraser of Rs.2 for three
+people?
+Cost for one person = 10 + 2
+Cost for three people = 3 x (10 + 2)
+= 3 x (10 + 2)
+simplifying
+= 3x12 [operation inside brackets]
+= 36 Rs
+Example 1
+Simplify : 12 - (20 - 12)
+Here, 12 - (20 - 12)
+= 12 - 8
+[operation inside bracket]
+= 4
+Example 2
+Simplify: 5 + 8 x 2 - (5 - 2)
+Here, 5 + 8 x 2 - (5 - 2)
+= 5+8x2- 3 [operation inside bracket]
+= 5+16-3 [multiplication]
+= 21-3 (addition)
+= 8 (subtraction)
+
+My Mathematics: Grade- 5
+37
+Example 3
+How much is it when we add 2 to 5 multiply if by 3 and subtract 6 from it ?
+Addition, substraction and multiplication are involved in this problem. Among
+these we should do multiplication first. But according to the problem it is three
+times the total of 5 and 2. So we should do addition first.
+Hence , addition of 2 to 5 comes first so the mathematical expression using
+bracket is:
+(5+2) x3-6
+=7x3-6 {first simplification is done inside bracket. After that
+=21-6
+=15
+Therefore if there is bracket in the problem then simplification should be first
+performed inside the bracket and then remaining simplification should be per-
+formed. Simplification in brackets should be done according to order () small
+brackets, {} middle brackets and then [] larger brackets.
+Example 4
+Simplify: 8 + 14 x {(8 - 2) + 3} ÷ 18
+Here, 8 + 14 x {(8 - 2) + 3} ÷ 18
+=
+8 + 14 x {6 + 3} ÷ 18
+=
+8 + 14 x 9 ÷ 18
+=
+8 +
+18
+9
+14
+=
+8 + 7
+=
+15
+Or,
+8 + 14 x {(8 - 2) + 3} ÷ 18
+= 8 + 14 x {6 + 3} ÷ 18
+= 8 + 14 x 9 ÷ 18
+= 8 + 126 ÷ 18
+= 8 + 7
+= 15
+bracket should be removed}
+
+38
+My Mathematics: Grade- 5
+Exercise 3.2
+(A)
+Simplify:
+(1)
+6 - (5 - 2)
+(2)
+(16 - 4) x (5 - 3)
+(3)
+(16 + 4) ÷ 5 - 3
+(4)
+20 - {8 - (5 + 2)}
+(5)
+3 - {12 ÷ (2 x 3)}
+(6)
+19 - 7 + {4 - (5 - 2)} x 2
+(7)
+3 + 4 ÷
+÷ ÷
+÷ ÷ {2 + 4 ÷
+÷ ÷
+÷ ÷ (4 - 2)}
+(8)
+30 ÷
+÷ ÷
+÷ ÷ {60 - 3 (21 - 6)}
+(9)
+22 ÷
+÷ ÷
+÷ ÷ {20 ÷
+÷ ÷
+÷ ÷ (4 + 6)} x 2
+(10) 80 - 5 {9 - (14 - 12)} ÷ 5
+2) Simplify by converting into mathematical form:
+(1)
+How much is thrice the difference between 12 and 5 divided by 7?
+(2)
+How much is when thrice the difference between 9and 5 is substracted
+from 20?
+(3)
+How much is when difference between 70 and 30 is substracted from
+five times the sum of 7 and 3?
+(4)
+How much is when difference between 16 and 7 is substracted from
+one fourth the sum of 16 and 20?
+(5)
+How much is when one third of two times 12 is substracted from 50
+and is divided into 6 parts?
+(6)
+How much is when 4 added to difference between 5 and 2 is substracted
+from 7 and 9 is added?
+
+My Mathematics: Grade- 5
+39
+Lesson 4
+Time
+Compare the units of time given above with each other and find out their
+relationship. The small hand (hand showing seconds) of the clock crosses sixty
+smaller lines when it makes a circle around the clock. At that time the long hand
+(hand showing minute) of the clock reaches just another line. Now discuss with
+your friends and find out answers to the following questions which are related to
+the speed of the hands of the clock and their relationship with each other:
+a.
+How many lines does a minute hand cross while the second hand makes a
+full circle?
+b.
+How many full circles does a second hand make while the minute hand
+makes one full circle?
+c.
+How much time does the hour hand take to make one full circle around the
+clock?
+d.
+How many circles does an hour hand make in a day? And how many circles
+does a minute hand make around the clock in a day?
+
+40
+My Mathematics: Grade- 5
+Example 1
+Multiply 3 years, 8 months and 12 days by 3:
+Multiplying years, months and days separately by 3,
+YearMonths
+Day
+3
+8
+12
+x
+3
+9
+24
+36
+30 days= 1 month, 36 days = 1 month 6 days, 12 months
+9
+25
+6
+= 1 year, 25 months = 2 years 1 month
+11
+1
+6
+Example 2
+Divide 15 hours 30 minutes 48 seconds by 4.
+Dividing hours, minutes and seconds separately by 4.
+3 H. 52 M. 42 S.
+4 15 30 48
+–12
+3 30 48
+210 48
+30 hours = 180 minutes
+– 20
+10
+– 8
+2 48
+168
+2 minutes = 120
+– 16
+8
+– 8
+0
+Example 3
+Divide 10 years 7 months 12 days by 6:
+Dividing years months and days separately.
+
+My Mathematics: Grade- 5
+41
+1 Yr. 9 Mon. 7 Day
+6
+Yr. Mon. Day
+10
+7
+12
+6
+4
+7
+12
+55
+12
+4 years = 48 months
+54
+1
+12
+42
+1 month = 30 days
+42
+x
+Example 4
+A micro bus travelled to Kathmandu from Narayangard continuously for 6 times.
+If the bus took 28 hours and 34 minutes for completing its journey 6 took and if
+it takes the same amount of time for each journey. How much time did it take for
+its one journey from Narayangard to Kathmandu?
+Total time taken for 6 journeys = 28 hours & 34 minutes
+So time taken for 1 journey is,
+4hours 45minutes 40 seconds
+6
+28
+34
+-24
+4 x 60
+240 + 34
+274
+- 24
+34
+– 30
+4 x 60 – 240
+– 240
+0
+
+42
+My Mathematics: Grade- 5
+Exercise 4
+1.
+Multiply:
+a.
+2 years 7 months 16 days by 7
+b.
+5 years 6 months 12 days by5
+c.
+7 years 4 months 18 days by 3
+d.
+8 years 9 months 6 days by 8
+e.
+6 hours 40 minutes 15 seconds by 5
+2.
+Divide:
+a.
+10 years 8 months 20 days by 2
+b.
+15 years 6 months 21 days by 3
+c.
+13 years 7 months 12 days by 6
+d.
+5 hours 7 minutes 32 seconds by 4
+e.
+8 hours 10 minutes 35 seconds by 7
+3.
+If it takes 6 hours and 30 minutes to do half of the work, how much time
+would it take to do the whole work?
+4.
+If it takes 2 hours and 15 minutes to plant the siblings of cauliflower in a
+square-shaped field. How much time would it take to do the same in six
+such fields?
+5.
+A pipe fills up a tank in 1 and ½ hours. How much time would the same
+pipe take to fill up 5 tanks of the same size?
+6.
+Seven subjects are taught in Shila’s class. If it takes 45 minutes for one
+subject, how many minutes would Shila take to study all 7 subjects?
+7.
+Shiva finishes up the homework of all 7 subjects in 3 and ½ hours. If he
+spends equal time for doing each subject’s homework then how much time
+does he take to do homework of 1 subject?
+
+My Mathematics: Grade- 5
+43
+8.
+The time table of the departure of buses from Pokhara is given below.
+Both the buses A and B departed from Pokhara to Kathmandut at 5; 30
+and reached the following places at the given times:
+Pokhara
+Bus A
+Bus B
+Khairenitar
+6:45 am
+7:00 am
+Damauli
+7:50 am
+8:45 am
+Dumre
+9:30 am
+10:30 am
+Anbukhaireni
+10:15 am
+12:30 noon
+Muglin
+11:00 am
+1:00 pm
+Mahadev Besi
+11:50 am
+2:30 pm
+Naubise
+1:00 pm
+4:00 pm
+Kathmandu
+2:00 pm
+5:30 pm
+Now answer the following questions:
+a. At what time did Bus A reach Damauli?
+b. How long after Bus A did Bus B reach Damauli?
+c. How long will it take for passangers from Dumre to reach Muglin if they
+are in Bus A?
+d. How long did the Bus B take to reach Mahadev Besi from Dumre?
+e. Where was Bus B while Bus A was at Naubise?
+f.
+Which bus shall we take to reach Mahadev Besi within 2 pm?
+g. How long after Bus A does Bus B reach Kathmandu?
+
+44
+My Mathematics: Grade- 5
+Lesson 5
+MONEY
+We can use coins and notes and make payments in different ways. For example
+to make a payment of 1 rupee 25 paisa,
+-
+Note of Rs 1 and 1 coin of 25 paisa
+-
+Two coins of 50 paisa and 1 coin of 25 paisa
+-
+Five coins of 25 paisa…. Etc
+These are not only ways to make payment 1 rupee 25 paisa. Discuss in class
+and find out into how many ways we can make payment of 1 rupee 25 paisa. To
+denote 1 rupee 25 paisa we write Rs 1.25. We put a decimal between rupee
+and paisa, why?
+Rs 1 has hundred paisa or 100 paisa = Rupee 1. So to convert a rupee into
+paisa we should multiply it by 100. Similarly, because 100 paisa denotes Rs
+1 we should divide the rupee by 100 t0 convert it into rupee.
+Try to understand this fact from the following circle:
+According to the example above there is 125 paisa in 1 rupee 25 paisa and to
+convert 125 paisa into rupee we should divide it by 100 which give us Rs 1.25.
+
+My Mathematics: Grade- 5
+45
+Example 1
+Convert Rs 4.35 into paisa:
+Here, Rs 4.35 = (4 x100 + 35) paisa = 4.35 paisa.
+Example 2
+Convert 525 paisa into rupees:
+525 paisa = Rs (525 ÷ 100) = Rs 5.25.
+Example 3
+If Ramesh gives Rs 20 note to the shopkeeper to make a payment of Rs 10.75
+how much change will he get back?
+Here, Rs 20 = 20 x 100 = 2000 paisa.
+And Rs. 10.75 = 10 x 75 x 100p = 1075 p
+So the amount he will get back = (2000 – 1075)p = 925 p = Rs 9.25.
+(To convert paisa into rupee we put decimal before two numbers from the right)
+Subtraction in short,
+Rs 20.00
+— Rs10.75
+Rs 9.25
+Alternatively: (Subtracting rupee from rupee and paisa from paisa)
+Rs
+P
+Rs
+P
+20
+00
+=
+19
+100
+10
+75
+- 10
+75
+Rs 9
+25
+In this way to subtract or add rupee and paisa we add or substract rupee with
+ruppe and paisa with paisa.
+
+46
+My Mathematics: Grade- 5
+Example 4
+(a) How much is the total of Rs 6.80 and Rs 7.25?
+Adding rupee and paisa separately,
+Rs
+P
+6
+80
++7
+25
+13
+105
+{
+140 5
+= Rs. 14.05
+In short,
+Rs. 6.80
+± Rs. 7.25
+= Rs. 14.05
+(b) How much will it be if we subtract 3 Rs 75 piasa from 5 Rs 25 paisa?
+Subtracting rupee and paisa separately,
+Rs
+P
+5
+25
+1
+50
+= ?= 1.50
+Picture of page 46
+In short,
+Rs 5.25
+— Rs 3.75
+Rs 1.50
+This is the subtraction
+of decimal
+4
+125
+105 paisa is equal to 1 rupee 5 paisa. So Rs 1 added to
+Rs 13 the total becomes Rs 14.05.
+We can not subtract 75 p from 25p. So we borrow
+Rs 1 = 100p.
+
+My Mathematics: Grade- 5
+47
+Example 5
+How much does Kamalesh earnin 7 days if he earns Rs 25.35 per day?
+Here, to calculate Kamalesh’s 7 days income we should add his per day income
+of Rs 25.35 seven times. We can calculate it in short. Therefore income of
+Kamaleshin 7 days
+= Rs 25.35.
+x 7
+Rs 177.45
+Another method:
+Multiplying rupee and paisa separately,
+Rs
+P
+25
+35
+x 7
+175
+245 Since 245p = Rs 2.45 the total is Rs 177.45
+177
+45
+Therefore Kamalesh’s income is Rs 177.45.
+Example 6
+If father gave his son Nima Rs 125 as pocket money for 10 days then how much
+money was given to him per day?
+Here, Rs 125 has to be spent in 10 days. So we should divide Rs 125 in 10
+equal parts. So this is a problem of division.
+
+48
+My Mathematics: Grade- 5
+Now dividing Rs. 125 by 10,
+Rs. 12.50
+10
+Rs. 125
+– 10
+25
+– 20
+5 x 100 p
+500 p
+– 50
+0
+Hence, per day pocket money = Rs. 12.50
+Next method;
+12
+10 Rs. 125
+– 10
+25
+–
+20
+5
+Hence per day pocket money = Rs.
+10
+5
+12
+= Rs.
+50
+12.
+Example 7
+If you buy 12 pencils at Rs. 2.15 per piece and sell them at Rs. 2.50 per
+piece how much will be the profit?
+Here,
+Selling price of pencils per piece = Rs 2.50
+Cost price of pencils per piece = Rs 2.15
+Profit per pencil = Selling price – Cost price
+= Rs 2.50 – Rs 2.15
+= Rs 0.35
+Profit of 12 pencils = Rs 0.35 x 12 = Rs 4.20
+Hence profit = Rs 4.20
+Converting the remainder Rs. 5 into paisa, the total
+becomes 500 paisa.
+
+My Mathematics: Grade- 5
+49
+Exercise 5
+1.
+How many coins of the following denominations will be there in a
+rupee?
+A) 25 paisa
+B) 50 paisa
+C) 10 paisa
+2.
+Convert into paisa:
+A) Rs.1/2
+B) Rs 1/4
+C) Rs 1/10
+D) Rs 1/5
+E) Rs 1 1/2
+F) Rs 5.05
+G) Rs 10.15 H) Rs 75.35
+3.
+Convert into rupees:
+A)125 paisa
+B) 105 paisa
+C) 325 paisa
+D) 10 paisa
+E) 15 paisa
+F) 20 paisa
+G) 25 paisa
+H) 50 paisa
+I) 1235 paisa
+J) 2375 paisa
+K) 5437 paisa
+L) 4857 paisa
+4.
+Look at the price list and find out the total cost of the following
+particulars:
+Price List
+Particular
+Price
+Pencil
+Rs. 1.50,
+Copy
+Rs. 3.50,
+Book
+Rs. 18.75,
+Geometry Box Rs. 45.00,
+Bag
+Rs. 150.00
+Pen
+Rs. 10.00
+a. 1pencil, 1 pen and 1 copy
+b. 1 bag and 1 geometry box
+c. 1 book and 1 pencil
+d. 5 copies
+e. 5 books and 10 copies
+f. 2 pens and 4 copies
+
+50
+My Mathematics: Grade- 5
+5.
+Find out the difference of cost price of the following objects on
+the basis of the cost price as given in question 4 above:
+A)
+Pencil and pen
+B) Bag and geometry box
+C) Book and copy
+D) Pencil and geometry box
+6.
+The cost of three packets of biscuits and four eggs is Rs 40. If the
+cost of 3 packets of biscuits is Rs 27.
+A)
+What is the cost of 4 eggs?
+B)
+What is the cost of a packet of biscuit?
+7.
+What is the cost of a battery at the rate of Rs10 per piece?
+8.
+The fare of boating in fewa lake is Rs 15 per person. The fare of
+children is just the half of adult’s rate. How much will Mrs Bimala
+and her 3 children have to pay for boating?
+9.
+If you buy good of Rs 225.65 and give a Rs 500 note to the
+shopkeeper, how much will he return?
+10. Pawan gave Rs 53.75 to his children as pocket money. If equal
+amount of pocket money was given to each of them, find out the
+amount each child was given?
+
+My Mathematics: Grade- 5
+51
+Lesson 6
+DISTANCE
+Division and multiplication of unit of distance
+Guess, what will be the distance between your house and school? What is
+the distance you will have to walk in a week from home to school? How can
+we find it out? Discuss.
+Example1:
+Multiply 3km, 200m, 55cm by 8:
+Multiplying the units of distance separately,
+Km
+m
+cm
+3
+200
+55
+x 8
+24
+1600
+440
+440cm = 4m 40 cm
+24
+1604
+40
+1604m = 1km 604cm
+25
+604
+40
+Example2:
+Divide 5km, 600m 56cm by 8:
+Here, dividing the units of distance seperately,
+0km
+700m
+7cm
+8
+5
+600
+56
+0
+5000
+5600
+56
+– 56
+00
+56
+– 56
+x
+Hence, dividend = 700m 7cm.
+5x1000
+
+52
+My Mathematics: Grade- 5
+Example3:
+Hari’s school is 1km 5m far from his home. If the distance of Shyam’s
+school is 3 times more than Hari’s what is the distance between
+Shyam’s home and school?
+Here, the distance between Hari’s home and school= 1km 5m
+The distance between Shyam’s home and school
+= 3 x (distance between haris home and school)
+= 3 x (1km 5m)
+= 3km 1500m
+= 4km 500m
+Hence, the distance between shyam’s home and school= 4km 500m
+Example 4:
+If there is a plan to blacktop a road of 35km 600m 80cm length,
+dividing it into 4 equal sections. What is the length of 1 section?
+Here, division of 55km 600m 80 cm road into 4 equal sections means dividing
+the distance by 4. Therefore dividing the units of distance seperately by 4,
+13km 900m 200cm
+4
+km
+m
+cm
+55
+600
+80
+– 4
+15
+– 12
+3
+600
+80
+3600
+80
+– 36
+00
+80
+– 8
+0
+Hence the length of each section blacktopped = 13km 900m 20cm
+
+My Mathematics: Grade- 5
+53
+Exercise 6
+1.
+Guess the length of the following objects and measure them, were
+you correct?
+a.
+The length and breadth of “ My Mathematics Class 5”.
+b.
+The length and breadth of the blackboard.
+c.
+The length and breadth of your book.
+d.
+The length and breadth of your classroom door.
+e.
+The length and breadth of your classroom.
+2.
+Convert the following units of distance into cm:
+a.
+1km 75cm
+b. 5m 65cm
+c.
+1km 200m 80cm
+d. 2
+1
+1 m
+e.
+5km 350m 75cm
+f. 3.2m
+g.
+5.72m
+3.
+Convert the following units of distance into m.
+a.
+1km 200m
+b. 1.5km
+c.
+3m 80cm
+d. 5m 70cm
+e.
+250cm
+f. 15cm
+4.
+Multiply:
+a. km
+m
+cm
+b. km
+m
+cm
+5
+320
+25
+3
+750
+75
+x6
+x9
+
+54
+My Mathematics: Grade- 5
+c. km
+m
+cm
+d. km m
+cm
+6
+20
+5
+8
+425
+60
+x12
+x15
+e. km
+m
+cm
+f. km
+m
+cm
+17
+250
+65
+22
+560
+30
+x17
+x25
+5.
+Divide:
+a.
+5km 600m 75cm by 5.
+b.
+3km 145m 20cm by 6.
+c.
+12km 200m 64cm by 8
+d.
+8km 650m 71cm by 9.
+e.
+12km 330m 96cm by 6.
+f.
+2km 580m 83cm by 7.
+g.
+3.693km by 3.
+6.
+If the height of a brick is 12cm. how many bricks do you need to make a
+wall of 3.6m height? (cement not counted)
+7.
+If a 6m long ribbon is equally divided among 6 girls. What will be the length
+of ribbon each girls get?
+8.
+If a 2m 50cm sugar cane was eaten up by 5 persons in equal poportion.
+What length did each get?
+9.
+A 200km long road was balck topped dividing it into 8 equal sections.
+What was the length of each section?
+10. At the rate of 10km 650m per month, if a pathis completed in 7 months.
+What is the length of the road?
+
+My Mathematics: Grade- 5
+55
+Lesson 7
+PERIMETER
+Perimeter of Rectangular objects
+Lets tie the book of “ Mathematics class 5” from
+its length side to its every end with a thread. What
+length of thread we will need to tie the book in this
+way?
+Will a measurement of book of length = 24 cm
+and breath = 18cm be equal to the thread used to
+cover its every end?
+Measurement of the outer end of any surface or objects is called its perimenter.
+How many times do we have to measure the length to find out the perimeter
+of a rectangular book?
+Do we have to measure the breadth same way as length?
+Here, perimeter of book “ Mathematics class 5”
+= 24 cm + 18 cm + 24 cm + 18 cm = 84 cm.
+While calculating Perimeter of any Rectangular surface or object,
+Perimeter (p) = length + breadth + length + breadth
+= 2 x length + 2 x breadth
+= 2 (length + breadth)
+= 2 (l + b)
+When the surface is square,
+Perimeter (p) = 2 (length + breadth)
+= 2 (length + length) because length = breadth)
+= 2 (2 length)
+= 4 length = 4l
+So, perimeter of square = 4 x length.
+
+56
+My Mathematics: Grade- 5
+Example 1
+What is the perimeter of an object having length = 8 cm and breadth =
+6cm?
+Here,
+Length of rectangle (L) = 8 cm
+Breadth (b)
+= 6 cm
+Perimeter (p)
+= ?
+According to formula, perimeter (P) of rectangle = 2 (L+ b)
+= 2 (8cm + 6 cm)
+= 2 x 14 cm
+= 28 cm.
+Therefore the circumference of rectangle
+= 28 cm.
+Example 2
+If the length of a square is 8 cm what will be its perimeter?
+Here,
+Length of the square (L) = 8 cm
+Perimeter (p) = ?
+According to formula, perimeter of a square (p)
+= 4 L
+= 4 x 8 cm
+= 32 cm
+Therefore the perimeter of the square
+= 32 cm
+
+My Mathematics: Grade- 5
+57
+Example 3
+What length of barbed wire will be required to barbe it around a field 5
+times which has length 50 meter and breadth 30 meter?
+Length of barbed wire = 5 times of the perimeter of the field.
+Here,
+length (L)
+= 50 m
+breadth (b)
+= 30 m
+perimeter (p) = ?
+Perimeter of field (p) = 2 (L +b)
+= 2 ( 50m +30m)
+= 2 x 80 m)
+= 160 m
+Therefore, the length of barbed wire = 5 x 160 m = 800 m.
+Exercise 7
+1. Find out the perimeter of the following shapes:
+(a)
+(b)
+3 cm
+5 cm
+4 cm
+4 cm
+
+58
+My Mathematics: Grade- 5
+(c)
+(d)
+2.
+Find out the perimeter of rectangular surface having the following
+length and breadth:
+a. L = 8cm, b = 6 cm
+b. L = 7 cm, b = 3 cm
+c. L = 6 cm, b = 5 cm
+d. L = 10 cm, b = 5 cm
+e. L = 6.8 cm, b = 3cm
+f. L = 5.6 cm, b = 2 cm
+g. L = 10.3 cm, b = 6.5 cm.
+3.
+Find out the perimeter of a square with the following length:
+a. Length = 3 cm
+b. L = 5 cm
+c. Length = 8 cm
+d. L = 12 cm
+e. Length = 51/2 cm
+f. L = 7.5 cm
+4.
+What will be the perimeter of a field which is 55 m in length and 40 m in
+breadth?
+5.
+If a rectangular Chautari is 12 meter in length what will be its perimeter?
+6.
+A square- shaped field is 30m in length. If you put a wall around it how long
+will the wall be?
+7.
+What length of barbed wire will be needed to fence around a rectangular
+field with 60m. length and 40m breadth 3 times?
+2 cm
+3.5 cm
+5 cm
+5 cm
+
+My Mathematics: Grade- 5
+59
+Lesson 8
+AREA
+Area of a rectangular surface
+To say how much is the area of an object
+means counting how many sqaures of
+1 square unit it contains.
+In the picture the length of the rectangle is 4 cm. and its breadth is 3 cm. There
+are 12 squares of 1 square unit. Therefore the area of the rectangle ABCD is
+12 square centimeter. Square centimeter is called cm2 in short. To count square
+unit always in every given figure for calculating area is difficult. Therfore to find
+out the shortcut method read, discuss and complete the table given below.
+Rectangular Surface
+Length
+Breadth
+Area
+Length x Breadth
+(Counting
+squares)
+3 cm
+1 cm
+3 cm2
+3 cm x 1 cm =
+3 cm2
+3 cm
+2 cm
+6 cm2
+3 cm x 2 cm =
+6 cm2
+4 cm
+2 cm
+8 cm2
+..................
+4 cm
+3 cm
+12 cm2
+..................
+D
+A
+B
+C
+4 cm
+3 cm
+
+60
+My Mathematics: Grade- 5
+What did you learn from the table?
+Is product of length and breadth of square equal to its area?
+From discussion above:
+Area of rectangular object = length x breadth
+Or A = Lx b
+A square shaped object has its length and breadth equal.
+Therefore b = L and L x b = L x L
+So the area of surface (A) = L2
+Example 1
+What is the area of a square which is 5 cm in length and 3 cm in breadth?
+Here, Length (L) = 5 cm
+Breadth (b) = 3 cm
+Area (A) = ?
+According to the formula,
+A = L x b
+= 5 cm x 3 cm = 15 cm2
+:. Area of the rectangle = 15 cm2
+Lets divide the rectangle into 1 square cms:
+Now there are 15 squares of 1 square cm.
+Therefore area A = 15 cm2
+Example 2
+What is area of a square which is 5 cm in length?
+Here, Length (L) = 5 cm
+Area (A) = ?
+Area of square (A) = L2
+= (5 cm) 2
+= 25 cm2
+l
+l
+l
+l
+3 cm
+5 cm
+5 cm
+5 cm
+
+My Mathematics: Grade- 5
+61
+Example 3
+If the length of a rectangle room is 6 m and breadth is 4 m, what will be
+its area?
+Here, length of room (L)
+= 6m
+Breadth (b)
+= 4m
+Area (A)
+= ?
+So, area (A)
+= L + b
+= 6m + 4m
+= 24 m2
+Area of room
+= 24 m2
+Exercise 8
+1. Find out the area of each of the following rectangular shapes:
+(a)
+(b)
+(c)
+(d)
+cm
+5
+cm
+3
+cm
+2
+cm
+3
+cm
+.8
+4
+cm
+.2
+6
+cm
+2
+1
+2
+cm
+3
+
+62
+My Mathematics: Grade- 5
+2.
+Find out the area of each of the following squares:
+(a)
+(b)
+3. Find out the area of the surface of each of the following objects:
+(a)
+(b)
+length of carpet = 2.5 m
+length of frame = 30cm
+breadth
+= 1.8 m
+breadth = 22cm
+(c)
+(d)
+length of book = 20.2 cm
+breadth = 15.9 cm
+length of the surface of the table = 1.3m
+breadth = 80 cm
+4.
+The length of the surface of a table is 3.1 m and its breadth is 24m. What
+will be its area?
+5.
+What will be the area of a rectangular field of length 52 m and breadth
+32.5m?
+6.
+Find the area of a square handkerchief which has length of 30 cm.
+cm
+2
+cm
+3
+
+My Mathematics: Grade- 5
+63
+Lesson 9
+CAPACITY
+How much water does a glass contain?
+How much water fills up a water pot?
+To answer such questions we have to
+measure the water in it. We use objects
+like cylinder or litre to measure liquid.
+Units like litre and milliliters are used to
+measure water or other liquids. Capacity is the
+measurement of the amount of liquid in a container.
+Litre and milliliters are the units used to measure capacity.
+1 litre (l) = 1000 millilitre (ml)
+Example 1
+How many milliliters are there in 5 litres and 200ml.
+Here, 5 l = 5000ml
+= 5 x 5000 ml
+Now, 5l, 200ml = (5000 + 200) ml
+= 5200 ml
+Example 2
+Multiply:
+l
+Ml
+2
+300
+x 4
+8
+1200
+= 9 l 200 Ml
+
+64
+My Mathematics: Grade- 5
+Example 3
+Solve : 15l 600 Ml ÷ 5
+3 l
+120ml
+5
+l
+ml
+15
+600
+–15
+X
+600
+– 5 .
+10
+– 10
+0
+Example 4
+Capacity of a glass is 250 ml. Sujan drank 5 glasses of water at one
+time. How much water did he drink? Express in litres.
+Here, 5 glasses = 5 x 250 ml
+= 1250 ml
+= 1250 ÷ 1000l
+= 1.250 litres
+Example 5
+How many glasses with the capacity of 500ml are required to fill up a
+jug with a capacity of 2l 500 ml?
+Here,
+Capacity of jug = 2l 500 ml
+
+My Mathematics: Grade- 5
+65
+= (2 x 1000 + 500 ml) ml
+= 2500 ml
+Capacity of glass = 500ml
+Therefore,
+Number of glasses required to fill up the bottle
+500
+2500
+
+= 5
+:. The jug will be filled up with 5 glasses.
+Exercise 9
+(1)
+Solve:
+(a)
+l
+ml
+(b)
+l
+ml
+3
+400
+15
+250
+x 3
+x 4
+(c)
+l
+ml
+(d)
+l
+ml
+21
+250
+16
+750
+x 6
+x 8
+(e) 10l. 200ml ÷ 3
+(f) 15l. 750ml ÷ 6
+(g) 48l. 500ml ÷ 5
+(h) 28l. 250ml ÷ 10
+2.
+If a glass’s capacity is 280 ml of water. How many glasses are required to
+fill a jug with the capacity of 4l 200ml?
+3.
+What capacity of kettle is required to serve 300ml of tea per person at
+once to 50 people?
+
+66
+My Mathematics: Grade- 5
+Tip to the teacher: For farther multiplication and division exercise of capacity
+(l and ml related) design your own exercise similar to that of exercise?
+4.
+With a pot of 750 ml capacity Shila poured oil 4 times into a gallon. How
+much oil did she pour?
+5.
+How many 250 ml glasses of squash can we make out of the squash bottle
+with the capacity of 1.5 litre?
+6.
+If 15 glasses having capacity 180 ml can fill a jug then what will be the
+capacity of the jug?
+7.
+A dairy fills milk in 500 ml packets. How many plastic packets will the dairy
+require if it sells 40,000 litres of milk?
+
+My Mathematics: Grade- 5
+67
+1cm
+1cm
+1cm
+Lesson 10
+VOLUME
+Volume of a rectangular solid object:
+In the picture a cube is shown with length,
+breadth and height 1 cm each. Its volume = 1
+cube cm. This unit cube of 1 cube cm is
+the unit of measuring a rectangular solid fig-
+ure.
+To find out the volume of a rectangular solid
+object we count the number of unit cubes it
+contains. The rectangular solid object in the
+picture has length 3 cm, breadth 2 cm and
+height 2 cm. there are 6 unit cubes in the lower
+row 3 length wise and 2 breadth wise. Like-
+wise there are 6 unit cubes on the upper row
+as well. The volume of each unit cube is 1 cube
+cm (1 cm3 ). So the volume of the rectangular solid figure is 12 cube cm (12
+cm3 ).
+Here, by multiplying length, breadth and height of the rectangular solid
+figure,
+Length x breadth x height
+= 3 cm x 2 cm x 2 cm
+= 12 cm3
+Now, if we add one more layer to the above
+picture we have to add 6 unit cubes.
+The volume of the rectangular figure
+is 18 cm3.
+Here, l x b x h
+= 3 cm x 2 cm x 2cm
+= 18 cm3
+
+68
+My Mathematics: Grade- 5
+On the basis of the above discussion
+The volume of a rectangular solid figure = length x breadth x height
+Or V= l x b x h
+Similarly, because the length, breadth and height of a cube
+is equal volume of cube (v) = (……..)3 or (length) 3
+Or V = l3
+Example 1
+What is the volume of a rectangular figure which has length 4 cm, breadth
+3 cm and height 2 cm?
+Here, length (l)
+= 4 cm
+Breadth (b)
+= 3 cm
+Height (h)
+= 2 cm
+Volume (V)
+= ?
+So, V
+= l x b x h
+= 4 cm x 3 cm x 2 cm
+= 24 cm3
+Example 2
+What is the volume of a cube which 4 cm?
+Here, length of cube (l )
+= 4cm
+Volume (V)
+= ?
+So, volume of cube (V)
+= l 3
+= (4cm)3
+= 4cm x 4cm x 4cm
+ V
+= 64cm3
+
+My Mathematics: Grade- 5
+69
+Example 3
+What will be the volume of a soap with length 5 cm, breadth 4 cm and
+height 3 cm?
+Here, length (l) = 5 cm
+Breadth (b) = 4 cm
+Height (h) = 3 cm
+Volume (v) = ?
+Accourding to the formula,
+v = l x b x h
+= 5 cm x 4 cm x 3cm
+= 60 cm3
+∴
+Volume of a soap (v) = 60 cm3
+Exercise 10
+(1)
+Find out the volume of each of the following rectangular figures.
+(a)
+(b)
+
+70
+My Mathematics: Grade- 5
+(c)
+(d)
+(2)
+Find out the volume of each of the following cubic figure.
+(a)
+(b)
+(c)
+3. Find the volume of each of the following rectangular solid figures
+with given measurement:
+a. length = 4 cm,
+breadth = 3 cm,
+height = 2 cm
+b. length = 5 cm,
+breadth = 2 cm,
+height = 1 cm
+c. length = 3.5 cm,
+breadth = 2.2 cm, height = 4 cm
+d. length = 4.8 cm,
+breadth = 3.3 cm, height = 2.5 cm
+4. A match box has length 13 cm, breadth 3 cm and height 3 cm. What
+will be its volume?
+5. What will be the volume of a tooth paste with length 13 cm, breadth 3
+cm and height 3 cm?
+
+My Mathematics: Grade- 5
+71
+6. The cover of an ink-bottle has length 8 cm, breadth 4 cm and height
+5 cm. What will be the volume of the cover? What will be the total
+volume of 18 such covers?
+7. While making a table showing length, breadth and height of different
+rectangular solid objects Ram has put some boxes empty. The table
+is given below. Complete the empty boxes.
+Measurement
+a
+b
+c
+d
+e
+Length(l)
+3 cm
+7 cm
+6 cm
+7 cm
+5 cm
+Breadth (b)
+2 cm
+5 cm
+5 cm
+6 cm
+4 cm
+Height(h)
+4 cm
+2 cm
+4 cm
+4 cm
+4 cm
+Volume (V)
+?
+?
+?
+?
+?
+Tips for teacher: While doing teaching learning activities on volume ask students to find out
+volume of rectangular solid objects found around the school and their home.
+
+My Mathematics: Grade- 5
+63
+Lesson 9
+CAPACITY
+How much water does a glass contain?
+How much water fills up a water pot?
+To answer such questions we have to
+measure the water in it. We use objects
+like cylinder or litre to measure liquid.
+Units like litre and milliliters are used to
+measure water or other liquids. Capacity is the
+measurement of the amount of liquid in a container.
+Litre and milliliters are the units used to measure capacity.
+1 litre (l) = 1000 millilitre (ml)
+Example 1
+How many milliliters are there in 5 litres and 200ml.
+Here, 5 l = 5000ml
+= 5 x 5000 ml
+Now, 5l, 200ml = (5000 + 200) ml
+= 5200 ml
+Example 2
+Multiply:
+l
+Ml
+2
+300
+x 4
+8
+1200
+= 9 l 200 Ml
+
+64
+My Mathematics: Grade- 5
+Example 3
+Solve : 15l 600 Ml ÷ 5
+3 l
+120ml
+5
+l
+ml
+15
+600
+–15
+X
+600
+– 5 .
+10
+– 10
+0
+Example 4
+Capacity of a glass is 250 ml. Sujan drank 5 glasses of water at one
+time. How much water did he drink? Express in litres.
+Here, 5 glasses = 5 x 250 ml
+= 1250 ml
+= 1250 ÷ 1000l
+= 1.250 litres
+Example 5
+How many glasses with the capacity of 500ml are required to fill up a
+jug with a capacity of 2l 500 ml?
+Here,
+Capacity of jug = 2l 500 ml
+
+My Mathematics: Grade- 5
+65
+= (2 x 1000 + 500 ml) ml
+= 2500 ml
+Capacity of glass = 500ml
+Therefore,
+Number of glasses required to fill up the bottle
+500
+2500
+
+= 5
+:. The jug will be filled up with 5 glasses.
+Exercise 9
+(1)
+Solve:
+(a)
+l
+ml
+(b)
+l
+ml
+3
+400
+15
+250
+x 3
+x 4
+(c)
+l
+ml
+(d)
+l
+ml
+21
+250
+16
+750
+x 6
+x 8
+(e) 10l. 200ml ÷ 3
+(f) 15l. 750ml ÷ 6
+(g) 48l. 500ml ÷ 5
+(h) 28l. 250ml ÷ 10
+2.
+If a glass’s capacity is 280 ml of water. How many glasses are required to
+fill a jug with the capacity of 4l 200ml?
+3.
+What capacity of kettle is required to serve 300ml of tea per person at
+once to 50 people?
+
+66
+My Mathematics: Grade- 5
+Tip to the teacher: For farther multiplication and division exercise of capacity
+(l and ml related) design your own exercise similar to that of exercise?
+4.
+With a pot of 750 ml capacity Shila poured oil 4 times into a gallon. How
+much oil did she pour?
+5.
+How many 250 ml glasses of squash can we make out of the squash bottle
+with the capacity of 1.5 litre?
+6.
+If 15 glasses having capacity 180 ml can fill a jug then what will be the
+capacity of the jug?
+7.
+A dairy fills milk in 500 ml packets. How many plastic packets will the dairy
+require if it sells 40,000 litres of milk?
+
+My Mathematics: Grade- 5
+67
+1cm
+1cm
+1cm
+Lesson 10
+VOLUME
+Volume of a rectangular solid object:
+In the picture a cube is shown with length,
+breadth and height 1 cm each. Its volume = 1
+cube cm. This unit cube of 1 cube cm is
+the unit of measuring a rectangular solid fig-
+ure.
+To find out the volume of a rectangular solid
+object we count the number of unit cubes it
+contains. The rectangular solid object in the
+picture has length 3 cm, breadth 2 cm and
+height 2 cm. there are 6 unit cubes in the lower
+row 3 length wise and 2 breadth wise. Like-
+wise there are 6 unit cubes on the upper row
+as well. The volume of each unit cube is 1 cube
+cm (1 cm3 ). So the volume of the rectangular solid figure is 12 cube cm (12
+cm3 ).
+Here, by multiplying length, breadth and height of the rectangular solid
+figure,
+Length x breadth x height
+= 3 cm x 2 cm x 2 cm
+= 12 cm3
+Now, if we add one more layer to the above
+picture we have to add 6 unit cubes.
+The volume of the rectangular figure
+is 18 cm3.
+Here, l x b x h
+= 3 cm x 2 cm x 2cm
+= 18 cm3
+
+68
+My Mathematics: Grade- 5
+On the basis of the above discussion
+The volume of a rectangular solid figure = length x breadth x height
+Or V= l x b x h
+Similarly, because the length, breadth and height of a cube
+is equal volume of cube (v) = (……..)3 or (length) 3
+Or V = l3
+Example 1
+What is the volume of a rectangular figure which has length 4 cm, breadth
+3 cm and height 2 cm?
+Here, length (l)
+= 4 cm
+Breadth (b)
+= 3 cm
+Height (h)
+= 2 cm
+Volume (V)
+= ?
+So, V
+= l x b x h
+= 4 cm x 3 cm x 2 cm
+= 24 cm3
+Example 2
+What is the volume of a cube which 4 cm?
+Here, length of cube (l )
+= 4cm
+Volume (V)
+= ?
+So, volume of cube (V)
+= l 3
+= (4cm)3
+= 4cm x 4cm x 4cm
+ V
+= 64cm3
+
+My Mathematics: Grade- 5
+69
+Example 3
+What will be the volume of a soap with length 5 cm, breadth 4 cm and
+height 3 cm?
+Here, length (l) = 5 cm
+Breadth (b) = 4 cm
+Height (h) = 3 cm
+Volume (v) = ?
+Accourding to the formula,
+v = l x b x h
+= 5 cm x 4 cm x 3cm
+= 60 cm3
+∴
+Volume of a soap (v) = 60 cm3
+Exercise 10
+(1)
+Find out the volume of each of the following rectangular figures.
+(a)
+(b)
+
+70
+My Mathematics: Grade- 5
+(c)
+(d)
+(2)
+Find out the volume of each of the following cubic figure.
+(a)
+(b)
+(c)
+3. Find the volume of each of the following rectangular solid figures
+with given measurement:
+a. length = 4 cm,
+breadth = 3 cm,
+height = 2 cm
+b. length = 5 cm,
+breadth = 2 cm,
+height = 1 cm
+c. length = 3.5 cm,
+breadth = 2.2 cm, height = 4 cm
+d. length = 4.8 cm,
+breadth = 3.3 cm, height = 2.5 cm
+4. A match box has length 13 cm, breadth 3 cm and height 3 cm. What
+will be its volume?
+5. What will be the volume of a tooth paste with length 13 cm, breadth 3
+cm and height 3 cm?
+
+My Mathematics: Grade- 5
+71
+6. The cover of an ink-bottle has length 8 cm, breadth 4 cm and height
+5 cm. What will be the volume of the cover? What will be the total
+volume of 18 such covers?
+7. While making a table showing length, breadth and height of different
+rectangular solid objects Ram has put some boxes empty. The table
+is given below. Complete the empty boxes.
+Measurement
+a
+b
+c
+d
+e
+Length(l)
+3 cm
+7 cm
+6 cm
+7 cm
+5 cm
+Breadth (b)
+2 cm
+5 cm
+5 cm
+6 cm
+4 cm
+Height(h)
+4 cm
+2 cm
+4 cm
+4 cm
+4 cm
+Volume (V)
+?
+?
+?
+?
+?
+Tips for teacher: While doing teaching learning activities on volume ask students to find out
+volume of rectangular solid objects found around the school and their home.
+
+72
+My Mathematics: Grade- 5
+Lesson 11
+WEIGHT
+What will be the weight of " My Mathematics Class 5" ? Guess.
+What is used to measure weight? What is the unit of weight? We use a weighting
+scale to measure weight? The weights used in the balance are of various weights
+like 100 gram, 200 gram, 500 gram. Kilogram etc.
+Read the following facts about weight:
+Weight of 1 kilogram = 2 weights of ½ ilogram each.
+= 5 weights of 200 gram
+= 10 weights of 100 gram
+= 1000 gram
+100 kilogram = 1 quintal
+Example 1
+Convert 3.5 kg into gram.
+Here, 1 kg is equal to 1000 gram.
+Hence, 3.5 kg = 3.5 x 1000 = 3500 gram.
+Example 2
+Convert 75 gram into kg:
+Here, 1000 gram is equal to 1 kg
+Hence, 75 gram
+1000
+75
+
+kg = 0.075 kg.
+We can make the following conversion
+circle to convert gram and kilogram.
+
+My Mathematics: Grade- 5
+73
+Example 3
+The weight of a packet of tea is 1 kg 200 gm. What will be the total weight
+of 8 such packets?
+Here, the weight of 8 packets of tea is eight times more than 1 packet of tea.
+By multiplying kg and gram separately,
+kg
+gram
+1
+250
+x
+8
+8
+2000
+10
+000
+2000 gram = 2 kg
+= 10 gram
+Lets do it another way, Weight of 8 packets of tea
+1.25
+x 8
+10.000kg
+= 10kg.
+Example 4
+What will be the weight of 1 packet of chocolate if the weight of 7 packets of
+chocolate is 5 kg 200 gram?
+Here, to find out the weight of 1 packet of chocolate we have to divide 5 kg 250
+gram into 7 equal divisions. Therefore,
+0 kg 750 gram
+7
+kg
+gram
+5
+250
+0
+5250
+– 49
+35
+– 35
+00
+Hence, the weight of 1 packet of chocolate =
+0.750 kg or 750 gram.
+5kg. = 5000 gram
+
+74
+My Mathematics: Grade- 5
+Example 5
+What will be the total weight of 2 packet biscuits each with 450 gram
+weight, 4 packet tea each with 125 gram weight and 3 butters each
+with 2
+1 kg weight ?
+Here, weight of 2 packet biscuits
+= 2 x 450 gram
+= 900 gram
+Weight of 4 packet tea
+= 4 x 125 gram
+= 500 gram
+Weight of 3 butters
+= 3 x 500 gram
+= 1500 gram
+Hence, total weight
+= 900 gram + 500 gram + 1500 gram
+= 2900 gram
+= 2 kg 900 gram
+= 2.9 kg
+Exercise 11
+(1)
+Convert into grams:
+a. 5 kg
+b. 12 kg
+c. 16 kg
+d. 2
+1 kg
+e. 4
+1 kg
+f.
+2
+1
+6
+kg
+g.
+5
+1
+7
+kg
+h.
+4
+1
+5
+kg.
+i. 0.2 kg
+j. 0.34 kg
+k. 5.05 kg
+l. 0.005 kg
+
+My Mathematics: Grade- 5
+75
+(2)
+Convert into Kilogram:
+a. 3000 gram
+b. 5000 gram
+c. 2100 gram
+d. 350 gram
+e. 250 gram
+f. 200 gram
+g. 15 gram
+h. 90 gram
+i. 5 gram
+j. 2 quintals
+k. 5 quintals
+(3)
+Multiply:
+(a)2kg 250gram
+(b) 6kg 720gram
+x 5
+x 6
+(c) 5kg 650gram
+(d) 8 kg 105gram
+x 8
+x 9
+(e) 16kg 270gram
+(f) 17kg 350gram
+x 5
+x 7
+4. Divide:
+a. 500 g by 25
+b. 750 g by 15
+c. 3 kg by 650g by 6
+d. 5 kg 460g by 4
+e. 9 kg 300g by 6
+f. 12 kg 420g by 9
+5. There are 36 packets of powder in a box. The weight of one packet is
+750 g and the weight of the box is 2.3 kg. what will be the total of the
+powder and the box?
+6. If the weight of a tea-cup is 350 g,
+a. What will be the weight of 12 tea-cups?
+b. How many tea-cups will make the weight of 1.05 kg?
+
+76
+My Mathematics: Grade- 5
+7. If the weight of 1 ink-pot is 270 g-
+a. What will be the weight of 14 ink-pots?
+b. How many ink-pots will make the weight of 5.4 kg?
+8. 15.6 kg of beaten rice were distributed equally among 30 students.
+What is the weight of beaten rice each child got?
+9. 3 ¼ kg of apples were distributed equally among 25 people. What is the
+weight of the apple each child got?
+10. Using only one unit of the following weight how can a weighing
+scale take the weight of only 400 g at a time?
+Tips for the teacher: While doing the teaching learning activities on weight ask students to
+guess the weight of the solid objects around them. Then tell them to take the weight of
+these objects and ask them to compare their guesses with the real weight.
+50 gram
+100 gram
+200 gram
+500 gram
+
+My Mathematics: Grade- 5
+77
+5
+3
+5
+2
+1
+5
+2
+5
+1
+
+
+
+
+Lesson 12 FRACTION AND DECIMAL
+12.1
+Additional of mixed numeral
+Mother gave a bread to Shila. Shila divided the bread into 5 equal pieces and
+ate up 1 piece first. After some time she ate up 2 pieces. Thus, she ate up 3
+pieces out of 5. Showing it in picture,
+To express it mathematically,
+123456789012
+123456789012
+123456789012
+123456789012
+123456789012
+123456789012
+123456789012
+123456789012
+123456789012
+123456789012
+123456789012
+123456789012
+12345678901
+12345678901
+12345678901
+12345678901
+12345678901
+12345678901
+12345678901
+12345678901
+12345678901
+12345678901
+12345678901
+12345678901
+1234567890
+1234567890
+1234567890
+1234567890
+1234567890
+1234567890
+1234567890
+1234567890
+1234567890
+1234567890
+1234567890
+1234567890
+1234567890
+1234567890
+1234567890
+1234567890
+1234567890
+1234567890
+1234567890
+1234567890
+1234567890
+1234567890
+12345678901
+12345678901
+12345678901
+12345678901
+12345678901
+12345678901
+12345678901
+12345678901
+12345678901
+12345678901
+12345678901
+12345678901
+12345678901
+12345678901
+12345678901
+12345678901
+12345678901
+12345678901
+12345678901
+12345678901
+12345678901
+12345678901
+12345678901
+12345678901
+5
+1
+5
+2
+5
+3
++
++
+=
+=
+If the fraction to be added have
+same denominator we have to
+add only the numerators. The
+denominator remains the same.
+
+78
+My Mathematics: Grade- 5
+Example 1
+Now, to make common denominator,
+9
+2
+1
+
+3
+1
+2
+9
+2
+1
+
+9
+3
+2
+12345678
+12345678
+12345678
+12345678
++
+
+9
+2
+3
+1
+12345678901
+12345678901
+12345678901
+12345678901
+=
+12345678
+12345678
+12345678
+12345678
+12345678901
+12345678901
+12345678901
+12345678901
+9
+5
+9
+2
+3
+9
+2
+9
+3
+9
+2
+3
+3
+3
+1
+9
+2
+3
+1
+
+
+
+
+
+
+
+
+
+
+Example 2
+Add:
+9
+2
+1
+3
+1
+2
+
+Here, the numerals to be added are mixed numerals. Look at the following
+pictures
+If the denominators to be added are different addition are made after converting
+them into same denominator.
+To make the same denominator of both
+the fractions we multiply both the
+numerator and denominator of 3 by 3,
+9
+3
+3
+3
+3
+1
+3
+1
+
+
+
+
+.
+
+My Mathematics: Grade- 5
+79
+Example 3
+Add:
+Here,
+4
+3
+3
+8
+3
+5
+
+8
+1
+9
+8
+1
+1
+8
+8
+1
+1
+8
+8
+9
+8
+8
+6
+8
+3
+8
+2
+4
+2
+3
+8
+3
+8
+4
+3
+8
+3
+3
+5
+4
+3
+3
+8
+3
+5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+)
+(
+)
+(
+8
+9 is improper fraction.
+Therefore,
+While adding whole and parts together -
+9
+5
+3
+9
+5
+3
+9
+2
+9
+3
+)1
+2
+(
+9
+2
+1
+9
+3
+2
+9
+2
+1
+3
+1
+2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+)
+(
+1
+2 
+
+9
+5
+9
+2
+9
+3
+
+
+
+
+
+
+
+
+
+80
+My Mathematics: Grade- 5
+Exercise 12.1
+Solve:
+-1_
+-2_
+-3_
+-4_
+-5_
+-6_
+-7_
+-8_
+-9_
+-10_
+-11_
+-12_
+-13_
+-14_
+-15_
+2
+1
+1
+2
+1
+2
+
+4
+1
+4
+2
+1
+3
+
+8
+3
+2
+4
+1
+3
+
+9
+2
+5
+3
+1
+4
+
+10
+3
+3
+5
+2
+4
+
+12
+5
+2
+4
+1
+3
+
+2
+1
+1
+4
+3
+3
+
+15
+4
+5
+5
+2
+6
+
+12
+1
+1
+6
+5
+8
+
+12
+1
+5
+4
+1
+3
+
+6
+5
+2
+3
+1
+7
+
+14
+11
+1
+7
+2
+4
+
+6
+1
+7
+3
+2
+10
+
+12
+5
+2
+6
+5
+3
+
+22
+21
+6
+11
+3
+9
+
+
+My Mathematics: Grade- 5
+81
+12.2
+Substraction of Mixed Numbers
+Like addition of mixed numbers, substraction of mixed numbers can be done
+by substracting whole number from whole number and fraction number from
+fraction numbers.
+Example 1
+Substract:
+Here,
+Example 2
+Simplify:
+Here,
+9
+2
+3
+3
+1
+6
+
+9
+1
+3
+9
+1
+3
+9
+2
+3
+3
+9
+2
+9
+3
+3
+9
+2
+3
+3
+3
+1
+3
+9
+2
+3
+1
+)
+3
+6
+(
+9
+2
+3
+3
+1
+6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(subtracting single number from single
+number & fraction from fraction).
+8
+7
+5
+4
+3
+10
+
+8
+7
+4
+8
+7
+4
+8
+7
+-
+6
+8
+4
+8
+7
+8
+6
+8
+8
+4
+8
+7
+8
+6
+5
+8
+7
+2
+4
+2
+3
+5
+8
+7
+4
+3
+)
+5
+10
+(
+8
+7
+5
+4
+3
+10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+( since 7 is not subtracted from 6, whole
+number 1 = 8
+8 is borrowed from 5).
+
+82
+My Mathematics: Grade- 5
+Example 3
+3
+1 of a part of garden has orange trees and 6
+1 part of it has mango trees. If
+pineapple is planted in the remaining area what parts of the garden does it
+cover?
+Here, the parts covered by
+orange and mangoes
+Therefore, the
+remaining part
+2
+1
+6
+3
+6
+1
+2
+6
+1
+2
+3
+2
+1
+6
+1
+3
+1
+
+
+
+
+
+
+
+
+
+
+2
+1
+2
+1
+2
+2
+2
+1
+1
+
+
+
+
+
+parts
+Changingthe whole number into fraction 2.
+4
+1
+3
+8
+5
+7
+
+10
+3
+2
+5
+1
+4
+
+2
+1
+13
+15 
+14
+5
+3
+7
+3
+5
+
+2
+1
+7
+14
+13
+8
+
+10
+3
+3
+5
+4
+10
+
+Hence, the parts covered by pineapple 2
+1
+
+Exercise 12.2
+(1)
+Substract:
+(a)
+(b)
+(c)
+(d)
+(e)
+(f)
+2
+1
+=
+2
+1
+1
+=
+6
+1
++
+2
+1
+=
+6
+1
++
+2
+1
+1
+–
+)
+(
+–
+)
+(
+–
+Or
+
+My Mathematics: Grade- 5
+83
+(2)
+Simplify:
+(a)
+(b)
+(c)
+(d)
+(e)
+(f)
+(g)
+(h)
+(i)
+3.
+If a student does 2
+1 fraction of work and another student does 4
+1 fraction
+of it what fraction of the work remains to be done?
+4.
+Two parties got 2
+1 and 3
+1 fraction of the total vote cast. The rest of the
+votes were invalid. What fraction of the votes were invalid?
+5.
+Out of the total money in the purse Ram took 2
+1 and Shyam took 10
+3
+fractions. If Mahesh took the rest what fraction of the money did he take?
+6.
+Of all the seats in a cinema hall 7
+3 fraction is for first class and 14
+5 fraction
+is for second class. What fraction of the seats are there for third class?
+14
+3
+1
+7
+4
+2
+
+12
+11
+9
+4
+1
+13
+
+15
+11
+20
+5
+4
+25
+
+2
+1
+2
+6
+5
+4
+3
+1
+
+
+8
+5
+2
+1
+1
+5
+
+
+2
+1
+2
+4
+3
+2
+4
+1
+3
+
+
+26
+5
+37
+13
+3
+87
+
+40
+33
+6
+8
+7
+18
+
+39
+4
+7
+13
+1
+12
+
+
+84
+My Mathematics: Grade- 5
+12.3
+Multiplication of Fraction
+a. Multiplication of a fraction by whole number.
+While multiplying whole number multiplication means continious adding.
+3 x 4 means 3 times 4.
+Hence, 3 x 4 = 4 + 4 + 4 = 12.
+Hence,
+2
+1
+3
+means 3 times 2
+1 .
+Hence,
+2
+1
+1
+2
+3
+2
+1
+2
+1
+2
+1
+2
+1
+3
+
+
+
+
+
+
+To show it in picture –
+±
+±
+=
+2
+1
+1
+Or,
+2
+1
+1
+2
+3
+2
+1
+3
+2
+1
+3
+
+
+
+
+
+In multiplication of whole number and fraction, the numerator of the fraction
+will be multiplied by the whole number and the denominator will remain the
+same. If the result is the improper fraction it should be expressed in mixed
+number.
+2
+1
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+1234567890
+1234567890
+1234567890
+1234567890
+1234567890
+1234567890
+1234567890
+1234567890
+1234567890
+1234567890
+2
+1
+2
+1
+=
+
+My Mathematics: Grade- 5
+85
+b. Multiplication of fraction and fraction
+3
+1
+2
+1 
+means 2
+1 times 3
+1 .
+It means half of 3
+1 . In figure 3
+1 when
+½ each part divided by 2
+1 shows 6
+1 .
+While thinking in other way we can
+say one third of 2
+1 .
+Example 1
+Multiply:
+12
+7
+5 
+Here,
+12
+11
+2
+12
+35
+12
+7
+5
+12
+7
+5
+
+
+
+
+
+Note: converting 12
+35 into mixed numeral
+numerator is divided by denominator. As
+for example:
+Hence,
+12
+11
+2
+12
+35 
+Dividing one third of
+each part.
+12345678
+12345678
+12345678
+12345678
+12345678
+12345678
+12345678
+12345678
+12345678
+12345678
+12345678
+12345678
+12345678
+12345678
+Dividing 2
+1 of each part.
+1234567
+1234567
+1234567
+1234567
+1234567
+1234567
+1234567
+1234567
+1234567
+1234567
+1234567
+Coloured Part
+3
+1
+
+of 2
+1
+
+6
+1
+
+Coloured part
+123456
+123456
+123456
+123456
+123456
+123456
+1234567
+1234567
+1234567
+1234567
+1234567
+1234567
+1234567
+6
+1
+3
+1
+2
+1
+
+
+x
+2
+11
+24
+35
+12
+
+86
+My Mathematics: Grade- 5
+Think in this way:
+6
+1
+3
+2
+1
+1
+3
+1
+2
+1
+
+
+
+
+
+When multiplying fractions each numerator should be multiplied by numera-
+tor and denominator by denominator
+Example 2
+Multiply:
+7
+5
+4
+3 
+28
+15
+=
+7
+×
+4
+5
+×
+3
+Exercise 12.3
+(1)
+Multiply:
+(a)
+(b)
+(c)
+(d)
+(e)
+(f)
+(g)
+(h)
+(i)
+(j)
+(k)
+(l)
+(2)
+Simplify:
+(a)
+(b)
+(c)
+(d)
+(e)
+(f)
+3
+1
+7
+5
+1
+8
+9
+2
+4
+10
+9
+9
+5
+1
+12 
+12
+11
+15
+8
+1
+6
+12
+1
+4
+12
+5
+6
+5
+2
+5
+3 
+5
+1
+7
+6 
+5
+3
+7
+2 
+12
+5
+10
+3 
+10
+9
+5
+2 
+9
+7
+11
+4 
+5
+2
+5
+3 
+5
+1
+7
+6 
+5
+3
+7
+2 
+
+My Mathematics: Grade- 5
+87
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+1
+0
+10
+1
+.
+
+(g)
+(h)
+(i)
+(3)
+Draw figure that shows multiplication from below:
+(a)
+(b)
+(c)
+12.4
+Decimal
+Fraction having denominator 10 or multiplier of 10 is caled decimal.
+In the figure coloured part shows one thenth 10
+1 .
+We can write,
+1
+.
+0
+10
+1 
+Similarly one hundreth can be
+written as-
+01
+.
+0
+100
+1
+
+,
+01
+.
+0
+100
+1
+
+One thousanth
+001
+.
+0
+1000
+1
+
+
+While converting fraction into decimal, denominator should be converted into
+10 or multiple of 10 or neumerator should be divided by denominator.
+Example 1
+Convert fraction into decimal:
+5
+.
+0
+10
+5
+5
+2
+5
+1
+2
+1
+
+
+
+
+
+13
+7
+11
+5 
+9
+8
+7
+6 
+7
+1
+12
+11 
+7
+1
+5 
+7
+1
+3 
+3
+2
+4
+
+88
+My Mathematics: Grade- 5
+Example 2
+Convert fraction into decimal:
+25
+.
+3
+100
+25
+3
+25
+4
+25
+1
+3
+4
+1
+3
+4
+1
+3
+
+
+
+
+
+
+
+
+
+Look at the place value table given below of decimal system. 13.204 has
+been shown in place value table.
+Ten
+One
+Tenth
+Hundredth thousandth
+10
+1
+10
+1
+100
+1
+1000
+1
+(10)
+(1)
+(0.1)
+(0.01)
+(0.001)
+1
+3
+2
+0
+4
+Example 3
+Add:
+16 . 10
++ 31 . 32
+47 . 42
+Example 4
+Substract:
+21 . 50
+- 16 . 59
+4 . 91
+While converting decimal into fraction whole number should be kept as it
+is and its fractional form should be made by looking at what type of deci-
+mal it is tenth, hundredth or thousandth.
+Add 0 after decimal to make
+equal status with others.
+
+My Mathematics: Grade- 5
+89
+Exercise 12.4
+(1)
+Convert the fractions given below to decimals:
+(a)
+(b)
+(c)
+(d)
+(e) 2
+1
+1
+(f)
+(g)
+(h)
+(2)
+Convert the decimals given below into fraction:
+(a) 0.12
+(b) 0.08
+(c) 3.06
+(d) 12.05
+(e) 0.25
+(f) 0.009
+(g) 17.012
+(h) 0.005
+(3)
+Make place value table of the numbers given below:
+(a) 1.35
+(b) 13.01
+(c) 15.12
+(d) 0.05
+(e) 6.48
+(f) 10.73
+(g) 0.123
+(h) 15.01
+(4)
+Simplify:
+(a) 5.01 + 3.25
+(b) 6.07 + 3.2
+(c) 0.69 + 1.28
+(d) 73.68 - 9.07
+(e) 15.04 - 11.06
+(f) 12 - 9.37
+(g) 0.06 - 4.27 + 5.38
+(h) 4.5 - 8.25 + 5.07
+(5)
+How much more will be the sum of 3.91 and 6.04 than 2.46?
+(6)
+From a ribbon of 50 cm long, if 16.80 cm and 14.25 cm are off taken
+how many cm is left.
+(7)
+If Rs. 50 is given after buying a pen for Rs. 11.65 and dozen of
+copies for Rs. 36.25 . how much will be returned back?
+(8)
+Distance from Pokhara to Kathmandu is 200km. If 103.675km is
+travelled through bus and 73.025km through taxi how much
+distance is left to travel?
+10
+2
+10
+3
+10
+7
+4
+1
+10
+3
+21
+3
+1
+13
+5
+1
+15
+
+90
+My Mathematics: Grade- 5
+12.5
+Multiplication of decimal by 10, 100 and 1000.
+1000
+20
+1
+10
+1000
+2
+
+
+Two thousandth when multiplied by 10 becomes 20 thou-
+sandth. Saying 20 parts in thousand and 2 parts in hundred are same.
+Therefore,
+1000
+20
+=
+1
+10
+×
+1000
+2
+Or 0.002 x 10 = 0.02
+Therefore,
+1000
+200
+=
+1
+100
+×
+1000
+2
+, Or 0.002 x 100 = 0.2
+and
+1000
+2000
+=
+1
+1000
+×
+1000
+2
+, Or, 0.002 x 1000 = 2
+Therefore, when decimal is multiplied by 10 decimal sign shifts one place right
+or gets removed. Similarly when decimal is multiplied by 100, 100 decimal
+sign shifts 2, 3 places right or gets removed respectively.
+This process has been shown clearly in the table below:
+Decimal Multiplying number What to do while multiplying?
+0.001
+10
+0.001 x 10 = 0.0001 = 0.01
+shift decimal sign to one place right
+0.001
+100
+0.001 x 100 =0 .001 = 0.1
+shift decimal sign to two places right
+0.001
+1000
+0.001 x 1000 = 0.001 = 1.0
+Shift decimal sign three steps right.
+
+My Mathematics: Grade- 5
+91
+Example 1
+Multiply 10.3045 by 10, 100 and 1000 separately:
+Here,
+10.3045 x 10 = 10.3045 = 103.045
+10.3045 x 100 = 10.3045 = 1030.45
+10.3045 x 1000 = 10.3045 = 10304.5
+Exercise 12.5
+Multiply each numbers below by 10, 100 and 1000.
+(1)
+0.002
+(2)
+0.013
+(3)
+0.137
+(4)
+1.005
+(5)
+2.679
+(6)
+10.805
+(7)
+1.2
+(8)
+13.5
+12.6 Multiplication of decimal by whole number.
+See example about multiplication below
+Example 1
+(a)
+3 x 5 = 15
+(b)
+3 x 10 x 5 = 30 x 5 = 150 or 3 x 5 x 10 = 3 x 50 = 150
+3 x 5 = 15 when either 3 or 5 is multiplied by 10 then product increases
+10 times.
+Example 2
+3 x 100 x 5 = 300 x 5 = 1500
+or 3 x 5 x 100 = 3 x 500 = 1500
+3 x 5 = 15 or 5 x 3 = 15, either 3 or 5 when multiplied by 100 the product
+increases by 100 times.
+Based on these examples and exercise 12.5 multiplications on decimals can
+be done.
+
+92
+My Mathematics: Grade- 5
+Example 3
+Multiply:
+0.3 x 5
+Here,
+0.03 x 10 = 3 , when
+multiplied by 5 , 3 x 5
+becomes 10 times 0.3 x 5.
+hence 0.3 x 5 = 3 x 5 ÷ 10
+Example 4
+Multiply:
+0.03 x 5
+here,
+0.03 x 100 = 3 when multiplied
+By 5 we get 15, which is hundreth
+Times greater than 0.03 x 5.
+hence to get the result 15
+should be divided by 100.
+While calculating by both methods we got same result. What did you learn from
+this? What is similar between decimal sign in multiplier and decimal sign in
+product?
+Therefore,
+x 10
+0.3
+3
+x 5
+x 5
+1.5
+15
+÷ 10
+x 100
+0.03
+3
+x 5
+x 5
+0.15
+15
+÷100
+Other method
+5
+1
+10
+15
+5
+10
+3
+5
+3
+0
+.
+.
+
+
+
+
+
+Other method
+15
+0
+100
+15
+5
+10
+3
+5
+03
+0
+.
+.
+
+
+
+
+
+While multiplying decimals we use
+same process used in natural num-
+bers and in answers we make eqaul
+positioning of decimals
+
+My Mathematics: Grade- 5
+93
+Example 9
+Multiply:
+3.57 x 12
+Here,
+3.57
+x 12
+714
+357
+42.84
+Exercise 12.6
+(1)
+Multiply:
+(a) 0.4 x 2
+(b) 0.5 x 3
+(c) 0.3 x 7
+(d) 0.2 x 2
+(e) 3 x 0.8
+(f) 5 x 0.6
+(g) 8 x 0.4
+(h) 9 x 0.9
+(i) 0.05 x 5
+(j) 0.03 x 4
+(k) 0.07 x 6
+(l) 0.08 x 9
+(m) 6 x 0.12
+(n) 7 x 0.45
+(o) 9 x 0.99
+(p) 7.45 x 6
+(q) 15.02 x 3
+(r) 14 x 0.235
+(s) 21.096 x 12 (t) 17.651 x 13
+(2)
+Multiply:
+(a) 32.4 x 0.3
+(b) 7.24 x 0.5
+(c) 17.32 x 2.3
+(d) 42.07 x 3.4
+(e) 33.33 x 0.9
+(f) 56.6 x 3.23
+(g) 76.5 x 3.02
+(h) 0.05 x 0.02
+(i) 33.07 x 14.04
+(j) 2.5 x 2.5 x 2.5
+(k) 7 x 0.7 x 0.07
+This method is like basic multiplication process. In 3.57 there
+are two numbers after decimal sign so in product decimal
+sign must be placed before two numbers.
+
+94
+My Mathematics: Grade- 5
+(3)
+Find the total cost of every situation given below:
+a)
+12 oranges at the rate of Rs 2.25 per piece.
+b)
+15 copies at the rate of Rs 4.75 per piece.
+c)
+32 letter covers at the rate of Rs 0.75 per piece.
+d)
+35 pencils at the rate of Rs 1.05 per piece.
+4)
+With first payement of Rs 500, and installments of Rs 205.75 per
+month to cover total cost in 12 months, how much would be the
+total cost of sewing machine?
+5)
+For a vrectangular object volume = length x breadth x height.
+Using this forlula find the volume of the rectangular objects given
+below:
+a)
+Length = 1.2 cm, breadth = 0.8 cm and height = 1.1 cm.
+b)
+Length = 4.5 cm, breadth = 2.2 cm and height = 1.8 cm.
+12.7
+Rounding off decimals
+Among 8 persons Rs 9 is distributed eqaully then how much will each receive?
+Here, 9 is divided by 8
+
+1
+8
+9
+8
+1
+–
+Therefore, each will receive Rs 8
+1
+1 =
+Representing in decimal,
+125
+.0
+8
+1 
+Therefore each will receive Rs 1.125. this means that each will recieve Rs 1
+and out of 1000 parts of Rs 1 they get 125 part.
+But in daily practice this is not possible.
+
+My Mathematics: Grade- 5
+95
+Means Rs 1 cannot be divided equally in 1000 parts. So what we should do? In
+this type of situation we divide to each nearly Rs 1.13 or Rs 1 and 13 paisa.
+Here making Rs 1.125 = Rs 1.13 means in Rs 1.125 we are palcing 0 in
+thousandth or rounding off in hundreth. While rounding off like this the place
+where we place 0 if there is number equal to 5 or greater than 5 then we zero
+that number and add one number to its left. If the rounding off place has number
+less than 5 then we make that number zero and write the left side number as it
+is.
+For Example, 5.20735
+= 502074, rounding off at 4rth place of decimal
+= 5.207, rounding off at 3rd place of decimal
+= 5.21, rounding off at 2nd place of decimal
+=5.2, rounding off at 1st place of decimal
+Exercise 12.7
+1.
+Round off at 1st place of decimal:
+(a) 8.53
+(b) 2.67
+(c) 4.07
+(d) 13.51
+2.
+Round off at 2nd place of decimal:
+(a) 4.821
+(b) 3.456
+(c) 0.493
+(d) 3.008
+3.
+Round off at 3rd place of decimal :
+(a) 3.4156
+(b) 4.0051
+(c) 13.5305
+(d) 15.6708
+4.
+Round off the given numbers according to the places given in the
+bracket:
+(a) 5.635 (2)
+(b) 1.8918 (3)
+(c) 15.3445 (2)
+(d) 3.0729 (1)
+(e) 0.00581 (2)
+(f) 3.14159 (3)
+
+96
+My Mathematics: Grade- 5
+Lesson 13
+PERCENTAGE
+13.1
+Meaning of percentage
+Dhurba scored the following in the exam:
+Subject
+Nepali
+English
+Math
+Science
+Score
+16
+19
+34
+45
+Full mark
+20
+25
+50
+100
+In which subject did Dhruba perform best?
+In the table the score of science is 45 and that of Nepali is 16. From this can we
+say that Dhruba did best in science and worst in Nepali?
+Here, writing it in fraction the basis of the score and full mark,
+Nepali,
+20
+16
+English,
+25
+19
+Math,
+50
+34
+Science,
+100
+45
+Which is the largest fraction? How do we know it? Converting them into frac-
+tions with the same denominator,
+Nepali,
+100
+80
+=
+5
+×
+20
+5
+×
+16
+=
+20
+16
+English,
+100
+76
+=
+4
+×
+25
+4
+×
+19
+=
+25
+19
+Math,
+100
+68
+=
+2
+×
+50
+2
+×
+34
+=
+50
+34
+Science,
+100
+45
+From this we can say that Dhruba did best in Nepali and worst in Science.
+
+My Mathematics: Grade- 5
+97
+Here the denominator of each fraction is 100. Therefore, the numerator of each
+fraction denotes the percentage of the score. The sign % denotes percentage.
+Here, Dhruba has score 80% if Neplai, 76% in English, 68% in maths and 45%
+in Science.
+If the denominator of a fraction is 100
+the numerator denotes the percentage
+whichshows how much out of each
+hundred. In the adjoining picture 67 out
+of 100 percent shaded.
+It is written
+%
+67
+100
+67 
+and is read as
+67 percentage. Percentage helps us to
+compare two or more quantities.
+13.2
+Converting fractions into percentage:
+Convert 4
+3 into percentage:
+Method -1
+25
+4
+25
+3
+4
+3
+
+
+
+(suppose the
+denominator is 100)
+%
+75
+100
+75 
+
+Method - 2
+4
+3 means 3 out of 4 parts.
+It is 4
+3 of 1 part.
+Hence, it is out of 100 parts
+100
+4
+3 
+= 3x25% = 75 %
+While converting a fraction into percentage the given fraction should be
+multiplied by 100.
+25
+1
+
+98
+My Mathematics: Grade- 5
+3
+4
+13.3
+Converting percentage into fraction:
+Example:
+Convert 75% into fraction.
+Here, 75% means 75 out of 100 parts.
+Hence,
+4
+3
+100
+75
+%
+75
+
+
+To convert percentage into fraction given number of percentage
+should be divided by 100.
+Based on above discussion method of
+converting Fraction and percentage into
+each other is shown In the circle on the
+right.
+Exercise 13.1
+(1)
+Write in percentage:
+(a) 100
+25
+(b) 100
+27
+(c) 100
+33
+(d) 100
+45
+(e) 100
+63
+(f) 100
+125
+(2)
+Convert into percentage (use both methods):
+(a) 2
+1
+(b) 4
+3
+(c) 5
+2
+(d) 10
+7
+(e) 5
+3
+(f) 20
+17
+(g) 25
+22
+(h) 50
+33
+(i) 2
+5
+(j) 5
+7
+(3)
+Convert percentage into fraction:
+(a) 15%
+(b) 20%
+(c) 25%
+(d) 35%
+(e) 50%
+(f) 85%
+(g) 48%
+(h) 16%
+(i)
+%
+2
+1
+12
+(j) 115%
+(k)
+%
+2
+1
+33
+
+My Mathematics: Grade- 5
+99
+(4)
+First write the shaded parts into fractions then change them into
+percentage:
+(a)
+(b)
+(c)
+(d)
+(e)
+(f)
+(g)
+(h)
+(5)
+Express the non shaded parts of each of the pictures in question
+4 in percentage.
+(6)
+What will be the total of the addition of the non shaded percentage
+and shaded percentage of each of the picture in question number
+4?
+
+100
+My Mathematics: Grade- 5
+1
+4
+13.4
+Use of percentage
+We can use percentage to solve
+different practical problem of our
+daily life. Look at the following example:
+Example 1
+How much is the 25% of Rs 12?
+Here, 25% of Rs 12/-
+= Rs 12 x 100
+25
+= Rs
+4
+1
+12 (of means multiplication in fraction)
+= Rs 3
+Example 2
+There are 400 students in a school. Among them 35% are girls. What is
+the number of girls and boys?
+Here, number of girls = 35% of 400
+= 400 of 100
+35
+100
+35
+400 
+
+= 140 persons
+and boys %
+= (100 - 35)% = 65%
+Hence, number of boys = 400 of 65%
+100
+65
+400
+
+= 260 persons
+Can you find out another method of finding out boy's number?
+25% of 12 = 4
+1 of 12
+4
+1
+4
+1
+
+My Mathematics: Grade- 5
+101
+Exercise 13.2
+(1)
+Find out value.
+a. 12% of 50
+b. 15% of 20
+c. 35% of 60
+d. 60% of Rs 5/-
+e. 35% of 150
+f. 25% of 1 kg
+g.
+%
+3
+2
+6
+of 30km
+h.
+%
+2
+1
+12
+of 16 litres
+i. 100ml of 200%
+j. 150% of Rs 30/-
+(2)
+If there are 40 students in a class among which 15 are girls. What
+is the percentage of the number of boys and girls?
+(3)
+There are 30 eggs in a crate. If 5 of them are broken -
+a. How many percent is broken?
+b. How many percent is not broken?
+(4)
+If Hari scored 45 out of 60 in Mathematics, how many percent did
+he score?
+(5)
+A sweater costs Rs 500/-. If 20% is discounted how many rupees
+if discounted?
+
+102
+My Mathematics: Grade- 5
+Lesson 14
+UNITARY METHOD &
+SIMPLE INTEREST
+14.1
+Unitary method
+On the following table the number of pencils and their costs are given. Look at
+the table and discuss the questions given below:
+Pencils
+Cost
+5
+10
+15
+20
+25
+a. Has the cost changed as the no. of pencils change?
+b. Can the cost of the pencil deduct the cost of required no. of pencils? How?
+c. Can we decide the cost of 1 pencil from the cost of some pencils? How?
+According to the above table, to deduct the cost of some pencils from the cost
+of 1 pencil we have to multiply the cost of 1 pencil with the no. of pencils. For
+example: in the above table the cost of 1 pencil = Rs 5/-. Therefore the cost of
+4 pencils = Rs 5 x 4 = Rs 20/-.
+Or, total cost of objects = cost of 1 object x no. of objects.
+Similarly, to deduct the cost of 1 object from the cost of some objects we should
+divide the cost of object by the no. of objects. According to the above table cost
+of 3 pencils = Rs 15/-. Therefore cost of 1 pencil = Rs 15/3 = Rs 5/-. Therefore,
+Cost of 1 object = total cost of objects
+No. of objects
+If we know the cost of some objects of same kinds we can deduct the cost of 1
+object by multiplying total cost of objects by the no. of objects. It is called unit
+cost. Similarly, if we know the cost of 1 object we can know the cost of some
+objects by multiplying the no. of objects with the cost of 1 object. It is called unitary
+method.
+
+My Mathematics: Grade- 5
+103
+Example 1
+If one pen costs Rs 25/-, what will be the total cost of 5 pens?
+Here, cost of one pen = Rs 25/-.
+No. of pens = 5
+Total cost of 5 pens = Rs 25/- x 5/- = Rs 125/-.
+Cost of 5 pens = Rs 125/-
+Exercise 14.1
+1.
+Find out the total cost:
+Unit cost
+No. of objects
+(a)
+Rs 20
+15
+(b)
+Rs 400
+45
+(c)
+Rs 15.50
+24
+(d)
+Rs 250.50
+64
+2.
+Find out the unit cost:
+No. of objects
+Total cost
+(a)
+10
+Rs 250
+(b)
+32
+Rs 672
+(c)
+60
+Rs 5,460
+(d)
+234
+Rs 18,720
+3.
+If the cost of 1 kg of sugar is Rs 40. What will be the cost of 25 kg of sugar?
+4.
+If a business man buys a box of 12 dozen biscuits for Rs. 1860. What will
+be the cost of 1 dozen biscuits?
+5.
+If Shivaram sold out 45 kg of potatoes at Rs 27. per kg, how many rupees
+did he get?
+
+104
+My Mathematics: Grade- 5
+6.
+If the cost of 2 dozen copies is Rs 240, what will be the cost of 1 copy?
+7.
+If 8 people divided and ate up 64 pieces of oranges equally among them
+how many pieces of oranges did 1 person eat?
+8.
+How many pieces of bread do we need for 15 persons to feed 5 pieces of
+bread per person?
+14.2
+Simple Interest
+Jairam took a loan of Rs 8000 from Agricultural Development Bank. While re-
+turning the loan after a year he paid Rs 8800.
+Here, the loan taken from the bank is called principal. So, Rs 8000 is principal.
+The payment of extra money is called interest. The bank takes interest at cer-
+tain rate.
+Here, Rs 800 has been paid as interest on Rs 8000 for 1 year.
+Therefore, annual interest rate
+%
+%
+10
+100
+8000
+800
+
+
+
+Loan, taken or given for a certain time is called time period. The interest of a
+principal for a definite time period can be deducted by using unitary method.
+Example 1
+Rama loaned Rs 100 to Bishnu at the annual interest rate of 10%. Find
+out how much interest Rama will get after 3 years?
+Here, rate interest is 10%
+Interest of Rs 100 for 1 year = Rs 10
+Interest of Rs 100 for 3 years = Rs 10 x 3 = Rs 30
+Rama will get Rs 30 as interest in 3 years.
+
+My Mathematics: Grade- 5
+105
+Example 2
+Suraj deposited Rs 400 in the bank. At the annual rate of 5%, how much
+interest did he get after 1 year?
+Here, at the interest rate of 5% per annum,
+Interest of Rs 100 for 1 year = Rs 5
+Interest of Rs 1 for 1 year = Rs 100
+5
+Interest of Rs 400 for 1 year = Rs
+20
+400
+100
+5
+
+
+
+Suraj got the interest of Rs 20 in 1 year.
+Exercise 14.2
+1.
+Find the simple interest on Rs 500 for 1 year at 10% per year.
+2.
+How much is the simple interest on Rs 1200 for 1 year at 10% per year?
+3.
+What will be the interest on Rs 100 for 5 years at 7% per year?
+4.
+What will be the interest on Rs 1oo for 7 years at 11% per year?
+5.
+How much is the simple interest on Rs 100 for 5 years at 8% per year?
+6.
+How much is the interest on Rs 600 for 1 year of the interest of Rs 100 is
+12% per year?
+7.
+What will be the simple interest on Rs 400 for 7 years at Rs 48 per year?
+
+106
+My Mathematics: Grade- 5
+Lesson 15
+BILL AND BUDGET
+Bill:
+Look at the bill Rupa received from Siddheswar Khadya Bhandar and
+answer the questions
+a.
+What is the name and address of the customer?
+b.
+Who is the seller who gave away the bill?
+c.
+Which item did Rupa buy most?
+d.
+How much did Rupa pay in total?
+e.
+Can you too prepare such a bill?
+f.
+How did the total cost of rice become Rs 210?
+
+My Mathematics: Grade- 5
+107
+Budget:
+We need budget to operate a family, organization, office etc. We have to esti-
+mate or plan on how to spend money in relation to our income. This helps us to
+do what we need to do. For this we have to plan our budget in the beginning.
+Look at the example:
+The following is the annual budget of Ramsevak Tharu's family. Look at
+the budget and discuss the questions;
+Income
+Expenditure
+Source
+Amount(Rs)
+Heading/Title
+Amount(Rs)
+Vegetable
+7000
+Food Items
+7000
+Chicken
+10000
+Clothes
+4000
+Milk
+8000
+Education
+12000
+Goats
+9000
+Miscellaneous
+5000
+Total
+34000
+28000
+a. Which is greater Ramsevak's family's income or expenditure?
+b. How much does the family save in a year?
+c. What's the most and least source of their income?
+d. On what titles do they spend the most and the least?
+e. Can you also prepare such a budget for your family?
+Ramsevak's family has got more income than income. So the family can make
+a surplus. If our expenditure is more than income we have to manage the
+shortage of amount from some other sources.
+Tips for the teacher: Show real bills (reduction, vat, tax excluded) discuss and ask students
+to prepare them. Give an example of budget, discuss, ask them to prepare one for their
+families and give necessary knowledge and skills about budget preparation.
+
+108
+My Mathematics: Grade- 5
+Exercise
+(1)
+Read the following one day price-list of the wholesale vegetable
+market of kalimati and answer the following questions:
+Price-list
+Item
+Cost per kg
+Cauliflower
+Rs 30
+Cabbage
+Rs 25
+Tomato
+Rs 40
+Bean
+Rs 35
+Pea(green)
+Rs 32
+Bitter gourd
+Rs 36
+Chilly
+Rs60
+Carrot
+Rs 24
+Radish
+Rs 18
+a. What is the cheapest vegetable?
+b. What is the most expensive vegetable?
+c. What is the difference in cost between pea(green) and been?
+d. How much should Hari pay the shopkeeper for 2 kg carrot?
+-2_ Four persons bought vegetables respectively according to the lists
+A,B,C and D. How much did each of them pay? Show it by making bills
+(a)
+(b)
+2kg cauliflower
+1kg potato
+2kg radish
+2kg bean
+1kg carrot
+2kg cabbage
+
+My Mathematics: Grade- 5
+109
+(c)
+(d)
+e. Which of the above bills is the most expensive?
+(2)
+The following is the annual budget of Janata Primary School, Mugu.
+Look at it and write answers to the following questions.
+Income
+Expenditure
+Source
+Amount Rs
+Titles
+Amount Rs
+District Education
+2,00,000
+Salary
+2,30,000
+Aid from V.D.C
+50,000
+Repair/Renovation
+25,000
+Local Donation
+20,000
+Stationary
+12,000
+Others
+25,000
+Educational Materials
+5,000
+Miscellenous
+2,000
+Total
+2,95,000
+2,74,000
+a. What is the largest source of income of the school?
+b. On what is largest expenditure?
+c. Which is greater income or expenditure of the school?
+d. How much is the annual surplus of the school?
+1kg chilly
+3kg radish
+1kg Carrot
+1kg potato
+2kg bitter gourd
+2kg potato
+1kg radish
+1kg chilly
+
+110
+My Mathematics: Grade- 5
+Lesson 16
+STATISTICS
+16.1
+Introduction:
+Notices or information are expressed on charts and pictures in many places. We
+can see the food varieties and their cost on the menu of the hotels and restau-
+rants. For the items bought and their cost we receive bills from the shop. We
+have seen the progress report, annual calendar, budget etc of so many offices,
+schools and factories in the form of chart or graph. It is easier to understand and
+reach conclusion of the notices and information expressed in the form of pic-
+tures, chart or graph at one close look. For example the following charts shows
+what the weather was like in the first two weeks of Bhadra. Read the symbols first
+and then charts:
+Heavy rain
+Cloudy
+Sunny
+partially cloudy
+2 week's weather report of Pokhara ( Bradra 1 - 14).
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+
+My Mathematics: Grade- 5
+111
+Now, answer the following questions:
+a. How many days did it rain in Pokhara in the last 14 days?
+b. How many days did Pokhara have clear weather in the last 14 days?
+c. How many days did Pokhara have cloudy weather?
+d. Which 2 days did Pokhara have partly cloudy weather?
+e. How many days did it not rain in Pokhara in the last two weeks?
+f. Which week had more rain in Pokhara?
+g. How was the weather in Pokhara on the last day of the two weeks?
+Exercise
+1. Read the price list of the food market in Janakpur and answer the
+following questions:
+Price list
+Food items
+Cost(per kg)
+Rice short grain Rs 45
+Mansuli rice
+Rs 35
+Mansoor dal
+Rs 90
+Gram
+Rs 75
+Pea(green)
+Rs 62
+Sugar
+Rs 52
+Flour
+Rs 25
+Wheat flour
+Rs 20
+a.
+What is the cheapest food item?
+b.
+What is the dearest food item?
+c.
+What is the difference between the cost of green pea & gram?
+d.
+How much will Hari pay to the shopkeeper for 2 kg of sugar?
+
+112
+My Mathematics: Grade- 5
+2. In the following table the types and number of vehicles that departed
+from Sahid Gate between 6 an 7 on Sunday morning are given. Read
+the table carefully and answer the questions below it.
+Types of vehicle
+No. of vehicles
+Bus
+12
+Mini Bus
+16
+Private car
+20
+Tempo
+10
+Taxi
+22
+a. Which vehicle was used most?
+b. Which vehicle was used least?
+c. If one-third of the buses went outside of the Kathmandu Valley how many
+buses went outside?
+d. How many passengers travel by bus if 40 people travel by one bus on
+average?
+Tip to the teacher: Take students to the nearest shop tell them to ask at
+home and prepare a bill and siscuss on it with them.
+
+My Mathematics: Grade- 5
+113
+16.2.
+BAR GRAPH
+Ramesh was told to collect out information on what types of fruits students like to
+have during their snack time. Ramesh found out that 40 people liked pineapple,
+50 people liked banana, 30 people liked mango, 70 people liked apple and 35
+people liked orange. Ramesh thought about how he could express this infor-
+mation so that it is easily understandable by all. He expressed this information
+on a table.
+Fruit
+Pineapple
+Banana
+Mango
+Apple
+Orange
+No. of students
+who liked
+40
+50
+30
+70
+35
+In this if we put information on a table we can understand things easily.
+How can we make facts more understandable, comparable, accessible and
+attractive? Ramesh thoughts seriously and decided to make a bar graph. On a
+piece of rectangular paper he went on writing 10,20,30,40 etc on the vertical
+line and he wrote the names of fruits on the horizontal line. Thus he made the
+following bar graph:
+70
+60
+50
+40
+30
+20
+10
+0
+Pineapple Bananan
+Mango
+Apple
+Orange
+Fruits
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+12345
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+123456
+Number of students
+
+114
+My Mathematics: Grade- 5
+In the bar graph that Ramesh made the breadth of all the bars are equal. The
+height of the bar denotes the number of students and the distance between the
+bars is the same. Thus expression of information or statistics on a bar graph
+makes it easier to understand and compare many things at a glance.
+We should know the following things while making a bar graph:
+-
+We should put variables along the horizontal line.
+-
+We should put numbers on the vertical line.
+-
+The breadth and the distance between two columns should be equal.
+The numbers on the vertical line should be denoted at equal distance
+and unit.
+Exercise 16.2
+Use a graph paper for this:
+1.
+The traffic police collected the following statistics on the types of vehicles
+that move around Tansen Bazaar between 6 and 9 in the morning:
+Name of the Vehicle Passenger Bus School Bus Private Car Government Vehicles Taxi
+Number
+10
+7
+3
+10
+25
+Draw a bar graph to show types of vehicles on the horizontal line and one
+unit equal to one vehicle on the vertical line.
+2.
+The following statistics was collected while measuring the height
+of class 5 students.
+Height (cm)
+105
+106
+107
+108
+109
+110
+Number
+3
+12
+20
+13
+7
+5
+Draw a bar graph showing 1 unit = 1 student on the vertical line.
+
+My Mathematics: Grade- 5
+115
+3.
+The table shows the number of students present at school in a seek:
+Days
+Sunday
+Monday
+Tuesday Wednesday Thursday
+Friday
+No. of students
+present
+25
+20
+22
+18
+21
+23
+Draw a bar graph to represent this information.
+16.3
+Pair of numbers and coordinates
+In graph paper every point can be represented by using a pair of numbers.
+Suppose Hari is at point (0,0).If he wants to go to point A then he has to go 3
+units right and 2 units above.
+We can denote point A by writing (3, 2). In this way the numbers which are
+used to denote specific points are called pair of numbers or coordinate.
+Similarly to go to point E he has to go 5 unit right and 3 units above. The
+pair of numbers or coordinate of E are (5,3).So in order to go any points from
+(0,0) then we must have to move right first and then above.
+Write down the pair of numbers or coordinate of D.
+What does the points (1, 3) represents?
+Write the alphabetical point from the graph.
+Which letter does the point (4, 4) represent?
+6
+5
+4
+3
+2
+1
+1 2
+3
+4
+5 6
+C
+F
+D
+E
+B
+A
+C
+(0, 0)
+
+116
+My Mathematics: Grade- 5
+Exercise 16.3
+(1)
+12 students of class 5 are arranged to form 3 rows and 4 columns to
+know the position of any student we have to move left & then up.
+In this way if we write the coordinate of Ramesh then, frist we
+move 3 students left & 2 students up, so it is found to be (3,2).
+Similarly, find out the position or points of each of them except
+Ramesh.
+Shankar
+Nanendra
+Raju
+Rajesh
+Vertical
+Umesh
+AAlok
+Ramesh
+Benaya
+Bina
+Aarcha
+Aanju
+Rupesh
+Horizontal
+a. Shankar
+b. Narendra
+c. Raju
+d. Rajesh
+e. Umesh
+f. Alok
+g. Ramesh
+h. Binay
+i. Bina
+j. Archana
+k. Anju
+l. Rupesh
+
+My Mathematics: Grade- 5
+117
+(2)
+Look at the picture carefully and find out the pair of numbers of
+points A, B, C, D, E, E, F.
+(3)
+In the given figure write down the points of hexagram.
+(4)
+Draw out the points (2,2), (2,4), (1,4), (3,6), (3,7), (2,7), (4,9), (6,7),(5,7),
+(5,6),(7,4), (6,4) and (6,2) into a square graph paper and write what
+does it form after joining all the points.
+8
+7
+6
+5
+4
+3
+2
+1
+0
+1
+2
+3
+4
+5
+6
+7
+8
+A
+C
+B
+E
+F
+D
+8
+7
+6
+5
+4
+3
+2
+1
+0
+1
+2
+3
+4
+5
+6
+7
+8
+P
+Q
+R
+S
+T
+U
+
+118
+My Mathematics: Grade- 5
+Lesson 17
+SET
+In the given figure a set of apple, mango, pa-
+paya, banana and orange is shown. In this set
+every members are called elements. Can you
+write down that how these sets are repre-
+sented?
+There are different ways to represent the sets.
+The easiest way to represent a set is by writ-
+ing anyEnglish capital letter. for eg:
+A,B,C,D…………….Z. the elements of a set
+is represented by small letters. We write the
+set by writing any capital letter first and then
+giving equals sign and a curly bracket is given
+{ } and the elements of a set is separated by
+giving comma(,) .From the given figure write
+down the elements of sets by the above
+mentioned process.
+That set is written as {1,2,3,4,5}.let us denote the set by C and these numbers
+are first five natural numbers. Here,the number of elements in the set is 5and
+the set is written as:
+C={1,2,3,4,5} or C={5,4,3,2,1}
+In this way the set can be written in any order of the elements present in the set
+but the repeated elements is not written in a set.for eg:
+{S,C,H,O,O,l] is not written but it is written as {S,C,H,O,L}.so an element is
+written only once.
+Example 1
+Write down seven days of a week by listing method
+D = {Sunday, Monday,Tuesday,Wednesday,Thursday, Friday, Saturday}
+Example 2
+What is the set of E={2,4,6,8,10}
+They are the set of first five even numbers.
+1
+3
+2
+4
+5
+
+My Mathematics: Grade- 5
+119
+Exercise
+1. Write down the following sets by listing method using the symbols
+a. Sets of 12 Nepali months.
+b. Sets of five development region of Nepal.
+c. Sets of English vowel letters.
+d. Sets of class 5 books that you should read.
+e. Sets of odd numbers less than ten
+f. Sets of numbers with no remainder when divided to 24.
+2. Write down the following sets into sentence
+a. C = {cow, buffalo, horse}
+b. D = {Kathmandu, Lalitpur, Bhaktapur}
+c. S = {Nepal, India, Bangladesh, Srilanka, Pakistan, Afghanistan, Maldieves,
+Bhutan}
+d. V = {a, e, I, o, u}
+e. R = {I, II, III, IV, V}
+f. E = {10, 12, 14, 16, 18, 20}
+g. {5, 10, 15, 20, 25}
+h. {
+, , ,
+}
+i. F= {0}
+
+120
+My Mathematics: Grade- 5
+Lesson 18 ALGEBRA
+18.1 Algrebric Expression and its value:
+To denote the numbers in algebra we use ”, , * types of symbols. As in the
+arithmetic 2×4 represents product of 2 and 4 similarly in algebra also 2X
+represents the product of 2 and X. In algebra 2a,3b,5x,7x, ”etc are called
+algebraic term. The letters used in algebra are called variables. for eg ,a, b,x
+and ‘”’. In the algebraic term 2a, 2 is the coefficient of a, the value of 2a de-
+pends upon the value of a.
+If a = 2 then, 2a = 2 × 2 = 4
+If a = 3 then, 2a = 2 × 3 = 6
+If a = 0 then, 2a = 2 × 0 = 0
+Note: if there is more than two algebraic terms and are seprated by
+symbols like (+,—, ÷,×)then such terms are called algebraic expres-
+sions.
+For example a + 4, x2 - xy + y2, 8a2bc,
+y
+5
+3
+x
+2 
+Example 1
+a. Polynomial ” + 4 means the sum of ” and 4.
+b. Polynomial x-5 means the difference of x and 5.
+c. Polynomial 2a means the product of 2 and a.
+d.
+÷ 4 means the number which comes after dividing
+by 4.
+
+My Mathematics: Grade- 5
+121
+Example 2
+If x = 4 and y =3 then find out the value of following terms
+(a) x + 5
+(b) 3x-2y
+(c)
+y
+2
+y
+2
+x
+3 
+(a)
+here,
+x + 5
+=
+4 + 5
+(putting x=4)
+=
+9
+(b)
+here, 3x - 2y
+=
+3 x 4 - 2 x 3
+(putting x = 4 and y = 3)
+=
+12-6
+=
+6
+(c)
+here,
+3
+6
+18
+6
+6
+12
+3
+2
+3
+2
+4
+3
+2
+2
+3
+
+
+
+
+
+
+
+
+
+
+y
+y
+x
+We simplify an algebric expression by putting the value of variables(s) in it.
+(putting x = 4 and y = 3)
+3
+1
+
+122
+My Mathematics: Grade- 5
+Example 3
+If a rectangle has its length = l and breadth
+b, then the perimeter is denoted by algebric
+term 2(l+b).if we write P=2(l+b) then it is a
+algebraic formula .Now if l=5cm and b=3 cm
+then what is the perimeter?
+Here, perimeter P
+=
+2(l +b)
+=
+2(5cm+3cm)
+=
+2 x 8cm
+=
+16 cm
+Example 4
+If a rectangle has area A = l x b. if
+l = 5cm and b= 4cm then
+what is the area of rectangle?
+Here area of rectangle A = l x b
+= 5cm x 4cm
+= 20 cm2
+Hence area A= 20 cm2
+Note: unit of area is always unit square. If in cm it is in cm square.
+l = 5cm / b = 3cm
+l
+b
+putting the given
+value
+l = 5, b = 3
+5cm
+4cm
+
+My Mathematics: Grade- 5
+123
+A
+B
+x
+3
+Exercise 18.1
+(1)
+Write down the meaning of the following terms:
+(a) Ü‚ + 3
+(b) Ü‚ ÷ 3
+(c) Ü‚ - 5
+(d) 3 x‚ Ü
+(e) 3a
+(f) 5m
+(g) ab
+(h) 5mn
+(2)
+Express the following into algebraic term:
+a. Sum of a and 3.
+b. Difference of Ü and 7.
+c. The quotient left after dividing 16 by Ü .
+d. Thrice of the product of p and q
+e. Thrice the difference of 7 and y
+f. Product of twice of a and difference of b
+(3)
+What does the following algebraic terms represent? write in language:
+(a) 2(p + q)
+(b) 3(r - s)
+(c) 4(x ÷ y)
+(d) qyz
+(4)
+Write the algebraic expressions for the length of the following lines:
+(a)
+(b)
+2y
+y
+E
+F
+
+124
+My Mathematics: Grade- 5
+(5)
+Write down the algebraic term to find the perimeter of following figures.
+(a)
+(b)
+(c)
+(6)
+Write down the algebraic expressions for the following phrase:
+a.
+Bikash has x apples. He bought 2 more apples. How many apples
+Bikash has got now?
+b.
+If x students out of 500 are absent in a school then find the number of
+students those are present.
+C.
+There were 30 birds in a tree. Other b birds came on the tree. Now
+how many birds are there in the tree?
+(7)
+What will be the value of the following expressions if we put value x=2:
+(a) 3x
+(b) 3 + x
+(c) 5 - x
+(d) x - 1
+(e) 3x + 2
+(f) 2x ÷ 4
+(g) (5x+2)÷ 4 (h)
+x
+2
+x
+4
+x
+12 
+(8)
+a = 1, b = 3 and c = 5, then find the values of the following
+expressions:
+(a) a +b + c
+(b) 2a + 3b + 4c
+(c) b + c - 8a
+(d) abc
+(e) 10a + 10b + 10c
+(f) ab +bc + ca
+y
+x
+y
+2x
+y
+x
+x
+y
+y
+y
+2x
+
+My Mathematics: Grade- 5
+125
+18.2
+Addition & subtraction of algebraic expressions
+Example 1
+What is the sum of 3a and 5a?
+Here, 3a = a + a + a
+(three times a)
+And 5a = a + a + a + a + a
+(five times a)
+So, 3a + 5a = a + a + a + a + a + a + a + a
+(eight a)
+= 8a
+In other way,
+3 a + 5a
+= (3 + 5)a
+= 8a
+If we add those in column then,
+3a
++ 5a
+8a, we will get same result.
+Example 2
+Substract 3a from 5a
+Here, substracting 3a from 5a is to subtract 3 times a from 5 times a
+5a - 3a = (5-3)a = 2a
+If we keep those in column then,
+5a
+-
+3a
+2a, we will get same result.
+When we add 5 in 3 it
+becomes 8. Therefore in 3 a
+we add 5 a it becomes 8a
+
+126
+My Mathematics: Grade- 5
+Form the above examples we see that -
+5a and 3a are both common terms. The addition and substraction of the
+common terms means the addition and subtraction of the multiples of the
+variable. Similarly, in the addition or subtraction of the two or more than two
+algebraic expression we add or subtract the common terms only. Look at the
+following examples:
+Example 3
+Simplify:
+3ab - 4bc + 7ab
+3ab-4bc+7ab
+= 3ab + 7ab - 4bc
+(keeping the common terms together)
+=(3 + 7)ab - 4bc
+=10ab-4bc
+(ab and bc are not common trems so they can't be
+subtracted, but are only expressed in algebric terms)
+Example 4
+Add: 2x + 8y - 10z to 5x - 7y + 12z
+Here,
+2x + 8y - 10z + 5x - 7y + 12z
+= 2x + 5x + 8y - 7y - 10z + 12z
+= (2 + 5)x + (8-7)y + (12-10)z
+= 7x + y + 2z
+If we keep those in column and add then-
+2x + 8y - 10z
++ 5x - 7y + 12z
+7x + y + 2z
+If we want to add similar type
+of numbers we have to put
+them in column. I got it.
+
+My Mathematics: Grade- 5
+127
+Example 5
+Substract 3a + 4b +7c - (2a+3b)
+Here, 3a + 4b + 7c - (2a + 3b)
+= 3a + 4b + 7c - 2a - 3b
+= (3a - 2a) + (4b - 3b) + 7c
+= (3 - 2)a + (4 - 3) b + 7c
+= a + b + 7 c
+If we keep those in column and substract then -
+3a + 4b + 7c
+2a ± 3b
+a + b + 7c
+Example 6
+To make7a +2b from 5a +6b how much should we add. Think in this way, to
+make 7 from 5 how much should we add? We can easily say 2. But what math-
+ematical simplification is hidden? We must consider that. Here given number 5
+and product number is 7 so to make 7 how much should we add? We know that
+the number to be added is 2, and while subtracting 5 from 7 we get 2, so by
+subtracting given number to the product number we get the required number.
+Therefore in the above problem -
+7a + 2b -(5a +6b)
+=7a +2a- 5a -6b
+=7a- 5a + 2b -6b
+=2a -4b, is the given number
+While substracting like this if
+similar type of number has
+sign + then we have to con-
+vert it to - and if - then to +
+-
+
+128
+My Mathematics: Grade- 5
+Exercise 18.2
+(1)
+SimplifyM
+(a) a + 3a
+(b) 3m + 4m
+(c) 45p - 13p
+(d) 17n - 3n
+(e) 3x + 4 x - 5x
+(f) 5cd - 10cd + 12cd
+(g) 30pr - 35pr + 5pr
+(h) 17x + 3 + 5x - 2
+(e) a + b + a + c
+(2)
+Add:
+(a)
+13c
+(d)
+10c
+(c)
+4a + 5b
++ 8c
++ 8c
++ 4a + 7b
+(d)
+4m + 3n
+(e)
+9ab + 5bc
+(f)
+16ab + 14cd
++ 2m + n
++ 7ab - 3bc
++ 2ab - 10cd
+(3)
+Substract:
+(a) 7m from 2m
+(b)
+16x from 9x
+(c)
+7x + 9y af6 3x + 4y
+(d)
+3pq - 2qr from 2pq - 4qr
+(e)
+14ab - 7pc from 9ab + 6pc
+(f) 12mn + 10ny from 10mn + 2ny
+(4)
+Add the following expressions by keeping them in columns:
+(a)
+5x + 7y - z
+and
+6x + 3y - z
+(b)
+m - 4n + 3
+and
+7m + 5n + 2
+(c)17ab - 13bc + 8ca
+and
+13ab + 2bc - 6ca
+(c)12x - 16y +2z
+and
+2x + 8y - z
+
+My Mathematics: Grade- 5
+129
+(5)
+Subtract the second term from the first by vertical method:
+a. 5x + 7y + 12z, 3x + 2y + 10z
+b. 3a + 5b + 7c, a + 3b + c
+c. 13bc + 11ab + 4ac, 7bc - 2ab + 3ac
+d. 3x - 6y + z, x - 4y + 3z
+(6)
+If a = 2 cm and b = 9 cm what is the
+perimeter of the given triangle?
+(7)
+What must be added to x + y so that the sum
+may be 7x + 3y?
+(8)
+By how many times is 7x - 4y + 3z greater than 3x - 6y + z?
+(9)
+What must be added to 4a + 36 so that the sum may be 7a + 116?
+(10) What must be added to 2a + 7b + 4c so that the sum may be
+7a + 7b +xc?
+18.3
+Equation
+Football team A scored 5 goals in the first half of the football match and the
+score was equal to team B. Here, we may suppose x as the score of team B
+and because the goals scored by team B is equal to team A we may write x = 5.
+x= 5 is an equation. In the second half both the teams scored 2 goals each and
+the game was draw. Adding the scores of both halves team B scored x+2 goals
+and team A scored 5+2 but both the teams scored equal.
+Hence, x+2 = 5 + 2
+Or x +2 = 7 is called an equation.
+Thus we can add the same number to both
+sides of an equation. This is called coefficient.
+5b -11cm
+5a
+4a+7cm
+
+130
+My Mathematics: Grade- 5
+Let's think it in a different way. Total game equation is x+2 = 7. How can we find
+out the number of goals x in the first half ?
+We know that both team scored 2 goals each in the second half. So, to know
+the scores in the first half we can subtract 2 from both sides of the equation.
+Hence, x+2-2 = 7-2
+Or, x = 5 is the score of the first half. We say that 5 is the solution of the equation
+x+2 = 7. Because team A scored 5 goals and equalled its score with B. Thus
+we can subtract the same number from both sides of the equation, can't we?
+Can we also multiply or divide by the same number from both sides of the
+equation?
+Let's see another example:
+Shiva had 6 apples. Kailash has got the same number of apples too. Here if x
+denotes the number of apples with Kailash and because Shiva also has equal
+number of apples we can write x=6. It is an equation. Now, if Shiva & Kailash
+both ate up half of their apples equal number of apples will remain with them.
+Here, 2
+1 of 6 means
+2
+1
+6  and 2
+1 of x means
+2
+1
+x 
+. Because both of them have
+equal number of apples,
+2
+1
+6
+2
+1
+x
+
+
+
+Or
+3
+2
+x 
+It means 2
+1 of X means 3 which is the number of apples remaining with Shiva &
+Kailash. Here, multiplication by the same number 2
+1 on both sides of the
+equation x = 6 is the same as the division by the same number 2 on both sides
+of the equation. It means we can multiply or divide by the same number on both
+sides of the equation.
+
+My Mathematics: Grade- 5
+131
+On the basis of the discussion above learn the following axioms about equation:
+– If the same number is added to both sides of an equation, the two sides
+are still equal.
+If x = 5, x + 2 = 5 + 2
+- If the same number is subtracted from both sides of the equation, the two
+sides are still equal.
+If x = 5, x - 2 = 5 - 2
+- If both sides of an equation are multiplied by the same number the two
+sides are still equal.
+If x=6, 2 x X = 2 x 6
+- If both sides of an equation are divided by the same number the two sides
+are still equal.
+If x = 6,
+3
+6
+3 
+x
+.
+Example 1
+Solve: X + 5 =7
+Here, X + 5 = 7
+Or, X + 5-5 = 7-5 (subtracting 5 from both sides)
+Or, X = 2.
+Example 2
+Solve: Y - 7 = 11
+Here, Y - 7 = 11
+Or, Y - 7+7 = 11 +7(adding 7 on both sides)
+Or, Y = 18.
+Example 3
+Solve: 3x + 2 = 14
+Here, 3x + 2 = 14
+
+132
+My Mathematics: Grade- 5
+Or, 3x + 2 - 2 = 14 - 2 (Subtracting 2 from both sides)
+Or, 3x = 12
+Or,
+12
+3
+1
+x
+3
+3
+1
+
+
+
+(multiplying both sides by 3
+1 )
+Or, x = 4.
+To find out whether the equation is correct or not we can check it by putting
+x = 4 in the equation.
+Here, 3x + 2 = 14
+Or, 3 x4 + 2 = 14
+Or, 12 + 2 + 14
+Or, 14 = 14 which is true.
+In this example 3x = 12 to find out the value of x multiplication is done by 3
+1
+of 3.
+3 multiplied by 3
+1 , 3 x 3
+1 =1. 3 multiplied by 3
+1 or 3 divided by 3 is the same.
+Therefore,
+3x = 12 divided by 3 on both sides
+3
+12
+3
+x
+3
+
+X = 4, Its meaning and value is the same.
+In short,
+Subtracting 2 from each side of the equation, 3x + 2 - 2 = 14
+Or, 3x = 12 dividing both sides by 3
+3
+12
+x 
+which means x =4
+
+My Mathematics: Grade- 5
+133
+:. 3x + 2 = 14
+Or, 3x = 14 - 2 = 12
+Or,
+4
+3
+12 
+
+x
+Therefore,
+X = 4.
+Example 4
+Simplify and solve the like terms:
+5x + 4 = 2x + 7
+Here, 5x + 4 = 2x + 7
+Or, 5x - 2x + 4 = 2x -2x + 7 (subtracting 2x from both sides)
+Or, 3x + 4 =7
+3x + 4 -4 = 7 -4(subtracting 4 from each side)
+Or, 3x = 3
+Or,
+3
+3
+3
+3
+
+x
+(dividing both sides by 3)
+Therefore, x =1
+Exercise 18.3
+(1)
+Find the value of x in each of the following equation:
+(a) x - 5 = 12
+(b) x + 7 = 10
+(c) x - 6 = 2
+(d) x + 10 = 21
+(e) 9 = x - 4
+(f) 48 = x + 15
+
+134
+My Mathematics: Grade- 5
+(2)
+Solve and check if it is true or not:
+(a) 2x = 4
+(b) 3y = 9
+(c) 5k = 10
+(d) 1/2m = 6
+(e) 3/4n = 12
+(f) 3x = 1/3
+(3)
+Simplify and solve:
+(a) 2x + 3x = 15
+(b) 3m + m = 12
+(c) 2y + 5y = 14
+(d) 8x = 24 + 5x
+(e) 5z - 2z = 4
+(f) 6z = 9 + 2z
+(g) 4m - 8 = 2m
+(h) 5p - 3 = 2p
+(4)
+Solve:
+(a) 5x + 7 = 22
+(b) 2x - 3 = 9
+(c) 3x + 11 = 14
+(d) 3x - 4 = 18
+(e) 2x + 5 = 9
+(f) 5x + 4 = 2x + 6
+(g) x - 100 = 0
+(h) 7x + 5 = 9 + 5x
+(i) 7x - 2 = 4x + 10
+(5)
+If each of the following see-saw are balanced being parallel to the
+ground, what is the value of x?
+(a)
+(b)
+(c)
+(d)
+7
+2x+3
+2x-1
+2x
+6
+3x+2
+5
+9
+
+My Mathematics: Grade- 5
+135
+18.4
+Use the equation
+One of the several uses of equation is to solve problems that come across in
+our daily life. For this the given problem which should be changed into
+mathematical language in other words this should be solved by changing it into
+equation. Here, the unknown terms can be expressed as x and y. See the
+following example:
+Example 1
+If 5 is added to a certain number and the result is 18, what will be the num-
+ber?
+Here, if the required number = x so x + 5 = 18
+Or, x + 5 - 5 = 18 -5
+Or, x =13 is the required number.
+Example 2
+What is the number, which when added to its two times gives 15.
+Here, if the required number = x, x + 2x = 15
+Or, 3x = 15
+Or, 1/3 x 3x = 1/3 x 15
+Hence, x = 5
+Exercise 18.4
+Write each of the following open sentence in the form of equation and
+solve:
+(1)
+After spending rupees 5 if Sunil has got rupees 15, how many
+rupees did he have?
+(2)
+If rupees 5 is added to two times of Ram's money the sum is 17
+rupees, how many rupees does he have?
+
+136
+My Mathematics: Grade- 5
+(3)
+The number of boys in a school is two times more than that of
+girls. If there are 300 students in the school, what is the number of
+girls?
+(4)
+If 1/3 of a work takes 20 days to complete, how many days does it
+take to do the whole work?
+(5)
+If a certain number and its half is 30, what is the number?
+(6)
+Pokhara had y ml rainfall on Saturday and the next day it had (y-1) ml
+rainfall. If the total rainfall was 43 ml, how many ml of rainfall did
+Pokhara have on Saturday?
+(7)
+One stick is 2x meter and the other is x + 2 meter in length. If the
+total length is 17 meter, what is the length of each stick?
