@@ -1,14 +1,14 @@
 source_id,source_name,url,title,subdomain,data_type,language_type,file_type,access_date,license_note,status
-EDU_0001,CDC Nepal E-Library,https://lib.moecdc.gov.np/elibrary/?r=10810,My Mathematics - Grade 4 (English Translation),mathematics,comparable_candidate,en,pdf,2026-05-19,verify_source_terms,pending
-EDU_0002,CDC Nepal E-Library,https://lib.moecdc.gov.np/elibrary/?r=1049,My Mathematics Grade -4,mathematics,comparable_candidate,ne,pdf,2026-05-19,verify_source_terms,pending
-EDU_0003,CDC Nepal E-Library,https://lib.moecdc.gov.np/elibrary/?r=10811,Mathematics Grade 5 (English Translation),mathematics,comparable_candidate,en,pdf,2026-05-19,verify_source_terms,pending
-EDU_0004,CDC Nepal E-Library,https://lib.moecdc.gov.np/elibrary/?r=955,My Mathematics Grade -5,mathematics,comparable_candidate,ne,pdf,2026-05-19,verify_source_terms,pending
-EDU_0005,CDC Nepal E-Library,https://lib.moecdc.gov.np/elibrary/?r=10809,My Mathematics - Grade 6 (English Translation),mathematics,comparable_candidate,en,pdf,2026-05-19,verify_source_terms,pending
-EDU_0006,CDC Nepal E-Library,https://lib.moecdc.gov.np/elibrary/?r=1062,गणित कक्षा ६,mathematics,comparable_candidate,ne,pdf,2026-05-19,verify_source_terms,pending
-EDU_0007,CDC Nepal E-Library,https://lib.moecdc.gov.np/elibrary/?r=10516,Mathematics Grade 7 (English Translation),mathematics,comparable_candidate,en,pdf,2026-05-19,verify_source_terms,pending
-EDU_0008,CDC Nepal E-Library,https://lib.moecdc.gov.np/elibrary/?r=10676,"गणित कक्षा ७, २०४४; p.177",mathematics,monolingual_pdf,ne,pdf,2026-05-19,verify_source_terms,pending
-EDU_0009,CDC Nepal E-Library,https://lib.moecdc.gov.np/elibrary/?r=1059,"My Science, Health and Physical education grade 4[English version]",science,comparable_candidate,en,pdf,2026-05-19,verify_source_terms,pending
-EDU_0010,CDC Nepal E-Library,https://lib.moecdc.gov.np/elibrary/?r=10583,"विज्ञान तथा स्वास्थ्य र शारीरिक शिक्षा कक्षा चार ४ २०४५; p.160",science,monolingual_pdf,ne,pdf,2026-05-19,verify_source_terms,pending
+EDU_0001,CDC Nepal E-Library,https://lib.moecdc.gov.np/elibrary/?r=10810,My Mathematics - Grade 4 (English Translation),mathematics,comparable_candidate,en,pdf,2026-05-19,verify_source_terms,extracted
+EDU_0002,CDC Nepal E-Library,https://lib.moecdc.gov.np/elibrary/?r=1049,My Mathematics Grade -4,mathematics,comparable_candidate,ne,pdf,2026-05-19,verify_source_terms,extracted
+EDU_0003,CDC Nepal E-Library,https://lib.moecdc.gov.np/elibrary/?r=10811,Mathematics Grade 5 (English Translation),mathematics,comparable_candidate,en,pdf,2026-05-19,verify_source_terms,extracted
+EDU_0004,CDC Nepal E-Library,https://lib.moecdc.gov.np/elibrary/?r=955,My Mathematics Grade -5,mathematics,comparable_candidate,ne,pdf,2026-05-19,verify_source_terms,extracted
+EDU_0005,CDC Nepal E-Library,https://lib.moecdc.gov.np/elibrary/?r=10809,My Mathematics - Grade 6 (English Translation),mathematics,comparable_candidate,en,pdf,2026-05-19,verify_source_terms,extracted
+EDU_0006,CDC Nepal E-Library,https://lib.moecdc.gov.np/elibrary/?r=1062,गणित कक्षा ६,mathematics,comparable_candidate,ne,pdf,2026-05-19,verify_source_terms,extracted
+EDU_0007,CDC Nepal E-Library,https://lib.moecdc.gov.np/elibrary/?r=10516,Mathematics Grade 7 (English Translation),mathematics,comparable_candidate,en,pdf,2026-05-19,verify_source_terms,extracted
+EDU_0008,CDC Nepal E-Library,https://lib.moecdc.gov.np/elibrary/?r=10676,"गणित कक्षा ७, २०४४; p.177",mathematics,monolingual_pdf,ne,pdf,2026-05-19,verify_source_terms,extracted
+EDU_0009,CDC Nepal E-Library,https://lib.moecdc.gov.np/elibrary/?r=1059,"My Science, Health and Physical education grade 4[English version]",science,comparable_candidate,en,pdf,2026-05-19,verify_source_terms,extracted
+EDU_0010,CDC Nepal E-Library,https://lib.moecdc.gov.np/elibrary/?r=10583,विज्ञान तथा स्वास्थ्य र शारीरिक शिक्षा कक्षा चार ४ २०४५; p.160,science,monolingual_pdf,ne,pdf,2026-05-19,verify_source_terms,extracted
 EDU_0011,CDC Nepal E-Library,https://lib.moecdc.gov.np/elibrary/?r=10812,Science and Technology Grade 5 (English Translation),science,comparable_candidate,en,pdf,2026-05-19,verify_source_terms,pending
 EDU_0012,CDC Nepal E-Library,https://lib.moecdc.gov.np/elibrary/?r=10650,"विज्ञान तथा स्वास्थ्य र शारीरिक शिक्षा कक्षा ५, २०४६; p.168",science,monolingual_pdf,ne,pdf,2026-05-19,verify_source_terms,pending
 EDU_0013,CDC Nepal E-Library,https://lib.moecdc.gov.np/elibrary/?r=1065,Science and Environment grade- 6 [English version],science,comparable_candidate,en,pdf,2026-05-19,verify_source_terms,pending

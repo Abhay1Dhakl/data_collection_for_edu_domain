@@ -39,17 +39,25 @@ class TextOnlyHTMLParser(HTMLParser):
         return "\n".join(self.parts)
 
 
+def looks_like_pdf(path: Path) -> bool:
+    return path.read_bytes()[:16].lstrip().startswith(b"%PDF-")
+
+
+def looks_like_html(path: Path) -> bool:
+    sample = path.read_bytes()[:512].lstrip().lower()
+    return sample.startswith(b"<!doctype html") or sample.startswith(b"<html") or b"<head" in sample
+
+
 def extract_pdf_text(path: Path) -> str:
     try:
-        from pypdf import PdfReader  # type: ignore
+        import fitz  # type: ignore
     except ImportError:
-        try:
-            from PyPDF2 import PdfReader  # type: ignore
-        except ImportError as exc:
-            raise RuntimeError("Install pypdf or PyPDF2 to extract PDF text.") from exc
+        raise RuntimeError("Install PyMuPDF (`pip install pymupdf`) to extract PDF text.") from None
 
-    reader = PdfReader(str(path))
-    pages = [page.extract_text() or "" for page in reader.pages]
+    pages: list[str] = []
+    with fitz.open(path) as document:
+        for page in document:
+            pages.append(page.get_text("text"))
     return "\n\n".join(pages).strip()
 
 
@@ -57,6 +65,19 @@ def extract_html_text(path: Path) -> str:
     parser = TextOnlyHTMLParser()
     parser.feed(path.read_text(encoding="utf-8", errors="ignore"))
     return parser.text()
+
+
+def contains_devanagari(text: str) -> bool:
+    return any("\u0900" <= char <= "\u097F" for char in text)
+
+
+def extraction_warning(row: dict[str, str], text: str) -> str:
+    language_type = row.get("language_type", "")
+    if language_type == "ne" and not contains_devanagari(text):
+        return "possible_legacy_preunicode_font_or_language_mismatch"
+    if language_type == "en" and contains_devanagari(text):
+        return "contains_devanagari_text_check_language_label"
+    return ""
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -87,13 +108,15 @@ def main() -> int:
             notes = "text_exists"
         else:
             try:
-                if source_path.suffix.lower() == ".pdf":
+                if looks_like_pdf(source_path):
                     text = extract_pdf_text(source_path)
-                else:
+                elif looks_like_html(source_path):
                     text = extract_html_text(source_path)
+                else:
+                    raise RuntimeError(f"Unsupported file content for {source_path.name}")
                 output_path.write_text(text, encoding="utf-8")
                 result = "extracted"
-                notes = ""
+                notes = extraction_warning(row, text)
                 if args.update_status:
                     by_id[row["source_id"]]["status"] = "extracted"
             except Exception as exc:

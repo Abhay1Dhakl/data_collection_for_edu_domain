@@ -2,7 +2,9 @@
 from __future__ import annotations
 
 import argparse
+import re
 import urllib.error
+import urllib.parse
 import urllib.request
 from pathlib import Path
 
@@ -50,6 +52,41 @@ def should_use_row(row: dict[str, str], args: argparse.Namespace) -> bool:
     return True
 
 
+def build_request(url: str, referer: str | None = None) -> urllib.request.Request:
+    headers = {"User-Agent": "education-nepali-mt-collector/1.0"}
+    if referer:
+        headers["Referer"] = referer
+    return urllib.request.Request(url, headers=headers)
+
+
+def looks_like_pdf(body: bytes) -> bool:
+    return body.lstrip().startswith(b"%PDF-")
+
+
+def looks_like_html(body: bytes, content_type: str = "") -> bool:
+    if "text/html" in content_type.lower():
+        return True
+    sample = body[:512].lstrip().lower()
+    return sample.startswith(b"<!doctype html") or sample.startswith(b"<html") or b"<head" in sample
+
+
+def extract_cdc_direct_download_url(page_url: str, html_text: str) -> str | None:
+    match = re.search(r'href="([^"]*download\.php\?direct=1[^"]*)"', html_text, flags=re.IGNORECASE)
+    if match:
+        return urllib.parse.urljoin(page_url, match.group(1))
+    return None
+
+
+def fetch(url: str, timeout: int, referer: str | None = None) -> tuple[bytes, str, str]:
+    request = build_request(url, referer=referer)
+    with urllib.request.urlopen(request, timeout=timeout) as response:
+        return (
+            response.read(),
+            response.headers.get("Content-Type", ""),
+            str(getattr(response, "status", 200)),
+        )
+
+
 def download_row(row: dict[str, str], overwrite: bool, timeout: int) -> tuple[str, str, str]:
     target_dir = raw_subdir_for_source(row["source_name"])
     target_dir.mkdir(parents=True, exist_ok=True)
@@ -59,18 +96,22 @@ def download_row(row: dict[str, str], overwrite: bool, timeout: int) -> tuple[st
     if output_path.exists() and not overwrite:
         return str(output_path), "skipped", "file_exists"
 
-    request = urllib.request.Request(
-        row["url"],
-        headers={"User-Agent": "education-nepali-mt-collector/1.0"},
-    )
+    body, content_type, status_code = fetch(row["url"], timeout)
 
-    with urllib.request.urlopen(request, timeout=timeout) as response:
-        body = response.read()
-        content_type = response.headers.get("Content-Type", "")
-        output_path = target_dir / f"{row['source_id']}{infer_download_extension(row, content_type)}"
-        output_path.write_bytes(body)
-        status_code = str(getattr(response, "status", 200))
-        return str(output_path), "downloaded", status_code
+    if row["source_name"] == "CDC Nepal E-Library" and looks_like_html(body, content_type):
+        html_text = body.decode("utf-8", errors="ignore")
+        direct_url = extract_cdc_direct_download_url(row["url"], html_text)
+        if direct_url:
+            body, content_type, status_code = fetch(direct_url, timeout, referer=row["url"])
+
+    output_path = target_dir / f"{row['source_id']}{infer_download_extension(row, content_type)}"
+    if looks_like_pdf(body):
+        output_path = target_dir / f"{row['source_id']}.pdf"
+    elif looks_like_html(body, content_type):
+        output_path = target_dir / f"{row['source_id']}.html"
+
+    output_path.write_bytes(body)
+    return str(output_path), "downloaded", status_code
 
 
 def main() -> int:
