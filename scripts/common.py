@@ -61,18 +61,21 @@ def timestamp_iso() -> str:
     return datetime.utcnow().replace(microsecond=0).isoformat() + "Z"
 
 
-def ensure_parent(path: Path) -> None:
+def ensure_parent(path: Path | str) -> None:
+    path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
 
 
-def read_csv(path: Path) -> list[dict[str, str]]:
+def read_csv(path: Path | str) -> list[dict[str, str]]:
+    path = Path(path)
     if not path.exists():
         return []
     with path.open("r", encoding="utf-8", newline="") as handle:
         return list(csv.DictReader(handle))
 
 
-def write_csv(path: Path, rows: Iterable[dict[str, str]], fieldnames: list[str]) -> None:
+def write_csv(path: Path | str, rows: Iterable[dict[str, str]], fieldnames: list[str]) -> None:
+    path = Path(path)
     ensure_parent(path)
     with path.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=fieldnames)
@@ -80,7 +83,8 @@ def write_csv(path: Path, rows: Iterable[dict[str, str]], fieldnames: list[str])
         writer.writerows(rows)
 
 
-def append_csv(path: Path, row: dict[str, str], fieldnames: list[str]) -> None:
+def append_csv(path: Path | str, row: dict[str, str], fieldnames: list[str]) -> None:
+    path = Path(path)
     ensure_parent(path)
     exists = path.exists()
     with path.open("a", encoding="utf-8", newline="") as handle:
@@ -172,7 +176,8 @@ def split_sentences(text: str, language_type: str) -> list[str]:
     return [sentence for sentence in sentences if len(sentence) > 1]
 
 
-def load_jsonl(path: Path) -> list[dict]:
+def load_jsonl(path: Path | str) -> list[dict]:
+    path = Path(path)
     rows: list[dict] = []
     if not path.exists():
         return rows
@@ -185,7 +190,8 @@ def load_jsonl(path: Path) -> list[dict]:
     return rows
 
 
-def write_jsonl(path: Path, rows: Iterable[dict]) -> None:
+def write_jsonl(path: Path | str, rows: Iterable[dict]) -> None:
+    path = Path(path)
     ensure_parent(path)
     with path.open("w", encoding="utf-8") as handle:
         for row in rows:
