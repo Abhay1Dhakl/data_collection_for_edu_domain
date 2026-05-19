@@ -1,1 +1,11 @@
 timestamp,source_id,input_path,output_path,result,notes
+2026-05-19T02:14:23Z,EDU_0001,/Volumes/EX-SSD/data_collection_for_edu_domain/data/raw/cdc_elibrary/EDU_0001.pdf,.,extract_failed,Install pypdf or PyPDF2 to extract PDF text.
+2026-05-19T02:14:23Z,EDU_0002,/Volumes/EX-SSD/data_collection_for_edu_domain/data/raw/cdc_elibrary/EDU_0002.pdf,.,extract_failed,Install pypdf or PyPDF2 to extract PDF text.
+2026-05-19T02:14:23Z,EDU_0003,/Volumes/EX-SSD/data_collection_for_edu_domain/data/raw/cdc_elibrary/EDU_0003.pdf,.,extract_failed,Install pypdf or PyPDF2 to extract PDF text.
+2026-05-19T02:14:23Z,EDU_0004,/Volumes/EX-SSD/data_collection_for_edu_domain/data/raw/cdc_elibrary/EDU_0004.pdf,.,extract_failed,Install pypdf or PyPDF2 to extract PDF text.
+2026-05-19T02:14:23Z,EDU_0005,/Volumes/EX-SSD/data_collection_for_edu_domain/data/raw/cdc_elibrary/EDU_0005.pdf,.,extract_failed,Install pypdf or PyPDF2 to extract PDF text.
+2026-05-19T02:14:23Z,EDU_0006,/Volumes/EX-SSD/data_collection_for_edu_domain/data/raw/cdc_elibrary/EDU_0006.pdf,.,extract_failed,Install pypdf or PyPDF2 to extract PDF text.
+2026-05-19T02:14:23Z,EDU_0007,/Volumes/EX-SSD/data_collection_for_edu_domain/data/raw/cdc_elibrary/EDU_0007.pdf,.,extract_failed,Install pypdf or PyPDF2 to extract PDF text.
+2026-05-19T02:14:23Z,EDU_0008,/Volumes/EX-SSD/data_collection_for_edu_domain/data/raw/cdc_elibrary/EDU_0008.pdf,.,extract_failed,Install pypdf or PyPDF2 to extract PDF text.
+2026-05-19T02:14:23Z,EDU_0009,/Volumes/EX-SSD/data_collection_for_edu_domain/data/raw/cdc_elibrary/EDU_0009.pdf,.,extract_failed,Install pypdf or PyPDF2 to extract PDF text.
+2026-05-19T02:14:23Z,EDU_0010,/Volumes/EX-SSD/data_collection_for_edu_domain/data/raw/cdc_elibrary/EDU_0010.pdf,.,extract_failed,Install pypdf or PyPDF2 to extract PDF text.

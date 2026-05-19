@@ -1,0 +1,1531 @@
+<!DOCTYPE html>
+<html lang="en">	
+
+<!--
+
+ ResourceSpace version SVN 10.3
+ For copyright and license information see /documentation/licenses/resourcespace.txt
+ https://www.resourcespace.com
+ -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+    <meta name="robots" content="noindex,nofollow">
+    
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>CDC E-Library</title>
+<link rel="icon" type="image/png" href="http://lib.moecdc.gov.np/elibrary/filestore/system/config/header_favicon.jpg" />
+
+<!-- Load jQuery and jQueryUI -->
+<script src="https://lib.moecdc.gov.np/elibrary/lib/js/jquery-3.6.0.min.js?css_reload_key=241"></script>
+<script src="https://lib.moecdc.gov.np/elibrary/lib/js/jquery-ui-1.13.2.min.js?css_reload_key=241" type="text/javascript"></script>
+<script src="https://lib.moecdc.gov.np/elibrary/lib/js/jquery.layout.js?css_reload_key=241"></script>
+<link type="text/css" href="https://lib.moecdc.gov.np/elibrary/css/smoothness/jquery-ui.min.css?css_reload_key=241" rel="stylesheet" />
+<script src="https://lib.moecdc.gov.np/elibrary/lib/js/jquery.ui.touch-punch.min.js"></script>
+<script type="text/javascript" src="https://lib.moecdc.gov.np/elibrary/lib/js/jquery.tshift.min.js"></script>
+<script type="text/javascript" src="https://lib.moecdc.gov.np/elibrary/lib/js/jquery-periodical-updater.js"></script>
+
+    <script type="text/javascript">StaticSlideshowImage=true;</script>
+    <script type="text/javascript" src="https://lib.moecdc.gov.np/elibrary/lib/js/slideshow_big.js?css_reload_key=241"></script>
+    <link type="text/css" href="https://lib.moecdc.gov.np/elibrary/css/slideshow_big.css?css_reload_key=241" rel="stylesheet" />
+        <script type="text/javascript" src="https://lib.moecdc.gov.np/elibrary/lib/js/contactsheet.js"></script>
+    <script>
+    contactsheet_previewimage_prefix = 'http://lib.moecdc.gov.np/elibrary/filestore';
+    </script>
+    <script type="text/javascript">
+    jQuery.noConflict();
+    </script>
+    
+<script type="text/javascript">
+	ajaxLoadingTimer=500;
+</script>
+<script type="text/javascript" src="https://lib.moecdc.gov.np/elibrary/lib/ckeditor/ckeditor.js"></script>
+<script src="https://lib.moecdc.gov.np/elibrary/lib/js/ajax_collections.js?css_reload_key=241" type="text/javascript"></script>
+
+<!--  UPPY -->
+<script type="text/javascript" src="/elibrary/lib/js/uppy.js?241"></script>
+<link rel="stylesheet" href="https://lib.moecdc.gov.np/elibrary/css/uppy.min.css?css_reload_key=241">
+
+
+
+<!-- Chart.js for graphs -->
+<script language="javascript" type="module" src="/elibrary/lib/js/chartjs-4-4-0.js"></script>
+<script language="javascript" type="module" src="/elibrary/lib/js/date-fns.js"></script>
+<script language="javascript" type="module" src="/elibrary/lib/js/chartjs-adapter-date-fns.js"></script>
+
+<!-- jsTree -->
+<link rel="stylesheet" href="/elibrary/lib/jstree/themes/default-dark/style.min.css">
+<script src="/elibrary/lib/jstree/jstree.min.js"></script>
+<script src="/elibrary/lib/js/category_tree.js?css_reload_key=241"></script>
+
+<!-- DOMPurify -->
+<script src="https://lib.moecdc.gov.np/elibrary/lib/js/purify.min.js"></script>
+
+    <script src="/elibrary/lib/js/browsebar_js.php" type="text/javascript"></script>
+    
+<script type="text/javascript">
+var baseurl_short="/elibrary/";
+var baseurl="https://lib.moecdc.gov.np/elibrary";
+var pagename="view";
+var errorpageload = "<h1>Error</h1><p>Sorry, there has been an error loading this page. If you are performing a search please try refining your search query. If the problem persists please contact your system administrator</p>";
+var errortext = "Error";
+var applicationname = "CDC E-Library";
+var branch_limit=false;
+var branch_limit_field = new Array();
+var global_trash_html = '<!-- Global Trash Bin (added through CentralSpaceLoad) -->';
+var TileNav = true;
+var errornotloggedin = 'You are not logged in';
+var login = 'Log in';
+global_trash_html += '<div id="trash_bin" class="trash_bin ui-droppable ui-droppable-active ui-state-hover"><span class="trash_bin_text"><i class="fa fa-trash" aria-hidden="true"></i></span></div>    <div id="trash_bin_delete_dialog" style="display:none;"></div>    <div id="delete_permanent_dialog" style="display:none;text-align:left;"></div>';
+oktext="OK";
+var scrolltopElementCentral='.ui-layout-center';
+var scrolltopElementContainer='.ui-layout-container';
+var scrolltopElementCollection='.ui-layout-south';
+var scrolltopElementModal='#modal'
+browse_clicked = false;</script>
+
+<script src="/elibrary/lib/js/global.js?css_reload_key=241" type="text/javascript"></script>
+<script src="/elibrary/lib/js/polyfills.js?css_reload_key=241"></script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function() {
+ jQuery.fn.reverse = [].reverse;
+ jQuery(document).keyup(function (e)
+  { 
+    if(jQuery("input,textarea").is(":focus"))
+    {
+       // don't listen to keyboard arrows when focused on form elements
+           }
+    else if (jQuery('#lightbox').is(':visible'))
+        {
+        // Don't listen to keyboard arrows if viewing resources in lightbox
+        }
+    else
+        {
+        var share='';
+        var modAlt=e.altKey;
+        var modShift=e.shiftKey;
+        var modCtrl=e.ctrlKey;
+        var modMeta=e.metaKey;
+        var modOn=(modAlt || modShift || modCtrl || modMeta);
+
+         switch (e.which) 
+         {
+
+		                // left arrow
+            case 37: if ((jQuery('.prevLink').length > 0)&&(jQuery("#fancybox-content").html()=='')) {jQuery('.prevLink').click();break;}
+              if ((jQuery('.prevPageLink').length > 0)) jQuery('.prevPageLink').click();
+
+                                          break;
+            // right arrow
+            case 39: if ((jQuery('.nextLink').length > 0)&&(jQuery("#fancybox-content").html()=='')) {jQuery('.nextLink').click();break;}
+              if ((jQuery('.nextPageLink').length > 0)) jQuery('.nextPageLink').click();
+                                          break;   
+            case 65: if (jQuery('.addToCollection').length > 0) jQuery('.addToCollection:not(.ResourcePanelIcons .addToCollection)').click();
+                     break;
+            case 188: if (jQuery('.prevLink').length > 0) jQuery('.prevLink').click();
+                     break;
+            case 190: if (jQuery('.nextLink').length > 0) jQuery('.nextLink').click();
+                     break;
+            case 191: if (jQuery('.upLink').length > 0) jQuery('.upLink').click();
+                     break;
+            case 84: if (jQuery('#toggleThumbsLink').length > 0) jQuery('#toggleThumbsLink').click();
+                     break;
+            case 90: if (jQuery('.enterLink').length > 0) window.location=jQuery('.enterLink').attr("href");
+                     break;
+            case 27: ModalClose();
+                     break;
+            case 86: if(!modOn){CentralSpaceLoad('https://lib.moecdc.gov.np/elibrary/pages/search.php?search=!collection'+document.getElementById("currentusercollection").innerHTML+'&k='+share,true)};
+                     break;
+                     }
+
+     }
+ });
+});
+</script>
+    <link rel="stylesheet" href="/elibrary/plugins/transform/lib/jcrop/css/jquery.Jcrop.min.css?css_reload_key=241" type="text/css" />
+    <script type="text/javascript" src="/elibrary/plugins/transform/lib/jcrop/js/jquery.Jcrop.min.js?css_reload_key=241" language="javascript"></script>
+    <script type="text/javascript" src="/elibrary/lib/jQueryRotate/jQueryRotate.js?css_reload_key=241" language="javascript"></script>
+    <script src="/elibrary/lib/lightbox/js/lightbox.min.js" type="text/javascript" ></script><link type="text/css" href="/elibrary/lib/lightbox/css/lightbox.min.css?css_reload_key=241" rel="stylesheet" />	<script>
+	function closeModalOnLightBoxEnable()
+		{
+		setTimeout(function() {
+			if(jQuery('#lightbox').is(':visible'))
+				{
+				ModalClose();
+				}
+		}, 10);
+		}
+
+	jQuery(document).ready(function()
+        {
+        lightbox.option({
+			'resizeDuration': 300,
+			'imageFadeDuration': 300,
+			'fadeDuration': 300,
+			'alwaysShowNavOnTouchDevices': true})
+        });
+	</script>
+	
+
+<!-- Structure Stylesheet -->
+<link href="https://lib.moecdc.gov.np/elibrary/css/global.css?css_reload_key=241" rel="stylesheet" type="text/css" media="screen,projection,print" />
+<!-- Colour stylesheet -->
+<link href="https://lib.moecdc.gov.np/elibrary/css/colour.css?css_reload_key=241" rel="stylesheet" type="text/css" media="screen,projection,print" />
+<!-- Override stylesheet -->
+<link href="https://lib.moecdc.gov.np/elibrary/css/css_override.php?k=&css_reload_key=241&noauth=" rel="stylesheet" type="text/css" media="screen,projection,print" />
+<!--- FontAwesome for icons-->
+<link rel="stylesheet" href="https://lib.moecdc.gov.np/elibrary/lib/fontawesome/css/all.min.css?css_reload_key=241">
+<link rel="stylesheet" href="https://lib.moecdc.gov.np/elibrary/lib/fontawesome/css/v4-shims.min.css?css_reload_key=241">
+<!-- Load specified font CSS -->
+<link id="global_font_link" href="https://lib.moecdc.gov.np/elibrary/css/fonts/Montserrat.css?css_reload_key=241" rel="stylesheet" type="text/css" /><!-- Web app manifest -->
+<link rel="manifest" href="https://lib.moecdc.gov.np/elibrary/manifest.json">
+
+<link href="/elibrary/plugins/transform/css/style.css?css_reload_key=241" rel="stylesheet" type="text/css" media="screen,projection,print" class="plugincss" />
+		<link href="/elibrary/plugins/rse_workflow/css/style.css?css_reload_key=241" rel="stylesheet" type="text/css" media="screen,projection,print" class="plugincss" />
+		<script>jQuery('.plugincss').attr('class','plugincss0');</script>
+</head>
+<body lang="en" class="" >
+
+<a href="#UICenter" class="skip-to-main-content">Skip to main content</a>
+
+<!-- Processing graphic -->
+<div id='ProcessingBox' style='display: none'><h3>Processing</h3><i aria-hidden="true" class="fa fa-cog fa-spin fa-3x fa-fw"></i></div>
+
+<!-- Loading graphic -->
+	<div id="LoadingBox"><i aria-hidden="true" class="fa fa-circle-o-notch fa-spin fa-3x fa-fw"></i></div>
+	
+<!--Global Header-->
+    <div id="Header" class=" ui-layout-north  HeaderLarge">
+
+            <div id="HeaderResponsive">
+                    <a href="https://lib.moecdc.gov.np/elibrary/pages/home.php" onClick="return CentralSpaceLoad(this,true);" class="HeaderImgLink"><img src="http://lib.moecdc.gov.np/elibrary/filestore/system/config/linkedheaderimgsrc.jpg" id="HeaderImg" alt="CDC E-Library"></a>
+               
+            <div id="HeaderButtons" style="display:none;">
+                <a href="#" id="HeaderNav1Click" class="ResponsiveHeaderButton ResourcePanel ResponsiveButton">
+                    <span class="rbText">
+                        Account                        </span>
+                    <span class="fa fa-fw fa-lg fa-user"></span> </a>
+                <a href="#" id="HeaderNav2Click" class="ResponsiveHeaderButton ResourcePanel ResponsiveButton">
+                    <span class="rbText">Menu</span>
+                    <span class="fa fa-fw fa-lg fa-bars"></span>
+                </a>
+            </div>
+                    </div>
+                <div id="HeaderNav1" class="HorizontalNav">
+                        <ul>
+                <li><a href="https://lib.moecdc.gov.np/elibrary/login.php">Log in</a></li>
+                                                </ul>
+                <script>
+
+ 	var activeSeconds=30;
+
+	var message_timer = null;
+	var message_refs = new Array();
+	var message_poll_first_run = true;
+
+	function message_poll()
+	{
+		if (message_timer != null)
+		{
+			clearTimeout(message_timer);
+			message_timer = null;
+		}
+		activeSeconds-=10;
+		if(activeSeconds < 0)
+			{
+				message_timer = window.setTimeout(message_poll,10 * 1000);
+				return;
+			}
+			        jQuery.ajax({
+            url: 'https://lib.moecdc.gov.np/elibrary/pages/ajax/message.php?ajax=true',
+            type: 'GET',
+            success: function(messages, textStatus, xhr) {
+                if(xhr.status==200 && isJson(messages) && (messages=jQuery.parseJSON(messages)) && jQuery(messages).length>0)
+                    {
+                    messagecount = messages.length;
+                    if(messages[messages.length - 1]['ref'] == 0)
+                        {
+                        // The last message is a dummy entry with a count of actions and failed jobs
+                        messagecount = messagecount-1;
+                        }
+                    totalcount   = messagecount; 
+                    actioncount=0;
+                    failedjobcount=0;
+                    if (typeof(messages[messages.length - 1]['actioncount']) !== 'undefined') // There are actions as well as messages
+                        {
+                        actioncount=parseInt(messages[messagecount]['actioncount']);
+                        totalcount=totalcount+actioncount;
+                        }
+                    if (typeof(messages[messages.length - 1]['failedjobcount']) !== 'undefined') 
+                        {
+                        userfailedjobcount = parseInt(messages[messagecount]['failedjobcount']['user']);
+						totalcount         = totalcount + userfailedjobcount;
+						failedjobcount 	   = parseInt(messages[messagecount]['failedjobcount']['all']);
+                        }
+                    jQuery('span.MessageTotalCountPill').html(totalcount).fadeIn();
+                    if (activeSeconds > 0 || message_poll_first_run)
+                        {
+                        for(var i=0; i < messagecount; i++)
+                            {
+                            var ref = messages[i]['ref'];
+                            if (message_poll_first_run)
+                                {
+                                message_refs.push(ref);
+                                continue;
+                                }
+                            if (message_refs.indexOf(ref)!=-1)
+                                {
+                                continue;
+                                }
+                            message_refs.push(ref);
+                            var message = nl2br(messages[i]['message']);
+                            var url = messages[i]['url'];
+                            if(messages[i]['type'] & 4 && pagename =='user_message' && parseInt(messages[i]['ownerid']) == parseInt(msgto))
+                                {
+                                // Show the message directly on the page if on user_message.php and communicating with this user
+                                showUserMessage(messages[i]['message'],false);
+                                }
+                            else
+                                {
+                                // Show message popup if configured
+                                                                    message_display(message, url, ref, function (ref) {
+                                    jQuery.get('https://lib.moecdc.gov.np/elibrary/pages/ajax/message.php?ajax=true&seen=' + ref);
+                                    });
+                                                                    
+                                }                           
+                            message_poll();
+                            }
+                        }
+                    if (actioncount>0)
+                        {
+                        jQuery('span.ActionCountPill').html(actioncount).fadeIn();
+                        }
+                    else
+                        {
+                        jQuery('span.ActionCountPill').hide();	
+                        }
+                    if (messagecount>0)
+                        {
+                        jQuery('span.MessageCountPill').html(messagecount).fadeIn();
+                        }
+                    else
+                        {
+                        jQuery('span.MessageCountPill').hide();	
+                        }
+                    if (failedjobcount>0)
+                        {
+                        jQuery('span.FailedJobCountPill').html(failedjobcount).fadeIn();
+						let teampill = jQuery('#TeamMessages');
+						if(teampill.attr('data-value') != undefined)
+							{
+							failedjobcount = failedjobcount + teampill.attr('data-value');
+							}
+						teampill.html(failedjobcount).fadeIn();
+                        }
+                    else
+                        {
+                        jQuery('span.FailedJobCountPill').hide();	
+                        }
+                    }
+                else
+                    {
+                    jQuery('span.MessageTotalCountPill').hide();
+                    jQuery('span.MessageCountPill').hide();
+                    jQuery('span.ActionCountPill').hide();
+                    }
+            }
+        }).done(function() {
+            message_timer = window.setTimeout(message_poll,10 * 1000);
+                            message_poll_first_run = false;
+        });
+
+    check_upgrade_in_progress();
+    }
+
+	jQuery(document).bind("blur focus focusin focusout load resize scroll unload click dblclick mousedown mouseup mousemove mouseover mouseout mouseenter mouseleave change select submit keydown keypress keyup error",
+		function() {
+			activeSeconds=30;
+		});
+
+	jQuery(document).ready(function () {
+			message_poll();
+		});
+
+	function message_display(message, url, ref, callback)
+	{
+		if (typeof ref==="undefined")
+		{
+			ref=new Date().getTime();
+		}
+		if (typeof url==="undefined")
+		{
+			url="";
+		}
+		if (url!="")
+		{
+			url=decodeURIComponent(url);
+			url="<a href='" + url + "'>Link</a>";
+		}
+		var id='message' + ref;
+		if (jQuery("#" + id).length)		// already being displayed
+		{
+			return;
+		}
+
+    jQuery('div#MessageContainer')
+        .append("<div class='MessageBox' style='display: none;' id='" + id + "'>" + nl2br(DOMPurify.sanitize(message)) + "<br />" + url + "</div>")
+        .after(function()
+		{
+			var t = window.setTimeout(function()
+			{
+				jQuery("div#" + id).fadeOut("fast",function()
+					{
+						this.remove()
+					}
+				)
+			},5000);
+
+			jQuery("div#" + id).show().bind("click",function()
+			{
+				jQuery("div#" + id).fadeOut("fast", function()
+				{
+					jQuery("div#" + id).remove();
+					jQuery.get('https://lib.moecdc.gov.np/elibrary/pages/ajax/message.php?ajax=true&seen=' + ref);
+					if (typeof callback === 'function')
+					{
+						callback();
+					}
+				});
+			});
+
+			jQuery("div#" + id).bind("mouseenter",function()
+			{
+				window.clearTimeout(t);
+				jQuery("div#" + id).fadeIn("fast");
+			});
+
+			jQuery("div#" + id).bind("mouseleave",function()
+			{
+				window.clearTimeout(t);
+				t = window.setTimeout(function()
+				{
+					jQuery("div#" + id).fadeOut("fast",function()
+						{
+							this.remove();
+						}
+					)},3000);
+			});
+		});
+	}
+	
+    function message_modal(message, url, ref, owner)
+        {
+        if (typeof ref==="undefined")
+            {
+                ref=new Date().getTime();
+            }
+        if (typeof url==="undefined")
+            {
+                url="";
+            }
+        if (url!="")
+            {
+                url=decodeURIComponent(url);
+                url=DOMPurify.sanitize(url);
+                url="<a class='message_link' href='" + url + "'>Link</a>";
+            }
+        if (typeof owner==="undefined" || owner=='')
+            {
+            owner = 'CDC E-Library';
+            }
+
+        jQuery("#modal_dialog").html("<div class='MessageText'>" + nl2br(DOMPurify.sanitize(message)) + "</div>" + url);
+        jQuery("#modal_dialog").addClass('message_dialog');
+        jQuery("#modal_dialog").dialog({
+            title: 'Message from ' + owner,
+            modal: true,
+            resizable: false,
+            buttons: [{text: "OK",
+                        click: function() {
+                        jQuery( this ).dialog( "close" );
+                        }}],
+            dialogClass: 'message',
+            width: (jQuery(window).width() <= 1280) ? jQuery(window).width()*0.7 : 600,
+            maxHeight: jQuery(window).height()*0.8,
+            draggable: true,
+            open: function(event, ui) {
+                jQuery('.ui-widget-overlay').bind('click', function(){ jQuery("#modal_dialog").dialog('close'); });
+                jQuery( ".ui-dialog-content" ).scrollTop(0);
+                },
+            close: function( event, ui ) {
+                jQuery('#modal_dialog').html('');
+                jQuery("#modal_dialog").removeClass('message_dialog');
+                jQuery.get('https://lib.moecdc.gov.np/elibrary/pages/ajax/message.php?ajax=true&seen=' + ref);
+                },
+            dialogClass: 'no-close'
+            });
+                
+        }
+
+</script>
+        </div>
+                <div id="HeaderNav2" class="HorizontalNav HorizontalWhiteNav">
+            <nav aria-label="Main menu">
+        <ul id="HeaderLinksContainer">
+                                                <li class="HeaderLink">
+                        <a href="https://lib.moecdc.gov.np/elibrary/pages/home.php" onClick="return CentralSpaceLoad(this,true);">
+                            <i aria-hidden="true" class="fa fa-fw fa-grip"></i>&nbsp;Dash                        </a>
+                    </li>
+                            
+            
+            
+            
+                                                <li class="HeaderLink">
+                        <a href="https://lib.moecdc.gov.np/elibrary/pages/collections_featured.php" onClick="return CentralSpaceLoad(this,true);">
+                            <i aria-hidden="true" class="fa fa-fw fa-folder"></i>&nbsp;Featured collections                        </a>
+                    </li>
+                            
+            
+            
+                                                <li class="HeaderLink">
+                        <a href="https://lib.moecdc.gov.np/elibrary/pages/search.php?search=%21last1000&order_by=resourceid&sort=desc" onClick="return CentralSpaceLoad(this,true);">
+                            <i aria-hidden="true" class="fa fa-fw fa-clock"></i>&nbsp;Recent                        </a>
+                    </li>
+                            
+            
+                                        
+                                        
+            
+                            <li class="HeaderLink">
+                    <a href="https://lib.moecdc.gov.np/elibrary/pages/help.php" onClick="return ModalLoad(this,true);">
+                        <i aria-hidden="true" class="fa fa-fw fa-book"></i>&nbsp;Knowledge Base                    </a>
+                </li>
+            
+            
+        </ul><!-- close HeaderLinksContainer -->
+    </nav>
+
+    <script>
+    headerLinksDropdown();
+    </script>
+
+        </div> 
+
+        <div class="clearer"></div></div>
+        <div id="SearchBarContainer" class="ui-layout-east" >
+        <script>
+var categoryTreeChecksArray = [];
+</script>
+<div id="SearchBox">
+    <div id="SearchBarTabsContainer">
+        <a href="#" onclick="selectSearchBarTab('search');">
+            <div class="SearchBarTab SearchTab SearchBarTabSelected">
+                <i class="fa-solid fa-fw fa-magnifying-glass"></i>
+                Search            </div>
+        </a>
+                    <a href="#" onclick="selectSearchBarTab('browse');" >
+                <div class="SearchBarTab BrowseTab">
+                    <i class="fa-solid fa-fw fa-list"></i>
+                    Browse                </div>
+            </a>
+            </div>
+
+
+<div id="SearchBoxPanel">
+
+
+
+<div class="SearchSpace" id="searchspace"> 
+
+    
+    <form id="simple_search_form" method="post" action="https://lib.moecdc.gov.np/elibrary/pages/search.php" onSubmit="return CentralSpacePost(this,true);">
+        <input type="hidden" name="CSRFToken" value="73b491c75c051acff456492ecc02d6ab500b7deab874221895a7ff4f18918791ac174c3c91089a8c38aefd01eb0de36cfc40734f36eb7ba451b4c4ab3f09f570@@106eee006722ad6d89d4b71b7bc478f30034399959cbf5a112eb72939b675ff5ef7bf7e9e1cec29787e4ff3e90c2e88d54fafeb9ef10c0478886884046dcfa8ebd6bf87e2dbb980d8065c03737ca7b21dc81112fee19934e999c15af4bbf37bae73d41ce1f48a852da2dc6d5a5bacf48e4392e991447de7b3b7fc4b9493183212b2e8145a6084fc11437df42fea6ab6e584ea6f436b030d4eed79f3071eb631b0d8390933f6490a2e3a82a8c90843528f403c75ef6426461ebc49300f83b9725e86fc8358e7b1eff4f50542c27a40271eebcbff2afa96648e3b075512058a83ab2c86e7f62eddf7cd0ee61a014f67f@@2f32e086ba52d62856cf9e59be97d77788f967a20fa4fdc581377440473cdb46">
+            <input id="ssearchbox"  name="search" type="text" class="SearchWidth" value="" placeholder="Search" aria-label="Simple search">
+        <input id="ssearchhiddenfields" name="ssearchhiddenfields" type="hidden" value="">
+        <button class="fas fa-search search-icon" type="submit" alt="Search" title="Search"></button>
+        <script>
+                    jQuery(document).ready(function () {
+                jQuery('#ssearchbox').autocomplete({
+                    source: "https://lib.moecdc.gov.np/elibrary/pages/ajax/autocomplete_search.php",
+                    minLength: 3,
+                    });
+                
+                                
+            });
+                    </script>
+            <input type="hidden" name="restypes" id="restypes" value="1,2,3,4,8,10,11" />
+        
+            
+    <div class="SearchItem" id="simplesearchbuttons"><input name="Clear" id="clearbutton" class="searchbutton" type="button" value="Clear" onClick=" document.getElementById('ssearchbox').value='';"/><input name="Submit" id="searchbutton" class="searchbutton" type="submit" value="Search" onclick="SimpleSearchFieldsHideOrShow();" /><input type="button" id="Rssearchexpand" class="searchbutton" style="display:none;" value="More..."></div>            
+  </form>
+  <br />
+      
+  
+      
+     <!-- END of Searchbarreplace hook -->
+    </div>
+     <!-- END of Searchbarremove hook -->
+
+    
+    
+    
+    </div>
+    
+  
+    
+  
+
+
+<div id="BrowseBarContainer" style="display:none;"><div id="BrowseBar" class="BrowseBar"><div id="BrowseBarContent" >
+            <div id='BrowseBarTemplate' style='display: none;'>
+            <div class='BrowseBarItem BrowseRowOuter %BROWSE_DROP%' data-browse-id='%BROWSE_ID%' data-browse-parent='%BROWSE_PARENT%'  data-browse-loaded='0' data-browse-status='closed' data-browse-level='%BROWSE_LEVEL%' style='display: none;'>
+                <div class='BrowseRowInner' >
+                    %BROWSE_INDENT%
+                    %BROWSE_EXPAND%
+                    %BROWSE_TEXT%
+                    %BROWSE_REFRESH%
+                </div><!-- End of BrowseRowInner -->
+            </div><!-- End of BrowseRowOuter -->
+            </div><!-- End of BrowseBarTemplate -->
+            <div class="BrowseBarItem BrowseRowOuter BrowseBarRoot" data-browse-id="R" data-browse-parent="root" data-browse-loaded="0" data-browse-status="closed" data-browse-level="0" ><div class="BrowseRowInner" ><div class="BrowseBarStructure">
+            <a href="#" class="browse_expand browse_closed" onclick="toggleBrowseElements('R',false,true);" ></a>
+            </div><!-- End of BrowseBarStructure --><div onclick="toggleBrowseElements('R',false,true);" class="BrowseBarLink" >Browse by tag</div><a href="#" class="BrowseRefresh " onclick="toggleBrowseElements('R',true, true);" ><i class="fas fa-sync reloadicon"></i></a></div><!-- End of BrowseRowInner -->
+            </div><!-- End of BrowseRowOuter --><div class="BrowseBarItem BrowseRowOuter BrowseBarRoot" data-browse-id="FC" data-browse-parent="root" data-browse-loaded="0" data-browse-status="closed" data-browse-level="0" ><div class="BrowseRowInner" ><div class="BrowseBarStructure">
+            <a href="#" class="browse_expand browse_closed" onclick="toggleBrowseElements('FC',false,true);" ></a>
+            </div><!-- End of BrowseBarStructure --><div onclick="toggleBrowseElements('FC',false,true);" class="BrowseBarLink" >Featured collections</div><a href="#" class="BrowseRefresh " onclick="toggleBrowseElements('FC',true, true);" ><i class="fas fa-sync reloadicon"></i></a></div><!-- End of BrowseRowInner -->
+            </div><!-- End of BrowseRowOuter --><div class="BrowseBarItem BrowseRowOuter BrowseBarRoot" data-browse-id="WF" data-browse-parent="root" data-browse-loaded="0" data-browse-status="closed" data-browse-level="0" ><div class="BrowseRowInner" ><div class="BrowseBarStructure">
+            <a href="#" class="browse_expand browse_closed" onclick="toggleBrowseElements('WF',false,true);" ></a>
+            </div><!-- End of BrowseBarStructure --><div onclick="toggleBrowseElements('WF',false,true);" class="BrowseBarLink" >Workflow</div><a href="#" class="BrowseRefresh " onclick="toggleBrowseElements('WF',true, true);" ><i class="fas fa-sync reloadicon"></i></a></div><!-- End of BrowseRowInner -->
+            </div><!-- End of BrowseRowOuter --></div><!-- End of BrowseBarContent -->
+                </div><!-- End of BrowseBar -->
+                </div><!-- End of BrowseBarContainer --><script>
+        b_loading = new Array();
+        // Expand tree to previous state based on stored cookie
+        jQuery(document).ready(function()
+            {
+            ReloadBrowseBar();
+            });
+        </script>
+</div>
+        </div>
+        
+<!--Main Part of the page-->
+
+<!-- Global Trash Bin -->
+<div id="trash_bin" class="trash_bin ui-droppable ui-droppable-active ui-state-hover"><span class="trash_bin_text"><i class="fa fa-trash" aria-hidden="true"></i></span></div>
+    <div id="trash_bin_delete_dialog" style="display:none;"></div>
+    <div id="delete_permanent_dialog" style="display:none;text-align:left;"></div>
+
+<div id="UICenter" role="main" class="ui-layout-center Search"><div id="CentralSpaceContainer"><div id="CentralSpace">
+<script>
+ 
+linkreload = true;
+jQuery(document).ready(function()
+    {
+    ActivateHeaderLink("https:\/\/lib.moecdc.gov.np%2Felibrary%2Fpages%2Fview.php%3Fref%3D10583%26k%3D");
+
+    jQuery(document).mouseup(function(e) 
+        {
+        var linksContainer = jQuery("#DropdownCaret");
+        if (linksContainer.has(e.target).length === 0 && !linksContainer.is(e.target)) 
+            {
+            jQuery('#OverFlowLinks').hide();
+            }
+        });
+    });
+
+window.onresize=function()
+    {
+    ReloadLinks();
+    }
+</script>
+    <iframe id="dlIFrm"
+            frameborder=0
+            scrolling="auto"
+            style="display:none"
+            > This browser can not use IFRAME.</iframe>
+    <script>
+    var resource_lock_status = 0;
+    var lockmessage = new Array();
+    lockmessage[10583] = '';
+
+    
+    function updateResourceLock(resource,lockstatus)
+        {
+        // Fire an ajax call to update the lock state and update resource tools if successful
+        jQuery.ajax({
+            type: 'POST',
+            url: '/elibrary/pages/ajax/user_action.php',
+            data: {
+                ajax: 'true',
+                action: 'updatelock',
+                ref: resource,
+                lock: lockstatus,
+                CSRFToken: "22ae877eaca93602817937323b978303e47702bf08b7f2ca92538779ab1935e7e316b4e86ba46e44d1071d557cf74d399f697c2af15218cdba3ac35dfc0a06ef@@e45805356cb58d1e9dfc758b7f16e801085f34bef5895b8ff53f2a6c9a25b682295954a87101320f9382d77f145075d6b0dd81ec269329fda194c3a1809d7779e297af44dae08e5d10777cb68d138b41fd0d684844f78ece6fe05cfefe80b2bcdc6c398ccb278ba8bb775e67e3a46e68eb57c08322054bf221e68a10d7407d619e4b97e71810c7c9f1662300fb831277aba65310d85ba10f2212b09e3daa2aa566a4158e9883d3b7b7fad5d7c906ff259c8be9180f96af880a6f7a00cea03747dcec270cff9f12e6c81aa8a455901ab6aaed11bc3ef94b032afcbc5ed071ebd74d08908f82b632@@55ea630df11fe040740407b7bdc644621a92a427cb636f4f8fa83ff95d45aebc"            },
+            success: function(response,status,xhr)
+                {
+                jQuery('#lock_link_' + resource).toggleClass("ResourceLocked");
+                jQuery('#lock_link_' + resource).toggleClass("ResourceUnlocked");
+                if(lockstatus==1)
+                    {               
+                    jQuery('#lock_link_' + resource).html('&nbsp;Unlock');
+                    jQuery('#lock_link_' + resource).attr("title","You have locked this resource");
+                    lockmessage[resource] = 'You have locked this resource';
+                    jQuery('#lock_details_link').show();
+                    }
+                else
+                    {
+                    jQuery('#lock_link_' + resource).html('&nbsp;Lock');
+                    lockmessage[resource] = '';
+                    jQuery('#lock_details_link').hide();
+                    // Timeout added as title resists removal if cursor is hovering as it is removed
+                    setTimeout(function() {jQuery('#lock_link_' + resource).removeAttr("title");},1000);
+                    }
+                resource_lock_status = !resource_lock_status;
+                },
+            error: function(xhr, status, error)
+                {
+                console.log(xhr);
+                if(typeof xhr.responseJSON.message !== undefined)
+                    {
+                    styledalert('Error',xhr.responseJSON.message);
+                    }
+                else
+                    {
+                    styledalert('Error',xhr.statusText);
+                    }
+                }
+            });
+        }
+
+    
+</script>
+
+<!--Panel for record and details-->
+<div class="RecordBox">
+    <div class="RecordPanel">
+        <div class="RecordHeader">
+            
+                <h1>विज्ञान तथा स्वास्थ्य र शारीरिक शिक्षा कक्षा चार ४  २०४५; p.160                    &nbsp;
+                </h1>
+        </div>
+
+        
+        
+        <div class="RecordResource">
+                                            <div id="previewimagewrapper">
+                                    <a id="previewimagelink"
+                                        class="enterLink"
+                                        href="https://lib.moecdc.gov.np/elibrary/pages/preview.php?ref=10583&search=&order_by=relevance&offset=0&restypes=&archive=&per_page=48&default_sort_direction=DESC&sort=DESC&context=Root&k=&curpos=&ext=jpg&"
+                                        title="Full screen preview"
+                                        style="position:relative;"
+                                        onclick="return CentralSpaceLoad(this);">
+                                                                <img id="previewimage"
+                                    class="Picture"
+                                    src="http://lib.moecdc.gov.np/elibrary/filestore/1/0/5/8/3_10cdaa8b536a40d/10583scr_df2454cfe1cdfde.jpg?v=1704857897" 
+                                    alt="Full screen preview" 
+                                    onload="jQuery('.DownloadDBlend').css('pointer-events','auto')"
+                                    GALLERYIMG="no"
+                                />
+                                
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            jQuery('#previewimagelink').removeAttr('onclick');
+        });
+    </script>
+
+
+                            </a>
+
+                            
+                            </div>
+
+                                <script type="text/javascript">
+
+    // Ensure each preview "View" button causes a link to its correct image size
+    jQuery(document).on('click', '.previewsizelink', function(event) {
+        var data_viewsize= event.target.getAttribute('data-viewsize');
+        var data_viewsizeurl= event.target.getAttribute('data-viewsizeurl');
+        event.preventDefault();
+        var default_viewsizeurl = document.getElementById("previewimagelink").getAttribute("href");    
+        document.getElementById("previewimagelink").setAttribute("href", data_viewsizeurl);    
+        jQuery('#previewimage').click(); 
+        document.getElementById("previewimagelink").setAttribute("href", default_viewsizeurl);    
+        });
+    
+    </script>
+        <script>
+    jQuery(document).ready(function() {
+        jQuery('#previewimagelink')
+                                    .attr('href', 'http://lib.moecdc.gov.np/elibrary/filestore/1/0/5/8/3_10cdaa8b536a40d/10583scr_df2454cfe1cdfde.jpg?v=1704857897')
+                                    .attr('data-title', "विज्ञान तथा स्वास्थ्य र शारीरिक शिक्षा कक्षा चार ४  २०४५; p.160")
+                .attr('data-lightbox', 'lightbox10583');
+    });
+    </script>
+                        <div class="RecordDownload" id="RecordDownloadTabContainer">
+                        <div class="TabBar" id="RecordDownloadTabButtons">
+                            <div class="Tab TabSelected" id="DownloadsTabButton">
+                                <a href="#" onclick="selectDownloadTab('DownloadsTab',false);">
+                                    Resource tools                                </a>
+                            </div>
+                                                    </div>
+                        <div class="RecordDownloadSpace" id="DownloadsTab">
+                                                            <table cellpadding="0" cellspacing="0" id="ResourceDownloadOptions">
+                                    <tr  id="ResourceDownloadOptionsHeader">
+                                                                                            <tr class="DownloadDBlend">
+                                                        <td class="DownloadFileName" >
+                                                            <h2>Original PDF File</h2>
+                                                        </td>
+                                                        <td class="DownloadFileSize">12.1&nbsp;MB</td>
+
+                                                                <td class="DownloadButton">
+                                <a id="downloadlink"
+                        href="#" onclick="directDownload('https://lib.moecdc.gov.np/elibrary/pages/download_progress.php?ref=10583&size=&ext=pdf&k=')">
+                        Download                    </a>
+                            </td>
+                                                            </tr>
+                                                                                                    <tr class="DownloadDBlend">
+                                                    <td class="DownloadFileName">
+                                                        <h2>View directly in browser</h2>
+                                                                                                            </td>
+                                                    <td class="DownloadFileSize">12.1&nbsp;MB</td>
+                                                            <td class="DownloadButton">
+                                <a id="downloadlink"
+                        href="https://lib.moecdc.gov.np/elibrary/pages/download.php?direct=1&noattach=true&ref=10583&ext=pdf&k=" target="_blank">
+                        View in browser                    </a>
+                            </td>
+                                                        </tr>
+                                                                                </table>
+
+                                
+                            <div class="RecordTools">
+                                <ul id="ResourceToolsContainer">
+
+                                                                                    <li>
+                                                    <a href="https://lib.moecdc.gov.np/elibrary/pages/resource_share.php?ref=10583&search=&order_by=relevance&offset=0&restypes=&archive=&per_page=48&default_sort_direction=DESC&sort=DESC&context=Root&k=&curpos=" onclick="return ModalLoad(this, true);">
+                                                        <i class='fa fa-fw fa-share-alt'></i>&nbsp;Share                                                    </a>
+                                                </li>
+                                                                                </ul><!-- End of ResourceToolsContainer -->
+                            </div>
+                        </div><!-- End of RecordDownloadSpace -->
+
+                        
+                        <div class="clearerleft"> </div>
+
+                                            </div><!-- End of RecordDownload -->
+
+                <div id="Panel1" class="ViewPanel">
+                    <div id="Titles1" class="ViewPanelTitles">
+                        <div class="Title Selected" panel="Metadata">Resource details</div>
+                    </div>
+                </div>
+                
+<div id="Metadata">
+    <div class="NonMetadataProperties">
+            <div class="itemNarrow">
+            <h3>Resource ID</h3>
+            <p>10583</p>
+        </div>
+                <div class="itemNarrow">
+            <h3>Access</h3>
+            <p>Open</p>
+        </div>
+                        <div class="itemNarrow">
+                    <h3>Contributed by</h3>
+                    <p>admin</p>
+                </div>
+                        <div class="clearerleft"></div>
+    </div><!-- End of NonMetadataProperties -->
+
+<div class="TabbedPanel MetaTabIsNotModal-10583" id="tab0-10583">
+<!-- START of FIRST TabbedPanel -->
+<div class="clearerleft"> </div>
+<div>
+<div 
+                class="itemNarrow itemType2">
+				<h3>Language</h3><p>Nepali</p></div><div 
+                class="itemNarrow itemType0">
+				<h3>Named person(s)</h3><p>Curriculum Development Centre</p></div><div 
+                class="itemNarrow itemType4">
+				<h3>Date</h3><p>10 January 24</p></div>    <div class="clearerleft"> </div>
+    </div>
+    </div> <!-- END of TabbedPanel -->
+<div class="clearerleft"></div>
+<div class="clearerleft"></div>
+</div>
+<!-- End of Metadata-->
+<div class="clearerleft"></div>
+
+        </div><!-- End of RecordResource -->
+    </div><!-- End of RecordPanel -->
+</div><!-- End of RecordBox -->
+
+    <div class="RecordBox">
+    <div class="RecordPanel">
+    <div class="Title">License management</div>
+
+    
+	
+
+    </div>
+
+    </div>
+        <div class="RecordBox">
+    <div class="RecordPanel">
+    <div class="Title">Consent management</div>
+
+    
+	
+
+    </div>
+
+    </div>
+    <!--Begin Resource Comments -->
+
+<div class="RecordBox">	
+	<div class="RecordPanel">	
+	    <div id="Comments">				
+    		<div id="CommentsPanelHeader">
+    			<div id="CommentsPanelHeaderRow">
+    				<div id="CommentsPanelHeaderRowTitle">
+    					<div class="Title">Comments</div>
+    				</div>
+					    			</div>
+    		</div>
+    		<div id="CommentsContainer">
+    			<!-- populated on completion of DOM load -->
+    		</div>	
+		</div>	
+	</div>
+</div>
+<script type="text/javascript">
+	jQuery(document).ready(function () {		
+		jQuery("#CommentsContainer").load(
+			baseurl_short + "pages/ajax/comments_handler.php?ref=10583", 
+			function() {
+			if (jQuery.type(jQuery(window.location.hash)[0])!=="undefined")				
+				jQuery(window.location.hash)[0].scrollIntoView();
+			}						
+		);	
+	});			
+</script>	
+<!-- End Resource Comments -->
+    <!--Display panel for related resources-->
+    <div class="RecordBox">
+    <div class="RecordPanel">
+    <div id="RelatedResources">
+    <div class="RecordResource">
+    <div class="Title">Related resources</div>
+                            </div><!-- End of RecordResource -->
+                </div><!-- End of RelatedResources -->
+    </div><!-- End of RecordPanel -->
+    </div><!-- End of RecordBox -->
+    <!--Panel for search for similar resources-->
+    <div class="RecordBox">
+    <div class="RecordPanel"> 
+    <div id="SearchSimilar">
+
+    <div class="RecordResource">
+    <div class="Title">Search for similar resources</div>
+
+    <script type="text/javascript">
+    function RootUpdateFSResultCount()
+        {
+        // set the target of the form to be the result count iframe and submit
+
+        // some pages are erroneously calling this function because it exists in unexpected
+        // places due to dynamic page loading. So only do it if it seems likely to work.
+        if(jQuery('#Rootfindsimilar').length > 0)
+            {
+            document.getElementById("Rootfindsimilar").target="Rootresultcount";
+            document.getElementById("Rootcountonly").value="yes";
+            document.getElementById("Rootfindsimilar").submit();
+            document.getElementById("Rootfindsimilar").target="";
+            document.getElementById("Rootcountonly").value="";
+            }
+        }
+    </script>
+
+    <form method="post" action="https://lib.moecdc.gov.np/elibrary/pages/find_similar.php?context=Root" id="Rootfindsimilar">
+    <input type="hidden" name="resource_type" value="2">
+    <input type="hidden" name="countonly" id="Rootcountonly" value="">
+        <input type="hidden" name="CSRFToken" value="ac1b4021ea35bcdc24f98bf3f2308a6996c181d9eaf79ef69329e7ba30c292f6f73085c979f7e7762b09dcc0123af66b1745421d4ef3b54fda2a9407f945cebd@@507563e5590680c743fdfbee4f888c53d49ddcfa5c93072e61ee0666f1dd96fc5c2271a0616d24db484bffcd0e37bcf6d492a897628e002640c4894ee6dc05ebd44cbf959519ba0756c05e2089c587c504fccea1885d9c0d3042ac91e15acfc795af9b79eb4481b83e378867e0aae66a21f158c83f4d95583bdc82aa796ee43d887c3f93d850e080f7cd8d24acd2519a42afd3dcf06b6ad71f78ab6c300bee4e7b6eea059dcee9eb6dd2cdd6890a9cb13344a5432f3e0ccd9b32abe64ef7b357e26d21798cc3d51b11c99cc9cbcc8f619e40fda9ef9ac09c5568174bde323ef1b96ded066355930ce505328f@@c43a2a3e9e47cb26a99e9f4624f8b8bf91947c302c9726d6adc8d40c091155c2">
+                <div class="SearchSimilar">
+                <input 
+                    type=checkbox 
+                    id="Rootsimilar_search_nepali_0" 
+                    name="keyword_nepali" 
+                    value="yes"
+                    onClick="RootUpdateFSResultCount();">
+                    <label 
+                        class="customFieldLabel" 
+                        for="Rootsimilar_search_nepali_0">
+                        nepali                    </label>
+                </div>
+                        <div class="SearchSimilar">
+                <input 
+                    type=checkbox 
+                    id="Rootsimilar_search_curriculum_1" 
+                    name="keyword_curriculum" 
+                    value="yes"
+                    onClick="RootUpdateFSResultCount();">
+                    <label 
+                        class="customFieldLabel" 
+                        for="Rootsimilar_search_curriculum_1">
+                        curriculum                    </label>
+                </div>
+                        <div class="SearchSimilar">
+                <input 
+                    type=checkbox 
+                    id="Rootsimilar_search_development_2" 
+                    name="keyword_development" 
+                    value="yes"
+                    onClick="RootUpdateFSResultCount();">
+                    <label 
+                        class="customFieldLabel" 
+                        for="Rootsimilar_search_development_2">
+                        development                    </label>
+                </div>
+                        <div class="SearchSimilar">
+                <input 
+                    type=checkbox 
+                    id="Rootsimilar_search_centre_3" 
+                    name="keyword_centre" 
+                    value="yes"
+                    onClick="RootUpdateFSResultCount();">
+                    <label 
+                        class="customFieldLabel" 
+                        for="Rootsimilar_search_centre_3">
+                        centre                    </label>
+                </div>
+                        <div class="SearchSimilar">
+                <input 
+                    type=checkbox 
+                    id="Rootsimilar_search_2024_4" 
+                    name="keyword_2024" 
+                    value="yes"
+                    onClick="RootUpdateFSResultCount();">
+                    <label 
+                        class="customFieldLabel" 
+                        for="Rootsimilar_search_2024_4">
+                        2024                    </label>
+                </div>
+                        <div class="SearchSimilar">
+                <input 
+                    type=checkbox 
+                    id="Rootsimilar_search_01_5" 
+                    name="keyword_01" 
+                    value="yes"
+                    onClick="RootUpdateFSResultCount();">
+                    <label 
+                        class="customFieldLabel" 
+                        for="Rootsimilar_search_01_5">
+                        01                    </label>
+                </div>
+                        <div class="SearchSimilar">
+                <input 
+                    type=checkbox 
+                    id="Rootsimilar_search_10_6" 
+                    name="keyword_10" 
+                    value="yes"
+                    onClick="RootUpdateFSResultCount();">
+                    <label 
+                        class="customFieldLabel" 
+                        for="Rootsimilar_search_10_6">
+                        10                    </label>
+                </div>
+                        <div class="SearchSimilar">
+                <input 
+                    type=checkbox 
+                    id="Rootsimilar_search_03_7" 
+                    name="keyword_03" 
+                    value="yes"
+                    onClick="RootUpdateFSResultCount();">
+                    <label 
+                        class="customFieldLabel" 
+                        for="Rootsimilar_search_03_7">
+                        03                    </label>
+                </div>
+                        <div class="SearchSimilar">
+                <input 
+                    type=checkbox 
+                    id="Rootsimilar_search_34_8" 
+                    name="keyword_34" 
+                    value="yes"
+                    onClick="RootUpdateFSResultCount();">
+                    <label 
+                        class="customFieldLabel" 
+                        for="Rootsimilar_search_34_8">
+                        34                    </label>
+                </div>
+                        <div class="SearchSimilar">
+                <input 
+                    type=checkbox 
+                    id="Rootsimilar_search_0012582912_9" 
+                    name="keyword_0012582912" 
+                    value="yes"
+                    onClick="RootUpdateFSResultCount();">
+                    <label 
+                        class="customFieldLabel" 
+                        for="Rootsimilar_search_0012582912_9">
+                        0012582912                    </label>
+                </div>
+                        <div class="SearchSimilar">
+                <input 
+                    type=checkbox 
+                    id="Rootsimilar_search_विज्ञान_10" 
+                    name="keyword_विज्ञान" 
+                    value="yes"
+                    onClick="RootUpdateFSResultCount();">
+                    <label 
+                        class="customFieldLabel" 
+                        for="Rootsimilar_search_विज्ञान_10">
+                        विज्ञान                    </label>
+                </div>
+                        <div class="SearchSimilar">
+                <input 
+                    type=checkbox 
+                    id="Rootsimilar_search_तथा_11" 
+                    name="keyword_तथा" 
+                    value="yes"
+                    onClick="RootUpdateFSResultCount();">
+                    <label 
+                        class="customFieldLabel" 
+                        for="Rootsimilar_search_तथा_11">
+                        तथा                    </label>
+                </div>
+                        <div class="SearchSimilar">
+                <input 
+                    type=checkbox 
+                    id="Rootsimilar_search_स्वास्थ्य_12" 
+                    name="keyword_स्वास्थ्य" 
+                    value="yes"
+                    onClick="RootUpdateFSResultCount();">
+                    <label 
+                        class="customFieldLabel" 
+                        for="Rootsimilar_search_स्वास्थ्य_12">
+                        स्वास्थ्य                    </label>
+                </div>
+                        <div class="SearchSimilar">
+                <input 
+                    type=checkbox 
+                    id="Rootsimilar_search_र_13" 
+                    name="keyword_र" 
+                    value="yes"
+                    onClick="RootUpdateFSResultCount();">
+                    <label 
+                        class="customFieldLabel" 
+                        for="Rootsimilar_search_र_13">
+                        र                    </label>
+                </div>
+                        <div class="SearchSimilar">
+                <input 
+                    type=checkbox 
+                    id="Rootsimilar_search_शारीरिक_14" 
+                    name="keyword_शारीरिक" 
+                    value="yes"
+                    onClick="RootUpdateFSResultCount();">
+                    <label 
+                        class="customFieldLabel" 
+                        for="Rootsimilar_search_शारीरिक_14">
+                        शारीरिक                    </label>
+                </div>
+                        <div class="SearchSimilar">
+                <input 
+                    type=checkbox 
+                    id="Rootsimilar_search_शिक्षा_15" 
+                    name="keyword_शिक्षा" 
+                    value="yes"
+                    onClick="RootUpdateFSResultCount();">
+                    <label 
+                        class="customFieldLabel" 
+                        for="Rootsimilar_search_शिक्षा_15">
+                        शिक्षा                    </label>
+                </div>
+                        <div class="SearchSimilar">
+                <input 
+                    type=checkbox 
+                    id="Rootsimilar_search_कक्षा_16" 
+                    name="keyword_कक्षा" 
+                    value="yes"
+                    onClick="RootUpdateFSResultCount();">
+                    <label 
+                        class="customFieldLabel" 
+                        for="Rootsimilar_search_कक्षा_16">
+                        कक्षा                    </label>
+                </div>
+                        <div class="SearchSimilar">
+                <input 
+                    type=checkbox 
+                    id="Rootsimilar_search_चार_17" 
+                    name="keyword_चार" 
+                    value="yes"
+                    onClick="RootUpdateFSResultCount();">
+                    <label 
+                        class="customFieldLabel" 
+                        for="Rootsimilar_search_चार_17">
+                        चार                    </label>
+                </div>
+                        <div class="SearchSimilar">
+                <input 
+                    type=checkbox 
+                    id="Rootsimilar_search_४_18" 
+                    name="keyword_४" 
+                    value="yes"
+                    onClick="RootUpdateFSResultCount();">
+                    <label 
+                        class="customFieldLabel" 
+                        for="Rootsimilar_search_४_18">
+                        ४                    </label>
+                </div>
+                        <div class="SearchSimilar">
+                <input 
+                    type=checkbox 
+                    id="Rootsimilar_search_२०४५_19" 
+                    name="keyword_२०४५" 
+                    value="yes"
+                    onClick="RootUpdateFSResultCount();">
+                    <label 
+                        class="customFieldLabel" 
+                        for="Rootsimilar_search_२०४५_19">
+                        २०४५                    </label>
+                </div>
+                        <div class="SearchSimilar">
+                <input 
+                    type=checkbox 
+                    id="Rootsimilar_search_p_20" 
+                    name="keyword_p" 
+                    value="yes"
+                    onClick="RootUpdateFSResultCount();">
+                    <label 
+                        class="customFieldLabel" 
+                        for="Rootsimilar_search_p_20">
+                        p                    </label>
+                </div>
+                        <div class="SearchSimilar">
+                <input 
+                    type=checkbox 
+                    id="Rootsimilar_search_160_21" 
+                    name="keyword_160" 
+                    value="yes"
+                    onClick="RootUpdateFSResultCount();">
+                    <label 
+                        class="customFieldLabel" 
+                        for="Rootsimilar_search_160_21">
+                        160                    </label>
+                </div>
+                        <div class="SearchSimilar">
+                <input 
+                    type=checkbox 
+                    id="Rootsimilar_search_pdf_22" 
+                    name="keyword_pdf" 
+                    value="yes"
+                    onClick="RootUpdateFSResultCount();">
+                    <label 
+                        class="customFieldLabel" 
+                        for="Rootsimilar_search_pdf_22">
+                        pdf                    </label>
+                </div>
+                    <div class="clearerleft"> </div>
+        <br />
+        <input name="search" type="submit" value="&nbsp;&nbsp;Search&nbsp;&nbsp;" id="Rootdosearch"/>
+        <iframe src="https://lib.moecdc.gov.np/elibrary/pages/blank.html" frameborder=0 scrolling=no width=1 height=1 style="visibility:hidden;" name="Rootresultcount" id="Rootresultcount"></iframe>
+        </form>
+        
+    <div class="clearerleft"> </div>
+    </div>
+    </div>
+    </div>
+
+    </div>
+    
+<script>
+    jQuery('document').ready(function(){
+        /* Call SelectTab upon page load to select first tab*/
+        SelectMetaTab(10583,0,false);
+        registerCollapsibleSections(false);
+    });
+    jQuery('#previewimage').click(function(){
+        window.location='#Header';
+    }); 
+</script>
+        </div><!--End CentralSpaceFC-->
+        </div><!--End CentralSpaceContainerFC-->
+            <!-- Footer closures -->
+    <div class="clearer"></div>
+
+    <!-- Use aria-live assertive for high priority changes in the content: -->
+    <span role="status" aria-live="assertive" class="ui-helper-hidden-accessible"></span>
+
+    <div class="clearerleft"></div>
+
+    <div class="clearer"></div>
+
+        </div><!--End CentralSpacePP-->
+    </div><!--End CentralSpaceContainerPP-->
+    </div><!--End UICenterPP -->
+    <!--CollectionDiv--></div>
+
+		<script>
+			usercollection='2';
+			</script>            <script>
+            jQuery(document).ready(function()
+                {
+                ModalCentre();
+                });
+            </script>
+                    <script type="text/javascript">
+        var resizeTimer;
+        myLayout=jQuery('body').layout(
+            {
+            livePaneResizing:true,
+            triggerEventsDuringLiveResize: false,
+            resizerTip: 'Resize',
+
+            east__spacing_open:0,
+            east__spacing_closed:8,
+            east_resizable: true,
+            east__closable: false,
+            east__size: 295,
+
+            north_resizable: false,
+            north__closable:false,
+            north__spacing_closed: 0,
+            north__spacing_open: 0,
+
+                            
+                south__initHidden: true,
+                            });
+        </script>
+        		<!-- Responsive -->
+		<script src="/elibrary/lib/js/responsive.js?css_reload_key=241"></script>
+		<script>
+        function toggleSimpleSearch()
+            {
+            if(jQuery("#searchspace").hasClass("ResponsiveSimpleSearch"))
+                {
+                jQuery("#searchspace").removeClass("ResponsiveSimpleSearch");
+                jQuery("#SearchBarContainer").removeClass("FullSearch");
+                jQuery("#Rssearchexpand").val("More...");
+                jQuery('#UICenter').show(0);
+                search_show = false;
+                }
+            else
+                {
+                jQuery("#searchspace").addClass("ResponsiveSimpleSearch");
+                jQuery("#SearchBarContainer").addClass("FullSearch");
+                jQuery("#Rssearchexpand").val(" Less... ");
+                jQuery('#UICenter').hide(0);
+                search_show = true;
+                }
+            }
+
+		/* Responsive Stylesheet inclusion based upon viewing device */
+		if(document.createStyleSheet)
+			{
+			document.createStyleSheet('https://lib.moecdc.gov.np/elibrary/css/responsive/slim-style.css?rcsskey=241');
+			}
+		else
+			{
+			jQuery("head").append("<link rel='stylesheet' href='https://lib.moecdc.gov.np/elibrary/css/responsive/slim-style.css?rcsskey=241' type='text/css' media='screen' />");
+			}
+
+		if(!is_touch_device() && jQuery(window).width() <= 1280)
+			{
+			if(document.createStyleSheet)
+				{
+				document.createStyleSheet('https://lib.moecdc.gov.np/elibrary/css/responsive/slim-non-touch.css?rcsskey=241');
+				}
+			else
+				{
+				jQuery("head").append("<link rel='stylesheet' href='https://lib.moecdc.gov.np/elibrary/css/responsive/slim-non-touch.css?rcsskey=241' type='text/css' media='screen' />");
+				}
+			}
+
+		var responsive_show = "Hide";
+		var responsive_hide;
+		var responsive_newpage = true;
+
+		if(jQuery(window).width() <= 1100)
+			{
+			jQuery('.ResponsiveViewFullSite').css('display', 'block');
+			SetCookie("selected_search_tab", "search");
+			}
+		else
+			{
+			jQuery('.ResponsiveViewFullSite').css('display', 'none');
+			}
+
+		if(jQuery(window).width()<=700)
+			{
+			touchScroll("UICenter");
+			}
+
+        var lastWindowWidth = jQuery(window).width();
+
+		jQuery(window).resize(function()
+			{
+            // Check if already resizing
+            if(typeof rsresize !== 'undefined')
+                {
+                return;
+                }
+
+            newwidth = jQuery( window ).width();
+
+			if(lastWindowWidth > 1100 && newwidth < 1100)
+				{
+				// Set flag to prevent recursive loop
+                rsresize = true;
+				selectSearchBarTab('search');
+				rsresize = undefined;
+				}
+            else if(lastWindowWidth > 900 && newwidth < 900)
+                {
+                rsresize = true;
+                console.log("hiding collections");
+                hideMyCollectionsCols();
+                responsiveCollectionBar();
+                jQuery('#CollectionDiv').hide(0);
+                rsresize = undefined;
+                }
+            else if(lastWindowWidth < 900 && newwidth > 900)
+                {
+                rsresize = true;
+                showResponsiveCollection();
+                rsresize = undefined;
+                }
+
+            lastWindowWidth = newwidth;            
+            });
+
+		jQuery("#HeaderNav1Click").click(function(event)
+			{
+			event.preventDefault();
+			if(jQuery(this).hasClass("RSelectedButton"))
+				{
+				jQuery(this).removeClass("RSelectedButton");
+				jQuery("#HeaderNav1").slideUp(0);
+				jQuery("#Header").removeClass("HeaderMenu");
+				}
+			else
+				{
+				jQuery("#HeaderNav2Click").removeClass("RSelectedButton");
+				jQuery("#HeaderNav2").slideUp(80);				
+				jQuery("#Header").addClass("HeaderMenu");				
+				jQuery(this).addClass("RSelectedButton");
+				jQuery("#HeaderNav1").slideDown(80);
+				}
+			if(jQuery("#searchspace").hasClass("ResponsiveSimpleSearch"))
+				{
+				toggleSimpleSearch();
+				}      
+			});
+
+		jQuery("#HeaderNav2Click").click(function(event)
+			{
+			event.preventDefault();
+			if(jQuery(this).hasClass("RSelectedButton"))
+				{
+				jQuery(this).removeClass("RSelectedButton");
+				jQuery("#HeaderNav2").slideUp(0);
+				jQuery("#Header").removeClass("HeaderMenu");
+
+				}
+			else
+				{
+				jQuery("#Header").addClass("HeaderMenu");
+				jQuery("#HeaderNav1Click").removeClass("RSelectedButton");
+				jQuery("#HeaderNav1").slideUp(80);
+				jQuery(this).addClass("RSelectedButton");
+				jQuery("#HeaderNav2").slideDown(80);
+				} 
+			if(jQuery("#searchspace").hasClass("ResponsiveSimpleSearch"))
+				{
+				toggleSimpleSearch();
+				}  
+			});
+
+		jQuery("#HeaderNav2").on("click","a",function()
+			{
+			if(jQuery(window).width() <= 1200)
+				{
+				jQuery("#HeaderNav2").slideUp(0);
+				jQuery("#HeaderNav2Click").removeClass("RSelectedButton");
+				}
+			});
+		jQuery("#HeaderNav1").on("click","a",function()
+			{
+			if(jQuery(window).width() <= 1200)
+				{
+				jQuery("#HeaderNav1").slideUp(00);
+				jQuery("#HeaderNav1Click").removeClass("RSelectedButton");
+				}
+			});
+		jQuery("#SearchBarContainer").on("click","#Rssearchexpand",toggleSimpleSearch);
+
+		if(jQuery(window).width() <= 700 && jQuery(".ListviewStyle").length && is_touch_device())
+			{
+			jQuery("td:last-child,th:last-child").hide();
+			}
+		</script>
+		<!-- end of Responsive -->
+			<!-- Start of modal support -->
+	<div id="modal_overlay" onClick="ModalClose();"></div>
+	<div id="modal_outer">
+	<div id="modal" tabindex="0">
+	</div>
+	</div>
+	<div id="modal_dialog" style="display:none;"></div>
+	<script type="text/javascript">
+	jQuery(window).bind('resize.modal', ModalCentre);
+	</script>
+	<!-- End of modal support -->
+
+	<script>
+
+	try
+		{
+		top.history.replaceState(document.title+'&&&'+jQuery('#CentralSpace').html(), applicationname);
+		}
+	catch(e){console.log(e);
+	}
+
+	</script>
+
+	<script>
+
+		/* Destroy tagEditor if below breakpoint window size (doesn't work in responsize mode */
+
+		window_width = jQuery(window).width();
+		window_width_breakpoint = 1100;
+		simple_search_pills_view = false;
+
+		/* Page load */
+
+		if(window_width <= window_width_breakpoint && simple_search_pills_view == true)
+			{
+			jQuery('#ssearchbox').tagEditor('destroy');
+			}
+
+		/* Page resized to below breakpoint */
+
+		jQuery(window).resize(function() 
+			{
+			window_width = jQuery(window).width();
+			if(window_width <= window_width_breakpoint && simple_search_pills_view == true)
+				{
+				jQuery('#ssearchbox').tagEditor('destroy');
+				}
+			});
+
+	</script>
+
+	</body>
+	</html>
