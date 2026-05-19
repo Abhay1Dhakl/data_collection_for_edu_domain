@@ -59,6 +59,10 @@ data/
     ├── download_log.csv
     ├── extraction_log.csv
     └── pairing_log.csv
+reports/
+├── module_quality_audit.csv
+├── excluded_candidate_pairs.csv
+└── final_dataset_audit.md
 ```
 
 ## Registry Columns
@@ -123,6 +127,9 @@ Behavior:
 
 - exact record-key match only
 - sentence candidates are created only if EN and NE sentence counts match
+- low-value pairs such as identical text, placeholders, numeric-only rows, and symbolic formula rows are excluded before review
+- module-level QA metrics are written to `reports/module_quality_audit.csv`
+- excluded rows are written to `reports/excluded_candidate_pairs.csv`
 - count mismatches go into `record_review_queue.csv`
 
 ```bash
@@ -154,8 +161,22 @@ python3 scripts/06_apply_reviews.py --update-status
 
 Builds the final JSONL dataset from approved rows.
 
+Behavior:
+
+- removes exact duplicate approved pairs
+- splits by source module to reduce train/dev/test leakage
+- writes `reports/final_dataset_audit.md`
+
 ```bash
 python3 scripts/07_create_dataset.py
+```
+
+### `09_audit_dataset.py`
+
+Writes a single audit report that answers whether the current repository state is actually gold-ready.
+
+```bash
+python3 scripts/09_audit_dataset.py
 ```
 
 ### `08_status.py`
@@ -203,3 +224,13 @@ This pipeline is designed for the E-Paath subdomains most likely to yield usable
 This system does not turn separate English and Nepali textbooks into parallel data.
 
 It only creates sentence-pair candidates from bilingual E-Paath modules whose internal record structure matches across languages, followed by manual verification.
+
+## Gold Criteria
+
+For this repository, a dataset should only be treated as gold when all of the following are true:
+
+- the module has passed the QA gate in `reports/module_quality_audit.csv`
+- the sentence pair survived automatic low-value filtering
+- a human reviewer marked the pair as `approved`
+- the final dataset split was created from approved pairs only
+- the audit report in `reports/final_dataset_audit.md` shows no blocking issues

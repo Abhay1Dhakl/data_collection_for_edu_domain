@@ -15,6 +15,7 @@ from common import (
     ensure_dirs,
     load_registry,
     read_csv,
+    replace_rows_for_sources,
     save_registry,
     utc_now_iso,
     write_csv,
@@ -45,11 +46,13 @@ def main() -> int:
     notes: list[dict[str, str]] = []
     labeled_count = 0
     now = utc_now_iso()
+    source_review_rows: dict[str, list[dict[str, str]]] = {}
 
     for row in review_rows:
-        label = row.get("manual_label", "").strip().lower()
-        reviewer = row.get("reviewer", "").strip()
-        note = row.get("notes", "").strip()
+        source_review_rows.setdefault(row["source_id"], []).append(row)
+        label = str(row.get("manual_label", "") or "").strip().lower()
+        reviewer = str(row.get("reviewer", "") or "").strip()
+        note = str(row.get("notes", "") or "").strip()
         if label:
             labeled_count += 1
 
@@ -84,9 +87,14 @@ def main() -> int:
                 }
             )
 
-    write_csv(GOLD_APPROVED_PATH, approved, GOLD_HEADER)
-    write_csv(REJECTED_PATH, rejected, REJECTED_HEADER)
-    write_csv(REVIEW_NOTES_PATH, notes, REVIEW_NOTES_HEADER)
+    if args.source_id:
+        replace_rows_for_sources(GOLD_APPROVED_PATH, args.source_id, approved, GOLD_HEADER)
+        replace_rows_for_sources(REJECTED_PATH, args.source_id, rejected, REJECTED_HEADER)
+        replace_rows_for_sources(REVIEW_NOTES_PATH, args.source_id, notes, REVIEW_NOTES_HEADER)
+    else:
+        write_csv(GOLD_APPROVED_PATH, approved, GOLD_HEADER)
+        write_csv(REJECTED_PATH, rejected, REJECTED_HEADER)
+        write_csv(REVIEW_NOTES_PATH, notes, REVIEW_NOTES_HEADER)
 
     print(f"Approved: {len(approved)}")
     print(f"Rejected: {len(rejected)}")
@@ -94,11 +102,16 @@ def main() -> int:
         print("No manual labels found in the review template.")
         print("Fill manual_label with approved or rejected, then rerun this script.")
 
-    if args.update_status and approved:
+    reviewed_sources = {
+        source_id
+        for source_id, rows in source_review_rows.items()
+        if rows and all(str(row.get("manual_label", "") or "").strip() for row in rows)
+    }
+
+    if args.update_status and reviewed_sources:
         registry_rows = load_registry()
-        approved_sources = {row["source_id"] for row in approved}
         for row in registry_rows:
-            if row.get("source_id") in approved_sources:
+            if row.get("source_id") in reviewed_sources:
                 row["status"] = "reviewed"
         save_registry(registry_rows)
 

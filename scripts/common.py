@@ -16,6 +16,7 @@ from typing import Iterable
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT_DIR / "data"
+REPORTS_DIR = ROOT_DIR / "reports"
 RAW_DIR = DATA_DIR / "raw" / "ole_epaath"
 EXTRACTED_DIR = DATA_DIR / "extracted" / "module_records"
 PAIRED_DIR = DATA_DIR / "paired" / "module_record_pairs"
@@ -31,6 +32,9 @@ MANUAL_REVIEW_TEMPLATE_PATH = REVIEWED_DIR / "manual_review_template.csv"
 GOLD_APPROVED_PATH = REVIEWED_DIR / "gold_approved_pairs.csv"
 REJECTED_PATH = REVIEWED_DIR / "rejected_pairs.csv"
 REVIEW_NOTES_PATH = REVIEWED_DIR / "review_notes.csv"
+MODULE_QUALITY_AUDIT_PATH = REPORTS_DIR / "module_quality_audit.csv"
+EXCLUDED_CANDIDATES_PATH = REPORTS_DIR / "excluded_candidate_pairs.csv"
+FINAL_DATASET_AUDIT_PATH = REPORTS_DIR / "final_dataset_audit.md"
 
 SOURCE_NAME = "OLE Nepal E-Paath"
 ACTIVITY_ROOT_URL = "https://epaath.olenepal.org/activity/"
@@ -72,6 +76,12 @@ SENTENCE_CANDIDATE_HEADER = [
     "record_key",
     "pair_method",
     "candidate_bucket",
+    "module_quality_score",
+    "module_risk_level",
+    "module_quality_flags",
+    "review_priority",
+    "auto_decision",
+    "qa_flags",
     "en_record_text",
     "ne_record_text",
     "en_sentence_index",
@@ -110,6 +120,12 @@ MANUAL_REVIEW_HEADER = [
     "record_key",
     "pair_method",
     "candidate_bucket",
+    "module_quality_score",
+    "module_risk_level",
+    "module_quality_flags",
+    "review_priority",
+    "auto_decision",
+    "qa_flags",
     "en_sentence_index",
     "ne_sentence_index",
     "en_text",
@@ -131,6 +147,12 @@ GOLD_HEADER = [
     "record_key",
     "pair_method",
     "candidate_bucket",
+    "module_quality_score",
+    "module_risk_level",
+    "module_quality_flags",
+    "review_priority",
+    "auto_decision",
+    "qa_flags",
     "en_sentence_index",
     "ne_sentence_index",
     "en_text",
@@ -152,6 +174,12 @@ REJECTED_HEADER = [
     "record_key",
     "pair_method",
     "candidate_bucket",
+    "module_quality_score",
+    "module_risk_level",
+    "module_quality_flags",
+    "review_priority",
+    "auto_decision",
+    "qa_flags",
     "en_sentence_index",
     "ne_sentence_index",
     "en_text",
@@ -235,6 +263,7 @@ def ensure_dirs() -> None:
         REVIEWED_DIR,
         FINAL_DIR,
         LOGS_DIR,
+        REPORTS_DIR,
     ):
         path.mkdir(parents=True, exist_ok=True)
 
@@ -456,3 +485,15 @@ def is_truthy(value: str) -> bool:
 
 def count_nonempty_rows(path: Path | str) -> int:
     return len(read_csv(path))
+
+
+def replace_rows_for_sources(
+    path: Path | str,
+    source_ids: Iterable[str],
+    new_rows: list[dict[str, str]],
+    fieldnames: list[str],
+) -> None:
+    source_id_set = {source_id for source_id in source_ids if source_id}
+    existing = read_csv(path)
+    kept = [row for row in existing if row.get("source_id") not in source_id_set]
+    write_csv(path, kept + new_rows, fieldnames)

@@ -13,6 +13,7 @@ from common import (
     append_csv,
     ensure_dirs,
     format_status_counts,
+    is_truthy,
     keep_text,
     load_registry,
     module_raw_dir,
@@ -259,6 +260,31 @@ def json_leaf_records(row: dict[str, str], json_path: Path) -> list[dict]:
     return records
 
 
+def extract_xml_language_records(
+    row: dict[str, str],
+    raw_dir: Path,
+    usage_map: dict[str, set[str]],
+    filename: str,
+    language: str,
+    issues: list[str],
+) -> list[dict]:
+    xml_path = raw_dir / filename
+    if not xml_path.exists():
+        issues.append(f"missing_{filename}")
+        return []
+
+    xml_text = xml_path.read_text(encoding="utf-8", errors="ignore")
+    if not xml_text.strip():
+        issues.append(f"empty_{filename}")
+        return []
+
+    try:
+        return xml_records(row, xml_path, language, usage_map)
+    except ET.ParseError as exc:
+        issues.append(f"invalid_{filename}:{exc}")
+        return []
+
+
 def update_titles(row: dict[str, str], records: list[dict]) -> None:
     for language in ("en", "ne"):
         language_records = {record["record_key"]: record["text"] for record in records if record["language"] == language}
@@ -312,14 +338,14 @@ def main() -> int:
             continue
 
         result = "extract_failed"
-        notes = ""
+        issues: list[str] = []
         records: list[dict] = []
         try:
             usage_map = collect_js_usage_map(raw_dir)
-            if (raw_dir / "data.xml").exists():
-                records.extend(xml_records(row, raw_dir / "data.xml", "en", usage_map))
-            if (raw_dir / "data-np.xml").exists():
-                records.extend(xml_records(row, raw_dir / "data-np.xml", "ne", usage_map))
+            if is_truthy(row.get("has_data_xml", "")):
+                records.extend(extract_xml_language_records(row, raw_dir, usage_map, "data.xml", "en", issues))
+            if is_truthy(row.get("has_data_np_xml", "")):
+                records.extend(extract_xml_language_records(row, raw_dir, usage_map, "data-np.xml", "ne", issues))
             for html_path in sorted(raw_dir.glob("page*.html")):
                 records.extend(html_records(row, html_path))
             if (raw_dir / "exercise.html").exists():
@@ -328,11 +354,27 @@ def main() -> int:
                 records.extend(json_leaf_records(row, json_path))
 
             write_jsonl(output_path, records)
-            result = "extracted"
+            if not records:
+                issues.append("no_records_extracted")
+
+            en_xml_records = [
+                record for record in records if record.get("origin_type") == "xml" and record.get("language") == "en"
+            ]
+            ne_xml_records = [
+                record for record in records if record.get("origin_type") == "xml" and record.get("language") == "ne"
+            ]
+            if is_truthy(row.get("has_data_xml", "")) and not en_xml_records:
+                issues.append("missing_en_xml_records")
+            if is_truthy(row.get("has_data_np_xml", "")) and not ne_xml_records:
+                issues.append("missing_ne_xml_records")
+
+            result = "extracted" if not issues else "extract_failed"
             notes = f"{len(records)} records"
+            if issues:
+                notes = f"{notes}; {';'.join(issues)}"
             update_titles(by_id[row["source_id"]], records)
             if args.update_status:
-                by_id[row["source_id"]]["status"] = "extracted"
+                by_id[row["source_id"]]["status"] = result
         except Exception as exc:
             notes = str(exc)
             if args.update_status:

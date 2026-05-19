@@ -31,3 +31,25 @@ timestamp,source_id,module_id,record_count,result,notes
 2026-05-19T05:04:27Z,EPAATH_grade1__english__where_is_my_friend_new,grade1/english/where_is_my_friend_new,79,extracted,79 records
 2026-05-19T05:04:27Z,EPAATH_grade1__math__adding_three_numbers,grade1/math/adding_three_numbers,89,extracted,89 records
 2026-05-19T05:04:27Z,EPAATH_grade1__math__adding_upto_hundred,grade1/math/adding_upto_hundred,207,extracted,207 records
+2026-05-19T06:44:33Z,EPAATH_grade1__english__basic_sounds_1,grade1/english/basic_sounds_1,163,extracted,163 records
+2026-05-19T06:44:33Z,EPAATH_grade1__english__basic_sounds_2,grade1/english/basic_sounds_2,175,extracted,175 records
+2026-05-19T06:44:33Z,EPAATH_grade1__english__basic_sounds_3,grade1/english/basic_sounds_3,155,extracted,155 records
+2026-05-19T06:44:33Z,EPAATH_grade1__english__desc_colors_sizes,grade1/english/desc_colors_sizes,47,extracted,47 records
+2026-05-19T06:44:33Z,EPAATH_grade1__english__friends_and_festivals,grade1/english/friends_and_festivals,172,extracted,172 records
+2026-05-19T06:44:33Z,EPAATH_grade1__english__i_likee_to_play,grade1/english/i_likee_to_play,227,extracted,227 records
+2026-05-19T06:44:33Z,EPAATH_grade1__english__identifying_letters_i,grade1/english/identifying_letters_i,120,extracted,120 records
+2026-05-19T06:44:33Z,EPAATH_grade1__english__identifying_letters_sec,grade1/english/identifying_letters_sec,129,extracted,129 records
+2026-05-19T06:44:33Z,EPAATH_grade1__english__identifying_letters_third,grade1/english/identifying_letters_third,135,extracted,135 records
+2026-05-19T06:44:33Z,EPAATH_grade1__english__lines_and_curves,grade1/english/lines_and_curves,56,extracted,56 records
+2026-05-19T06:44:33Z,EPAATH_grade1__english__making_words,grade1/english/making_words,24,extracted,24 records
+2026-05-19T06:44:33Z,EPAATH_grade1__english__match_sounds_with_words_new,grade1/english/match_sounds_with_words_new,44,extract_failed,"44 records; invalid_data-np.xml:no element found: line 1, column 1;missing_ne_xml_records"
+2026-05-19T06:44:33Z,EPAATH_grade1__english__numbers,grade1/english/numbers,40,extracted,40 records
+2026-05-19T06:44:33Z,EPAATH_grade1__english__preposition,grade1/english/preposition,0,extract_failed,0 records; no_records_extracted
+2026-05-19T06:44:33Z,EPAATH_grade1__english__recognizing_and_matching_shapes,grade1/english/recognizing_and_matching_shapes,46,extracted,46 records
+2026-05-19T06:44:33Z,EPAATH_grade1__english__short_vowels,grade1/english/short_vowels,176,extracted,176 records
+2026-05-19T06:44:33Z,EPAATH_grade1__english__simple_greetings,grade1/english/simple_greetings,199,extracted,199 records
+2026-05-19T06:44:33Z,EPAATH_grade1__english__wave_your_hands,grade1/english/wave_your_hands,41,extracted,41 records
+2026-05-19T06:44:33Z,EPAATH_grade1__english__where_is_my_friend_new,grade1/english/where_is_my_friend_new,79,extracted,79 records
+2026-05-19T06:44:33Z,EPAATH_grade1__math__adding_three_numbers,grade1/math/adding_three_numbers,89,extracted,89 records
+2026-05-19T06:44:33Z,EPAATH_grade1__math__adding_upto_hundred,grade1/math/adding_upto_hundred,207,extracted,207 records
+2026-05-19T06:44:33Z,EPAATH_grade5__math__fractions,grade5/math/fractions,102,extracted,102 records

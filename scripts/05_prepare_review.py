@@ -10,6 +10,7 @@ from common import (
     SENTENCE_CANDIDATES_PATH,
     ensure_dirs,
     read_csv,
+    replace_rows_for_sources,
     write_csv,
 )
 
@@ -46,6 +47,33 @@ def bucket_priority(bucket: str) -> int:
     return order.get(bucket, 9)
 
 
+def review_priority_rank(priority: str) -> int:
+    order = {
+        "high": 0,
+        "medium": 1,
+        "low": 2,
+    }
+    return order.get(priority, 9)
+
+
+def auto_decision_rank(decision: str) -> int:
+    order = {
+        "review_first": 0,
+        "review_carefully": 1,
+        "likely_reject": 2,
+    }
+    return order.get(decision, 9)
+
+
+def module_risk_rank(risk_level: str) -> int:
+    order = {
+        "low": 0,
+        "medium": 1,
+        "high": 2,
+    }
+    return order.get(risk_level, 9)
+
+
 def main() -> int:
     args = build_parser().parse_args()
     ensure_dirs()
@@ -77,6 +105,12 @@ def main() -> int:
                 "record_key": candidate["record_key"],
                 "pair_method": candidate["pair_method"],
                 "candidate_bucket": candidate["candidate_bucket"],
+                "module_quality_score": candidate.get("module_quality_score", ""),
+                "module_risk_level": candidate.get("module_risk_level", ""),
+                "module_quality_flags": candidate.get("module_quality_flags", ""),
+                "review_priority": candidate.get("review_priority", ""),
+                "auto_decision": candidate.get("auto_decision", ""),
+                "qa_flags": candidate.get("qa_flags", ""),
                 "en_sentence_index": candidate["en_sentence_index"],
                 "ne_sentence_index": candidate["ne_sentence_index"],
                 "en_text": candidate["en_text"],
@@ -90,16 +124,20 @@ def main() -> int:
     review_rows = sorted(
         review_rows,
         key=lambda row: (
-            row["source_id"],
+            review_priority_rank(row.get("review_priority", "")),
+            module_risk_rank(row.get("module_risk_level", "")),
+            auto_decision_rank(row.get("auto_decision", "")),
             bucket_priority(row["candidate_bucket"]),
+            row["source_id"],
             screen_priority(row["screen_id"]),
             row["activity_id"],
             row["en_sentence_index"],
         ),
     )
-    if MANUAL_REVIEW_TEMPLATE_PATH.exists() and not args.overwrite and not previous_rows:
-        print("Manual review template already exists.")
-    write_csv(MANUAL_REVIEW_TEMPLATE_PATH, review_rows, MANUAL_REVIEW_HEADER)
+    if args.source_id:
+        replace_rows_for_sources(MANUAL_REVIEW_TEMPLATE_PATH, args.source_id, review_rows, MANUAL_REVIEW_HEADER)
+    else:
+        write_csv(MANUAL_REVIEW_TEMPLATE_PATH, review_rows, MANUAL_REVIEW_HEADER)
     if not REVIEW_NOTES_PATH.exists():
         write_csv(REVIEW_NOTES_PATH, [], ["candidate_id", "source_id", "reviewer", "note_type", "note", "created_at"])
     print(f"Wrote {len(review_rows)} review rows to {MANUAL_REVIEW_TEMPLATE_PATH}")
