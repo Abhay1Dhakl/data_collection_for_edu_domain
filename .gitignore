@@ -1,3 +1,16 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# Ignore generated data artifacts
+data/aligned/
+data/extracted/
+data/final/
+data/logs/
+data/paired/
+data/raw/
+data/reviewed/
+reports/
+
+# Ignore temporary/corrupt files
+*.corrupt_*

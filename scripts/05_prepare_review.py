@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 
 from common import (
+    DataFormatError,
     MANUAL_REVIEW_HEADER,
     MANUAL_REVIEW_TEMPLATE_PATH,
     REVIEW_NOTES_PATH,
@@ -77,7 +78,15 @@ def module_risk_rank(risk_level: str) -> int:
 def main() -> int:
     args = build_parser().parse_args()
     ensure_dirs()
-    candidates = read_csv(SENTENCE_CANDIDATES_PATH)
+    try:
+        candidates = read_csv(SENTENCE_CANDIDATES_PATH)
+    except DataFormatError as exc:
+        print(exc)
+        print(
+            "Recovery: rerun "
+            "`python3 scripts/04_pair_records.py --status review_ready --status pair_failed --limit 1000 --overwrite --rebuild-aggregates`."
+        )
+        return 1
     if args.source_id:
         allowed = set(args.source_id)
         candidates = [row for row in candidates if row.get("source_id") in allowed]
@@ -86,7 +95,14 @@ def main() -> int:
         print("No sentence candidates found. Run scripts/04_pair_records.py first.")
         return 0
 
-    previous_rows = read_csv(MANUAL_REVIEW_TEMPLATE_PATH)
+    try:
+        previous_rows = read_csv(MANUAL_REVIEW_TEMPLATE_PATH)
+    except DataFormatError as exc:
+        print(exc)
+        print(
+            "Recovery: restore or remove data/reviewed/manual_review_template.csv, then rerun this script."
+        )
+        return 1
     previous_by_id = {row["candidate_id"]: row for row in previous_rows}
 
     review_rows: list[dict[str, str]] = []

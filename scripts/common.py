@@ -3,8 +3,13 @@ from __future__ import annotations
 import csv
 import html
 import json
+import os
 import re
+import socket
+import tempfile
+import time
 import unicodedata
+import urllib.error
 import urllib.parse
 import urllib.request
 from collections import Counter
@@ -12,7 +17,7 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
-from typing import Iterable
+from typing import Callable, Iterable, TextIO
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT_DIR / "data"
@@ -276,22 +281,51 @@ def ensure_parent(path: Path | str) -> None:
     Path(path).parent.mkdir(parents=True, exist_ok=True)
 
 
+class DataFormatError(RuntimeError):
+    pass
+
+
+def _looks_like_binary(sample: bytes) -> bool:
+    if not sample:
+        return False
+    control_bytes = sum(1 for byte in sample if byte < 32 and byte not in {9, 10, 12, 13})
+    return control_bytes / len(sample) > 0.10
+
+
+def _atomic_write_text(path: Path | str, writer: Callable[[TextIO], None], *, newline: str | None = None) -> None:
+    path = Path(path)
+    ensure_parent(path)
+    fd, temp_name = tempfile.mkstemp(dir=path.parent, prefix=f".{path.name}.", suffix=".tmp")
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8", newline=newline) as handle:
+            writer(handle)
+        os.replace(temp_name, path)
+    except Exception:
+        Path(temp_name).unlink(missing_ok=True)
+        raise
+
+
 def read_csv(path: Path | str) -> list[dict[str, str]]:
     path = Path(path)
     if not path.exists():
         return []
-    with path.open("r", encoding="utf-8", newline="") as handle:
-        return list(csv.DictReader(handle))
+    try:
+        with path.open("r", encoding="utf-8", newline="") as handle:
+            return list(csv.DictReader(handle))
+    except UnicodeDecodeError as exc:
+        sample = path.read_bytes()[:4096]
+        detail = "likely binary data" if _looks_like_binary(sample) else "invalid UTF-8 text"
+        raise DataFormatError(f"{path} is not a valid UTF-8 CSV ({detail}).") from exc
 
 
 def write_csv(path: Path | str, rows: Iterable[dict[str, str]], fieldnames: list[str]) -> None:
     path = Path(path)
-    ensure_parent(path)
-    with path.open("w", encoding="utf-8", newline="") as handle:
+    def writer(handle: TextIO) -> None:
         writer = csv.DictWriter(handle, fieldnames=fieldnames)
         writer.writeheader()
         for row in rows:
             writer.writerow({field: row.get(field, "") for field in fieldnames})
+    _atomic_write_text(path, writer, newline="")
 
 
 def append_csv(path: Path | str, row: dict[str, str], fieldnames: list[str]) -> None:
@@ -320,10 +354,10 @@ def load_jsonl(path: Path | str) -> list[dict]:
 
 def write_jsonl(path: Path | str, rows: Iterable[dict]) -> None:
     path = Path(path)
-    ensure_parent(path)
-    with path.open("w", encoding="utf-8") as handle:
+    def writer(handle: TextIO) -> None:
         for row in rows:
             handle.write(json.dumps(row, ensure_ascii=False) + "\n")
+    _atomic_write_text(path, writer)
 
 
 def load_registry() -> list[dict[str, str]]:
@@ -425,14 +459,24 @@ def build_request(url: str) -> urllib.request.Request:
     return urllib.request.Request(url, headers={"User-Agent": "epaath-mt-pipeline/2.0"})
 
 
-def fetch_text(url: str, timeout: int = 30) -> str:
-    with urllib.request.urlopen(build_request(url), timeout=timeout) as response:
-        return response.read().decode("utf-8", errors="ignore")
+def fetch_bytes(url: str, timeout: int = 30, retries: int = 2, retry_sleep: float = 1.0) -> bytes:
+    last_error: Exception | None = None
+    for attempt in range(retries + 1):
+        try:
+            with urllib.request.urlopen(build_request(url), timeout=timeout) as response:
+                return response.read()
+        except (urllib.error.URLError, socket.timeout, TimeoutError) as exc:
+            last_error = exc
+            if attempt >= retries:
+                break
+            time.sleep(retry_sleep * (attempt + 1))
+    if last_error is None:
+        raise RuntimeError(f"Failed to fetch URL: {url}")
+    raise last_error
 
 
-def fetch_bytes(url: str, timeout: int = 30) -> bytes:
-    with urllib.request.urlopen(build_request(url), timeout=timeout) as response:
-        return response.read()
+def fetch_text(url: str, timeout: int = 30, retries: int = 2, retry_sleep: float = 1.0) -> str:
+    return fetch_bytes(url, timeout=timeout, retries=retries, retry_sleep=retry_sleep).decode("utf-8", errors="ignore")
 
 
 def parse_directory_listing(html_text: str, base_url: str) -> list[DirectoryEntry]:

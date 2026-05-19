@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 
 from common import (
+    DataFormatError,
     EXCLUDED_CANDIDATES_PATH,
     MODULE_QUALITY_AUDIT_PATH,
     RECORD_REVIEW_HEADER,
@@ -16,11 +17,12 @@ from common import (
     load_registry,
     module_pairs_path,
     module_records_path,
-    replace_rows_for_sources,
+    read_csv,
     save_registry,
     select_rows,
     split_sentences,
     utc_now_iso,
+    write_csv,
     write_jsonl,
 )
 from quality import (
@@ -54,6 +56,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--status", action="append", default=[])
     parser.add_argument("--limit", type=int, default=10)
     parser.add_argument("--overwrite", action="store_true")
+    parser.add_argument("--rebuild-aggregates", action="store_true")
     parser.add_argument("--update-status", action="store_true")
     return parser
 
@@ -96,6 +99,23 @@ def candidate_bucket(screen_id: str, en_text: str, ne_text: str, sentence_count:
     if sentence_count == 1:
         return "high_exact_single_sentence"
     return "high_exact_multi_sentence"
+
+
+def group_rows_by_source(rows: list[dict[str, str]]) -> dict[str, list[dict[str, str]]]:
+    grouped: dict[str, list[dict[str, str]]] = {}
+    for row in rows:
+        source_id = row.get("source_id", "")
+        if not source_id:
+            continue
+        grouped.setdefault(source_id, []).append(row)
+    return grouped
+
+
+def flatten_grouped_rows(grouped: dict[str, list[dict[str, str]]]) -> list[dict[str, str]]:
+    rows: list[dict[str, str]] = []
+    for grouped_rows in grouped.values():
+        rows.extend(grouped_rows)
+    return rows
 
 
 def pair_module(row: dict[str, str]) -> tuple[ModuleQuality, list[dict], list[dict[str, str]], list[dict[str, str]], list[dict[str, str]]]:
@@ -230,6 +250,9 @@ def pair_module(row: dict[str, str]) -> tuple[ModuleQuality, list[dict], list[di
 def main() -> int:
     args = build_parser().parse_args()
     ensure_dirs()
+    if args.rebuild_aggregates and not args.overwrite:
+        print("--rebuild-aggregates requires --overwrite.")
+        return 2
     rows = load_registry()
     statuses = args.status or ([] if (args.source_id or args.module_id) else default_statuses())
     selected = select_rows(
@@ -253,6 +276,16 @@ def main() -> int:
         print("Auto-detected extracted module records whose registry status was not updated.")
 
     by_id = {row["source_id"]: row for row in rows}
+    try:
+        sentence_candidate_groups = {} if args.rebuild_aggregates else group_rows_by_source(read_csv(SENTENCE_CANDIDATES_PATH))
+        record_review_groups = {} if args.rebuild_aggregates else group_rows_by_source(read_csv(RECORD_REVIEW_QUEUE_PATH))
+        module_quality_groups = {} if args.rebuild_aggregates else group_rows_by_source(read_csv(MODULE_QUALITY_AUDIT_PATH))
+        excluded_candidate_groups = {} if args.rebuild_aggregates else group_rows_by_source(read_csv(EXCLUDED_CANDIDATES_PATH))
+    except DataFormatError as exc:
+        print(exc)
+        print("Recovery: rerun with `--overwrite --rebuild-aggregates` to recreate the aggregate CSV outputs from scratch.")
+        return 1
+
     for row in selected:
         pair_path = module_pairs_path(row["source_id"])
         if pair_path.exists() and not args.overwrite:
@@ -261,10 +294,10 @@ def main() -> int:
         try:
             module_quality, record_pairs, sentence_candidates, excluded_candidates, record_review_queue = pair_module(row)
             write_jsonl(pair_path, record_pairs)
-            replace_rows_for_sources(SENTENCE_CANDIDATES_PATH, [row["source_id"]], sentence_candidates, SENTENCE_CANDIDATE_HEADER)
-            replace_rows_for_sources(RECORD_REVIEW_QUEUE_PATH, [row["source_id"]], record_review_queue, RECORD_REVIEW_HEADER)
-            replace_rows_for_sources(MODULE_QUALITY_AUDIT_PATH, [row["source_id"]], [module_quality.as_row()], MODULE_QUALITY_HEADER)
-            replace_rows_for_sources(EXCLUDED_CANDIDATES_PATH, [row["source_id"]], excluded_candidates, EXCLUDED_CANDIDATE_HEADER)
+            sentence_candidate_groups[row["source_id"]] = sentence_candidates
+            record_review_groups[row["source_id"]] = record_review_queue
+            module_quality_groups[row["source_id"]] = [module_quality.as_row()]
+            excluded_candidate_groups[row["source_id"]] = excluded_candidates
             append_csv(
                 "data/logs/pairing_log.csv",
                 {
@@ -308,6 +341,11 @@ def main() -> int:
             if args.update_status:
                 by_id[row["source_id"]]["status"] = "pair_failed"
             print(f"{row['source_id']}: pair_failed ({exc})")
+
+    write_csv(SENTENCE_CANDIDATES_PATH, flatten_grouped_rows(sentence_candidate_groups), SENTENCE_CANDIDATE_HEADER)
+    write_csv(RECORD_REVIEW_QUEUE_PATH, flatten_grouped_rows(record_review_groups), RECORD_REVIEW_HEADER)
+    write_csv(MODULE_QUALITY_AUDIT_PATH, flatten_grouped_rows(module_quality_groups), MODULE_QUALITY_HEADER)
+    write_csv(EXCLUDED_CANDIDATES_PATH, flatten_grouped_rows(excluded_candidate_groups), EXCLUDED_CANDIDATE_HEADER)
 
     if args.update_status:
         save_registry(list(by_id.values()))
