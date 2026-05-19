@@ -1,1 +1,2 @@
 timestamp,en_source_id,ne_source_id,pairs_created,output_path,result,notes
+2026-05-19T02:31:14Z,EDU_0001,EDU_0002,288,data/aligned/sentence_pairs_raw.csv,aligned,include_flagged

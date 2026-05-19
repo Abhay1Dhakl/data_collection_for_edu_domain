@@ -258,9 +258,14 @@ python3 scripts/02_download_documents.py --limit 10
 python3 scripts/03_extract_text.py --limit 10
 python3 scripts/04_clean_text.py
 python3 scripts/05_sentence_split.py --source-id EDU_0001
-python3 scripts/06_align_sentences.py --en-source EDU_0001 --ne-source EDU_0002
+python3 scripts/06_align_sentences.py
+python3 scripts/06_align_sentences.py --list-candidates
+python3 scripts/06_align_sentences.py --en-source EDU_0001 --ne-source EDU_0002 --include-flagged
+python3 scripts/06_align_sentences.py --align-all
 python3 scripts/07_manual_review_filter.py --allow-score-only
 python3 scripts/08_create_final_splits.py
 ```
 
-The alignment script is intentionally conservative. It is suitable only for sources already judged to be parallel or near-parallel.
+The alignment script is intentionally conservative. Running it without arguments lists discovered source pairs and their blocked or flagged status instead of crashing.
+
+`--include-flagged` should only be used for inspection or manual review when extraction quality is known to be imperfect.
