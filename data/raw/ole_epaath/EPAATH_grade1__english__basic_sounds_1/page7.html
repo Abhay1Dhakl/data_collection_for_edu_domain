@@ -1,0 +1,160 @@
+<!--
+    Title : General Template
+ -->
+<script type="text/javascript">
+    $cssLoader("css/page7.css");
+</script>
+<!-- cssloader ends -->
+
+<head>
+	<!-- added to load data directly from server TO REMOVE DURING DEPLOYMENT-->
+	<meta http-equiv=“Pragma” content=”no-cache”>
+	<meta http-equiv=“Expires” content=”-1″>
+	<meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>
+	<!-- added to load data directly from server ends -->
+</head>
+
+<div class="basic_sounds">
+    <div class="board"></div>
+    <div class="nextBtn myNextStyle"></div>
+    <div class="prevBtn myPrevStyle"></div>
+</div>
+
+<script id="general-template" type="text/x-handlebars-template">    
+    {{! update templatecontains data for if it has header, instruction, headerinstruction
+        or only has content --}}
+    {{#if hasheaderblock}}
+            <div class="generalTemplateblock" data-templatecontains="hasheaderblock">
+        {{else}}
+            <div class="generalTemplateblock" data-templatecontains="hasonlycontent">
+    {{/if}}
+    
+    {{! header block start--}}
+        {{#if headerblock}}
+        <div class="headerblock {{headerblockadditionalclass}}">
+            {{#each headerblock}}
+                    {{> textcontent}}
+            {{/each}}
+        </div>
+        {{/if}}
+    {{! header block end--}}
+    {{! content block start--}}
+        <div class="contentblock {{contentblockadditionalclass}}">
+        {{!content block content wrapper used for content orientation - centered vertically and horizontally--}}
+        {{#if contentblocknocenteradjust}}
+            <div class="coverboardfull">
+        {{else}}
+            <div class="vertical-horizontal-center">
+        {{/if}}
+            {{#if uppertextblock}}
+            <div class="textblock {{uppertextblockadditionalclass}}">
+                {{#if uppertextblocknocenteradjust}}
+                    <div class="vertical-horizontal-center">
+                {{/if}}
+                    {{#each uppertextblock}}
+                        {{> textcontent}}
+                    {{/each}}
+                {{#if uppertextblocknocenteradjust}}
+                    </div>
+                {{/if}}
+            </div>
+            {{/if}}
+            {{#if imageblock}}
+            <div class="imageblock {{imageblockadditionalclass}}">
+                {{#if imageblocknocenteradjust}}
+                    <div class="vertical-horizontal-center">
+                {{/if}}
+                    {{#each imageblock}}
+                        {{> imagecontent}}
+                    {{/each}}
+                {{#if imageblocknocenteradjust}}
+                    </div>
+                {{/if}}
+            </div>
+            {{/if}}
+            {{#if lowertextblock}}
+            <div class="{{lowertextblockadditionalclass}}">
+                {{#if lowerblocknocenteradjust}}
+                    <div class="vertical-horizontal-center">
+                {{/if}}
+                    {{#each lowertextblock}}
+                        {{> textcontent}}
+                    {{/each}}
+                {{#if lowerblocknocenteradjust}}
+                    </div>
+                {{/if}}
+            </div>
+            {{/if}}
+            {{#if definitionblock}}
+            <div class="definitionblock {{definitionblockadditionalclass}}">
+                {{#each definitionblock}}
+                    {{> definitioncontent}}
+                {{/each}}
+            </div>
+            {{/if}} 
+            {{#if cardblock}}
+            <div class="cardblock {{cardblockadditionalclass}}">
+                {{#if imageblocknocenteradjust}}
+                    <div class="vertical-horizontal-center">
+                {{/if}}
+                    {{#each cardblock}}
+                        {{> cardcontent}}
+                    {{/each}}
+                {{#if imageblocknocenteradjust}}
+                    </div>
+                {{/if}}
+            </div>
+            {{/if}}
+        </div>
+        </div>
+    {{! content block end--}}
+    </div>
+</script>
+<!-- partials separated as subtemplate in handlebars -->
+<script id="scriptfunc" type="text/x-handlebars-template">
+    {{#if scriptblock}}
+		{{#each scriptblock}}
+			{{{scriptfunc}}}
+		{{/each}}
+    {{/if}}
+</script>
+<!-- partials separated as subtemplate in handlebars -->
+<script id="textcontent-partial" type="text/x-handlebars-template">
+   <p class="{{textclass}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}">{{{textdata}}}</p>
+</script>
+
+<script id="imagecontent-partial" type="text/x-handlebars-template">
+    {{#each imagestoshow}}
+        <img class="{{imgclass}}" src="{{imgsrc}}">
+    {{/each}}
+    {{#if imagelabels}}
+        {{#each imagelabels}}
+            <label class="{{imagelabelclass}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}">{{{imagelabeldata}}}</label>
+        {{/each}}
+    {{/if}}
+</script>
+
+<script id="cardcontent-partial" type="text/x-handlebars-template">
+    {{#each cardstoshow}}
+	    <div class="{{cardclass}}">
+	        <img class="{{frontimgclass}}" src="{{frontimgsrc}}">
+	        <img class="{{backimgclass}}" src="{{backimgsrc}}">
+	        {{#if hassoundicon}}
+            	<img class="{{soundclass}}" src="{{soundimgsrc}}">
+    		{{/if}}
+	        <label class="{{imagelabelclass}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}">{{{imagelabeldata}}}</label>
+	    </div>
+    {{/each}}
+</script>
+
+<script id="definitioncontent-partial" type="text/x-handlebars-template">    
+    <img src="{{definitionImageSource}}">
+    <figcaption>{{definitionTextData}}</figcaption>
+    <p class="definitiontextstyle" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}">{{{definitionInstructionData}}}</p>
+</script>
+
+<!-- js loader starts -->
+<script type="text/javascript" src="js/buzz.min.js"></script>
+<script type="text/javascript">
+    $jsLoader("js/page7.js");
+</script>

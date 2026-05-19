@@ -1,1 +1,1 @@
-pair_id,source_id,module_id,screen_id,en_activity_id,ne_activity_id,en_text,ne_text,alignment_score,reviewer,rejected_date,notes
+candidate_id,source_id,module_id,grade,subject,subdomain,screen_id,activity_id,record_key,pair_method,candidate_bucket,en_sentence_index,ne_sentence_index,en_text,ne_text,reviewer,rejected_at,notes

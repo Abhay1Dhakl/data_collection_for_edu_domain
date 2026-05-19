@@ -1,4 +1,0 @@
-timestamp,source_id,module_id,pairs_created,output_path,result,notes
-2026-05-19T03:05:38Z,EPAATH_0001,grade5/math/fractions,0,data/aligned/sentence_pairs_raw.csv,no_pairs,
-2026-05-19T03:06:28Z,EPAATH_0001,grade5/math/fractions,38,data/aligned/sentence_pairs_raw.csv,aligned,
-2026-05-19T04:21:14Z,EPAATH_0001,grade5/math/fractions,38,data/aligned/sentence_pairs_raw.csv,aligned,

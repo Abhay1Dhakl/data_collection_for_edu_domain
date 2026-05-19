@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<olenepal>
+
+<lesson>
+	<subject>English</subject>
+	<topic>English-EN</topic>
+	<chapter>Basic Sounds (I)</chapter>
+	<levelname>Level 1</levelname>
+	<leveldescription></leveldescription>
+
+	<objective>
+		<title>Objectives:</title>
+		<description>
+			<purpose>To recognize sounds of letters and read words starting from them or words containing the letters</purpose>
+		</description>
+	</objective>
+
+	<definition>
+		<description>
+		</description>
+	</definition>
+
+	<lessonDirection>
+		<purposes></purposes>
+		<about></about>
+		<lessonhelp></lessonhelp>
+		<exercisehelp>
+			<exerciseText></exerciseText>
+		</exercisehelp>
+	</lessonDirection>
+
+</lesson>
+
+<strings>
+<!-- common strings -->
+	<!-- please take care you do not remove this spacecharacter string -->
+	<string id="spacecharacter">&#160;</string>
+	<string id="diytext">Do It Yourself</string>
+	<string id="definitiontext">Definition</string>
+	<string id="factorization">Factorization</string>
+	<string id="factorizeit">factorize it</string>
+	<string id="multiply">multiply</string>
+	<string id="reverseit">reverse</string>
+	<string id="forexample">For example:</string>
+	<string id="equal"> = </string>
+	<string id="okaytext">OK</string>
+	<string id="hinttext">Hint</string>
+
+<!-- shared among pages -->
+	<string id="psharedtext1">Click here !</string>
+<!-- shared among pages ends -->
+
+<!-- name starting with b -->
+	<string id="pbtext1">b</string>
+	<string id="pbtext2">#b@ook</string>
+	<string id="pbtext3">#b@all</string>
+	<string id="pbtext4">#b@ee</string>
+	<string id="pbtext5">foot#b@all</string>
+	<string id="pbtext6">dust#b@in</string>
+	<string id="pbtext7">ta#b@le</string>
+<!--  b end -->
+
+<!-- name starting with c -->
+	<string id="pctext1">c</string>
+	<string id="pctext2">#c@up</string>
+	<string id="pctext3">#c@omb</string>
+	<string id="pctext4">#c@at</string>
+	<string id="pctext5">do#c@tor</string>
+	<string id="pctext6">photo#c@opy</string>
+	<string id="pctext7">stair#c@ase</string>
+<!--  c end -->
+
+<!-- name starting with d -->
+	<string id="pdtext1">d</string>
+	<string id="pdtext2">#d@oor</string>
+	<string id="pdtext3">#d@uck</string>
+	<string id="pdtext4">#d@eer</string>
+	<string id="pdtext5">sli#d@e</string>
+	<string id="pdtext6">be#d@</string>
+	<string id="pdtext7">vi#d@eo</string>
+<!--  d end -->
+
+<!-- name starting with f -->
+	<string id="pftext1">f</string>
+	<string id="pftext2">#f@rog</string>
+	<string id="pftext3">#f@lower</string>
+	<string id="pftext4">#f@ish</string>
+	<string id="pftext5">butter#f@ly</string>
+	<string id="pftext6">cal#f@</string>
+	<string id="pftext7">kni#f@e</string>
+<!--  f end -->
+
+<!-- name starting with g -->
+	<string id="pgtext1">g</string>
+	<string id="pgtext2">#g@ate</string>
+	<string id="pgtext3">#g@oat</string>
+	<string id="pgtext4">#g@arland</string>
+	<string id="pgtext5">pi#g@</string>
+	<string id="pgtext6">ba#g@</string>
+	<string id="pgtext7">ti#g@er</string>
+<!--  g end -->
+
+<!-- name starting with h -->
+	<string id="phtext1">h</string>
+	<string id="phtext2">#h@elmet</string>
+	<string id="phtext3">#h@orse</string>
+	<string id="phtext4">#h@and</string>
+	<string id="phtext5">#h@en</string>
+	<string id="phtext6">#h@undred</string>
+	<string id="phtext7">#h@anger</string>
+<!--  h end -->
+
+<!-- name starting with j -->
+	<string id="pjtext1">j</string>
+	<string id="pjtext2">#j@ug</string>
+	<string id="pjtext3">#j@uice</string>
+	<string id="pjtext4">#j@ar</string>
+	<string id="pjtext5">#j@oker</string>
+	<string id="pjtext6">#j@et</string>
+	<string id="pjtext7">#j@am</string>
+<!--  j end -->
+
+<!-- page 1 -->
+
+	<string id="p1text1">Is this plant a #herb@, a #shrub@ or a #tree@?</string>
+	<string id="p1text2">Click on the correct box.</string>
+	
+<!--page 1 end-->	
+
+<!-- exercise -->
+	<string id="exhead">Click on the word that begins with the given sound</string>
+	<string id="ex1">B</string>
+	<string id="ex2">C</string>
+	<string id="ex3">D</string>
+	<string id="ex4">F</string>
+	<string id="ex5">G</string>
+	<string id="ex6">H</string>
+	<string id="ex7">J</string>
+
+	<string id="ex_img_name1">Ant</string>
+	<string id="ex_img_name2">Bed</string>
+	<string id="ex_img_name3">Cat</string>
+	<string id="ex_img_name4">Chair</string>
+	<string id="ex_img_name5">Computer</string>
+	<string id="ex_img_name6">Cycle</string>
+	<string id="ex_img_name7">Flower</string>
+	<string id="ex_img_name8">Girl</string>
+	<string id="ex_img_name9">Hen</string>
+	<string id="ex_img_name10">Jacket</string>
+	<string id="ex_img_name11">Pant</string>
+	<string id="ex_img_name12">Tree</string>
+	<string id="ex_img_name13">Frog</string>
+	<string id="ex_img_name14">Door</string>
+	<string id="ex_img_name15">Book</string>
+	<string id="ex_img_name16">Guitar</string>
+	<string id="ex_img_name17">Jug</string>
+
+
+
+
+
+
+</strings>
+
+</olenepal>

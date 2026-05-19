@@ -1,5 +1,5 @@
-timestamp,source_id,module_id,module_url,output_dir,downloaded_files,result,notes
-2026-05-19T03:04:00Z,EPAATH_0001,grade5/math/fractions,https://epaath.olenepal.org/activity/grade5/math/fractions/,,,download_failed,"[Errno 8] nodename nor servname provided, or not known"
-2026-05-19T03:04:21Z,EPAATH_0001,grade5/math/fractions,https://epaath.olenepal.org/activity/grade5/math/fractions/,/Volumes/EX-SSD/data_collection_for_edu_domain/data/raw/ole_epaath/EPAATH_0001,10 files,downloaded,
-2026-05-19T03:35:34Z,EPAATH_0001,grade5/math/fractions,https://epaath.olenepal.org/activity/grade5/math/fractions/,/Volumes/EX-SSD/data_collection_for_edu_domain/data/raw/ole_epaath/EPAATH_0001,,skipped,module_dir_exists
-2026-05-19T03:35:59Z,EPAATH_0001,grade5/math/fractions,https://epaath.olenepal.org/activity/grade5/math/fractions/,/Volumes/EX-SSD/data_collection_for_edu_domain/data/raw/ole_epaath/EPAATH_0001,,skipped,module directory already exists
+timestamp,source_id,module_id,module_url,downloaded_count,result,notes
+2026-05-19T04:38:44Z,EPAATH_grade1__english__basic_sounds_1,grade1/english/basic_sounds_1,https://epaath.olenepal.org/activity/grade1/english/basic_sounds_1/,0,download_failed,[Errno 17] File exists: '/Volumes/EX-SSD/data_collection_for_edu_domain/data/raw/ole_epaath/EPAATH_grade1__english__basic_sounds_1/exercise'
+2026-05-19T04:38:44Z,EPAATH_grade5__math__fractions,grade5/math/fractions,https://epaath.olenepal.org/activity/grade5/math/fractions/,0,download_failed,[Errno 17] File exists: '/Volumes/EX-SSD/data_collection_for_edu_domain/data/raw/ole_epaath/EPAATH_grade5__math__fractions/exercise'
+2026-05-19T04:39:15Z,EPAATH_grade5__math__fractions,grade5/math/fractions,https://epaath.olenepal.org/activity/grade5/math/fractions/,14,downloaded,14 assets
+2026-05-19T04:39:16Z,EPAATH_grade1__english__basic_sounds_1,grade1/english/basic_sounds_1,https://epaath.olenepal.org/activity/grade1/english/basic_sounds_1/,21,downloaded,21 assets

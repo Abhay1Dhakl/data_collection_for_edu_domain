@@ -1,0 +1,108 @@
+<!--
+    Title : General Template
+ -->
+<script type="text/javascript">
+    $cssLoader("exercise/css/exercise1.css");
+</script>
+<!-- cssloader ends -->
+
+<head>
+	<!-- added to load data directly from server TO REMOVE DURING DEPLOYMENT-->
+	<meta http-equiv=“Pragma” content=”no-cache”>
+	<meta http-equiv=“Expires” content=”-1″>
+	<meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>
+	<!-- added to load data directly from server ends -->
+</head>
+<div class="activity_container">
+    <div class="board"></div>
+    <div class="nextBtn myNextStyle"></div>
+    <div class="prevBtn myPrevStyle"></div>
+</div>
+
+        <script id="general-template" type="text/x-handlebars-template">
+            <div class="generalTemplateblock" data-templatecontains="hasonlycontent">
+
+                {{! content block starts--}}
+                 <div class="contentblock {{additionalclasscontentblock}}">
+                    <div class = "vertical-horizontal-center">
+            </div>
+
+            {{#if exerciseblock}}
+            {{#each exerciseblock}}
+                    <p class="question {{ques_class}}">{{{textdata}}}</p>
+
+                    {{#if quesimg}}
+                    <img src="{{ques_img}}" class="questionimg">
+                    {{/if}}
+
+                    <div class="optionsdiv">
+                    {{#each exeoptions}}
+                        <div class="optionscontainer">
+                            <p class="forhover buttonsel {{forshuffle}}">{{optdata}}</p>
+
+                            <img src="images/correct.png" class="imagestartpos corctopt">
+
+                            <img src="images/wrong.png" class="imagestartpos wrngopt">
+                        </div>
+                    {{/each}}
+
+                    {{#each imageoptions}}
+                        <div class="optionscontainer">
+                            <img class="optimg forhoverimg buttonsel {{forshuffle}}" src="{{imgsrc}}" />
+
+                            <img src="images/correct.png" class="ispforimage corctopt">
+
+                            <img src="images/wrong.png" class="ispforimage wrngopt">
+                        </div>
+                    {{/each}}
+                    </div>
+            {{/each}}
+
+             {{/if}}
+
+             {{#if questionblock}}
+            <div class="questionblock {{questionblockadditionalclass}}">
+                {{#each questionblock}}
+                    <div class="questionblockwrapper {{questionblockwrapperadditionalclass}}">
+                        <p class="{{questionclass}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}"  data-splitintofractions = "{{splitintofractionsflag}}">{{{questiondata}}}</p>
+                        {{#if inputclass}}
+                            <input class="{{inputclass}}" value="{{{digitdata}}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}"></input>
+                        {{/if}}
+                        {{#if fractioninput}}
+                        <div class = '{{fractioninput}}'>
+                            <input class="{{inputclass_numerator}}" value="{{{digitdata}}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}"></input>
+                            <div class = 'box_divider'></div>
+                            <input class="{{inputclass_denominator}}" value="{{{digitdata}}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}"></input>
+                        </div>
+                        {{/if}}
+                        {{#if buttondata}}
+                            <button class="{{buttonclass}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}">{{{buttondata}}}</button>
+                        {{/if}}
+                    </div>
+                {{/each}}
+            </div>
+            {{/if}}
+
+            <div class="hint1"  data-splitintofractions = "true">sdsdsd</div>
+
+            {{#if containscanvaselement}}
+            <canvas id="canvas_fraction_1" width="50px" height="250px">
+                Your browser does not support the HTML5 canvas tag.
+            </canvas>
+            <canvas id="canvas_fraction_2" width="250px" height="250px">
+                Your browser does not support the HTML5 canvas tag.
+            </canvas>
+            {{/if}}
+
+             </div>
+            </div>
+        </script>
+
+
+
+<!-- js loader starts -->
+<script type="text/javascript" src="js/preloadjs-0.6.2.min.js"></script>
+<script type="text/javascript" src="js/soundjs-0.6.2.min.js"></script>
+<script type="text/javascript">
+    $jsLoader("exercise/js/exercise1.js");
+</script>

@@ -1,0 +1,2 @@
+review_item_id,source_id,module_id,grade,subject,subdomain,screen_id,activity_id,record_key,pair_method,en_sentence_count,ne_sentence_count,en_record_text,ne_record_text,notes
+EPAATH_grade1__english__basic_sounds_1_module_review_00001,EPAATH_grade1__english__basic_sounds_1,grade1/english/basic_sounds_1,1,english,english_language,module,module_quality_gate,module_quality_gate,blocked_before_pairing,,,,,low_exact_key_overlap=0.077;low_nepali_script_ratio=0.188

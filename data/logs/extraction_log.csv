@@ -1,6 +1,3 @@
-timestamp,source_id,module_id,input_dir,output_path,record_count,result,notes
-2026-05-19T03:04:34Z,EPAATH_0001,grade5/math/fractions,/Volumes/EX-SSD/data_collection_for_edu_domain/data/raw/ole_epaath/EPAATH_0001,/Volumes/EX-SSD/data_collection_for_edu_domain/data/extracted/module_text/EPAATH_0001.jsonl,76,extracted,
-2026-05-19T03:06:12Z,EPAATH_0001,grade5/math/fractions,/Volumes/EX-SSD/data_collection_for_edu_domain/data/raw/ole_epaath/EPAATH_0001,/Volumes/EX-SSD/data_collection_for_edu_domain/data/extracted/module_text/EPAATH_0001.jsonl,76,extracted,
-2026-05-19T03:27:52Z,EPAATH_0001,grade5/math/fractions,/Volumes/EX-SSD/data_collection_for_edu_domain/data/raw/ole_epaath/EPAATH_0001,/Volumes/EX-SSD/data_collection_for_edu_domain/data/extracted/module_text/EPAATH_0001.jsonl,76,skipped,records_exist
-2026-05-19T03:35:34Z,EPAATH_0001,grade5/math/fractions,/Volumes/EX-SSD/data_collection_for_edu_domain/data/raw/ole_epaath/EPAATH_0001,/Volumes/EX-SSD/data_collection_for_edu_domain/data/extracted/module_text/EPAATH_0001.jsonl,76,skipped,records_exist
-2026-05-19T03:35:59Z,EPAATH_0001,grade5/math/fractions,/Volumes/EX-SSD/data_collection_for_edu_domain/data/raw/ole_epaath/EPAATH_0001,/Volumes/EX-SSD/data_collection_for_edu_domain/data/extracted/module_text/EPAATH_0001.jsonl,76,skipped,extracted JSONL already exists
+timestamp,source_id,module_id,record_count,result,notes
+2026-05-19T04:39:23Z,EPAATH_grade1__english__basic_sounds_1,grade1/english/basic_sounds_1,163,extracted,163 records
+2026-05-19T04:39:23Z,EPAATH_grade5__math__fractions,grade5/math/fractions,102,extracted,102 records
