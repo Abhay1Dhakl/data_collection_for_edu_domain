@@ -4,6 +4,7 @@ import csv
 import json
 import re
 import unicodedata
+from collections import Counter
 from datetime import date, datetime
 from pathlib import Path
 from typing import Iterable
@@ -17,39 +18,65 @@ REVIEWED_DIR = DATA_DIR / "reviewed"
 FINAL_DIR = DATA_DIR / "final"
 LOGS_DIR = DATA_DIR / "logs"
 REGISTRY_PATH = DATA_DIR / "source_registry.csv"
+SOURCE_ID_PREFIX = "EPAATH"
 
 REGISTRY_HEADER = [
     "source_id",
     "source_name",
-    "url",
-    "title",
-    "subdomain",
+    "module_id",
+    "module_url",
+    "grade",
+    "subject",
+    "module_slug",
+    "module_title_en",
+    "module_title_ne",
     "data_type",
     "language_type",
-    "file_type",
     "access_date",
     "license_note",
     "status",
+    "notes",
 ]
 
+REQUIRED_REGISTRY_FIELDS = {
+    "source_id",
+    "source_name",
+    "module_id",
+    "module_url",
+    "grade",
+    "subject",
+    "module_slug",
+    "data_type",
+    "language_type",
+    "access_date",
+    "license_note",
+    "status",
+}
+
 ALLOWED_DATA_TYPES = {
-    "parallel_candidate",
-    "comparable_candidate",
-    "monolingual_pdf",
-    "monolingual_html",
     "bilingual_module",
+    "monolingual_module",
+    "verified_parallel_module",
     "policy_document",
-    "textbook_pdf",
-    "teacher_guide",
 }
 
 ALLOWED_LANGUAGE_TYPES = {"en-ne", "en", "ne", "unknown"}
 
 SOURCE_NAME_TO_RAW_DIR = {
-    "CDC Nepal E-Library": "cdc_elibrary",
-    "CEHRD Learning Portal": "cehrd_learning_portal",
     "OLE Nepal E-Paath": "ole_epaath",
-    "OLE Nepal E-Pustakalaya": "ole_epustakalaya",
+}
+
+STATUS_RANK = {
+    "pending": 0,
+    "download_failed": 1,
+    "downloaded": 2,
+    "extract_failed": 3,
+    "extracted": 4,
+    "cleaned": 5,
+    "sentence_split": 6,
+    "aligned": 7,
+    "reviewed": 8,
+    "finalized": 9,
 }
 
 
@@ -105,54 +132,73 @@ def save_registry(rows: list[dict[str, str]]) -> None:
 def next_source_id(rows: list[dict[str, str]]) -> str:
     highest = 0
     for row in rows:
-        match = re.fullmatch(r"EDU_(\d{4})", row.get("source_id", ""))
+        match = re.fullmatch(rf"{SOURCE_ID_PREFIX}_(\d{{4}})", row.get("source_id", ""))
         if match:
             highest = max(highest, int(match.group(1)))
-    return f"EDU_{highest + 1:04d}"
+    return f"{SOURCE_ID_PREFIX}_{highest + 1:04d}"
 
 
 def raw_subdir_for_source(source_name: str) -> Path:
-    subdir = SOURCE_NAME_TO_RAW_DIR.get(source_name, "policy_documents")
+    subdir = SOURCE_NAME_TO_RAW_DIR.get(source_name, "ole_epaath")
     return RAW_DIR / subdir
 
 
-def infer_download_extension(row: dict[str, str], content_type: str = "") -> str:
-    url = row.get("url", "").lower()
-    file_type = row.get("file_type", "").lower()
-    if url.endswith(".pdf") or file_type == "pdf" or "application/pdf" in content_type:
-        return ".pdf"
-    if url.endswith(".zip") or "application/zip" in content_type:
-        return ".zip"
-    return ".html"
+def module_raw_dir(source_id: str) -> Path:
+    return RAW_DIR / "ole_epaath" / source_id
 
 
-def find_downloaded_file(source_id: str) -> Path | None:
-    for path in RAW_DIR.rglob(f"{source_id}.*"):
-        if path.is_file():
-            return path
-    return None
+def module_extracted_path(source_id: str) -> Path:
+    return EXTRACTED_DIR / "module_text" / f"{source_id}.jsonl"
+
+
+def module_cleaned_path(source_id: str) -> Path:
+    return EXTRACTED_DIR / "module_text" / f"{source_id}.clean.jsonl"
+
+
+def module_sentences_path(source_id: str) -> Path:
+    return EXTRACTED_DIR / "module_text" / f"{source_id}.sentences.jsonl"
+
+
+def advance_status(current: str, candidate: str) -> str:
+    if not candidate:
+        return current
+    if not current:
+        return candidate
+    if STATUS_RANK.get(candidate, -1) >= STATUS_RANK.get(current, -1):
+        return candidate
+    return current
 
 
 def cleaned_variant(path: Path) -> Path:
+    if path.name.endswith(".clean.jsonl"):
+        return path
+    if path.suffix == ".jsonl":
+        return path.with_name(path.stem + ".clean.jsonl")
     if path.suffix == ".txt":
         return path.with_name(path.stem + ".clean.txt")
-    return path.with_suffix(path.suffix + ".clean.txt")
+    return path.with_suffix(path.suffix + ".clean")
 
 
 def sentence_jsonl_variant(path: Path) -> Path:
+    if path.name.endswith(".clean.jsonl"):
+        return path.with_name(path.name[: -len(".clean.jsonl")] + ".sentences.jsonl")
     if path.name.endswith(".clean.txt"):
         return path.with_name(path.name[:-10] + ".sentences.jsonl")
+    if path.suffix == ".jsonl":
+        return path.with_name(path.stem + ".sentences.jsonl")
     if path.suffix == ".txt":
         return path.with_name(path.stem + ".sentences.jsonl")
-    return path.with_suffix(path.suffix + ".sentences.jsonl")
+    return path.with_suffix(".sentences.jsonl")
 
 
-def output_text_dir(row: dict[str, str]) -> Path:
-    if row.get("data_type") == "bilingual_module":
-        return EXTRACTED_DIR / "module_text"
-    if row.get("file_type") == "html":
-        return EXTRACTED_DIR / "html_text"
-    return EXTRACTED_DIR / "pdf_text"
+def registry_status_counts(rows: list[dict[str, str]]) -> dict[str, int]:
+    counts = Counter((row.get("status") or "unknown") for row in rows)
+    return dict(sorted(counts.items()))
+
+
+def format_status_counts(rows: list[dict[str, str]]) -> str:
+    counts = registry_status_counts(rows)
+    return ", ".join(f"{status}={count}" for status, count in counts.items()) or "none"
 
 
 def normalize_text(text: str) -> str:

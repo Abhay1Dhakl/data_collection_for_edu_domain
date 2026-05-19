@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+
+<olenepal>
+
+<lesson>
+	<subject>Maths</subject>
+	<topic>Arithmetics-EN</topic>
+	<chapter>Fraction</chapter>
+	<levelname>Level 1</levelname>
+	<leveldescription></leveldescription>
+
+
+
+	<objective>
+		<title>Objective:</title>
+		<description>
+				<purpose>To multiply a whole number with a fraction and convert the product to mixed fraction</purpose>
+				<purpose>To multiply any two proper fractions</purpose>
+		</description>
+	</objective>
+
+	<definition>
+
+			<statement></statement>
+
+	</definition>
+	<lessonDirection>
+
+	</lessonDirection>
+
+	<teachersnote>
+
+
+	</teachersnote>
+</lesson>
+
+
+
+
+
+
+<strings>
+
+<string id="next_1" >Go to the next page</string>
+
+<string id="next_2" >Go to another section</string>
+
+<string id="title1" >Fractions</string>
+
+<string id="p6_heading">Under Construction</string>
+
+<!-- page common -->
+	<string id="pctext1">Check</string>
+	<string id="pctext2">Submit</string>
+	<string id="pctext3">Multiply</string>
+	<string id="phint">Hint:</string>
+	<string id="pdiy">Do It Yourself</string>
+	<string id="predo">Play again</string>
+	<string id="smultiply"> × </string>
+
+<!--page common end-->
+
+<!-- page 1 -->
+	<string id="p1text1">How many sweets are here?</string>
+	<string id="p1text2">Let us find half of 18 or the result of multiplying ::1_/_2;; with 18.</string>
+	<string id="p1text3">18 × ::1_/_2;; = ::1 × 18_/_2;; = ::18_/_2;; =</string>
+	<string id="p1text4">Now, let us find one third of 18 or the result of multiplying ::1_/_3;; with 18.</string>
+	<string id="p1text5">18 × ::1_/_3;; = ::1 × 18_/_3;; = ::18_/_3;; =</string>
+	<string id="p1text6">Multiplying a fraction with a whole number means multiplying the whole number with the numerator keeping denominator the same. </string>
+	<string id="p1text7">5 × ::1_/_3;; = ::5 × 1_/_3;; = ::5_/_3;;</string>
+	<string id="p1text8">If the result is improper, then it should be converted into mixed fraction.</string>
+	<string id="p1text9">::5_/_#3@;; = ::#3@ + 2_/_#3@;;</string>
+	<string id="p1text10">::5_/_3;; = ::#3@ + 2_/_#3@;; = ::#3@_/_#3@;; + ::2_/_#3@;;</string>
+	<string id="p1text11">::5_/_3;; = ::3 + 2_/_3;; = ::#3@_/_#3@;; + ::2_/_#3@;; = #1@ + ::2_/_#3@;;</string>
+	<string id="p1text12">::5_/_3;; = ::3 + 2_/_3;; = ::3_/_3;; + ::2_/_3;; = #1@ + ::2_/_#3@;; =  #1@::2_/_#3@;;</string>
+	<string id="p1text13">::5_/_3;; also means 5 ÷ 3:</string>
+	<string id="p1text14">Let us multiply ::1_/_3;; with 14.</string>
+	<string id="p1text15">14 × ::1_/_3;; = ::1 × 14_/_3;; = ::14_/_3;; = ::3 + 3 + 3 + 3 + 2_/_3;; = </string>
+	<string id="p1text16">::5_/_3;;</string>
+<!--page 1 end-->
+
+<!-- page 2 -->
+	<string id="p2text1">Enter a natural number:</string>
+	<string id="p2text2">Enter a proper fraction:</string>
+	<string id="p2text3">Product = &lt;span class = "hint_a"&gt;a&lt;/span&gt; x ::&lt;span class = "hint_b"&gt;b&lt;/span&gt;_/_&lt;span class = "hint_c"&gt;c&lt;/span&gt;;; =</string>
+	<string id="p2text4">Product = &lt;span class = "hint_a"&gt;a&lt;/span&gt; x ::&lt;span class = "hint_b"&gt;b&lt;/span&gt;_/_&lt;span class = "hint_c"&gt;c&lt;/span&gt;;; = ::#&lt;span class = "hint_b"&gt;b&lt;/span&gt;@_/_#&lt;span class = "hint_c"&gt;c&lt;/span&gt;@;; =</string>
+	<string id="p2text5">::&lt;span class = "hint_a"&gt;a&lt;/span&gt; × &lt;span class = "hint_b"&gt;b&lt;/span&gt;_/_&lt;span class = "hint_c"&gt;c&lt;/span&gt;;;</string>
+	<string id="p2text6">&lt;span class = "hint_f"&gt;f&lt;/span&gt; #&lt;span class = "big_bracket"&gt;)&lt;/span&gt;   &lt;span class = "hint_e"&gt;e&lt;/span&gt;   &lt;span class = "big_bracket"&gt;(&lt;/span&gt;@ &lt;span class = "hint_x"&gt;x&lt;/span&gt;</string>
+	<string id="p2text7">::-&lt;span class = "hint_z"&gt;z&lt;/span&gt;_/_&lt;span class = "hint_y"&gt;y&lt;/span&gt;;;</string>
+	<string id="p2text8">numerator must be less than denominator</string>
+<!--page 2 end-->
+
+<!-- page 3 -->
+	<string id="p3text1">Multiplying a fraction with another fraction means multiplying the numerator with the numerator and denominator with the denominator.</string>
+	<string id="p3text2">::2_/_3;; × ::1_/_5;; = ::2 × 1_/_3 × 5;; = ::2_/_15;;</string>
+	<string id="p3text3">Enter two proper fractions you want to multiply:</string>
+	<string id="p3text4">Choose a numerator which is less than the denominator.</string>
+	<string id="p3text5">::2_/_3;; × ::1_/_5;; = </string>
+	<string id="p3text6">::2_/_3;; × ::1_/_5;; = </string>
+<!--page 3 end-->
+
+	<string id="ques1">Enter the product of the following multiplication:</string>
+	<string id="format1">Product = &lt;span class = "hint_a"&gt;a&lt;/span&gt; x ::&lt;span class = "hint_b"&gt;b&lt;/span&gt;_/_&lt;span class = "hint_c"&gt;c&lt;/span&gt;;; =</string>
+	<string id="format2">Product = ::&lt;span class = "hint_a"&gt;a&lt;/span&gt;_/_&lt;span class = "hint_b"&gt;b&lt;/span&gt;;; x ::&lt;span class = "hint_c"&gt;c&lt;/span&gt;_/_&lt;span class = "hint_d"&gt;d&lt;/span&gt;;; =</string>
+
+	<string id="hint">Hint: &lt;br&gt; ::
+		&lt;span class = "ans_a"&gt;a&lt;/span&gt; ×
+		&lt;span class = "ans_b"&gt;b&lt;/span&gt;_/_
+		&lt;span class = "ans_c"&gt;c&lt;/span&gt;;;</string>
+
+</strings>
+
+</olenepal>

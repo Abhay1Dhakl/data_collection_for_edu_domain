@@ -8,7 +8,7 @@ from common import read_csv, write_csv
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(description="Convert reviewed alignment candidates into approved and rejected sets.")
+    parser = argparse.ArgumentParser(description="Convert reviewed E-Paath alignment candidates into approved and rejected sets.")
     parser.add_argument("--score-threshold", type=float, default=0.9)
     parser.add_argument("--allow-score-only", action="store_true")
     return parser
@@ -32,8 +32,11 @@ def main() -> int:
             approved.append(
                 {
                     "pair_id": row["pair_id"],
-                    "en_source_id": row["en_source_id"],
-                    "ne_source_id": row["ne_source_id"],
+                    "source_id": row["source_id"],
+                    "module_id": row["module_id"],
+                    "screen_id": row["screen_id"],
+                    "en_activity_id": row["en_activity_id"],
+                    "ne_activity_id": row["ne_activity_id"],
                     "en_text": row["en_text"],
                     "ne_text": row["ne_text"],
                     "alignment_score": row["alignment_score"],
@@ -46,8 +49,11 @@ def main() -> int:
             rejected.append(
                 {
                     "pair_id": row["pair_id"],
-                    "en_source_id": row["en_source_id"],
-                    "ne_source_id": row["ne_source_id"],
+                    "source_id": row["source_id"],
+                    "module_id": row["module_id"],
+                    "screen_id": row["screen_id"],
+                    "en_activity_id": row["en_activity_id"],
+                    "ne_activity_id": row["ne_activity_id"],
                     "en_text": row["en_text"],
                     "ne_text": row["ne_text"],
                     "alignment_score": row["alignment_score"],
@@ -61,7 +67,7 @@ def main() -> int:
             notes.append(
                 {
                     "pair_id": row["pair_id"],
-                    "source_id": f"{row['en_source_id']}|{row['ne_source_id']}",
+                    "source_id": row["source_id"],
                     "reviewer": row.get("reviewer", ""),
                     "note_type": "manual_review",
                     "note": note,
@@ -74,8 +80,11 @@ def main() -> int:
         approved,
         [
             "pair_id",
-            "en_source_id",
-            "ne_source_id",
+            "source_id",
+            "module_id",
+            "screen_id",
+            "en_activity_id",
+            "ne_activity_id",
             "en_text",
             "ne_text",
             "alignment_score",
@@ -89,8 +98,11 @@ def main() -> int:
         rejected,
         [
             "pair_id",
-            "en_source_id",
-            "ne_source_id",
+            "source_id",
+            "module_id",
+            "screen_id",
+            "en_activity_id",
+            "ne_activity_id",
             "en_text",
             "ne_text",
             "alignment_score",

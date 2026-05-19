@@ -1,13 +1,13 @@
 # Education EN-NE Gold Dataset Card
 
-This file is populated after gold sentence pairs have been reviewed and final splits are generated.
+This file is populated after manually approved E-Paath sentence pairs are converted into final splits.
 
 Planned fields:
 
 - dataset scope
-- source coverage
+- module coverage
+- grade and subject coverage
 - licensing notes
-- collection methodology
-- alignment and review procedure
+- extraction and alignment method
+- manual verification policy
 - split sizes
-- known limitations

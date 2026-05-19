@@ -2,15 +2,14 @@
 
 Current repository state:
 
-- Seeded source registry rows: 30
-- Downloaded source files: 0
-- Extracted text files: 0
-- Candidate sentence pairs: 0
+- Seeded E-Paath modules: 1
+- Downloaded modules: 0
+- Extracted bilingual module records: 0
+- Sentence-aligned module pairs: 0
 - Gold-approved sentence pairs: 0
 
 Targets:
 
-- First milestone: 1,000 manually verified sentence pairs
-- Minimum strong corpus: 3,000-5,000 gold pairs
-- Advanced target: 7,000-10,000 gold pairs
-- Monolingual education corpus: 50,000+ sentences
+- First milestone: 1,000 manually verified sentence pairs from E-Paath only
+- Expansion target: 25-50 bilingual modules across mathematics, science, English, and Nepali
+- Strong corpus target: 3,000-5,000 gold EN-NE education pairs

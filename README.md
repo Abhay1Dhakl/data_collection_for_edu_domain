@@ -1,136 +1,84 @@
-# Education Domain English-Nepali MT Collection
+# OLE Nepal E-Paath Education EN-NE MT Pipeline
 
-This repository is a starter workspace for collecting, classifying, aligning, and reviewing education-domain English-Nepali machine translation data.
+This repository is now focused on one primary source for education-domain English-Nepali MT: OLE Nepal E-Paath.
 
-The collection strategy is intentionally different from healthcare. Education documents are often related by grade, subject, or curriculum, but many are not direct translations. The workflow here therefore prioritizes source discovery and classification before sentence alignment.
+The previous textbook-first workflow has been retired. CDC and CEHRD textbook pairs are no longer treated as the main path for parallel data because they are usually comparable, not true translations.
 
-## Core Strategy
+## Why E-Paath First
 
-1. Collect education documents first.
-2. Label each source as `parallel_candidate`, `comparable_candidate`, or `monolingual`.
-3. Align only true or near-true parallel sources.
-4. Keep monolingual and comparable corpora separate from gold MT pairs.
+OLE Nepal states that E-Paath has 500+ interactive learning modules aligned with Nepal's national curriculum, covering grades 1-8 and available in Nepali and English.
 
-## Priority Sources
+This makes E-Paath the best practical source for education-domain parallel or near-parallel data.
 
-### 1. CDC Nepal E-Library / Curriculum Development Centre
+Official OLE Nepal source:
 
-Primary source for official school textbooks, curriculum documents, teacher guides, and subject-wise materials.
+- https://olenepal.org/digital-learning-solutions/e-paath/
 
-Priority subdomains:
+Public E-Paath activity directories also expose structured module assets such as:
+
+- `data.xml`
+- `data-np.xml`
+- `page1.html`, `page2.html`, ...
+- `exercise.html`
+- `js/`
+
+This supports a module-centric extraction workflow instead of a PDF-centric workflow.
+
+## Core Logic
+
+Use this process:
+
+1. Collect an E-Paath module directory.
+2. Download bilingual assets such as `data.xml` and `data-np.xml`.
+3. Extract text from the module assets.
+4. Pair extracted records by `module_id`, `screen_id`, and `activity_id`.
+5. Manually verify the aligned EN-NE candidates.
+6. Promote approved pairs to gold parallel data.
+
+## Subdomains
+
+The current E-Paath-first pipeline is suitable for:
 
 - `mathematics`
 - `science`
-- `health_physical_education`
-- `social_studies`
 - `english_language`
 - `nepali_language`
-- `technical_vocational_education`
-- `curriculum_policy`
+- `general_learning`
+- `early_grade_learning`
 
-### 2. CEHRD / Sikai Chautari Learning Portal
+## Data Model
 
-Use for grade-wise reading materials, teacher materials, and digital textbooks available without account requirements for public access.
+The registry is module-centric, not document-centric.
 
-### 3. OLE Nepal E-Paath
-
-Use for bilingual or near-bilingual interactive learning modules, especially grades 1-8 math, science, social studies, and language content.
-
-### 4. OLE Nepal E-Pustakalaya
-
-Use mainly for monolingual education corpora, children reading materials, and back-translation resources.
-
-### 5. Education Policy and Sector Documents
-
-Use later for formal education-domain MT and terminology extraction:
-
-- MoEST
-- CDC
-- CEHRD
-- UNICEF Nepal
-- Global Partnership for Education
-
-## Data Categories
-
-### Category 1: Parallel-Ready Data
-
-Use when English and Nepali are actual translations or near translations.
-
-Examples:
-
-- Same document in English and Nepali
-- Same lesson or module in English and Nepali
-- Same policy document in both languages
-
-This is the gold-data candidate pool.
-
-### Category 2: Comparable Data
-
-Use when English and Nepali are about the same topic but are not exact translations.
-
-Examples:
-
-- Grade 5 Mathematics English version
-- Grade 5 Mathematics Nepali version
-- Same subject and same grade, but wording or ordering differs
-
-These sources require manual verification before they can become gold pairs.
-
-### Category 3: Monolingual Data
-
-Use when only English or only Nepali exists.
-
-Examples:
-
-- Single-language textbooks
-- Teacher guides
-- Reading materials
-- Children's books
-
-Use this pool for back-translation, terminology mining, language-model adaptation, and domain language modeling.
-
-## Education Domain Subdomains
-
-- `mathematics`: Grade-wise mathematics textbooks and learning materials.
-- `science`: Science textbooks, exercises, and learning modules.
-- `health_physical_education`: Health, hygiene, physical education, and life-skills content.
-- `social_studies`: Social studies, civic education, history, geography, and life skills.
-- `english_language`: English language textbooks and learning materials.
-- `nepali_language`: Nepali language textbooks and reading materials.
-- `early_childhood_education`: ECED/ECD learning materials.
-- `teacher_training`: Teacher guides, training manuals, and professional development content.
-- `curriculum_policy`: Curriculum framework, subject curriculum, and policy documents.
-- `assessment_exam_materials`: Model questions, specification grids, and exam materials.
-- `technical_vocational_education`: Technical and vocational textbooks.
-- `children_reading_materials`: Story books and reading materials for children.
-- `education_policy`: School education plans, reports, and education-sector documents.
-- `language_policy`: Medium-of-instruction and language-learning policy documents.
-
-## Registry Schema
-
-`data/source_registry.csv` uses this header:
+`data/source_registry.csv` header:
 
 ```csv
-source_id,source_name,url,title,subdomain,data_type,language_type,file_type,access_date,license_note,status
+source_id,source_name,module_id,module_url,grade,subject,module_slug,module_title_en,module_title_ne,data_type,language_type,access_date,license_note,status,notes
 ```
 
-Allowed `data_type` values:
+Field meaning:
 
-- `parallel_candidate`
-- `comparable_candidate`
-- `monolingual_pdf`
-- `monolingual_html`
-- `bilingual_module`
-- `policy_document`
-- `textbook_pdf`
-- `teacher_guide`
+- `source_id`: local registry ID such as `EPAATH_0001`
+- `module_id`: path-style identifier such as `grade5/math/fractions`
+- `module_url`: E-Paath activity directory URL
+- `module_slug`: final path segment of the module
+- `data_type`: one of `bilingual_module`, `monolingual_module`, `verified_parallel_module`, `policy_document`
+- `language_type`: usually `en-ne` for bilingual E-Paath modules
+- `status`: pipeline stage such as `pending`, `downloaded`, `extracted`, `cleaned`, `sentence_split`
 
-Allowed `language_type` values:
+Important rule:
 
-- `en-ne`
-- `en`
-- `ne`
-- `unknown`
+- `bilingual_module` means the raw module has bilingual assets available.
+- `verified_parallel_module` means the module has already passed human pairing checks and is safe to use as high-confidence parallel material.
+
+Stage scripts are status-aware by default:
+
+- `02_download_documents.py` targets `pending` and `download_failed`
+- `03_extract_text.py` targets `downloaded` and `extract_failed`
+- `04_clean_text.py` targets `extracted`
+- `05_sentence_split.py` targets `cleaned`
+
+If a module is already at a later stage, the script will report that nothing is pending. Use `--source-id <SOURCE_ID> --overwrite` to rerun a specific module intentionally.
 
 ## Folder Layout
 
@@ -139,19 +87,10 @@ Allowed `language_type` values:
 ├── data/
 │   ├── source_registry.csv
 │   ├── raw/
-│   │   ├── cdc_elibrary/
-│   │   ├── cehrd_learning_portal/
-│   │   ├── ole_epaath/
-│   │   ├── ole_epustakalaya/
-│   │   └── policy_documents/
+│   │   └── ole_epaath/
+│   │       └── EPAATH_0001/
 │   ├── extracted/
-│   │   ├── pdf_text/
-│   │   ├── html_text/
 │   │   └── module_text/
-│   ├── categorized/
-│   │   ├── parallel_candidates/
-│   │   ├── comparable_candidates/
-│   │   └── monolingual/
 │   ├── aligned/
 │   │   ├── sentence_pairs_raw.csv
 │   │   ├── sentence_pairs_scored.csv
@@ -181,91 +120,112 @@ Allowed `language_type` values:
 │   ├── 07_manual_review_filter.py
 │   └── 08_create_final_splits.py
 ├── reports/
-│   ├── source_summary.md
-│   ├── subdomain_summary.md
-│   ├── dataset_statistics.md
-│   └── license_review.md
 └── README.md
 ```
 
-## Practical Collection Order
+## Script Roles
 
-### Step 1: CDC and CEHRD Textbooks
+### `01_collect_sources.py`
 
-Collect 30-50 documents first, prioritizing:
+Maintains the E-Paath module registry.
 
-- Grade 4-8 Mathematics
-- Grade 4-8 Science
-- Grade 4-8 Social Studies
-- Grade 4-8 Health and Physical Education
+Use it to:
 
-These subjects usually contain clearer instructional language and more reusable terminology than literature-heavy texts.
+- validate the registry
+- add a new module row
+- summarize modules by subject, grade, type, and status
 
-### Step 2: OLE E-Paath Modules
+### `02_download_documents.py`
 
-Collect matching English and Nepali modules when the same lesson exists in both languages.
+Downloads raw module assets from an E-Paath activity directory.
 
-### Step 3: Education Policy Documents
+Current logic:
 
-Collect sector plans, curriculum reform documents, teacher-training documents, and language-policy materials.
+- saves the module directory listing
+- downloads `data.xml`
+- downloads `data-np.xml`
+- downloads `page*.html`
+- downloads `exercise.html`
+- optionally downloads one-level JS and JSON assets from `js/`
 
-### Step 4: E-Pustakalaya
+### `03_extract_text.py`
 
-Use mainly for monolingual Nepali text and children reading materials unless matched English-Nepali versions can be verified.
+Extracts structured records mainly from `data.xml` and `data-np.xml`.
 
-## Dataset Design
+Output records preserve:
 
-Build two separate datasets:
+- `source_id`
+- `module_id`
+- `language_type`
+- `screen_id`
+- `activity_id`
+- `origin_file`
+- `origin_path`
+- `text`
 
-- Dataset A: Gold parallel education dataset
-- Dataset B: Monolingual and comparable education corpus
+### `04_clean_text.py`
 
-Dataset A is for MT training and evaluation.
-Dataset B is for back-translation, terminology extraction, domain vocabulary mining, and domain adaptation.
+Normalizes extracted module text and removes exact duplicates.
 
-## Target Size
+### `05_sentence_split.py`
 
-- Minimum gold target: 3,000-5,000 sentence pairs
-- Strong gold target: 7,000-10,000 sentence pairs
-- External test set: 500-1,000 sentence pairs
-- Monolingual education text: 50,000+ sentences
-- Terminology glossary: 300-500 terms
+Splits cleaned records into sentence JSONL while preserving module, screen, and activity metadata.
 
-## First Milestone
+### `06_align_sentences.py`
 
-The first milestone for this repository is:
+Aligns bilingual E-Paath sentence records within the same module.
 
-1. Collect 30 education sources from CDC, CEHRD, and OLE.
-2. Classify them as parallel, comparable, or monolingual candidates.
-3. Produce 1,000 manually verified English-Nepali sentence pairs.
+Alignment basis:
 
-## Important Warning
+- exact `screen_id` match first
+- exact `activity_id` match where available
+- position and length heuristic within matched screen or activity groups
 
-Do not assume that the following are parallel by default:
+### `07_manual_review_filter.py`
 
-- Grade 5 Mathematics English textbook
-- Grade 5 Mathematics Nepali textbook
+Converts reviewed alignment candidates into approved and rejected sets.
 
-Treat these as `comparable_candidate` unless manual verification shows that they are true or near-true translations.
+### `08_create_final_splits.py`
 
-## Script Entry Points
+Builds final train/dev/test JSONL files from approved E-Paath pairs.
 
-Typical local workflow:
+## Current Usage
 
 ```bash
-python3 scripts/01_collect_sources.py --summary
-python3 scripts/02_download_documents.py --limit 10
-python3 scripts/03_extract_text.py --limit 10
-python3 scripts/04_clean_text.py
-python3 scripts/05_sentence_split.py --source-id EDU_0001
-python3 scripts/06_align_sentences.py
-python3 scripts/06_align_sentences.py --list-candidates
-python3 scripts/06_align_sentences.py --en-source EDU_0001 --ne-source EDU_0002 --include-flagged
-python3 scripts/06_align_sentences.py --align-all
-python3 scripts/07_manual_review_filter.py --allow-score-only
+python3 scripts/01_collect_sources.py --validate --summary
+python3 scripts/02_download_documents.py --source-id EPAATH_0001 --include-js --update-status
+python3 scripts/03_extract_text.py --source-id EPAATH_0001 --update-status
+python3 scripts/04_clean_text.py --source-id EPAATH_0001 --update-status
+python3 scripts/05_sentence_split.py --source-id EPAATH_0001 --update-status
+python3 scripts/06_align_sentences.py --source-id EPAATH_0001
+python3 scripts/07_manual_review_filter.py
 python3 scripts/08_create_final_splits.py
 ```
 
-The alignment script is intentionally conservative. Running it without arguments lists discovered source pairs and their blocked or flagged status instead of crashing.
+Once the seed module has advanced to `sentence_split`, these no-arg stage commands should no-op with an explanation instead of failing:
 
-`--include-flagged` should only be used for inspection or manual review when extraction quality is known to be imperfect.
+```bash
+python3 scripts/02_download_documents.py
+python3 scripts/03_extract_text.py
+python3 scripts/04_clean_text.py
+python3 scripts/05_sentence_split.py
+```
+
+## Manual Review Rule
+
+Do not treat aligned E-Paath candidates as gold automatically.
+
+Gold parallel data should only come after:
+
+1. module-level bilingual availability check
+2. screen or activity-level alignment
+3. human verification
+
+## Seed Module
+
+The repository is seeded with one public E-Paath module example:
+
+- `grade5/math/fractions`
+- `https://epaath.olenepal.org/activity/grade5/math/fractions/`
+
+This module directory is useful because public indexing shows both `data.xml` and `data-np.xml`, which fits the bilingual extraction workflow.

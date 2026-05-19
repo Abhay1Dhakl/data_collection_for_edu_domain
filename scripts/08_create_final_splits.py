@@ -10,7 +10,7 @@ from common import FINAL_DIR, read_csv
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(description="Create final train/dev/test splits from approved pairs.")
+    parser = argparse.ArgumentParser(description="Create final train/dev/test splits from approved E-Paath pairs.")
     parser.add_argument("--seed", type=int, default=13)
     parser.add_argument("--train-ratio", type=float, default=0.8)
     parser.add_argument("--dev-ratio", type=float, default=0.1)
@@ -31,8 +31,11 @@ def to_record(row: dict[str, str]) -> dict:
             "ne": row["ne_text"],
         },
         "metadata": {
-            "en_source_id": row["en_source_id"],
-            "ne_source_id": row["ne_source_id"],
+            "source_id": row["source_id"],
+            "module_id": row["module_id"],
+            "screen_id": row["screen_id"],
+            "en_activity_id": row["en_activity_id"],
+            "ne_activity_id": row["ne_activity_id"],
             "alignment_score": row["alignment_score"],
         },
     }
@@ -68,7 +71,7 @@ Generated on: {date.today().isoformat()}
 - Test pairs: {len(test_rows)}
 - Split seed: {args.seed}
 
-This dataset only includes manually approved or score-approved sentence pairs from the education-domain pipeline.
+This dataset only includes manually approved sentence pairs extracted from bilingual OLE Nepal E-Paath module assets.
 """
     (FINAL_DIR / "dataset_card.md").write_text(dataset_card, encoding="utf-8")
     print(f"Wrote {total} approved pairs into final splits.")

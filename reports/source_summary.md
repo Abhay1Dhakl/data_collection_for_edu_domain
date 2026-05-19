@@ -1,23 +1,17 @@
 # Source Summary
 
-Starter registry status as of 2026-05-19:
+Current focus:
 
-- Total seeded sources: 30
-- CDC Nepal E-Library: 24
-- CEHRD Learning Portal: 4
-- OLE Nepal: 2
+- OLE Nepal E-Paath only
 
-Current data-type mix:
+Seeded module registry:
 
-- `comparable_candidate`: 15
-- `monolingual_pdf`: 6
-- `textbook_pdf`: 2
-- `teacher_guide`: 3
-- `monolingual_html`: 3
-- `bilingual_module`: 1
+- Total modules: 1
+- Bilingual modules: 1
+- Verified parallel modules: 0
 
 Priority next action:
 
-1. Download the CDC textbook pairs for grades 4-6 mathematics, science, and social studies.
-2. Resolve OLE E-Paath module-specific URLs for bilingual module harvesting.
-3. Expand the registry with policy documents only after the first textbook pass is stable.
+1. Add more public E-Paath module directories with bilingual assets.
+2. Confirm which modules expose both `data.xml` and `data-np.xml`.
+3. Move from seed examples to a grade and subject-balanced bilingual module registry.

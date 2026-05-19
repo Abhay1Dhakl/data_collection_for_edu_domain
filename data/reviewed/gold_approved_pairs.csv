@@ -1,1 +1,1 @@
-pair_id,en_source_id,ne_source_id,en_text,ne_text,alignment_score,reviewer,approved_date,notes
+pair_id,source_id,module_id,screen_id,en_activity_id,ne_activity_id,en_text,ne_text,alignment_score,reviewer,approved_date,notes

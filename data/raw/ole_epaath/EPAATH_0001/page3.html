@@ -1,0 +1,171 @@
+<!--
+    Title : General Template for Epaath Activity
+ -->
+<script type="text/javascript">
+    $cssLoader("css/page3.css");
+</script>
+<!-- cssloader ends -->
+
+<head>
+	<!-- added to load data directly from server TO REMOVE DURING DEPLOYMENT-->
+	<meta http-equiv=“Pragma” content=”no-cache”>
+	<meta http-equiv=“Expires” content=”-1″>
+	<meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>
+	<!-- added to load data directly from server ends -->
+</head>
+
+<div class="chapterfractions">
+    <div class="board">Hello World!!! [Lesson]</div>
+    <div class="nextBtn myNextStyle"></div>
+    <div class="prevBtn myPrevStyle"></div>
+</div>
+
+<script id="general-template" type="text/x-handlebars-template">
+    {{! update templatecontains data for if it has header, instruction, headerinstruction
+        or only has content --}}
+    {{#if hasheaderblock}}
+            <div class="generalTemplateblock" data-templatecontains="hasheaderblock">
+        {{else}}
+            <div class="generalTemplateblock" data-templatecontains="hasonlycontent">
+    {{/if}}
+
+    {{! header block start--}}
+        {{#if headerblock}}
+        <div class="headerblock">
+            {{#each headerblock}}
+                    {{> textcontent}}
+            {{/each}}
+        </div>
+        {{/if}}
+    {{! header block end--}}
+
+    {{! content block start--}}
+        <div class="contentblock {{contentblockadditionalclass}}">
+
+    	{{#if containscanvaselement}}
+            <canvas id="canvas_fraction_1" width="50px" height="250px">
+				Your browser does not support the HTML5 canvas tag.
+			</canvas>
+			<canvas id="canvas_fraction_2" width="250px" height="250px">
+				Your browser does not support the HTML5 canvas tag.
+			</canvas>
+		{{/if}}
+
+        {{#if contentnocenteradjust}}
+            <div class="coverboardfull">
+        {{else}}
+            <div class="vertical-horizontal-center">
+        {{/if}}
+           {{#if uppertextblock}}
+            <div class="textblock {{uppertextblockadditionalclass}}">
+                {{#if uppertextblocknocenteradjust}}
+                    <div class="vertical-horizontal-center">
+                {{/if}}
+                    {{#each uppertextblock}}
+                        {{> textcontent}}
+                    {{/each}}
+                {{#if uppertextblocknocenteradjust}}
+                    </div>
+                {{/if}}
+            </div>
+            {{/if}}
+            {{#if imageblock}}
+            <div class="imageblock {{imageblockadditionalclass}}">
+                {{#if imageblocknocenteradjust}}
+                    <div class="vertical-horizontal-center">
+                {{/if}}
+                    {{#each imageblock}}
+                    	{{#if imageblockclass}}
+                    		<div class="{{imageblockclass}}">
+                    	{{/if}}
+                        	{{> imagecontent}}
+                        {{#if imageblockclass}}
+                    		</div>
+                    	{{/if}}
+                    {{/each}}
+                {{#if imageblocknocenteradjust}}
+                    </div>
+                {{/if}}
+            </div>
+            {{/if}}
+            {{#if lowertextblock}}
+            <div class="{{lowertextblockadditionalclass}}">
+                {{#if lowertextblocknocenteradjust}}
+                    <div class="vertical-horizontal-center">
+                {{/if}}
+                    {{#each lowertextblock}}
+                        {{> textcontent}}
+                    {{/each}}
+                {{#if lowertextblocknocenteradjust}}
+                    </div>
+                {{/if}}
+            </div>
+            {{/if}}
+            {{#if fractionblock}}
+            <div class="fractionblock {{fractionblockadditionalclass}}">
+                    {{#each fractionblock}}
+                        {{> fractioncontent}}
+                    {{/each}}
+            </div>
+            {{/if}}
+            {{#if questionblock}}
+            <div class="questionblock {{questionblockadditionalclass}}">
+                {{#each questionblock}}
+                	{{#if answer_1_data}}
+						<p class="{{answer_1_class}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}"  data-splitintofractions = "{{splitintofractionsflag}}">{{{answer_1_data}}}</p>
+						<p class="{{answer_2_class}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}"  data-splitintofractions = "{{splitintofractionsflag}}">{{{answer_2_data}}}</p>
+					{{/if}}
+					<div class = '{{fractioninput}}'>
+						<input class="{{inputclass_numerator}}" value="{{{digitdata}}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}"></input>
+						<div class = 'box_divider'></div>
+						<input class="{{inputclass_denominator}}" value="{{{digitdata}}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}"></input>
+					</div>
+					{{#if symboldata}}
+					<p class = "{{symbolclass}}"> {{symboldata}} </p>
+					<div class = '{{fractioninput_1}}'>
+						<input class="{{inputclass_numerator_1}}" value="{{{digitdata}}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}"></input>
+						<div class = 'box_divider'></div>
+						<input class="{{inputclass_denominator_1}}" value="{{{digitdata}}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}"></input>
+					</div>
+					{{/if}}
+					{{#if buttondata}}
+				    	<button class="{{buttonclass}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}">{{{buttondata}}}</button>
+					{{/if}}
+                {{/each}}
+            </div>
+            {{/if}}
+        </div>
+    </div>
+    {{! content block end--}}
+</div>
+</script>
+
+<!-- partials separated as subtemplate in handlebars -->
+<script id="fractioncontent-partial" type="text/x-handlebars-template">
+	<div class="{{fractionClass}}">
+		<span class="fraction {{additionalspanclass}}" data-splitintofractions = "{{splitintofractionsflag}}">{{spandata}}</span>
+	</div>
+</script>
+
+<script id="textcontent-partial" type="text/x-handlebars-template">
+    <p class="{{textclass}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}"  data-splitintofractions = "{{splitintofractionsflag}}">{{{textdata}}}</p>
+</script>
+
+<script id="imagecontent-partial" type="text/x-handlebars-template">
+    {{#each imagestoshow}}
+        <img class="{{imgclass}}" src="{{imgsrc}}">
+    {{/each}}
+    {{#if imagelabels}}
+        {{#each imagelabels}}
+            <label class="{{imagelabelclass}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}">{{{imagelabeldata}}}</label>
+        {{/each}}
+    {{/if}}
+</script>
+
+
+<!-- js loader starts -->
+<script type="text/javascript" src="js/preloadjs-0.6.2.min.js"></script>
+<script type="text/javascript" src="js/soundjs-0.6.2.min.js"></script>
+<script type="text/javascript">
+    $jsLoader("js/page3.js");
+</script>

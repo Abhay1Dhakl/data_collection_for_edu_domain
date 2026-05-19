@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+
+<olenepal>
+
+<lesson>
+	<subject>गणित</subject>
+	<topic>अंक गणित-ने</topic>
+	<chapter>भिन्&#8205;न</chapter>
+	<levelname>तह १</levelname>
+	<leveldescription></leveldescription>
+
+
+
+	<objective>
+		<title>उदेश्य:</title>
+		<description>
+				<purpose>पूर्ण सङ्‌ख्यालाई भिन्&#8205;नसँग गुणन गर्न र गुणनफललाई मिश्रित भिन्&#8205;नमा परिणत गर्न</purpose>
+				<purpose>कुनै दुई उपयुक्‍त भिन्&#8205;नहरूको गुणन गर्न</purpose>
+		</description>
+	</objective>
+
+	<definition>
+
+			<statement></statement>
+
+	</definition>
+	<lessonDirection>
+
+	</lessonDirection>
+
+	<teachersnote>
+
+
+	</teachersnote>
+</lesson>
+
+
+
+
+
+<strings>
+
+<string id="next_1" >Go to the next page</string>
+
+<string id="next_2" >Go to another section</string>
+
+<string id="title1" >भिन्&#8205;न</string>
+
+<string id="p6_heading">Under Construction</string>
+
+<!-- page common -->
+	<string id="pctext1">जाँच</string>
+	<string id="pctext2">पेश गर</string>
+	<string id="pctext3">गुणन</string>
+	<string id="phint">सुझाव:</string>
+	<string id="pdiy">आफैँँ गर</string>
+	<string id="predo">फेरी खेल</string>
+	<string id="smultiply"> × </string>
+
+<!--page common end-->
+
+<!-- page 1 -->
+	<string id="p1text1">यहाँ कतिओटा मिठाईहरू छन्?</string>
+	<string id="p1text2">अब हामी 18 को आधा #अथवा@ 18 लाई ::1_/_2;; सँग गुणन गर्दा कति हुँदो रहेछ #हेरौँ@।</string>
+	<string id="p1text3">18 × ::1_/_2;; = ::1 × 18_/_2;; = ::18_/_2;; =</string>
+	<string id="p1text4">अब हामी  18 को एक तिहाइ अथवा 18 लाई ::1_/_3;; सँग  गुणन गर्दा कति हुँदो रहेछ हेरौँ।</string>
+	<string id="p1text5">18 × ::1_/_3;; = ::1 × 18_/_3;; = ::18_/_3;; =</string>
+	<string id="p1text6">भिन्&#8205;नलाई पूर्ण सङ्ख्याले गुणन गर्दा  पूर्ण सङ्ख्याले भिन्&#8205;नको अंशलाई गुणन गरी हरलाई उही राख्‍नुपर्छ। </string>
+	<string id="p1text7">5 × ::1_/_3;; = ::5 × 1_/_3;; = ::5_/_3;;</string>
+	<string id="p1text8">यसरी आउने भिन्&#8205;न अनुपयुक्&#8205;त भिन्&#8205;न भए सो भिन्&#8205;नलाई मिश्रित सङ्ख्यामा व्यक्&#8205;त गर्नुपर्छ।</string>
+	<string id="p1text9">::5_/_#3@;; = ::#3@ + 2_/_#3@;;</string>
+	<string id="p1text10">::5_/_3;; = ::#3@ + 2_/_#3@;; = ::#3@_/_#3@;; + ::2_/_#3@;;</string>
+	<string id="p1text11">::5_/_3;; = ::3 + 2_/_3;; = ::#3@_/_#3@;; + ::2_/_#3@;; = #1@ + ::2_/_#3@;;</string>
+	<string id="p1text12">::5_/_3;; = ::3 + 2_/_3;; = ::3_/_3;; + ::2_/_3;; = #1@ + ::2_/_#3@;; =  #1@::2_/_#3@;;</string>
+	<string id="p1text13">::5_/_3;; अथवा 5 ÷ 3:</string>
+	<string id="p1text14">अब हामी 14 लाई ::1_/_3;; सँग  गुणन गरी हेरौँ।</string>
+	<string id="p1text15">14 × ::1_/_3;; = ::1 × 14_/_3;; = ::14_/_3;; = ::3 + 3 + 3 + 3 + 2_/_3;; = </string>
+	<string id="p1text16">::5_/_3;;</string>
+<!--page 1 end-->
+
+<!-- page 2 -->
+	<string id="p2text1">प्राकृतिक सङ्ख्या राख:</string>
+	<string id="p2text2">उपयुक्‍त भिन्‍न राख</string>
+	<string id="p2text3">गुणनफल = &lt;span class = "hint_a"&gt;a&lt;/span&gt; x ::&lt;span class = "hint_b"&gt;b&lt;/span&gt;_/_&lt;span class = "hint_c"&gt;c&lt;/span&gt;;; =</string>
+	<string id="p2text4">गुणनफल = &lt;span class = "hint_a"&gt;a&lt;/span&gt; x ::&lt;span class = "hint_b"&gt;b&lt;/span&gt;_/_&lt;span class = "hint_c"&gt;c&lt;/span&gt;;; = ::#&lt;span class = "hint_b"&gt;b&lt;/span&gt;@_/_#&lt;span class = "hint_c"&gt;c&lt;/span&gt;@;; =</string>
+	<string id="p2text5">::&lt;span class = "hint_a"&gt;a&lt;/span&gt; × &lt;span class = "hint_b"&gt;b&lt;/span&gt;_/_&lt;span class = "hint_c"&gt;c&lt;/span&gt;;;</string>
+	<string id="p2text6">&lt;span class = "hint_f"&gt;f&lt;/span&gt; #&lt;span class = "big_bracket"&gt;)&lt;/span&gt;   &lt;span class = "hint_e"&gt;e&lt;/span&gt;   &lt;span class = "big_bracket"&gt;(&lt;/span&gt;@ &lt;span class = "hint_x"&gt;x&lt;/span&gt;</string>
+	<string id="p2text7">::-&lt;span class = "hint_z"&gt;z&lt;/span&gt;_/_&lt;span class = "hint_y"&gt;y&lt;/span&gt;;;</string>
+	<string id="p2text8">अंशभन्‍दा हर ठुलो हुनुपर्छ</string>
+<!--page 2 end-->
+
+<!-- page 3 -->
+	<string id="p3text1">भिन्&#8205;नहरूको गुणन गर्दा हरले हरलाई र अंशले अंशलाई गुणन गर्नुपर्छ।</string>
+	<string id="p3text2">::2_/_3;; × ::1_/_5;; = ::2 × 1_/_3 × 5;; = ::2_/_15;;</string>
+	<string id="p3text3">गुणन गर्ने दुई ओटा उपयुक्‍त भिन्&#8205;न राख:</string>
+	<string id="p3text4">हरभन्&#8205;दा अंश सानो छान।</string>
+	<string id="p3text5">::2_/_3;; × ::1_/_5;; = </string>
+	<string id="p3text6">::2_/_3;; × ::1_/_5;; = </string>
+<!--page 3 end-->
+
+	<string id="ques1">तल उल्&#8205;लेखित गुणनको गुणनफल राख:</string>
+	<string id="format1">गुणनफल = &lt;span class = "hint_a"&gt;a&lt;/span&gt; x ::&lt;span class = "hint_b"&gt;b&lt;/span&gt;_/_&lt;span class = "hint_c"&gt;c&lt;/span&gt;;; =</string>
+	<string id="format2">गुणनफल = ::&lt;span class = "hint_a"&gt;a&lt;/span&gt;_/_&lt;span class = "hint_b"&gt;b&lt;/span&gt;;; x ::&lt;span class = "hint_c"&gt;c&lt;/span&gt;_/_&lt;span class = "hint_d"&gt;d&lt;/span&gt;;; =</string>
+
+	<string id="hint">सुझाव: &lt;br&gt; ::
+		&lt;span class = "ans_a"&gt;a&lt;/span&gt; ×
+		&lt;span class = "ans_b"&gt;b&lt;/span&gt;_/_
+		&lt;span class = "ans_c"&gt;c&lt;/span&gt;;;</string>
+
+</strings>
+
+</olenepal>
