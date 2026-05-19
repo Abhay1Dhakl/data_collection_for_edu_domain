@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<olenepal>
+
+<lesson>
+	<subject>English</subject>
+	<topic>English-EN</topic>
+	<chapter>Simple Greetings</chapter>
+	<levelname>Level 1</levelname>
+	<leveldescription></leveldescription>
+
+	<objective>
+		<title>Objectives:</title>
+		<description>
+			<purpose>To ask and answer simple questions about present action</purpose>
+			<purpose>To ask and answer simple questions, including greetings, naming actions and objects</purpose>
+		</description>
+	</objective>
+
+	<definition>
+		<description>
+		</description>
+	</definition>
+
+	<lessonDirection>
+		<purposes></purposes>
+		<about></about>
+		<lessonhelp></lessonhelp>
+		<exercisehelp>
+			<exerciseText></exerciseText>
+		</exercisehelp>
+	</lessonDirection>
+
+</lesson>
+
+<strings>
+<!-- common strings -->
+	<!-- please take care you do not remove this spacecharacter string -->
+	<string id="spacecharacter">&#160;</string>
+	<string id="diytext">Do It Yourself</string>
+	<string id="definitiontext">Definition</string>
+	<string id="factorization">Factorization</string>
+	<string id="factorizeit">factorize it</string>
+	<string id="multiply">multiply</string>
+	<string id="reverseit">reverse</string>
+	<string id="forexample">For example:</string>
+	<string id="equal"> = </string>
+	<string id="okaytext">OK</string>
+	<string id="playtime">Playtime</string>
+
+<!-- direction words -->
+	<string id="directions">Directions</string>
+	<string id="straight">Straight</string>
+	<string id="left">Left</string>
+	<string id="right">Right</string>
+<!-- direction words end -->
+
+
+
+
+<!-- page 1 -->
+
+	<string id="p1text1">Good morning, students. I am Miss Pandey.</string>
+	<string id="p1text2">Good morning, Miss. I am Pratik.</string>
+	<string id="p1text3">Good morning, Miss. I am Radha.</string>
+	<string id="p1text4">What are you doing, Pratik?</string>
+	<string id="p1text5">I am playing.</string>
+	<string id="p1text6">What are you doing, Radha?</string>
+	<string id="p1text7">I am eating an orange.
+</string>
+	<string id="p1text8"></string>
+	<string id="p1text9"></string>
+	<string id="p1text10"></string>
+<!--page 1 end-->
+
+
+<!-- page 2 -->
+	<string id="p2text1">Hello Gopal. How are you?</string>
+	<string id="p2text2">Hello Prem Sir. I am fine, thank you.</string>
+	<string id="p2text3">What are you doing?</string>
+	<string id="p2text4">I am writing, sir.</string>
+	<string id="p2text5">What is that, Gopal?</string>
+	<string id="p2text6">This is a pencil. </string>
+	<string id="p2text7"></string>
+	<string id="p2text8"></string>
+	<string id="p2text9"></string>
+	<string id="p2text10"></string>
+
+<!--page 2 end-->
+
+<!-- page 3 -->
+
+	<string id="p3text1">Good morning, student. I am Miss Yadav.</string>
+	<string id="p3text2">Good morning, Miss. I am Numa.</string>
+	<string id="p3text3">How are you Numa?</string>
+	<string id="p3text4"> I am fine, thank you teacher.</string>
+	<string id="p3text5">What are you doing, Numa?</string>
+	<string id="p3text6">I am sitting. </string>
+	<string id="p3text7">What is that?</string>
+	<string id="p3text8">This is a chair, Miss Yadav.</string>
+	<string id="p3text9"></string>
+	<string id="p3text10"></string>
+<!--page 3 end-->
+
+<!-- page 4 -->
+
+<string id="p4text1">Click on the correct picture.</string>
+<string id="p4text3">The girl is dancing. </string>
+<string id="p4text2">The boy is sitting. </string>
+<string id="p4text4">The boys are playing football.</string>
+<string id="p4text5">Maya is writing.</string>
+<string id="p4text6">Anuj is sleeping.</string>
+<string id="p4text7"></string>
+
+<!--page 4 end-->
+
+<!--  page5 starts -->
+<string id="p5text1">Good afternoon Radha.</string>
+<string id="p5text2">What will Radha say now? </string>
+<string id="p5text3">Good afternoon.</string>
+<string id="p5text4">My name is Radha.</string>
+<string id="p5text5">How are you ?</string>
+<string id="p5text6">What will Radha say now?</string>
+<string id="p5text7">I am playing the flute.</string>
+<string id="p5text8">I am fine, thank you.</string>
+<string id="p5text9">What is that?</string>
+<string id="p5text10">This is a fish.</string>
+<string id="p5text11">This is a flute.</string>
+<string id="p5text12"></string>
+<string id="p5text13"></string>
+
+<!-- page5 ends -->
+
+
+<!-- page6 starts -->
+<string id="p6text1">Good morning children.</string>
+<string id="p6text2">What will the children say now? </string>
+<string id="p6text3">Good morning, mother.</string>
+<string id="p6text4">Good afternoon, mother.</string>
+<string id="p6text5">What is that?
+</string>
+<string id="p6text6">I am fine, thank you.</string>
+<string id="p6text7">That is a pressure cooker.</string>
+<string id="p6text8">What are you doing?</string>
+<string id="p6text9">Good morning.</string>
+<string id="p6text10">I am cooking food.</string>
+<string id="p6text11">What will the mother say now?
+</string>
+<!-- page6 ends -->
+
+
+<!-- page7 starts -->
+<string id="p7text1">Good afternoon Swagat.</string>
+<string id="p7text2">What will Swagat say now?</string>
+<string id="p7text3">Good afternoon.
+</string>
+<string id="p7text4">I am at the playground.</string>
+<string id="p7text5">How are you?
+</string>
+<string id="p7text6">I am playing football.</string>
+<string id="p7text7">I am fine, thank you.</string>
+<string id="p7text8">What is that?
+</string>
+<string id="p7text9">This is a football.</string>
+<string id="p7text10">Good morning.</string>
+<string id="p7text11">This is a football.
+</string>
+<!-- page7 ends -->
+
+<!-- page 8 starts -->
+<string id="p8text1">Good afternoon Niti.</string>
+<string id="p8text2">What will Niti say now?</string>
+<string id="p8text3">I am Niti.
+</string>
+<string id="p8text4">Good afternoon.</string>
+<string id="p8text5">How are you?
+</string>
+<string id="p8text6">This is a book.</string>
+<string id="p8text7">I am fine, thank you.</string>
+<string id="p8text8">What are you doing?
+</string>
+<string id="p8text10">How are you?
+</string>
+<string id="p8text11">I am studying.
+</string>
+<!-- page 8 ends -->
+
+<!-- exercise data start -->
+
+
+<string id="etext1">Listen to the word and click on the correct answer.</string>
+<string id="clicktext">Click on any picture.</string>
+<string id="playagain">PLAY AGAIN</string>
+<string id="mainmenu">MAIN MENU</string>
+<string id="learnagain">LEARN AGAIN</string>
+
+
+<string id="etext2">PAN</string>
+<string id="etext3">PEN</string>
+<string id="etext4">PIN</string>
+
+<string id="etext5">BIG</string>
+<string id="etext6">BAG</string>
+<string id="etext7">BUN</string>
+
+<string id="etext8">CAT</string>
+<string id="etext9">COW</string>
+<string id="etext10">CALF</string>
+
+<string id="etext11">PIG</string>
+<string id="etext12">POT</string>
+<string id="etext13">PEN</string>
+
+<string id="etext14">PAN</string>
+<string id="etext15">PEN</string>
+<string id="etext16">PIN</string>
+<!-- Exercise ends -->
+</strings>
+
+</olenepal>

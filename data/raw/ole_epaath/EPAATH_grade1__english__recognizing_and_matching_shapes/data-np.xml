@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<olenepal>
+
+<lesson>
+	<subject>English</subject>
+	<topic>English-EN</topic>
+	<chapter></chapter>
+	<levelname>Level 1</levelname>
+	<leveldescription></leveldescription>
+
+	<objective>
+		<title>Objectives:</title>
+		<description>
+			<purpose></purpose>
+		</description>
+	</objective>
+
+	<definition>
+		<description>
+		</description>
+	</definition>
+
+	<lessonDirection>
+		<purposes></purposes>
+		<about></about>
+		<lessonhelp></lessonhelp>
+		<exercisehelp>
+			<exerciseText></exerciseText>
+		</exercisehelp>
+	</lessonDirection>
+
+</lesson>
+
+<strings>
+	<string id="p1text1">एउटा गाउँका मानिसहरू पौडी खेल्न निकै सिपालु थिए।</string>
+</strings>
+
+</olenepal>

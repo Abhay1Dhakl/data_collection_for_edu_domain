@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<olenepal>
+  <lesson>
+    <subject>सजीव र निर्जीव</subject>
+    <topic>सजीव र निर्जीव</topic>
+    <chapter>कुराकानी र जानकारी</chapter>
+    <levelname>कक्षा १</levelname>
+    <leveldescription>
+    </leveldescription>
+    <objective>
+      <title>Objectives:</title>
+      <description>
+        <purpose>दैनिक जीवनमा प्रयोग हुने सञ्चारका माध्यमहरुको नाम बताउन</purpose>
+      </description>
+    </objective>
+    <definition>
+      <description>
+      </description>
+    </definition>
+    <lessonDirection>
+      <purposes>
+      </purposes>
+      <about>
+      </about>
+      <lessonhelp>
+      </lessonhelp>
+      <exercisehelp>
+        <exerciseText>
+        </exerciseText>
+      </exercisehelp>
+    </lessonDirection>
+  </lesson>
+  <strings>
+    
+    <!-- page 1 starts-->
+      <string id="covertext">सजीव र निर्जीव</string>
+
+      <string id="s1p1">आज बचेराहरूले सजीव र निर्जीव वस्तुहरू खोज्दैछन्।</string>
+      <string id="s1p2">त्यसैले उनीहरू आमासँगै बाहिर निस्किए।</string>
+      <string id="s1p3">बाटोमा सोनुले गोठ देखी।</string>
+      <string id="s1p4">ऊ त्यतैतिर लागी।</string>
+      <string id="s1p5">उसले गाईलाई राम्ररी हेर्दैछे।</string>
+      <string id="s1p5_6_q">गाईले के गर्छ?</string>
+      <string id="eats">खाना खान्छ</string>
+      <string id="doesnteat">खाना खाँदैन</string>
+      <string id="s1p6_op1">सास फेर्छ</string>
+      <string id="s1p6_op2">सास फेर्दैन</string>
+      <string id="s1p7_toptext1">गाईले खाना खान्छ। सास पनि फेर्छ।</string>
+      <string id="s1p7_toptext2">गाई के हो?</string>
+      <string id="living">सजीव</string>
+      <string id="nonliving">निर्जीव</string>
+
+      <string id="s1p8">सोनु अब भेडाको खोरमा पुग्छे।</string>
+      <string id="s1p9">उसले भेडालाई राम्ररी हेर्दैछे।</string>
+      <string id="s1p9_10_q">भेडाले के गर्छ?</string>
+      <string id="s1p10_op1">बच्चा हुर्काउँछ।</string>
+      <string id="s1p10_op2">बच्चा हुर्काउँछ।</string>
+      <string id="s1p11_toptext1">भेडाले खाना खान्छ। आफैँ हिँड्‍न सक्छ।</string>
+      <string id="s1p11_toptext2">भेडा के हो?</string>
+
+      <string id="s1p12">सोनु अब माछाको पोखरीमा पुग्छे।</string>
+      <string id="s1p13_14_q">माछाले के गर्छ?</string>
+      <string id="s1p14_op1">आफैँ पौडिन्छ।</string>
+      <string id="s1p14_op2">आफैँ पौडिदैन।</string>
+      <string id="s1p15_toptext1">माछाले खाना खान्छ। बच्चा पनि जन्माउँछ।</string>
+      <string id="s1p15_toptext2">माछा के हो?</string>
+
+      <string id="s1p16">सोनु अब सुगाको गुँडमा पुग्छे।</string>
+      <string id="s1p17_18_q">सुगाले के गर्छ ?</string>
+      <string id="s1p17_op1">आफैँ उड्छ</string>
+      <string id="s1p17_op2">आफैँ उड्दैन</string>
+      <string id="s1p18_op1">बढेर ठुलो हुन्छ</string>
+      <string id="s1p18_op2">बढ्दैन</string>
+      <string id="s1p19_toptext1">सुगा आफैँ उड्छ। बढेर ठुलो पनि हुन्छ। </string>
+      <string id="s1p19_toptext2">सुगा के हो?</string>
+
+      <string id="s1p20">सोनु अब रूख नजिकै पुग्छे।</string>
+      <string id="s1p20_21_q">रुखले के गर्छ?</string>
+      <string id="s1p20_op1">बढेर ठुलो हुन्छ</string>
+      <string id="s1p20_op2">बढ्दैन</string>
+      <string id="s1p21_op1">माटोबाट पानी सोस्छ</string>
+      <string id="s1p21_op2">आफैँ पानी सोस्दैन</string>
+      <string id="s1p22_toptext1">रूख बढेर सानोबाट ठुलो हुन्छ। यसले माटोबाट पानी सोसेर लिन्छ।</string>
+      <string id="s1p22_toptext2">रूख के हो?</string>
+
+      <string id="s1p23">सजीव वस्तुले खाना खान्छन्। सास पनि फेर्छन्। उनीहरू बढ्छन्। बच्चा हुर्काउँछन्। माटो र हावाबाट आफूलाई चाहिने कुरा पनि लिन्छन्। जस्तै:</string>
+      <string id="cow">गाई</string>
+      <string id="sheep">भेडा</string>
+      <string id="fish">माछा</string>
+      <string id="tree">रूख</string>
+      <string id="parrot">सुगा</string>
+    <!-- page 1 ends-->
+
+    <!--page 2-->
+    <string id="p2s1txt">यो केको चित्र होला?</string>
+    
+    <string id="p2s1txt2">के ढुङ्‍गाले सास फेर्न सक्छ ?</string>
+    <string id="p2s1txt2a">सक्छ</string>
+    <string id="p2s1txt2b">सक्दैन</string>
+
+    <string id="p2s3txt">के ढुङ्‍गा बढ्न सक्छ ?</string>
+    <string id="p2s3t1">ढुङ्‍गा हिँड्दैन, बढ्दैन र सास पनि फेर्दैन। त्यसैले ढुङ्‍गा निर्जीव वस्तु हाे ।</string>
+    <string id="p2s3t11">यो केको चित्र होला?</string>
+    <string id="p2s3t2">के साइकल आफैँ गुड्‍न सक्छ ?</string>
+    <string id="p2s3t22">के साइकलले बच्चा जन्माउन सक्छ?</string>
+    <string id="p2s3t3">के साइकलले सास फेर्न सक्छ ?</string>
+    <string id="p2s3t33">साइकल आफैँ गुड्दैन। बच्चा जन्माउँदैन। सास पनि फेर्दैन। त्यसैले साइकल निर्जीव वस्तु हाे ।</string>
+
+    <string id="p2s4txt">तलका निर्जीव वस्तुहरू चिनेर क्‍लिक गर:</string>
+    <string id="p2s5txt">यी सबै निर्जीव वस्तुहरू हुन्:</string>
+    <string id="p11a">हवाईजहाज</string>
+    <string id="p11b">कार</string>
+    <string id="p11c">छाता</string>
+    <string id="p11d">ढुङ्‍गा</string>
+    <string id="p11e">टेबल</string>
+    <string id="p11f">बादल</string>
+
+  <!-- page 3 texts -->
+    <string id="s3_instruction">सजीव कुन हो? चिनेर क्‍लिक गर:</string>
+    <string id="elephant">हात्ती</string>
+    <string id="cycle">साइकल</string>
+    <string id="bird">चरा</string>
+    <string id="car">कार</string>
+    <string id="water">पानी</string>
+    <string id="plant">बिरुवा</string>
+    <string id="fish">माछा</string>
+    <string id="pen">कलम</string>
+ 
+
+  <!-- playtime -->
+    <string id="e1ins1">तलको वस्तु चिनेर क्‍लिक गर:</string>
+    <string id="chair">कुर्सी</string>
+    <string id="pot">गमला</string>
+    <string id="cat">बिरालो</string>
+
+    <string id="end1">फेरि खेलौँ</string>
+    <string id="end2">पाठ</string>
+    <string id="end3">मुख्य सूची</string>
+    <string id="emsg">हुर्रे! आज हामीले सजीव र निर्जीव वस्तुहरूका बारेमा जान्यौँ।</string>
+    
+  </strings>
+</olenepal>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<olenepal>
+
+	<lesson>
+		<subject>English</subject>
+		<topic></topic>
+		<chapter>Sounds and words</chapter>
+		<levelname>Grade 1</levelname>
+		<leveldescription></leveldescription>
+
+		<objective>
+			<title>Sounds and words</title>
+			<description>
+				<purpose>Match spoken words to printed words</purpose>
+			</description>
+		</objective>
+
+	</lesson>
+
+	<strings>
+
+		<!-- Page 1 -->
+		<string id="title">Match sounds with Words</string> /*new string*/
+		<string id="p1str1">Hello! Today we are going to learn about matching words with sounds on a farm trip.</string>
+		<string id="p1str2">Let’s get to know about the farm!</string> /*new string*/
+		<string id="p1str3">The farm is full of exciting animals, beautiful fields full of vegetables and fruits.</string> /*new string*/
+		<string id="p1str4">Let’s go to the farm!</string> /*new string*/
+		
+		<string id="p1str5">Click on the objects starting with letter A.</string> /*new string*/
+		<string id="p1str6">Click on the sound icon to hear the sound.</string> /*new string*/
+		<string id="p1str7">Click on the objects starting with letter B.</string> /*new string*/
+		<string id="p1str8">Click on the objects starting with letter C.</string> /*new string*/
+		<string id="p1str9">Click on the objects starting with letter D.</string> /*new string*/
+		<string id="p1str10">Click on the objects starting with letter E.</string> /*new string*/
+		<string id="p1str11">Click on the objects starting with letter F.</string> /*new string*/
+		<string id="p1str12">You did it! Let’s try another word</string> /*new string*/
+
+		<string id="p1text8">Listen and Repeat</string> /*new string*/
+
+		<!-- Page 2 -->
+		<string id="p2text1">Can you guess what word it is?</string> /*new string*/
+		<string id="p2text2">Could you help us look for them?</string> /*new string*/
+		
+
+		<!-- page 3 -->
+		<string id="p3text1">Hi again! There are some things&lt;br&gt; missing in the farm.</string> /*new string*/
+		<string id="p3text2">Read and listen to the word click on the sound you hear.</string> /*new string*/
+		<string id="bee">bee</string> /*new string*/
+		<string id="corn">corn</string> /*new string*/
+		<string id="bull">bull</string> /*new string*/
+		<string id="dog">dog</string> /*new string*/
+		<string id="apple">apple</string> /*new string*/
+		<string id="donkey">donkey</string> /*new string*/
+		<string id="eagle">eagle</string> /*new string*/
+		<string id="cow">cow</string> /*new string*/
+		<string id="ant">ant</string> /*new string*/
+		<string id="eagle">eagle</string> /*new string*/
+		<string id="egg">egg</string> /*new string*/
+		<string id="flower">flower</string> /*new string*/
+		<string id="frog">frog</string>/*new string*/
+
+		
+
+		<!-- Playtime -->
+
+			<string id="is">EE</string>
+				<string id="are">EA</string>
+
+		<string id="play0">What word do you hear?</string>
+		<string id="play2">Congratulations! You have completed the matching game.</string>
+
+
+
+		<!-- Global -->
+		<string id="playagain">Play Again </string>
+		<string id="blank">______</string>
+
+
+		<!-- Letters (dont need audio of these ones) -->
+		<string id="a">a</string>
+		<string id="b">b</string>
+		<string id="c">c</string>
+		<string id="d">d</string>
+		<string id="e">e</string>
+		<string id="f">f</string>
+		<string id="g">g</string>
+		<string id="h">h</string>
+		<string id="i">i</string>
+		<string id="j">j</string>
+		<string id="k">k</string>
+		<string id="l">l</string>
+		<string id="m">m</string>
+		<string id="n">n</string>
+		<string id="o">o</string>
+		<string id="p">p</string>
+		<string id="q">q</string>
+		<string id="r">r</string>
+		<string id="s">s</string>
+		<string id="t">t</string>
+		<string id="u">u</string>
+		<string id="v">v</string>
+		<string id="w">w</string>
+		<string id="x">x</string>
+		<string id="y">y</string>
+		<string id="z">z</string>
+
+
+	</strings>
+
+</olenepal>
+

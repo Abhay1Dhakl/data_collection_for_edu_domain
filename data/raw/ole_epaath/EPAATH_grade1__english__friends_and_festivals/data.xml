@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<olenepal>
+
+<lesson>
+	<subject>English</subject>
+	<topic>English-EN</topic>
+	<chapter>Friends and Festivals</chapter>
+	<levelname>Level 1</levelname>
+	<leveldescription></leveldescription>
+
+	<objective>
+		<title>Objectives:</title>
+		<description>
+			<purpose>Read words, simple sentences and short paragraphs correctly.</purpose>
+		</description>
+	</objective>
+
+	<definition>
+		<description>
+		</description>
+	</definition>
+
+	<lessonDirection>
+		<purposes></purposes>
+		<about></about>
+		<lessonhelp></lessonhelp>
+		<exercisehelp>
+			<exerciseText></exerciseText>
+		</exercisehelp>
+	</lessonDirection>
+
+</lesson>
+
+<strings>
+
+<!-- page 1 -->
+
+	<string id="title">Friends and Festivals</string>
+	<string id="s1_talk1">Namaste, I am Rahul.</string>
+	<string id="s1_talk2">I met lots of friends at school.</string>
+		<string id="s1_talk3">I have friends from different parts of Nepal.</string>
+			<string id="s1_talk4">They celebrate different festivals.</string>
+			<string id="s1_T1_txt">Look at the picture below.</string>
+				<string id="s1_T2_txt"> Let’s learn more about these festivals.</string>
+	<string id="s1_P1_txt2">Udhauli</string>
+	<string id="s1_P1_txt3">Chhath</string>
+	<string id="s1_P1_txt4">Mha Puja</string>
+	<string id="s1_P1_txt5">Dashain</string>
+	<string id="s1_P1_txt6">Christmas</string>
+	<string id="s1_P1_txt7">Eid</string>
+
+<!--page 1 completed-->
+
+<!--page 2 starts-->
+	<string id="s1_P7_txt7">Click on the picture below to learn about festivals.
+</string>
+          <!--maya-->
+	<string id="s1_P8_txt1">I am Muna. I am from Bhojpur.  </string>
+	<string id="s1_P9_txt1">We celebrate Udhauli.</string>
+	<string id="s1_P10_txt1">We make Sel roti at home.</string>
+	<string id="s1_P11_txt1">We do the Sakela dance.</string>
+	
+	<!--Raghu-->
+	<string id="s2_P1_txt1">Hello, I am Raghu.&lt;br&gt; I live in Janakpur.</string>
+	<string id="s2_P2_txt1">We celebrate Chhath festival.</string>
+	<string id="s2_P3_txt1">We go to the nearest pond.</string>
+	<string id="s2_P4_txt1">We worship the sun. </string>
+	<string id="s2_P5_txt1">We make delicious thekuwa.</string>
+	
+	<!--sabina-->
+	<string id="s3_P1_txt1">Namaste, I am Sabina.</string>
+	<string id="s3_P2_txt1">I live in Bhaktapur.</string>
+	<string id="s3_P3_txt1">We celebrate Mha Puja.</string>
+	<string id="s3_P4_txt1">We celebrate it with self worship.</string>
+	<string id="s3_P5_txt1">We eat delicious food.</string>
+		<!-- page2 ends -->
+
+
+	<!-- page3 starts -->
+
+	
+	<string id="s4_P1_txt1">Namaste, I am Puja. </string>
+	<string id="s4_P2_txt1">I live in Surkhet.</string>
+	<string id="s4_P3_txt1">We celebrate Dashain.</string>
+		<string id="s4_P4_txt1"> We put tika on our forehead.</string>    
+	<string id="s4_P5_txt1">We get blessings from our elders.</string>                 
+    <string id="s4_P6_txt1">We eat rice and meat.</string>
+	<string id="s4_P7_txt1">We fly kites. We play on the swing.</string>
+	                          
+
+	<!--Niraj-->
+	<string id="p5s1">Namaste, my name is Niraj.</string>
+	<string id="p5s2">I live in Lalitpur.</string>
+	<string id="p5s3">We celebrate Christmas.</string>
+	<string id="p5s4">We go to the church to pray.</string>
+	<string id="p5s5">We decorate our house.</string>
+	<string id="p5s6">We decorate our tree.</string>
+	<string id="p5s7">We exchange gifts.</string>
+	
+	<!--Rihaan-->
+	<string id="p6s1">Namaste , my name is Rihaan.</string>
+	<string id="p6s2">I live in Nepalgunj.</string>
+	<string id="p6s3">We celebrate Eid.</string>
+	<string id="p6s4">We say our prayers.</string>
+	<string id="p6s5">We donate food and gifts.</string>
+	<string id="p6s6">We have a feast.</string>
+
+<!-- page3 ends -->
+
+	<!--page 4 starts-->
+
+<string id="dashain">Dashain</string>
+	<string id="dashain1">We put tika on our forehead. &lt;br&gt;We eat meat and rice. &lt;br&gt;We fly kites and play swing.
+</string>
+<string id="chhath">Chhath</string>
+	<string id="chhath1">We go to the nearest pond or river.&lt;br&gt;
+We worship the sun.&lt;br&gt;
+We make delicious thekuwa.&lt;br&gt;
+</string>
+<string id="christmas">Christmas</string>
+	<string id="christmas1">We go to the church to pray.&lt;br&gt;
+	 We decorate christmas tree and our home.&lt;br&gt;
+	  We exchange gifts.&lt;br&gt;
+
+</string>
+
+
+<string id="eid">Eid</string>
+	<string id="eid1">We say our prayers. &lt;br&gt;
+We donate food and gifts.&lt;br&gt;
+We have a feast.&lt;br&gt;
+</string>
+
+
+<string id="Udhauli">Udhauli</string>
+	<string id="Udhauli1">We celebrate Udhauli.&lt;br&gt;
+ We make Sel roti at home.&lt;br&gt;
+We do the Sakela dance.&lt;br&gt;
+</string>
+
+
+<string id="mhapuja">Mha Puja</string>
+	<string id="mhapuja1">We celebrate Mha Puja.&lt;br&gt;
+We celebrate it at home.&lt;br&gt;
+We eat delicious food.&lt;br&gt;
+</string>
+
+<string id="heading">Read, record and listen.</string>
+
+
+
+	<!-- ex 1 -->
+		<string id="extitle">Click on the keyboard to make a correct word for the given picture.</string>
+		<string id="chhat">Chhat</string>
+		<string id="dashain">Dashain</string>
+		<string id="christmas">Christmas</string>
+		<string id="ubhauli">Ubhauli</string>
+		
+	
+	<!--ex 1 end-->
+
+
+</strings>
+
+</olenepal>

@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<olenepal>
+
+    <lesson>
+        <subject>Math</subject>
+        <topic>Math</topic>
+        <chapter>Adding upto hundred</chapter>
+        <levelname>Level 1</levelname>
+        <leveldescription></leveldescription>
+
+        <objective>
+            <title>Objectives:</title>
+            <description>
+                <purpose>To add two numbers that add up to 100 without regrouping.</purpose>
+            </description>
+        </objective>
+
+    </lesson>
+    <strings>
+        <string id="chapter">Adding upto hundred</string>
+        <string id="n_0">0</string>
+        <string id="n_1">1</string>
+        <string id="n_2">2</string>
+        <string id="n_3">3</string>
+        <string id="n_4">4</string>
+        <string id="n_5">5</string>
+        <string id="n_6">6</string>
+        <string id="n_7">7</string>
+        <string id="n_8">8</string>
+        <string id="n_9">9</string>
+
+        <string id='click_correct_option'>Click on the correct option.</string>
+        <string id='less_than'>They have less than that. Count by going right to left.</string>
+        <string id='more_than'>They have more than that. Count by going right to left.</string>
+        <string id='you_are_right'>You are right. You count by going right to left.</string>
+        <string id='it_is_less_than'>It is less than that. Count by going right to left.</string>
+        <string id='it_is_more_than'>It is more than that. Count by going right to left.</string>
+
+        <!-- page 1 -->
+        <string id="p1text1">Let's learn to add numbers up to 100.</string>
+        <string id="p1text2">Usha has 30 marbles.</string>
+        <string id="p1text3">Numa has 40 marbles.</string>
+        <string id="p1text4">How many marbles are there altogether?</string>
+        <string id="p1text4_a">30</string>
+        <string id="p1text4_b">40</string>
+        <string id="p1text4_opt_a">20</string>
+        <string id="p1text4_opt_b">70</string>
+        <string id="p1text4_opt_c">80</string>
+        <string id="p1text5">First, 0+0=0</string>
+        <string id="p1text6">And then, 3+4=7</string>
+        <string id="p1text7">They have 70 marbles in total.</string>
+
+        <!-- page 2 -->
+        <string id="p2text1">My brother and sister have some sweets.</string>
+        <string id="p2text2">My brother has 25 sweets.</string>
+        <string id="p2text3">My sister has 33 sweets.</string>
+        <string id="p2text4">How many sweets do they have in total?</string>
+        <string id="p2text4_a">25</string>
+        <string id="p2text4_b">33</string>
+        <string id="p2text4_opt_a">51</string>
+        <string id="p2text4_opt_b">58</string>
+        <string id="p2text4_opt_c">78</string>
+        <string id="p2text5">First, 5+3=8</string>
+        <string id="p2text6">And then, 2+3=5</string>
+        <string id="p2text7">They have 58 marbles in total.</string>
+
+        <!--page3.html-->
+        <string id="p3text1">Now let’s do some addition.</string>
+        <string id="p3text2">How much is 4 + 12 ?</string>
+        <string id="p3text2_a">04</string>
+        <string id="p3text2_b">12</string>
+        <string id="p3text2_opt_a">13</string>
+        <string id="p3text2_opt_b">16</string>
+        <string id="p3text2_opt_c">56</string> 
+        <string id="p3text2_ans_a">First, 4+2=6.</string>
+        <string id="p3text2_ans_b">And then, 0+1=1</string>
+        <string id="p3text3">How much is 72 + 3 ?</string>
+        <string id="p3text4_a">72</string>
+        <string id="p3text4_b">03</string>
+        <string id="p3text3_opt_a">45</string>
+        <string id="p3text3_opt_b">75</string>
+        <string id="p3text3_opt_c">78</string> 
+        <string id="p3text3_ans_a">First, 2+3=5.</string>
+        <string id="p3text3_ans_b">And then, 7+0=7</string>
+        
+
+        <string id="play">Play</string>
+        <string id="start">Start</string>
+        <string id="pick">Pick</string>
+        <string id="delicious">Delicious! </string>
+        <string id="try_again">Try again!</string>
+        <string id="hurray">Hurray!</string>
+        <string id="extitle">FOOD HUNT</string>
+        <string id='exques'>Choose the correct answer for above question.</string>
+
+        <string id="exqhelp1">How to play ?</string>
+        <string id="exqhelp2">Move up</string>
+        <string id="exqhelp3">Move right</string>
+        <string id="exqhelp4">Move left</string>
+        <string id="exqhelp5">Move down</string>
+        <string id="exqhelp6">For collecting coins and fruits</string>
+        
+        <string id="exsp1">Help Devi on her quest to find delicious food.</string>
+        <string id="exsp2">I’m hungry.</string>
+        <string id="exsp3">Thank you for helping me! Now I am full.</string>
+        <string id="exsp4">I’m stil hungry.</string>
+        
+        <string id="exques1_a">60</string>
+        <string id="exques1_b">40</string>
+        <string id="exques1_opt_a">100</string>
+        <string id="exques1_opt_b">20</string>
+        <string id="exques1_opt_c">60</string> 
+
+        <string id="exques2_a">20</string>
+        <string id="exques2_b">30</string>
+        <string id="exques2_opt_a">50</string>
+        <string id="exques2_opt_b">60</string>
+        <string id="exques2_opt_c">90</string> 
+
+        <string id="exques3_a">04</string>
+        <string id="exques3_b">72</string>
+        <string id="exques3_opt_a">76</string>
+        <string id="exques3_opt_b">70</string>
+        <string id="exques3_opt_c">46</string> 
+
+        <string id="exques4_a">26</string>
+        <string id="exques4_b">02</string>
+        <string id="exques4_opt_a">28</string>
+        <string id="exques4_opt_b">24</string>
+        <string id="exques4_opt_c">48</string> 
+
+        <string id="exques5_a">16</string>
+        <string id="exques5_b">23</string>
+        <string id="exques5_opt_a">39</string>
+        <string id="exques5_opt_b">36</string>
+        <string id="exques5_opt_c">79</string> 
+
+        <string id="exques6_a">42</string>
+        <string id="exques6_b">36</string>
+        <string id="exques6_opt_a">78</string>
+        <string id="exques6_opt_b">74</string>
+        <string id="exques6_opt_c">28</string> 
+    </strings>
+
+
+</olenepal>

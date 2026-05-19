@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<olenepal>
+
+    <lesson>
+        <subject>English</subject>
+        <topic>English-EN</topic>
+        <chapter>Where is my friend?</chapter>
+        <levelname>Level 1</levelname>
+        <leveldescription></leveldescription>
+
+        <objective>
+            <title>Objectives:</title>
+            <description>
+                <purpose>Describe locations of objects and people using prepositions of location like "in", "on", "under", and "over".</purpose>
+            </description>
+        </objective>
+
+        <definition>
+            <description>
+            </description>
+        </definition>
+
+        <lessonDirection>
+            <purposes></purposes>
+            <about></about>
+            <lessonhelp></lessonhelp>
+            <exercisehelp>
+                <exerciseText></exerciseText>
+            </exercisehelp>
+        </lessonDirection>
+
+    </lesson>
+
+    <strings>
+        <!-- common strings -->
+        <!-- please take care you do not remove this spacecharacter string -->
+        <string id="spacecharacter">&#160;</string>
+
+
+        <!-- page 1 -->
+        <string id="chapter">Where &lt;br/&gt; is my &lt;br/&gt; friend?</string>
+        <string id="p1s1">Hello friend! &lt;br/&gt; My name is Muna.</string>
+        <string id="p1s2">Let’s play hide and seek!</string>
+        <string id="p1s3">First, choose a character.</string>
+        <string id="p1s4">Great! Nice to meet you!</string>
+        <string id="p1s5">Nice to meet you too!</string>
+        <string id="p1s6">Let’s play in the classroom!</string>
+        <string id="p1s7">Sounds good.</string>
+        <string id="p1s8">You can pick a place to hide first.</string>
+        <string id="p1s9">Sure!</string>
+        <string id="p1s10">I will go away while you hide.</string>
+        <string id="p1s11">It is your turn to hide.</string>
+
+        <string id="p1instruction">Click to pick a character.</string>
+
+        <string id="p1instruction2">Click where you want to hide. </string>
+        <string id="hidespotdoor">Behind the door</string>
+        <string id="hidespotcurtain">Behind the curtain</string>
+        <string id="hidespotblackboard">Next to the blackboard</string>
+        <string id="hidespotcloset">In the closet</string>
+        <string id="hidespottables">Under the table</string>
+        <string id="hidespotbench">On the bench</string>
+
+        <string id="p1s12">Ready or not, here I come!</string>
+        <string id="p1s13">Mm.. Where might you be hiding?</string>
+        <string id="p1s14">Are you hiding</string>
+        <string id="p1s15">I see. You are not</string>
+        <string id="p1s16">You got me! I was hiding</string>
+        <string id="p1s17">Yay! Now it is my turn to hide.</string>
+        <string id="p1s18">I will hide after you leave.</string>
+        <string id="p1instruction3">Click to leave and let Muna hide.</string>
+        <string id="p1s19">Mm… Where is Muna hiding?</string>
+        <string id="p1instruction4">Click where you think Muna is hiding.</string>
+        <string id="p1s20">Is Muna hiding </string>
+        <string id="p1s21">I see. Muna is not hiding</string>
+        <string id="p1s22">I found you, Muna!</string>
+        <string id="p1s23">Yes, you got me! I was </string>
+        <string id="p1s24">Do you want to play once more?</string>
+        <string id="p1s25">Yes, play again!</string>
+        <string id="p1s26">No, continue.</string>
+
+        <!--page 1 end-->
+
+        <!--page 2 starts--> 
+
+        <string id="p2s1">I am outside looking at birds.</string>
+        <string id="p2s2">Oh! I see a bird.</string>
+        <string id="p2s3">Let’s see where it goes.</string>
+        <string id="p2s4">The bird is flying &lt;strong&gt;over&lt;/strong&gt; the house.</string>
+        <string id="p2s5">It is sitting &lt;strong&gt;on&lt;/strong&gt; a branch.</string>
+        <string id="p2s6">It is flying &lt;strong&gt;through&lt;/strong&gt; the trees.</string>
+        <string id="p2s7">It is sitting &lt;strong&gt;behind&lt;/strong&gt; the rock.</string>
+        <string id="p2s8">It flew &lt;strong&gt;into&lt;/strong&gt; the nest.</string>
+        <string id="p2s9">It is hiding &lt;strong&gt;under&lt;/strong&gt; the leaves.</string>
+        <string id="p2s10">It is sitting &lt;strong&gt;next to&lt;/strong&gt; the nest.</string>
+        <string id="p2s11">It is flying &lt;strong&gt;between&lt;/strong&gt; the trees.</string>
+        <string id="p2s12">It landed &lt;strong&gt;on&lt;/strong&gt; the vegetable field.</string>
+        <string id="p2s13">Finally, it flew away and soared above the clouds.</string>
+        
+        <string id="p2header1">Look, listen and repeat.  </string>
+        <!--page 2 end-->
+
+        <!--page 3 starts-->
+        <string id="p3instruction">Click on the correct picture.</string>
+        <string id="p3s1">I am getting ready to go to school.</string>
+        <string id="p3s2">Can you help me find my things?</string>
+        <string id="p3s3">My bag is &lt;u&gt;on the bed.&lt;/u&gt;</string>
+        <string id="p3s4">My pen is &lt;u&gt;in the glass.&lt;/u&gt;</string>
+        <string id="p3s5">My water bottle is &lt;u&gt;under the chair.&lt;/u&gt;</string>
+        <string id="p3s6">My book is &lt;u&gt;next to the doll.&lt;/u&gt;</string>
+        <string id="p3s7">My eraser is &lt;u&gt;behind the doll.&lt;/u&gt;</string>
+        <string id="p3s8">My launch box is &lt;u&gt;between the lamp and the plant.&lt;/u&gt;</string>
+        <string id="p3s9">My handkerchief is &lt;u&gt;over the blanket&lt;/u&gt;</string>
+        <!--page 3 ends-->
+
+        <!--playtime starts-->
+        <string id="exeheader1">Muna and Hira are playing hide and seek.</string>
+        <string id="exeheader2">It is Muna’s turn to hide.</string>
+        <string id="exes1">I will go away from the room while you hide.</string>
+        <string id="exes2">I want to hide</string>
+        <string id="exes3">Ready or not, here I come! </string>
+        <string id="exes4">You are not</string>
+        <string id="exes5">I see! You are</string>
+        <string id="exes6">You got me! Now it is your turn to hide. I will step away from the room.</string>
+        <string id="exes7">You got me! This was great fun. Let’s play some time again.</string>
+        <!--playtime ends-->
+
+    </strings>
+
+</olenepal>

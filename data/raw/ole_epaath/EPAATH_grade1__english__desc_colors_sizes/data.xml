@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<olenepal>
+
+    <lesson>
+        <subject>English</subject>
+        <topic>English-EN</topic>
+        <chapter>Describing colours and sizes</chapter>
+        <levelname>Level 1</levelname>
+        <leveldescription></leveldescription>
+
+        <objective>
+            <title>Objectives:</title>
+            <description>
+                <purpose>To describe colours and size</purpose>
+                <purpose>To read simple well-known words</purpose>
+                <purpose>To read simple sentences</purpose>
+            </description>
+        </objective>
+
+        <definition>
+            <description>
+            </description>
+        </definition>
+
+        <lessonDirection>
+            <purposes></purposes>
+            <about></about>
+            <lessonhelp></lessonhelp>
+            <exercisehelp>
+                <exerciseText></exerciseText>
+            </exercisehelp>
+        </lessonDirection>
+
+    </lesson>
+
+    <strings>
+        <string id="red">Red</string>
+        <string id="green">Green</string>
+        <string id="pink">Pink</string>
+        <string id="yellow">Yellow</string>
+        <string id="orange">Orange</string>
+        <string id="blue">Blue</string>
+
+
+        <string id="playtime">Play Time</string>
+        <string id="clickplay">Click and play.</string>
+
+        <string id="p1text1">Red Apple</string>
+        <string id="p1text2">Blue Balloon</string>
+        <string id="p1text3">Green Leaf</string>
+        <string id="p1text4">Pink Dress</string>
+        <string id="p1text5">Yellow Banana</string>
+        <string id="p1text6">Purple Brinjal</string>
+
+
+        <string id="p2text1">Big Ball</string>
+        <string id="p2text2">Small Ball</string>
+        <string id="p2text3">This is a ball.<![CDATA[<br/>]]>It is big.</string>
+        <string id="p2text4">This is a ball.<![CDATA[<br/>]]>It is small.</string>
+        <string id="p2text5">Big Bird</string>
+        <string id="p2text6">Small Bird</string>
+        <string id="p2text7">This is a bird.<![CDATA[<br />]]>It is big.</string>
+        <string id="p2text8">This is a bird.<![CDATA[<br />]]>It is small.</string>
+        <string id="p2text9">Big Bus</string>
+        <string id="p2text10">Small Bus</string>
+        <string id="p2text11">This is a bus.<![CDATA[<br />]]>It is a blue bus.<![CDATA[<br />]]> It is big.</string>
+        <string id="p2text12">This is a bus.<![CDATA[<br />]]>It is a yellow bus.<![CDATA[<br />]]> It is small.</string>
+        <string id="p2text13">Big Tree</string>
+        <string id="p2text14">Small Tree</string>
+        <string id="p2text15">This is a tree.<![CDATA[<br />]]>It is green.<![CDATA[<br />]]>It is big.</string>
+        <string id="p2text16">This is a tree.<![CDATA[<br />]]>It is green.<![CDATA[<br />]]>It is small.</string>
+
+        <!--playtime-->
+        <string id="pt1text1">1. Click on the #green@ balloon.</string>
+        <string id="pt1text2">2. Click on the #big pink@ balloon.</string>
+        <string id="pt1text3">3. Click on the #small blue@ balloon. </string>
+        <string id="pt1text4">4. Click on the #big yellow@ balloon.</string>
+        <string id="pt1text5">5. Click on the #red@ balloon.</string>
+        <string id="pt1text6">6. Click on the #orange@ balloon.</string>
+        <string id="messageplaytime">Hurray! We've learned about colours and sizes.</string>
+
+
+    </strings>
+
+</olenepal>

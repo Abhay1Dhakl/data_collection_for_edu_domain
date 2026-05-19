@@ -3,3 +3,23 @@ timestamp,source_id,module_id,module_url,downloaded_count,result,notes
 2026-05-19T04:38:44Z,EPAATH_grade5__math__fractions,grade5/math/fractions,https://epaath.olenepal.org/activity/grade5/math/fractions/,0,download_failed,[Errno 17] File exists: '/Volumes/EX-SSD/data_collection_for_edu_domain/data/raw/ole_epaath/EPAATH_grade5__math__fractions/exercise'
 2026-05-19T04:39:15Z,EPAATH_grade5__math__fractions,grade5/math/fractions,https://epaath.olenepal.org/activity/grade5/math/fractions/,14,downloaded,14 assets
 2026-05-19T04:39:16Z,EPAATH_grade1__english__basic_sounds_1,grade1/english/basic_sounds_1,https://epaath.olenepal.org/activity/grade1/english/basic_sounds_1/,21,downloaded,21 assets
+2026-05-19T04:57:20Z,EPAATH_grade1__english__basic_sounds_2,grade1/english/basic_sounds_2,https://epaath.olenepal.org/activity/grade1/english/basic_sounds_2/,23,downloaded,23 assets
+2026-05-19T04:57:21Z,EPAATH_grade1__english__basic_sounds_3,grade1/english/basic_sounds_3,https://epaath.olenepal.org/activity/grade1/english/basic_sounds_3/,22,downloaded,22 assets
+2026-05-19T04:57:22Z,EPAATH_grade1__english__desc_colors_sizes,grade1/english/desc_colors_sizes,https://epaath.olenepal.org/activity/grade1/english/desc_colors_sizes/,8,downloaded,8 assets
+2026-05-19T04:57:22Z,EPAATH_grade1__english__friends_and_festivals,grade1/english/friends_and_festivals,https://epaath.olenepal.org/activity/grade1/english/friends_and_festivals/,18,downloaded,18 assets
+2026-05-19T04:57:23Z,EPAATH_grade1__english__i_likee_to_play,grade1/english/i_likee_to_play,https://epaath.olenepal.org/activity/grade1/english/i_likee_to_play/,14,downloaded,14 assets
+2026-05-19T04:57:23Z,EPAATH_grade1__english__identifying_letters_i,grade1/english/identifying_letters_i,https://epaath.olenepal.org/activity/grade1/english/identifying_letters_i/,11,downloaded,11 assets
+2026-05-19T04:57:24Z,EPAATH_grade1__english__identifying_letters_sec,grade1/english/identifying_letters_sec,https://epaath.olenepal.org/activity/grade1/english/identifying_letters_sec/,11,downloaded,11 assets
+2026-05-19T04:57:25Z,EPAATH_grade1__english__identifying_letters_third,grade1/english/identifying_letters_third,https://epaath.olenepal.org/activity/grade1/english/identifying_letters_third/,11,downloaded,11 assets
+2026-05-19T04:57:25Z,EPAATH_grade1__english__lines_and_curves,grade1/english/lines_and_curves,https://epaath.olenepal.org/activity/grade1/english/lines_and_curves/,12,downloaded,12 assets
+2026-05-19T04:57:26Z,EPAATH_grade1__english__making_words,grade1/english/making_words,https://epaath.olenepal.org/activity/grade1/english/making_words/,14,downloaded,14 assets
+2026-05-19T05:04:20Z,EPAATH_grade1__english__match_sounds_with_words_new,grade1/english/match_sounds_with_words_new,https://epaath.olenepal.org/activity/grade1/english/match_sounds_with_words_new/,14,downloaded,14 assets
+2026-05-19T05:04:21Z,EPAATH_grade1__english__numbers,grade1/english/numbers,https://epaath.olenepal.org/activity/grade1/english/numbers/,10,downloaded,10 assets
+2026-05-19T05:04:21Z,EPAATH_grade1__english__preposition,grade1/english/preposition,https://epaath.olenepal.org/activity/grade1/english/preposition/,1,downloaded,1 assets
+2026-05-19T05:04:21Z,EPAATH_grade1__english__recognizing_and_matching_shapes,grade1/english/recognizing_and_matching_shapes,https://epaath.olenepal.org/activity/grade1/english/recognizing_and_matching_shapes/,8,downloaded,8 assets
+2026-05-19T05:04:23Z,EPAATH_grade1__english__short_vowels,grade1/english/short_vowels,https://epaath.olenepal.org/activity/grade1/english/short_vowels/,18,downloaded,18 assets
+2026-05-19T05:04:24Z,EPAATH_grade1__english__simple_greetings,grade1/english/simple_greetings,https://epaath.olenepal.org/activity/grade1/english/simple_greetings/,12,downloaded,12 assets
+2026-05-19T05:04:24Z,EPAATH_grade1__english__wave_your_hands,grade1/english/wave_your_hands,https://epaath.olenepal.org/activity/grade1/english/wave_your_hands/,9,downloaded,9 assets
+2026-05-19T05:04:25Z,EPAATH_grade1__english__where_is_my_friend_new,grade1/english/where_is_my_friend_new,https://epaath.olenepal.org/activity/grade1/english/where_is_my_friend_new/,11,downloaded,11 assets
+2026-05-19T05:04:26Z,EPAATH_grade1__math__adding_three_numbers,grade1/math/adding_three_numbers,https://epaath.olenepal.org/activity/grade1/math/adding_three_numbers/,12,downloaded,12 assets
+2026-05-19T05:04:26Z,EPAATH_grade1__math__adding_upto_hundred,grade1/math/adding_upto_hundred,https://epaath.olenepal.org/activity/grade1/math/adding_upto_hundred/,12,downloaded,12 assets

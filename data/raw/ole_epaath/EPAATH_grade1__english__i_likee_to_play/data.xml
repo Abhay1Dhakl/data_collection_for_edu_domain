@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<olenepal>
+  <lesson>
+    <subject>English</subject>
+    <topic>English</topic>
+    <chapter>I like to play</chapter>
+    <levelname>Grade 1</levelname>
+    <leveldescription>
+    </leveldescription>
+    <objective>
+      <title>Objectives:</title>
+      <description>
+        <purpose>Express your own likes and dislikes (“I like ...” “I don’t like….”)</purpose>
+        <purpose>Express likes and dislikes of friends and family (“He/she likes ….” “He/she doesn’t like….. “)</purpose>
+      </description>
+    </objective>
+    <definition>
+      <description>
+      </description>
+    </definition>
+    <lessonDirection>
+      <purposes>
+      </purposes>
+      <about>
+      </about>
+      <lessonhelp>
+      </lessonhelp>
+      <exercisehelp>
+        <exerciseText>
+        </exerciseText>
+      </exercisehelp>
+    </lessonDirection>
+  </lesson>
+  <strings>
+  <!-- page 1 starts-->
+      <string id="covertext">I like to play</string>
+      <string id="s1p1">Hi friends! I am Manju.</string>
+      <string id="s1p2">And, I am Anjan.</string>
+      <string id="s1p3">Today, we are talking about what we like and don’t like.</string>
+      <string id="s1p4">What fruit do you like?</string>
+      <string id="s1p5">I like mangoes.</string>
+      <string id="s1p5a">Pick the fruits that Anjan likes?</string>
+       <string id="s1p0">What fruit do you like?</string>
+      <string id="s1p6">I like oranges. They are also very tasty.</string>
+       <string id="s1p01">Pick the fruits that Manju likes?</string>
+      <string id="s1p7">What do you not like? I don’t like grapes.</string>
+        <string id="s1p07">Pick the fruits that Anjan doesn’t like</string>
+      <string id="s1p8">I don’t like bananas. But I like grapes.</string>
+        <string id="s1p08">Pick the fruits that Manju doesn’t like?</string>
+      
+    <!-- page 1 ends-->
+
+    <!--page 2-->
+    <string id="p2s0">It is your turn now. Let us see what you like and what you don’t like. Pick who you would like to be.</string>
+    <string id="p2s1">Click to pick a character.</string>
+    <string id="p2s2txt1">What do you like?</string>
+    <string id="p2s2txt2">Click on the fruits you like.</string>
+
+<string id="like">I like </string>
+<string id="dislike">I don't like </string>
+    <string id="fruits">fruits</string>
+    <string id="Apple">Apple</string>
+    <string id="Banana">Banana</string>
+    <string id="Mango">Mango</string>
+    <string id="Peach">Peach</string>
+    <string id="SeaBuckthorn">SeaBuckthorn</string>
+    <string id="Guava">Guava</string>
+    <string id="Orange">Orange</string>
+    <string id="Pear">Pear</string>
+    <string id="Grapes">Grapes</string>
+    <string id="Papaya">Papaya</string>
+    <string id="Strawberry">Strawberry</string>
+    <string id="Pineapple">Pineapple</string>
+    <string id="p2s3txt2">Click on the vegetables you like.</string>
+    <string id="vegetables">vegetables</string>
+    <string id="Potato">Potato</string>
+    <string id="Spinach">Spinach</string>
+    <string id="Peas">Peas</string>
+    <string id="Beans">Beans</string>
+    <string id="Pumpkin">Pumpkin</string>
+    <string id="Lettuce">Lettuce</string>
+    <string id="Cauliflower">Cauliflower</string>
+    <string id="Mushroom">Mushroom</string>
+    <string id="Carrot">Carrot</string>
+    <string id="Cucumber">Cucumber</string>
+    <string id="Bittergourd">Bittergourd</string>
+    <string id="Yam">Yam</string>
+    
+    <string id="p2s4txt1">Some fruits I like:</string>
+    <string id="p2s4txt2">Some vegetables I like:</string>
+
+    <string id="p2s5txt1">What do you not like?</string>
+    <string id="p2s5txt2">Click on the fruits you don’t like.</string>
+
+    <string id="p2s6txt2">Click on the vegetables you don’t like. </string>
+    
+    <string id="p2s7txt1">Some fruits I don’t like:</string>
+    <string id="p2s7txt2">Some vegetables I don’t like:</string>
+
+    <string id="practice_speaking">Let’s practice saying what we like and don’t like.</string>
+       <string id="listen">Listen</string>
+  <string id="record">record</string>
+    <string id="repeat">and repeat</string>
+    <string id="p2s9txt">Listen, record and repeat.</string>
+    <string id="record">Click on the button to record.</string>
+    <string id="repeat">Repeat the given sentence out loud.</string>
+    <string id="listen">Listen to your recording.</string>
+
+    <string id="p2s13">What do you like and don’t like?</string>
+    
+    <!-- Fruits like and dislike -->
+    <string id="apple_like">I like apples.</string>
+    <string id="apple_dontlike">I don't like apples.</string>
+    
+    <string id="banana_like">I like bananas.</string>
+    <string id="banana_dontlike">I don't like bananas.</string>
+    
+    <string id="mango_like">I like mangoes.</string>
+    <string id="mango_dontlike">I don't like mangoes.</string>
+    
+    <string id="seabuckthorn_like">I like sea buckthorn.</string>
+    <string id="seabuckthorn_dontlike">I don't like sea buckthorn.</string>
+    
+    <string id="peach_like">I like peaches.</string>
+    <string id="peach_dontlike">I don't like peaches.</string>
+    
+    <string id="guava_like">I like guavas.</string>
+    <string id="guava_dontlike">I don't like guavas.</string>
+    
+    <string id="orange_like">I like oranges.</string>
+    <string id="orange_dontlike">I don't like oranges.</string>
+    
+    <string id="pear_like">I like pears.</string>
+    <string id="pear_dontlike">I don't like pears.</string>
+    
+    <string id="grapes_like">I like grapes.</string>
+    <string id="grapes_dontlike">I don't like grapes.</string>
+    
+    <string id="papaya_like">I like papayas.</string>
+    <string id="papaya_dontlike">I don't like papayas.</string>
+    
+    <string id="strawberry_like">I like strawberries.</string>
+    <string id="strawberry_dontlike">I don't like strawberries.</string>
+    
+    <string id="pineapple_like">I like pineapples.</string>
+    <string id="pineapple_dontlike">I don't like pineapples.</string>
+    
+    <!-- Vegetables like and dislike -->
+    <string id="potato_like">I like potatoes.</string>
+    <string id="potato_dontlike">I don't like potatoes.</string>
+    
+    <string id="spinach_like">I like spinach.</string>
+    <string id="spinach_dontlike">I don't like spinach.</string>
+    
+    <string id="peas_like">I like peas.</string>
+    <string id="peas_dontlike">I don't like peas.</string>
+    
+    <string id="beans_like">I like beans.</string>
+    <string id="beans_dontlike">I don't like beans.</string>
+    
+    <string id="pumpkin_like">I like pumpkin.</string>
+    <string id="pumpkin_dontlike">I don't like pumpkin.</string>
+    
+    <string id="lettuce_like">I like lettuce.</string>
+    <string id="lettuce_dontlike">I don't like lettuce.</string>
+    
+    <string id="cauliflower_like">I like cauliflower.</string>
+    <string id="cauliflower_dontlike">I don't like cauliflower.</string>
+    
+    <string id="mushroom_like">I like mushroom.</string>
+    <string id="mushroom_dontlike">I don't like mushroom.</string>
+    
+    <string id="carrot_like">I like carrot.</string>
+    <string id="carrot_dontlike">I don't like carrot.</string>
+    
+    <string id="cucumber_like">I like cucumber.</string>
+    <string id="cucumber_dontlike">I don't like cucumber.</string>
+    
+    <string id="bittergourd_like">I like bitter gourd.</string>
+    <string id="bittergourd_dontlike">I don't like bitter gourd.</string>
+    
+    <string id="yam_like">I like yam.</string>
+    <string id="yam_dontlike">I don't like yam.</string>
+
+
+  <!-- page 3 texts -->
+    <string id="s2p1">Hi, I am Prem. This is my pet Babu.</string>
+    
+    <string id="s2p2">Babu is always hungry. He likes to eat bones and bananas.</string>
+    <string id="s2p3">He doesn’t like to eat biscuits.</string>
+    <string id="s2p4">Babu is hungry again.What should I give him?</string>
+    <string id="s2p5">Click the option below:</string>
+
+    
+    <string id="s2p6">Hi, I am Prena. This is my cow Bindu.</string>
+    <string id="s2p7">Bindu likes to eat grass and corn.</string>
+    <string id="s2p8">Bindu doesn’t like to eat bread.</string>
+    <string id="s2p9">Can you help me feed bindu?</string>
+
+    <string id="s2p10">Hi, my name is Nii. This is my cat meow meow. </string>
+    <string id="s2p11">Meow Meow likes to eat fish and drink milk. </string>
+    <string id="s2p12">Meow Meow doesn’t like corn.</string>
+    <string id="s2p13">Could you help me feed meow meow?</string>
+   
+  <!-- playtime -->
+    
+ <string id="lastone">Great!!</string>
+ <string id="twolst">
+You Completed the chapter: "I like to play" </string>
+		
+	<!-- Exercise ends-->
+
+
+  </strings>
+</olenepal>

@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<olenepal>
+
+    <lesson>
+        <subject>गणित</subject>
+        <topic>गणित</topic>
+        <chapter>सय सम्‍मको जोड</chapter>
+        <levelname>तह १</levelname>
+        <leveldescription></leveldescription>
+
+        <objective>
+            <title>उद्देश्‍य:</title>
+            <description>
+                <purpose>हात लागी नआउने र योगफल १०० सम्म आउने दुईओटा सङ्ख्याहरूको जोड गर्न।</purpose>
+            </description>
+        </objective>
+
+    </lesson>
+    <strings>
+        <string id="chapter">सय सम्‍मको जोड</string>
+        <string id="n_1">१</string>
+        <string id="n_2">२</string>
+        <string id="n_3">३</string>
+        <string id="n_4">४</string>
+        <string id="n_5">५</string>
+        <string id="n_6">६</string>
+        <string id="n_7">७</string>
+        <string id="n_8">८</string>
+        <string id="n_9">९</string>
+
+        <string id='click_correct_option'>सही उत्तरमा क्लिक गरौँ।</string>
+        <string id='less_than'>उनीहरूसँग त्योभन्दा कम गुच्‍चाहरू छन्। दायाँबाट बायाँ गएर गणना गरौँ।</string>
+        <string id='more_than'>उनीहरूसँग त्योभन्दा धेरै गुच्‍चाहरू छन्। दायाँबाट बायाँ गएर गणना
+            गरौँ।</string>
+        <string id='you_are_right'>ठिक। दायाँबाट बायाँ गएर गणना गरौँ।</string>
+        <string id='it_is_less_than'>त्यो भन्दा कम हुन्‍छ। दायाँबाट बायाँ गएर गणना गरौँ।</string>
+        <string id='it_is_more_than'>त्यो भन्दा बाढी हुन्‍छ। दायाँबाट बायाँ गएर गणना गरौँ।</string>
+
+        <!-- page 1 -->
+        <string id="p1text1">१०० सम्म आउने सङ्ख्याहरूको जोड गरौँ।</string>
+        <string id="p1text2">ऊषासँग ३० ओटा गुच्‍चाहरू छन्।</string>
+        <string id="p1text3">नूमासँग ४० ओटा गुच्‍चाहरू छन्।</string>
+        <string id="p1text4">अब जम्मा कतिओटा गुच्‍चाहरू छन्?</string>
+        <string id="p1text4_a">३०</string>
+        <string id="p1text4_b">४०</string>
+        <string id="p1text4_opt_a">२०</string>
+        <string id="p1text4_opt_b">७०</string>
+        <string id="p1text4_opt_c">८०</string>
+        <string id="p1text5">सुरुमा, ० + ० ‍‍= ० हुन्‍छ।</string>
+        <string id="p1text6">त्‍यसपछि, ३ + ४ = ७ हुन्‍छ।</string>
+        <string id="p1text7">उनीहरूसँग जम्मा ७० ओटा गुच्‍चाहरू छन्।</string>
+
+        <!-- page 2 -->
+        <string id="p2text1">मेरा दाइ र दिदीसँग केहि चकलेटहरू छन्।</string>
+        <string id="p2text2">मेरा दाइसँग २५ ओटा चकलेटहरू छन्।</string>
+        <string id="p2text3">मेरि दिदीसँग ३३ ओटा चकलेटहरू छन्।</string>
+        <string id="p2text4">उहाँहरूसँग जम्‍मा कति ओटा चकलेटहरू छन्?</string>
+        <string id="p2text4_a">२५</string>
+        <string id="p2text4_b">३३</string>
+        <string id="p2text4_opt_a">५१</string>
+        <string id="p2text4_opt_b">५८</string>
+        <string id="p2text4_opt_c">७८</string>
+        <string id="p2text5">सुरुमा, ५ + ३ ‍‍= ८ हुन्‍छ।</string>
+        <string id="p2text6">त्‍यसपछि, २ + ३ = ५ हुन्‍छ।</string>
+        <string id="p2text7">उहाँहरूसँग जम्‍मा ५८ ओटा चकलेटहरू छन्।</string>
+
+        <!--page3.html-->
+        <string id="p3text1">अब केहि थप जोडहरू गरौँ।</string>
+        <string id="p3text2">४ ‌+ १२ कति हुन्‍छ?</string>
+        <string id="p3text2_a">०४</string>
+        <string id="p3text2_b">१२</string>
+        <string id="p3text2_opt_a">१३</string>
+        <string id="p3text2_opt_b">१६</string>
+        <string id="p3text2_opt_c">५६</string>
+        <string id="p3text2_ans_a">सुरुमा, ४ + २ ‍‍= ६ हुन्‍छ।</string>
+        <string id="p3text2_ans_b">त्‍यसपछि, ० + १ = १ हुन्‍छ।</string>
+        <string id="p3text3">७२ ‌+ ३ कति हुन्‍छ?</string>
+        <string id="p3text4_a">७२</string>
+        <string id="p3text4_b">०३</string>
+        <string id="p3text3_opt_a">४५</string>
+        <string id="p3text3_opt_b">७५</string>
+        <string id="p3text3_opt_c">७८</string>
+        <string id="p3text3_ans_a">सुरुमा, २ + ३ ‍‍= ५ हुन्‍छ।</string>
+        <string id="p3text3_ans_b">त्‍यसपछि, ७ + ० = ७ हुन्‍छ।</string>
+
+
+        <string id="play">खेलौँ</string>
+        <string id="start">सुरु गरौँ</string>
+        <string id="pick">टिपौँ</string>
+        <string id="delicious">मिठो!</string>
+        <string id="try_again">फेरि प्रयास गरौँ।</string>
+        <string id="hurray">हुर्रे!</string>
+        <string id="extitle">फूड हन्ट</string>
+        <string id='exques'>माथिको प्रश्‍नको सहि उत्तर छानौँ।</string>
+
+        <string id="exqhelp1">कसरी खेल्‍ने?</string>
+        <string id="exqhelp2">माथि</string>
+        <string id="exqhelp3">दायाँ</string>
+        <string id="exqhelp4">बायाँ</string>
+        <string id="exqhelp5">तल</string>
+        <string id="exqhelp6">सिक्का र फलफुलहरू सङ्‍कलन गर्न।</string>
+
+        <string id="exsp1">देवीलाई खाना खोज्‍नको लागि मदत गरौँ।</string>
+        <string id="exsp2">मलाई भोक लागेको छ।</string>
+        <string id="exsp3">धन्यवाद!</string>
+        <string id="exsp4">मलाई अझै भोक लागेको छ।</string>
+
+        <string id="exques1_a">६०</string>
+        <string id="exques1_b">४०</string>
+        <string id="exques1_opt_a">१००</string>
+        <string id="exques1_opt_b">२०</string>
+        <string id="exques1_opt_c">६०</string>
+
+        <string id="exques2_a">२०</string>
+        <string id="exques2_b">३०</string>
+        <string id="exques2_opt_a">५०</string>
+        <string id="exques2_opt_b">६०</string>
+        <string id="exques2_opt_c">९०</string>
+
+        <string id="exques3_a">०४</string>
+        <string id="exques3_b">७२</string>
+        <string id="exques3_opt_a">७६</string>
+        <string id="exques3_opt_b">७०</string>
+        <string id="exques3_opt_c">४६</string>
+
+        <string id="exques4_a">२६</string>
+        <string id="exques4_b">०२</string>
+        <string id="exques4_opt_a">२८</string>
+        <string id="exques4_opt_b">२४</string>
+        <string id="exques4_opt_c">४८</string>
+
+        <string id="exques5_a">१६</string>
+        <string id="exques5_b">२३</string>
+        <string id="exques5_opt_a">३९</string>
+        <string id="exques5_opt_b">३६</string>
+        <string id="exques5_opt_c">७९</string>
+
+        <string id="exques6_a">४२</string>
+        <string id="exques6_b">३६</string>
+        <string id="exques6_opt_a">७८</string>
+        <string id="exques6_opt_b">७४</string>
+        <string id="exques6_opt_c">२८</string>
+
+    </strings>
+
+
+</olenepal>

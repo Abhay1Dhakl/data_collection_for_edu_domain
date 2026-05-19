@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<olenepal>
+  <lesson>
+    <subject>English</subject>
+    <topic>English</topic>
+    <chapter>Wave your hands</chapter>
+    <levelname>Grade 1</levelname>
+    <leveldescription>
+    </leveldescription>
+    <objective>
+      <title>Objectives:</title>
+      <description>
+        <purpose>Respond to Simple Commands and Questions</purpose>
+      </description>
+    </objective>
+    <definition>
+      <description>
+      </description>
+    </definition>
+    <lessonDirection>
+      <purposes>
+      </purposes>
+      <about>
+      </about>
+      <lessonhelp>
+      </lessonhelp>
+      <exercisehelp>
+        <exerciseText>
+        </exerciseText>
+      </exercisehelp>
+    </lessonDirection>
+  </lesson>
+  <strings>
+    <string id="spacecharacter"> </string>
+    <string id="newLineCharacter">&#10;</string>
+    <string id="clickHereTxt">Click here.</string>
+    
+    <!-- page 1-->    
+    <string id="chapterName">Wave your hands</string>
+    <string id="p1s1txt">Hi brothers and sisters! Let's play a game.</string>
+    <string id="p1s2txt"> Do as I say, okay?</string>
+    <string id="p1s3txt">Okay “dai”.</string>
+    <string id="p1s4txt">Let’s start! </string>
+    <string id="p1s5txt">First, come here.</string>
+      <string id="p1s6txt">Sit down.</string>
+        <string id="p1s7txt">Stand up.</string>
+          <string id="p1s8txt">Clap your hands.</string>
+            <string id="p1s9txt">Wave your hands.</string>
+              <string id="p1s10txt">Great job! Now, go out.</string>
+                  <string id="clickhere">clickhere</string>
+
+	<!-- page 2 -->
+    <string id="p2s1txt">Look at the picture and click on the correct action.</string>
+    <string id="p2s2txt"></string>
+    <string id="stand">Stand up</string>
+    <string id="clap">Clap hands</string>
+    <string id="come"> Come here</string>
+    <string id="go">Get out</string>
+    <string id="wave"> Wave hands</string>
+    <string id="clap">Clap hands</string>
+    <string id="out">Get out</string>
+    <string id="sit">Sit down</string>
+
+<!-- playtime -->
+  
+	<string id="instruction">Let us play a board game. First, let us learn how to play this game. &lt;br&gt; 
+                            &#8226; In the next screen, click on the dice to start the game. &lt;br&gt; 
+                            &#8226; You get to move the number of steps shown on the dice. For example, if you get a 5 on the dice, you get to move 5 steps forward. &lt;br&gt; 
+                            &#8226; You will need to click on the correct source of water.
+  </string>
+
+	<string id="pt_q1">Click on the correct action.</string>
+	<string id="pt_q1_op1">Sit down</string>
+	<string id="pt_q2">Get out</string>
+	<string id="pt_q2_op1">Waving hands</string>
+	<string id="pt_q2_op2">Clapping hands</string>
+	<string id="congrats">Congratulations, you got</string>
+	<string id="pt_q4_op4">Come here</string>
+	<string id="pt_q4_op5">Stand up</string>
+  	<string id="start">Start</string>
+    	<string id="playEndTxt">Great job! We learned some simple commands.</string>
+
+	<!-- <string id="diy">Do It Yourself -->
+<!-- superlative texts end-->
+
+  </strings>
+
+
+</olenepal>

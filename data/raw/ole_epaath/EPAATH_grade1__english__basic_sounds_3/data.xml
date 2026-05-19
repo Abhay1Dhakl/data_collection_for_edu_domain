@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<olenepal>
+
+<lesson>
+	<subject>English</subject>
+	<topic>English-EN</topic>
+	<chapter>Basic Sounds (III)</chapter>
+	<levelname>Level 1</levelname>
+	<leveldescription></leveldescription>
+
+	<objective>
+		<title>Objectives:</title>
+		<description>
+			<purpose>To recognize sounds of letters and read words starting from them or words containing the letters</purpose>
+		</description>
+	</objective>
+
+	<definition>
+		<description>
+		</description>
+	</definition>
+
+	<lessonDirection>
+		<purposes></purposes>
+		<about></about>
+		<lessonhelp></lessonhelp>
+		<exercisehelp>
+			<exerciseText></exerciseText>
+		</exercisehelp>
+	</lessonDirection>
+
+</lesson>
+
+<strings>
+<!-- common strings -->
+	<!-- please take care you do not remove this spacecharacter string -->
+	<string id="spacecharacter">&#160;</string>
+	<string id="diytext">Do It Yourself</string>
+	<string id="definitiontext">Definition</string>
+	<string id="factorization">Factorization</string>
+	<string id="factorizeit">factorize it</string>
+	<string id="multiply">multiply</string>
+	<string id="reverseit">reverse</string>
+	<string id="forexample">For example:</string>
+	<string id="equal"> = </string>
+	<string id="okaytext">OK</string>
+	<string id="hinttext">Hint</string>
+
+<!-- shared among pages -->
+	<string id="psharedtext1">Click here !</string>
+<!-- shared among pages ends -->
+
+<!-- name starting with v -->
+	<string id="p1text1">v</string>
+	<string id="p1text2">#v@an</string>
+	<string id="p1text3">#v@ase</string>
+	<string id="p1text4">#v@est</string>
+	<string id="p1text5">#v@ideo</string>
+<!--  v end -->
+
+<!-- name starting with w -->
+	<string id="p2text1">w</string>
+	<string id="p2text2">#w@all</string>
+	<string id="p2text3">#w@ave</string>
+	<string id="p2text4">#w@ay</string>
+	<string id="p2text5">#w@eb</string>
+<!--  w end -->
+
+<!-- name starting with y -->
+	<string id="p3text1">y</string>
+	<string id="p3text2">#y@ak</string>
+	<string id="p3text3">#y@eti</string>
+	<string id="p3text4">#y@ogi</string>
+	<string id="p3text5">#y@ellow</string>
+<!--  y end -->
+
+<!-- name starting with z -->
+	<string id="p4text1">z</string>
+	<string id="p4text2">#z@ero</string>
+	<string id="p4text3">#z@ebra</string>
+	<string id="p4text4">#z@oo</string>
+	<string id="p4text5">#z@ipper</string>
+<!--  z end -->
+
+<!-- name starting with wh -->
+	<string id="p5text1">wh</string>
+	<string id="p5text2">#wh@ite</string>
+	<string id="p5text3">#wh@eel</string>
+	<string id="p5text4">#wh@ale</string>
+	<string id="p5text5">#wh@ip</string>
+<!--  wh end -->
+
+<!-- name starting with ch -->
+	<string id="p6text1">ch</string>
+	<string id="p6text2">#ch@air</string>
+	<string id="p6text3">#ch@eek</string>
+	<string id="p6text4">#ch@ess</string>
+	<string id="p6text5">#ch@ild</string>
+<!--  ch end -->
+
+<!-- name starting with sh -->
+	<string id="p7text1">sh</string>
+	<string id="p7text2">#sh@ark</string>
+	<string id="p7text3">#sh@eep</string>
+	<string id="p7text4">#sh@op</string>
+	<string id="p7text5">#sh@ip</string>
+<!--  sj end -->
+
+
+<!-- exercise -->
+	<string id="exhead">Click on the word that begins with the following sound</string>
+	<string id="ex1">B</string>
+	<string id="ex2">C</string>
+	<string id="ex3">D</string>
+	<string id="ex4">F</string>
+	<string id="ex5">G</string>
+	<string id="ex6">H</string>
+	<string id="ex7">J</string>
+
+	<string id="ex_way">Way</string>
+	<string id="ex_sheep">Sheep</string>
+	<string id="ex_wheel">Wheel</string>
+	<string id="ex_chair">Chair</string>
+	<string id="ex_shop">Shop</string>
+	<string id="ex_zipper">Zipper</string>
+	<string id="ex_web">Web</string>
+	<string id="ex_video">Video</string>
+	<string id="ex_vase">Vase</string>
+	<string id="ex_zebra">Zebra</string>
+	<string id="ex_child">Child</string>
+	<string id="ex_wall">Wall</string>
+	<string id="ex_yellow">Yellow</string>
+	<string id="ex_zoo">Zoo</string>
+	<string id="ex_ship">Ship</string>
+	<string id="ex_yak">Yak</string>
+	<string id="ex_vest">Vest</string>
+	<string id="ex_van">Van</string>
+	<string id="ex_wave">Wave</string>
+	<string id="ex_chess">Chess</string>
+	<string id="ex_zero">Zero</string>
+	<string id="ex_whip">Whip</string>
+
+
+</strings>
+
+</olenepal>

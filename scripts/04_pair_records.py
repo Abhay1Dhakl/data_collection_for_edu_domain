@@ -52,6 +52,32 @@ def default_statuses() -> list[str]:
     return ["extracted", "pair_failed"]
 
 
+def auto_detect_rows(rows: list[dict[str, str]], limit: int) -> list[dict[str, str]]:
+    detected: list[dict[str, str]] = []
+    for row in rows:
+        records_path = module_records_path(row["source_id"])
+        pair_path = module_pairs_path(row["source_id"])
+        if records_path.exists() and not pair_path.exists():
+            detected.append(row)
+            if limit and len(detected) >= limit:
+                break
+    return detected
+
+
+def merge_rows(primary: list[dict[str, str]], secondary: list[dict[str, str]], limit: int) -> list[dict[str, str]]:
+    merged: list[dict[str, str]] = []
+    seen: set[str] = set()
+    for row in primary + secondary:
+        source_id = row["source_id"]
+        if source_id in seen:
+            continue
+        seen.add(source_id)
+        merged.append(row)
+        if limit and len(merged) >= limit:
+            break
+    return merged
+
+
 def candidate_bucket(screen_id: str, en_text: str, ne_text: str, sentence_count: int) -> str:
     if en_text == ne_text:
         return "low_shared_text"
@@ -217,10 +243,18 @@ def main() -> int:
         statuses=statuses,
         limit=args.limit,
     )
+    auto_detected = False
+    if not (args.source_id or args.module_id or args.status):
+        detected_rows = auto_detect_rows(rows, args.limit)
+        selected = merge_rows(selected, detected_rows, args.limit)
+        auto_detected = bool(detected_rows)
 
     if not selected:
         print("No extracted modules are ready for pairing.")
         return 0
+
+    if auto_detected:
+        print("Auto-detected extracted module records whose registry status was not updated.")
 
     by_id = {row["source_id"]: row for row in rows}
     for row in selected:

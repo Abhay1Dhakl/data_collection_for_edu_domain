@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<olenepal>
+
+<lesson>
+	<subject>English</subject>
+	<topic>Arithmetic-EN</topic>
+	<chapter>Lines And Curves</chapter>
+	<levelname>Level 1</levelname>
+	<leveldescription></leveldescription>
+
+	<objective>
+		<title>Objectives:</title>
+		<description>
+			<purpose>To recognize and draw straight lines, curves and circles</purpose>
+		</description>
+	</objective>
+
+	<definition>
+		<description>
+		</description>
+	</definition>
+
+	<lessonDirection>
+		<purposes></purposes>
+		<about></about>
+		<lessonhelp></lessonhelp>
+		<exercisehelp>
+			<exerciseText></exerciseText>
+		</exercisehelp>
+	</lessonDirection>
+
+</lesson>
+
+<strings>
+	<string id="p1title">Let’s look at the following lines and curves. </string>
+	<string id="slpln">Sleeping line</string>
+	<string id="stdln">Standing line</string>
+	<string id="rsln">Right slant line</string>
+	<string id="lsln">Left slant line</string>
+	<string id="p1last">Let’s revise. </string>
+	<string id="atop">Watch the following example. </string>
+	<string id="blank"></string>
+	  <!-- page2 starts -->
+
+    <string id="p2txt">Watch and draw on your notebook.</string>
+
+    <!-- page2 ends -->
+    <!-- page3 starts -->
+
+    <string id="p3top">Click on the matching shape.</string>
+		<string id="exctxt">Drag and drop the matching shape.</string>
+
+
+
+    <!-- page3 ends -->
+    <string id="playtime">Playtime</string>
+    <string id="box_text">Now, it is your turn to try.</string>
+    <string id="diy">Do It Yourself</string>
+
+
+	<string id="finmsg">Yay! We learnt about numbers from 1 to 5.</string>
+
+</strings>
+
+</olenepal>

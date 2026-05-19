@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<olenepal>
+
+<lesson>
+	<subject>English</subject>
+	<topic>English-EN</topic>
+	<chapter>Numbers</chapter>
+	<levelname>Level 1</levelname>
+	<leveldescription></leveldescription>
+
+	<objective>
+	
+		<title>Objectives:</title>
+		<description>
+			<purpose>To identify numbers 1 - 10</purpose>
+			<purpose>To read figures 1 - 10</purpose>
+			<purpose>To count numbers 1 - 10</purpose>
+		</description>
+	</objective>
+
+	<definition>
+		<description>
+		</description>
+	</definition>
+
+	<lessonDirection>
+		<purposes></purposes>
+		<about></about>
+		<lessonhelp></lessonhelp>
+		<exercisehelp>
+			<exerciseText></exerciseText>
+		</exercisehelp>
+	</lessonDirection>
+
+</lesson>
+
+<strings>
+	<string id="p1text1">Let’s learn about numbers!</string>
+	<string id="p1text2">Were you counting with us?</string>
+	<string id="p1text3">Let’s count how many legs this dog has!</string>
+	<string id="p1text4">How many legs does the dog have?</string>
+	<string id="p1text5">Let’s count how many children are playing.</string>
+	<string id="p1text6">How many children are there?</string>
+	<string id="p1text7">How many flowers are there?</string>
+
+	<string id="num1">1</string>
+	<string id="num2">2</string>
+	<string id="num3">3</string>
+	<string id="num4">4</string>
+	<string id="num5">5</string>
+	<string id="num6">6</string>
+	<string id="num7">7</string>
+	<string id="num8">8</string>
+	<string id="num9">9</string>
+	<string id="num10">10</string>
+
+	<string id="let1">ONE</string>
+	<string id="let2">TWO</string>
+	<string id="let3">THREE</string>
+	<string id="let4">FOUR</string>
+	<string id="let5">FIVE</string>
+	<string id="let6">SIX</string>
+	<string id="let7">SEVEN</string>
+	<string id="let8">EIGHT</string>
+	<string id="let9">NINE</string>
+	<string id="let10">TEN</string>
+
+	<string id="playtime">PLAY TIME</string>
+	<string id="pt1">Count the number of goats.</string>
+	<string id="pt2">Count the number of turtles.</string>
+	<string id="pt3">Count the number of sheep.</string>
+	<string id="pt4">Count the number of dogs. </string>
+	<string id="pt5">Count the number of rabbits.</string>
+
+	<string id="finmsg">Hurray!!! Today we learnt about numbers.</string>
+
+</strings>
+
+</olenepal>

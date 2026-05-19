@@ -127,6 +127,7 @@ def main() -> int:
         return 0
 
     by_id = {row["source_id"]: row for row in rows}
+    downloaded_without_status = 0
     for row in selected:
         result = "download_failed"
         count = 0
@@ -159,6 +160,8 @@ def main() -> int:
                 by_id[row["source_id"]]["status"] = "downloaded"
             elif result == "download_failed":
                 by_id[row["source_id"]]["status"] = "download_failed"
+        elif result == "downloaded":
+            downloaded_without_status += 1
 
         if result == "skipped":
             print(f"{row['source_id']}: skipped, {notes}")
@@ -167,6 +170,10 @@ def main() -> int:
 
     if args.update_status:
         save_registry(list(by_id.values()))
+    elif downloaded_without_status:
+        print("")
+        print("Downloaded assets were saved, but registry statuses were not updated.")
+        print("Use --update-status next time, or run the next stage anyway because it now auto-detects raw module folders.")
     return 0
 
 

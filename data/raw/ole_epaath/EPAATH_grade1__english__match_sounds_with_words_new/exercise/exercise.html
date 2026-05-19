@@ -1,0 +1,88 @@
+<!--
+    Title : General Template
+ -->
+<script type="text/javascript">
+    $cssLoader("../../../../css/rhino_template.css");
+    $cssLoader("exercise/css/exercisetemplate.css");
+</script>
+<!-- cssloader ends -->
+
+<head>
+    <!-- added to load data directly from server TO REMOVE DURING DEPLOYMENT-->
+    <meta http-equiv=“Pragma” content=”no-cache”>
+    <meta http-equiv=“Expires” content=”-1″>
+    <meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>
+    <!-- added to load data directly from server ends -->
+</head>
+<div class="activity_container">
+    <div class="board"></div>
+    <div class="nextBtn myNextStyle"></div>
+    <div class="prevBtn myPrevStyle"></div>
+</div>
+
+<script id="general-template" type="text/x-handlebars-template">
+    <div class="generalTemplateblock" data-templatecontains="hasonlycontent">
+
+        {{! content block starts--}}
+        <div class="contentblock {{additionalclasscontentblock}}">
+            <div class="vertical-horizontal-center questions">
+
+            </div>
+
+
+
+            {{#if imageblockdiv}}
+            {{#each imageblockdiv}}
+            {{#each imagestoshow}}
+                <img class="{{imgclass}}" id="{{imgid}}" src="{{imgsrc}}" />
+            {{/each}}
+            {{/each}}
+            {{/if}}
+
+            {{#if questionblock}}
+            <div class="questions">
+            {{#each questionblock}}
+                {{> textcontent}}
+            {{/each}}
+             {{/if}}
+          </div>
+            {{#if exerciseblock}} {{#each exerciseblock}} {{#if headerblock}}
+            <div class="headerblock instruc">
+                {{#each headerblock}}
+                 {{> textcontent}} 
+                 <img src="{{imgsrc}}" class="speaker-icon" alt="image">
+                 {{/each}}
+            </div>
+            {{/if}}
+
+            <div class="optionsdiv">
+                {{#each options}}
+            <div class="optionitem">
+                <img class="optimg" src="{{imgsrc}}" />
+                    {{>textcontent}}
+                </div>
+                    {{/each}}
+                {{/each}}
+            </div>
+             
+             {{/if}}
+            <div class="imageblock">
+              <img class="guessimg" src="{{imgsrc}}" />
+            </div>
+
+        </div>
+    </div>
+</script>
+
+<script id="textcontent-partial" type="text/x-handlebars-template">
+    <p class="{{textclass}}" data-highlight="{{{datahighlightflag}}}" data-highlightcustomclass="{{datahighlightcustomclass}}" data-splitintofractions="{{splitintofractionsflag}}">{{{textdata}}}</p>
+</script>
+
+
+
+<!-- js loader starts -->
+<script type="text/javascript" src="js/preloadjs-0.6.2.min.js"></script>
+<script type="text/javascript" src="js/soundjs-0.6.2.min.js"></script>
+<script type="text/javascript">
+    $jsLoader("exercise/js/exercise1.js");
+</script>

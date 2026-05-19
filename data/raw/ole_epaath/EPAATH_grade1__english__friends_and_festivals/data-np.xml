@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<olenepal>
+
+<lesson>
+	<subject>विज्ञान</subject>
+	<topic>विज्ञान-ने</topic>
+	<chapter>हाम्रा चाडपर्वहरू </chapter>
+	<levelname>तह १</levelname>
+	<leveldescription></leveldescription>
+
+	<objective>
+		<title>उद्देश्‍य:</title>
+		<description>
+			<purpose>आफ्‍ना समुदायका  संस्कारहरू (दसैँ, तिहार, छठ, क्रिस्मस, इद, विभिन्‍न जात्रा आदि) को अवस्था झल्कने सामान्य रेखाङ्कन गर्न</purpose>
+		</description>
+	</objective>
+
+	<definition>
+		<description>
+		</description>
+	</definition>
+
+	<lessonDirection>
+		<purposes></purposes>
+		<about></about>
+		<lessonhelp></lessonhelp>
+		<exercisehelp>
+			<exerciseText></exerciseText>
+		</exercisehelp>
+	</lessonDirection>
+
+</lesson>
+
+<strings>
+
+<!-- page 1 -->
+
+	<string id="title">साथीहरू र चाडपर्वहरू</string>
+	<string id="s1_talk1">नमस्ते, म राहुल हुँ।</string>
+	<string id="s1_talk2">स्कूलमा धेरै साथीहरू भेटेँ।</string>
+		<string id="s1_talk3">मेरो नेपालका विभिन्न भागबाट साथीहरू छन्।</string>
+			<string id="s1_talk4">उनीहरुले विभिन्न चाडपर्व मनाउँछन् ।</string>
+			<string id="s1_T1_txt">तलको चित्रमा हेर्नुहोस्।</string>
+				<string id="s1_T2_txt"> यी चाडपर्वहरूको बारेमा थप जानौं।</string>
+	<string id="s1_P1_txt2">उधौली</string>
+	<string id="s1_P1_txt3">छठ</string>
+	<string id="s1_P1_txt4">महा पुजा</string>
+	<string id="s1_P1_txt5">दशैं</string>
+	<string id="s1_P1_txt6">क्रिसमस</string>
+	<string id="s1_P1_txt7">ईद</string>
+
+<!--page 1 completed-->
+
+	<string id="p1text1"></string>
+	<string id="p1text2"></string>
+	<string id="p1text3">ल भन त यो कुन चाड होला?</string>
+	<string id="p1text3a">दसैँ</string>
+	<string id="p1text3b">तिहार</string>
+	<string id="p1text4">दसैँमा कसले टिका लगाई आशिर्वाद दिन्छन्?</string>
+	<string id="p1text4a">आफूभन्दा साना</string>
+	<string id="p1text4b">आफूभन्दा ठुला</string>
+	<string id="p1text5"></string>
+	<string id="p1text6">दसैँमा कसको पुजा गरिन्छ?</string>
+	<string id="p1text6a">नवदुर्गा</string>
+	<string id="p1text6b">बुद्ध</string>
+
+<!--page 1 end-->
+
+<!-- page2 starts -->
+<string id="p2text0">तिहारमा क-कस्को पूजा गरिन्छ त? आऊ, हेरौँ।</string>
+<string id="p2text001">काग</string>
+<string id="p2text002">कुकुर</string>
+<string id="p2text003">गाई/गोरू</string>
+<!-- <string id="p2text004">भाई टिका</string> -->
+<string id="p2text1">साथै दाजुभाइलाई पनि पूजा गरी सेलरोटी खुवाइन्छ।</string>
+<string id="p2text2">तिहारमा घर वरपर झिलीमिली पारेर देउसी भैलो पनि खेलिन्छ।</string>
+<string id="p2text3">नेवार समुदायमा भने तिहारमा आफूलाई पनि पूजा (म्ह पूजा) गर्ने चलन छ। </string>
+<!-- page2 ends -->
+
+<!-- page3 starts -->
+<string id="p3text0">यी बाहेक पनि विभिन्‍न समुदायका आ-आफ्‍नै चाडपर्वहरू छन्। आऊ, पालैपालो क्‍लिक गर्दै हेरौँ।</string>
+<string id="p3text01">छठ पर्व</string>
+<string id="p3text02">इद</string>
+<string id="p3text03">गौरा</string>
+<string id="p3text04">क्रिस्मस</string>
+<string id="p3text05">होली</string>
+<string id="p3text06">उधौली/उभौली</string> 
+<string id="p3text07">ल्होसार</string>
+
+<string id="p3text101">धेरैजसो तराईका मानिसले छठ मनाउँछन्।</string>
+<string id="p3text102">छठमा खोला वा पोखरीको पानीमा उभिएर सूर्यको पूजा गरिन्छ।</string>
+<string id="p3text103">छठमा सख्खर हालेको खीर, ठेकुवा, फलफूल आदि खाने गरिन्छ।</string>
+
+<string id="p3text201">मुस्लिम समुदायमा इद मनाइन्छ। </string>
+<string id="p3text202">इदमा सबैजना भेला भई शुभकामना लिने दिने गर्छन्।</string>
+<string id="p3text203">इदमा मुख्य गरी सेवाई खाने चलन छ।</string>
+
+<string id="p3text301">गौरा पर्व नेपालको पश्चिम भागमा मनाइन्छ।</string>
+<string id="p3text302">यो पर्वमा पाँचथरीको बिरुवाबाट बनाइएकी देवी गौरीको पूजा गरिन्छ।</string>
+<string id="p3text303">गौरा पर्वमा मानिसहरू भेला भई देउडा नाच नाच्दछन्।</string>
+<string id="p3text304">यस पर्वमा बिरूणा बनाई देवीलाई चढाएर खाइन्छ।</string>
+
+<string id="p3text401">ईसाई धर्म मान्‍ने मानिसहरू चर्चमा गएर प्रार्थना गर्छन्। </string>
+<string id="p3text402">क्रिस्मसमा धूपी वा सल्‍लाको रूख सजाउने गरिन्छ। </string>
+<string id="p3text403">तिमी पनि दिइएका वस्तुमा क्‍लिक गर्दै सजाऊ।</string>
+<string id="p3text404">क्रिस्मसमा एक अर्कालाई उपहार दिइन्छ। साथै परिवारका सबैजना मिलेर मिठा परिकार बनाएर खाइन्छ।  </string>
+
+<string id="p3text501">नेपालमा फागु पूर्णिमामा होली मनाइन्छ।</string>
+<string id="p3text502">होलीमा एक अर्कालाई रङ लगाएर रमाइलो गरिन्छ।</string>
+<string id="p3text503">क्‍लिक गर्दै तिमी पनि होली खेल।</string>
+
+<string id="p3text601">नेपालको पूर्वी भागमा बसोवास गर्ने किराँतीले उधौली/उभौली पर्व मनाउँछन्। </string>
+<!-- <string id="p3text602">जाडो सुरु हुँदा उधौली पर्व मनाइन्छ। गर्मी सुरु हुँदा उभौली पर्व मनाइन्छ।</string> -->
+<string id="p3text603">उधौली/उभौली पर्वमा सिली नाच नाच्दै रमाइलो गर्छन्। </string>
+<string id="p3text604">क्‍लिक गर्दै सिली नाच हेर। </string>
+<string id="p3text605">यस पर्वमा बाली राम्रो होस् भनेर भूमी पूजा पनि गरिन्छ।</string>
+
+<string id="p3text701">मानिसहरू गुम्बामा गएर प्रार्थना गर्छन्।</string>
+<string id="p3text702">ल्होसारमा मानिसहरूले आकर्षक पहिरन लगाउँछन्।</string>
+<string id="p3text703">मानिसहरू समूहमा भेला भई नाचगान पनि गर्छन्।</string>
+<string id="p3text704">यतिबेला आफन्तहरू रमाइलो गर्दै सेलरोटी र मासुका परिकार खान्छन्।</string>
+
+<!-- page3 ends -->
+
+
+<!-- ex 1 -->
+	<string id="eplay">खेलौँ</string>
+	<!-- <string id="eplay1">बाँदरको पुच्‍छरमा क्‍लिक गर। </string> -->
+	<string id="eplay1">कुन पर्वमा टिका जमरा लगाइन्छ?</string>
+	<string id="eplay101">दशैँ</string>
+	<string id="eplay102">छठ</string>
+	<string id="eplay103">इद</string>
+	<string id="eplay104">ल्होसार</string>
+
+	<string id="eplay2">छठमा कसको पूजा गरिन्छ?</string>
+	<string id="eplay201">सूर्य</string>
+	<string id="eplay202">दुर्गा</string>
+	<string id="eplay203">गाई</string>
+	<string id="eplay204">राम</string>
+	
+	<string id="eplay3">गौरा पर्वमा के खाइन्छ?</string>
+	<string id="eplay301">सेलरोटी</string>
+	<string id="eplay302">सेवाई</string>
+	<string id="eplay303">बिरुणा</string>
+	<string id="eplay304">चाकु</string>
+
+	<string id="eplay4">होलीमा एक-अर्कालाई के लगाइन्छ?</string>
+	<string id="eplay401">दुध</string>
+	<string id="eplay402">रङ</string>
+	<string id="eplay403">गोबर</string>
+	<string id="eplay404">डोरी</string>
+
+	<string id="eplay5">मुस्लिम समुदायले कुन पर्व मनाउँछन्?</string>
+	<string id="eplay501">इद</string>
+	<string id="eplay502">तिहार</string>
+	<string id="eplay503">ल्होसार</string>
+	<string id="eplay504">होली</string>
+
+	
+	<string id="playtime">PLAY TIME</string>
+	<string id="mainmenu">मूख्य सूची</string>
+	<string id="learnagain">फेरि पढ</string>
+	<string id="playagain">फेरि खेल</string>
+
+<!--ex 1 end-->
+</strings>
+
+</olenepal>
+

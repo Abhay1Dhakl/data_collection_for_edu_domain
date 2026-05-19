@@ -1,0 +1,236 @@
+<!--
+Title : General Template
+-->
+<script type="text/javascript">
+	$cssLoader("css/common.css");
+	$cssLoader("css/page2.css");
+</script>
+<!-- cssloader ends -->
+
+<head>
+	<!-- added to load data directly from server TO REMOVE DURING DEPLOYMENT-->
+	<meta http-equiv=“Pragma” content=”no-cache”>
+	<meta http-equiv=“Expires” content=”-1″>
+	<meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>
+	<!-- added to load data directly from server ends -->
+</head>
+
+<div class="my_activity">
+	<div id="loading-wrapper">
+		<div id="loading-text">
+			LOADING
+		</div>
+		<div id="loading-content"></div>
+	</div>
+
+	<div class="board"></div>
+	<div class="nextBtn myNextStyle"></div>
+	<div class="prevBtn myPrevStyle"></div>
+</div>
+
+<script id="general-template" type="text/x-handlebars-template">
+	<div id="audio-holder"></div>
+	{{! update templatecontains data for if it has header, instruction, headerinstruction
+	or only has content --}}
+	{{#if hasheaderblock}}
+		<div class="generalTemplateblock" data-templatecontains="hasheaderblock">
+	{{else}}
+		<div class="generalTemplateblock" data-templatecontains="hasonlycontent">
+	{{/if}}
+		{{! header block start--}}
+		{{#if headerblock}}
+			<div class="headerblock {{headerblockadditionalclass}}">
+				{{#each headerblock}}
+					{{> textcontent}}
+				{{/each}}
+			</div>
+		{{/if}}
+		{{! header block end--}}
+		{{! content block start--}}
+		<div class="contentblock {{contentblockadditionalclass}}">
+		{{!content block content wrapper used for content orientation - centered vertically and horizontally--}}
+			<div class="coverboardfull {{coverboardadditionalclass}}">
+				
+				{{#if uppertextblock}}
+					<div class="{{uppertextblockadditionalclass}}">
+						{{#each uppertextblock}}
+							{{> textcontent}}
+						{{/each}}
+					</div>
+				{{/if}}
+
+				{{#if lowertextblock}}
+					<div class="{{lowertextblockadditionalclass}}">
+						{{#each lowertextblock}}
+							{{> textcontent}}
+						{{/each}}
+					</div>
+				{{/if}}
+
+				{{#each imageblock}}
+					{{> imagecontent}}
+				{{/each}}
+				
+				{{#if summarydiv}}
+					<div class="maindiv">
+						{{#each summarydiv}}
+							<div class="{{bigboxadditionalclass}} bigbox">
+								<p class="{{textclass}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}">{{textdata}}</p>
+								<div class="{{summarydivclass}}">
+									<div class="characterimage">
+										<img class="charac" src="{{imgsrc}}">
+									</div>
+									<div class="right">
+										<div class="names">
+										</div>
+										<div class="smallfruitimages">
+										</div>
+									</div>
+								</div>
+							</div>
+						{{/each}}
+					</div>
+				{{/if}}
+
+				{{#if recordsdiv}}
+					<div class="{{maindivadditionalclass}}">
+						{{#each recordsdiv}}
+							<div class="left">
+
+								{{#if imageblock}}
+									{{#each imageblock}}
+										{{> imagecontent}}
+									{{/each}}
+								{{/if}}
+
+								{{#if speechbox}}
+									{{#each speechbox}}
+										<div class="speechbox {{speechbox}}">
+											<img class="speechbg {{imgclass}}" src="{{imgsrc}}">
+											<p class="{{textclass}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}">{{{textdata}}}</p>
+											{{#if audioicon}}
+												<img class="audioicon {{audioclass}}" src="./images/section-2/speaker.png">
+											{{/if}}
+										</div>
+									{{/each}}
+								{{/if}}
+							</div>
+							<div class="right-recorder">
+								<div class="recordimages">
+									{{#if imageblock2}}
+										{{#each imageblock2}}
+											{{> imagecontent}}
+										{{/each}}
+									{{/if}}
+								</div>
+								<p class="{{textclass}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}">{{{textdata}}}</p>
+							</div>
+						{{/each}}
+					</div>
+				{{/if}}
+
+				{{#if recordsummarydiv}}
+					<div class="{{maindivadditionalclass}}">
+						{{#each recordsummarydiv}}
+							<div class="left">
+
+								{{#if imageblock}}
+									{{#each imageblock}}
+										{{> imagecontent}}
+									{{/each}}
+								{{/if}}
+
+								{{#if speechbox}}
+									{{#each speechbox}}
+										<div class="speechboxbig {{speechbox}}">
+											<img class="speechbg {{imgclass}}" src="{{imgsrc}}">
+											<div class="text-many">
+												<p class="{{textclass}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}">{{{textdata}}}</p>
+												<p class="{{textclass2}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}">{{{textdata2}}}</p>
+											</div>
+											{{#if audioicon}}
+												<img class="audioicon {{audioclass}}" src="./images/section-2/speaker.png">
+											{{/if}}
+										</div>
+									{{/each}}
+								{{/if}}
+							</div>
+						{{/each}}
+					</div>
+				{{/if}}
+
+				{{#if fruitsdiv}}
+					<div class="fruitsdiv">
+						{{#each fruitsdiv}}
+						<div class="{{fruitandvegclass}}" id ="{{fruitandvegid}}">
+							<div class="fruitimage">
+								<img class="{{imgclass}}" src="{{imgsrc}}">
+							</div>
+							<div class="name">
+								<p class="{{fruitnameclass}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}">{{textdata}}</p>
+							</div>
+						</div>
+						{{/each}}
+					</div>
+				{{/if}}
+
+				{{#if characterdiv}}
+					<div class="characterdiv">
+						{{#each characterdiv}}
+							<div class="{{characterclass}}" id="{{characterid}}" data-attr="{{charactergifid}}" data-attr="{{characterpngid}}">
+								<img class="{{imgclass}}" src="{{imgsrc}}">
+							</div>
+						{{/each}}
+					</div>
+				{{/if}}
+
+				{{#each extratextblock}}
+					<p class="{{textclass}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}">{{{textdata}}}</p>
+				{{/each}}
+
+				{{#each speechbox}}
+					<div class="speechbox {{speechbox}}">
+						<img class="speechbg {{imgclass}}" src="{{imgsrc}}">
+						<p class="{{textclass}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}">{{{textdata}}}</p>
+						{{#if audioicon}}
+							<img class="audioicon {{audioclass}}" src="images/speaker.png">
+						{{/if}}
+					</div>
+				{{/each}}
+
+			</div>
+		</div>
+		{{! content block end--}}
+	</div>
+</script>
+
+<!-- partials separated as subtemplate in handlebars -->
+<script id="textcontent-partial" type="text/x-handlebars-template">
+	<p class="{{textclass}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}">{{{textdata}}}</p>
+</script>
+
+<script id="imagecontent-partial" type="text/x-handlebars-template">
+	{{#each imagestoshow}}
+		<img class="{{imgclass}}" src="{{imgsrc}}">
+	{{/each}}
+	{{#if imagelabels}}
+		{{#each imagelabels}}
+			<label class="{{imagelabelclass}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}">{{{imagelabeldata}}}</label>
+		{{/each}}
+	{{/if}}
+</script>
+
+<script id="definitioncontent-partial" type="text/x-handlebars-template">
+	<img src="{{definitionImageSource}}">
+		<figcaption>{{definitionTextData}}</figcaption>
+	<p class="definitiontextstyle" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}">{{{definitionInstructionData}}}</p>
+</script>
+
+<!-- js loader starts -->
+<script type="text/javascript" src="js/preloadjs-0.6.2.min.js"></script>
+<script type="text/javascript" src="js/soundjs-0.6.2.min.js"></script>
+<script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+<script type="text/javascript">
+	$jsLoader("js/page2.js");
+	$jsLoader("js/recorder.js");
+</script>

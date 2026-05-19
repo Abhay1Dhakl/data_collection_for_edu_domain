@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<olenepal>
+
+	<lesson>
+		<subject>नेपाली</subject>
+		<topic></topic>
+		<chapter>झूटो  नबोल</chapter>
+		<levelname></levelname>
+		<leveldescription></leveldescription>
+		<objective>
+			<title>Objective: By the end of this lesson, you will be able to</title>
+			<description>
+				<purpose>सरल कथा हाउभाउसहित पढ्न</purpose>
+			</description>
+		</objective>
+
+	</lesson>
+	<strings>
+
+		<string id="lesson_title">झूटो  नबोल</string>
+		<string id="lesson_grade">कक्षा : २</string>
+		
+	<!-- page 1 -->
+		<string id="p1text1">एकादेशमा एउटा केटो थियो। </string>
+		<string id="p1text2">उसको नाम रामु थियो।</string>
+		<string id="p1text3">ऊ कक्षा २ मा पढ्थ्यो।</string>
+		<string id="p1text4">उसलाई पढ्न अल्छी लाग्थ्यो।  कक्षामा ऊ के-के भनेर अरूलाई हँसाइरहन्थ्यो।  उसलाई एकदम रमाइलो गर्नुपर्थ्यो।</string>
+		<string id="p1text5">रमाइलो गर्नका लागि ऊ झूटो बोल्न पनि पछि हट्दैनथ्यो।</string>
+		<string id="p1text6">यसो गरेर ऊ मान्छेहरूलाई झुक्याउँथ्यो र अाफू अानन्द लिन्थ्यो।</string>
+		<string id="p1text7">छुट्टीको बेलामा ऊ आफ्ना तीन भेडाहरू लिएर चराउन जान्थ्यो।</string>
+		<string id="p1text8">एक दिन उसलाई गाउँलेहरूसँग ठट्टा गर्न मन लाग्यो।</string>
+		<string id="p1text9">उसले गाउँलेहरूलाई झुक्याउने बिचार गर्‍यो।</string>
+		<string id="p1text10">त्यसैले ऊ बेस्सरी चिच्यायो,</string>
+		<string id="p1text11">“स्याल अायो, स्याल अायो ! बचाऊ !&lt;br&gt;स्यालले मेरा भेडाहरू खान आँट्यो।”&lt;br&gt;उसले रोएको जस्तो पनि गर्‍यो।</string>
+		<string id="p1text12">गाउँलेहरू रामुको अावाज सुनेर अात्तिए। सबै जना मिलेर हातमा लठ्ठी, हँसिया, भाला, बन्चरो अादि बोकेर रामु र उसका भेडा बचाउन अाए।</string>
+		<string id="p1text13">“के भयो रामु ? खोइ स्याल ? हामी सबै मिलेर त्यसलाई समात्छौँ।,” हरि काकाले भने।</string>
+		<string id="p1text14">“ हामी अायौँ। अब नडराऊ ! तिम्रा भेडालाई केही पनि हुन्न।,” श्याम दाइले भने।</string>
+		<string id="p1text15">तर उता भेडाहरू त अारामले हरिया घाँसमा चरिरहेका थिए।&lt;br&gt;रामु पनि मजाले हाँस्दै अाफ्ना भेडाहरू चरेको हेर्दै थियो।</string>
+		<string id="p1text16">एकैछिनमा गाँउलेहरूले रामुले उनीहरूलाई छकाएको कुरा बुझे। उनीहरू रिसले अागो भए।</string>
+		<string id="p1text17">एउटा सानो केटोले अाफूलाई झुक्याएको देखेर “कस्तो बदमास रहेछ”, भन्दै&lt;br&gt;उनीहरू अा-अाफ्ना घरतिर लागे। रामु भने अाफूले गाउँलेहरूलाई मजाले झुक्याउन सकेकामा दङ्ग थियो।</string>
+		
+		<string id="p1text"></string>
+	<!--page 1 end-->
+
+	<!-- page 2 -->
+		<string id="p2text1">केहि बेरपछि उसले अलि पर अनौठो अावाज सुन्यो।</string>
+		<string id="p2text1a">पहिले त उसले रूखमा चराहरू बसे होलान् भन्ने ठान्यो।</string>
+		<string id="p2text2">तर अावाज झनै नजिक अायो।</string>
+		<string id="p2text2a">उसको सातो गयो।</string>
+		<string id="p2text3">“घुर्र... घुर्र…” गर्दै एउटा ठुलो र डरलाग्दो स्याल अाफूतिर अाइरहेको उसले देख्यो।</string>
+		<string id="p2text3a">अब उसलाई रूनु न हाँस्नु भयो।</string>
+		<string id="p2text4">उसका खुट्टा काम्न थाले। अावाज बन्द होला जस्तो भयो।  मुख सुकेर अायो।</string>
+		<string id="p2text5">आँखा राता राता भए।</string>
+		<string id="p2text6">उसलाई कराउने आँट भएन। तर जसोतसो बल गरेर उसले गाउँलेहरूलाई बोलायो, “गुहार! गुहार ! स्याल अायो। मैले झुटो बोलेको होइन। मेरा भेडालाई स्यालले खान आँट्यो!”</string>
+		<string id="p2text7">यतिकैमा रामुको एउटा भेडालाई स्यालले झम्ट्यो। भेडा</string>
+		<string id="p2text7a">आत्तिएर कराउन थाले। दुईओटा भेडा भाग्न सफल  भए।</string>
+		<string id="p2text8">अाफ्नै आँखाअगाडि अाफ्नो प्यारो भेडालाई&lt;br&gt;स्यालले अाहार बनाएको देखेर रामु&lt;br&gt;चिच्च्याई-चिच्च्याई रोयो।</string>
+		<string id="p2text9">ती गाउँलेहरूलाई एकछिन अघिको रिस मरेकै थिएन। उसलाई फकाउन त्यहाँ कोही पनि आएनन्। ऊ रूँदैरूँदै घर फर्क्यो।</string>
+		<string id="p2text10">उसले अबदेखि रमाइलो गर्नका लागि कहिल्यै पनि झूटो &lt;br&gt;नबोल्ने कुरा बतायो। उसले गाउँलेहरूसँग  माफी माग्यो।</string>
+		<string id="p2text11">स्कुलमा पनि उसले गुरू तथा साथीहरूलाई यो घटनाबारे&lt;br&gt;बतायो। हिजोअाज रामु ठट्टा त गर्छ तर पहिलेको&lt;br&gt;जस्तो झूटो बोलेर अरूलाई झुक्याउने काम गर्दैन।</string>
+		
+		<string id="p2text"></string>
+	<!--page 2 end-->
+	
+	<!-- page 2 -->
+		<!--ex -->
+		<string id="exins">खाली ठाउँमा मिल्ने उत्तर क्लिक गर :</string>
+		
+		<string id="exq1">रामुसँग तीनओटा &lt;span class='fill-blank'&gt;……………….&lt;/span&gt;हरू थिए।</string>
+		<string id="exo1a">भेडा</string>
+		<string id="exo1b">स्याल</string>
+		
+		<string id="exq2">हरि काकाले स्याल धपाउन &lt;span class='fill-blank'&gt;……………….&lt;/span&gt; बोकेर आए।</string>
+		<string id="exo2a">बन्चरो</string>
+		<string id="exo2b">भाला</string>
+		
+		<string id="exq3">भेडाहरू हरिया &lt;span class='fill-blank'&gt;……………….&lt;/span&gt; मा चरिरहेका थिए।</string>
+		<string id="exo3a">घाँस</string>
+		<string id="exo3b">माटो</string>
+		
+		<string id="exq4">झूटो बोलेको सुनेर गाउँलेहरूलाई &lt;span class='fill-blank'&gt;……………….&lt;/span&gt; उठ्यो।</string>
+		<string id="exo4a">रिस</string>
+		<string id="exo4b">पसिना</string>
+		
+		<string id="exq5">गाउँलेहरूलाई झुक्याउन सकेकामा रामू &lt;span class='fill-blank'&gt;……………….&lt;/span&gt; थियो।</string>
+		<string id="exo5a">दङ्ग</string>
+		<string id="exo5b">डर</string>
+		
+		<string id="exq6">अनौठो आवाज सुनेर रामूको &lt;span class='fill-blank'&gt;……………….&lt;/span&gt; गयो।</string>
+		<string id="exo6a">सातो</string>
+		<string id="exo6b">ठट्टा</string>
+		
+		<string id="exq7">रामूले गाउँलेहरूसँग  &lt;span class='fill-blank'&gt;……………….&lt;/span&gt; माग्यो।</string>
+		<string id="exo7a">गुहार</string>
+		<string id="exo7b">हाँसो</string>
+		
+		<string id="exq8">एउटा भेडालाई &lt;span class='fill-blank'&gt;……………….&lt;/span&gt;ले झम्ट्यो।</string>
+		<string id="exo8a">स्याल</string>
+		<string id="exo8b">बाघ</string>
+		
+		<string id="exq9">उसले गाउँलेहरूसँग &lt;span class='fill-blank'&gt;……………….&lt;/span&gt; माग्यो।</string>
+		<string id="exo9a">माफी</string>
+		<string id="exo9b">झूटो</string>
+		
+		<string id="exq10">उसले गाउँलेहरूलाई &lt;span class='fill-blank'&gt;……………….&lt;/span&gt; बिचार गर्‍यो।</string>
+		<string id="exo10a">झुक्याउने</string>
+		<string id="exo10b">हँसाउने</string>
+		
+	<!--ex end-->
+		
+	<!--ex end-->
+	</strings>
+
+</olenepal>

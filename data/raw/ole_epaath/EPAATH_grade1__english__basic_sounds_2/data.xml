@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<olenepal>
+
+<lesson>
+	<subject>English</subject>
+	<topic>English-EN</topic>
+	<chapter>Basic Sounds (II)</chapter>
+	<levelname>Level 1</levelname>
+	<leveldescription></leveldescription>
+
+	<objective>
+		<title>Objectives:</title>
+		<description>
+			<purpose>To recognize sounds of letters and read words starting from them or words containing the letters</purpose>
+		</description>
+	</objective>
+
+	<definition>
+		<description>
+		</description>
+	</definition>
+
+	<lessonDirection>
+		<purposes></purposes>
+		<about></about>
+		<lessonhelp></lessonhelp>
+		<exercisehelp>
+			<exerciseText></exerciseText>
+		</exercisehelp>
+	</lessonDirection>
+
+</lesson>
+
+<strings>
+<!-- common strings -->
+	<!-- please take care you do not remove this spacecharacter string -->
+	<string id="spacecharacter">&#160;</string>
+	<string id="diytext">Do It Yourself</string>
+	<string id="definitiontext">Definition</string>
+	<string id="factorization">Factorization</string>
+	<string id="factorizeit">factorize it</string>
+	<string id="multiply">multiply</string>
+	<string id="reverseit">reverse</string>
+	<string id="forexample">For example:</string>
+	<string id="equal"> = </string>
+	<string id="okaytext">OK</string>
+	<string id="hinttext">Hint</string>
+
+<!-- shared among pages -->
+	<string id="psharedtext1">Click here !</string>
+<!-- shared among pages ends -->
+
+<!-- name starting with k -->
+	<string id="p1text1">k</string>
+	<string id="p1text2">#k@ettle</string>
+	<string id="p1text3">#k@ey</string>
+	<string id="p1text4">#k@ite</string>
+	<string id="p1text5">jo#k@er</string>
+	<string id="p1text6">sna#k@e</string>
+	<string id="p1text7">boo#k@</string>
+<!--  k end -->
+
+<!-- name starting with l -->
+	<string id="p2text1">l</string>
+	<string id="p2text2">#l@ion</string>
+	<string id="p2text3">#l@adder</string>
+	<string id="p2text4">#l@amp</string>
+	<string id="p2text5">cand#l@e</string>
+	<string id="p2text6">f#l@ower</string>
+	<string id="p2text7">came#l@</string>
+<!--  l end -->
+
+<!-- name starting with m -->
+	<string id="p3text1">m</string>
+	<string id="p3text2">#m@onkey</string>
+	<string id="p3text3">#m@at</string>
+	<string id="p3text4">#m@irror</string>
+	<string id="p3text5">co#m@puter</string>
+	<string id="p3text6">hel#m@et</string>
+	<string id="p3text7">co#m@b</string>
+<!--  m end -->
+
+<!-- name starting with n -->
+	<string id="p4text1">n</string>
+	<string id="p4text2">#n@et</string>
+	<string id="p4text3">#n@urse</string>
+	<string id="p4text4">#n@eedle</string>
+	<string id="p4text5">pe#n@cil</string>
+	<string id="p4text6">ha#n@d</string>
+	<string id="p4text7">wi#n@dow</string>
+<!--  n end -->
+
+<!-- name starting with p -->
+	<string id="p5text1">p</string>
+	<string id="p5text2">#p@illow</string>
+	<string id="p5text3">#p@ond</string>
+	<string id="p5text4">#p@en</string>
+	<string id="p5text5">air#p@lane</string>
+	<string id="p5text6">lam#p@</string>
+	<string id="p5text7">s#p@oon</string>
+<!--  p end -->
+
+<!-- name starting with r -->
+	<string id="p6text1">r</string>
+	<string id="p6text2">#r@ibbon</string>
+	<string id="p6text3">#r@ope</string>
+	<string id="p6text4">#r@ocket</string>
+	<string id="p6text5">ga#r@land</string>
+	<string id="p6text6">b#r@ead</string>
+	<string id="p6text7">fi#r@e</string>
+<!--  r end -->
+
+<!-- name starting with s -->
+	<string id="p7text1">s</string>
+	<string id="p7text2">#s@tar</string>
+	<string id="p7text3">#s@un</string>
+	<string id="p7text4">#s@wan</string>
+	<string id="p7text5">du#s@tbin</string>
+	<string id="p7text6">ma#s@k</string>
+	<string id="p7text7">mou#s@e</string>
+<!--  s end -->
+
+<!-- name starting with t -->
+	<string id="p8text1">t</string>
+	<string id="p8text2">#t@ree</string>
+	<string id="p8text3">#t@ap</string>
+	<string id="p8text4">#t@able</string>
+	<string id="p8text5">s#t@ar</string>
+	<string id="p8text6">swee#t@</string>
+	<string id="p8text7">gui#t@ar</string>
+<!--  t end -->
+
+<!-- exercise -->
+	<string id="exhead">Click on the word that begins with the given sound</string>
+	<string id="ex1">B</string>
+	<string id="ex2">C</string>
+	<string id="ex3">D</string>
+	<string id="ex4">F</string>
+	<string id="ex5">G</string>
+	<string id="ex6">H</string>
+	<string id="ex7">J</string>
+
+	<string id="ex_img_name1">Ant</string>
+	<string id="ex_img_name2">Bed</string>
+	<string id="ex_img_name3">Cat</string>
+	<string id="ex_img_name4">Chair</string>
+	<string id="ex_img_name5">Computer</string>
+	<string id="ex_img_name6">Cycle</string>
+	<string id="ex_img_name7">Flower</string>
+	<string id="ex_img_name8">Girl</string>
+	<string id="ex_img_name9">Hen</string>
+	<string id="ex_img_name10">Jacket</string>
+	<string id="ex_img_name11">Pant</string>
+	<string id="ex_img_name12">Tree</string>
+	<string id="ex_img_name13">Frog</string>
+	<string id="ex_img_name14">Door</string>
+	<string id="ex_img_name15">Book</string>
+	<string id="ex_img_name16">Guitar</string>
+	<string id="ex_img_name17">Jug</string>
+	<string id="ex_img_name18">Key</string>
+	<string id="ex_img_name19">Lamp</string>
+	<string id="ex_img_name20">Monkey</string>
+	<string id="ex_img_name21">Pen</string>
+	<string id="ex_img_name22">Net</string>
+	<string id="ex_img_name23">Rocket</string>
+	<string id="ex_img_name24">Sun</string>
+	<string id="ex_img_name25">Table</string>
+
+
+
+
+
+
+
+</strings>
+
+</olenepal>

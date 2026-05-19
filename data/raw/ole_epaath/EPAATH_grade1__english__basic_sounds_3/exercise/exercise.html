@@ -1,0 +1,97 @@
+<!--
+    ===================================================================
+    ==========================EXERCISE TEMPLATE TYPE 2 ================
+    ===================================================================
+ -->
+<script type="text/javascript">
+    $cssLoader("exercise/css/exercisetemplate.css");
+</script>
+<!-- cssloader ends -->
+
+<head>
+	<!-- added to load data directly from server TO REMOVE DURING DEPLOYMENT-->
+	<meta http-equiv=“Pragma” content=”no-cache”>
+	<meta http-equiv=“Expires” content=”-1″>
+	<meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>
+	<!-- added to load data directly from server ends -->
+</head>
+<div class="activity_container">			
+    <div class="board"></div>
+    <div class="nextBtn myNextStyle"></div>
+    <div class="prevBtn myPrevStyle"></div>
+</div>
+
+<script id="general-template" type="text/x-handlebars-template">
+    <div class="generalTemplateblock" data-templatecontains="hasonlycontent">
+
+        {{! content block starts--}}
+         <div class="contentblock {{contentblockadditionalclass}}">
+            <div class = "vertical-horizontal-center">
+    </div>
+	{{#if uppertextblock}}
+    <div class="textblock {{uppertextblockadditionalclass}}">
+    	{{#each uppertextblock}}
+       		<p class="{{textclass}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}"  data-splitintofractions = "{{splitintofractionsflag}}">{{{textdata}}}</p>
+    	{{/each}}
+    </div>
+    {{/if}}
+    {{#if lowertextblock}}
+    <div class="textblock {{lowertextblockadditionalclass}}">
+    	{{#each lowertextblock}}
+       		<p class="{{textclass}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}"  data-splitintofractions = "{{splitintofractionsflag}}">{{{textdata}}}</p>
+    	{{/each}}
+    </div>
+    {{/if}}
+    
+    {{#if speakerimg}}
+    <div class="speakerblock">
+     {{#each speakerimg}}
+      <img src="{{imgsrc}}" class="{{imgclass}}" id="{{speakerlash}}">
+                 {{/each}}
+     </div>
+    {{/if}}
+
+
+
+    {{#if exerciseblock}}
+    {{#each exerciseblock}}
+    <div class="optionsdiv">
+
+        {{#each imageoptions}}
+        <div class="optionscontainer ">
+            <div class="forHover">
+            <img class="optimg buttonsel {{forshuffle}}" src="{{imgsrc}}" />
+            <p class="quesLabel">{{labeltext}}</p>
+            </div>
+            {{#if correctoption}}
+            {{#each correctoption}}
+            <img src="images/correct.png" class="rightic" />
+            {{/each}}
+            {{/if}}
+            {{#if wrongoption}}
+            {{#each wrongoption}}
+            <img src="images/wrong.png" class="{{wrongs}}" />
+            {{/each}}
+            {{/if}}
+            {{#if speaker}}
+            {{#each speaker}}
+            <img src="{{speakersrc}}" class="{{speakerclass}}" />
+            {{/each}}
+            {{/if}}
+        </div>
+        {{/each}}
+        
+       
+    {{/each}}
+    {{/if}}
+
+
+
+     </div>
+    </div>
+</script>
+<script type="text/javascript" src="js/buzz.min.js"></script>
+<!-- js loader starts -->
+<script type="text/javascript">
+    $jsLoader("exercise/js/exercise1.js");
+</script>

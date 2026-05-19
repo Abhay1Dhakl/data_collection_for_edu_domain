@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<olenepal>
+
+<lesson>
+	<subject>English</subject>
+	<topic>English-EN</topic>
+	<chapter> Short Vowel Sounds</chapter>
+	<levelname>Level 1</levelname>
+	<leveldescription></leveldescription>
+
+	<objective>
+		<title>Objectives:</title>
+		<description>
+			<purpose>To learn that there are five vowels</purpose>
+			<purpose>To identify the short vowel sounds</purpose>
+		</description>
+	</objective>
+
+	<definition>
+		<description>
+		</description>
+	</definition>
+
+	<lessonDirection>
+		<purposes></purposes>
+		<about></about>
+		<lessonhelp></lessonhelp>
+		<exercisehelp>
+			<exerciseText></exerciseText>
+		</exercisehelp>
+	</lessonDirection>
+
+</lesson>
+
+<strings>
+<!-- common strings -->
+	<!-- please take care you do not remove this spacecharacter string -->
+	<string id="spacecharacter">&#160;</string>
+	<string id="diytext">Do It Yourself</string>
+	<string id="definitiontext">Definition</string>
+	<string id="factorization">Factorization</string>
+	<string id="factorizeit">factorize it</string>
+	<string id="multiply">multiply</string>
+	<string id="reverseit">reverse</string>
+	<string id="forexample">For example:</string>
+	<string id="equal"> = </string>
+	<string id="okaytext">OK</string>
+	<string id="playtime">Playtime</string>
+
+<!-- direction words -->
+	<string id="directions">Directions</string>
+	<string id="straight">Straight</string>
+	<string id="left">Left</string>
+	<string id="right">Right</string>
+<!-- direction words end -->
+
+
+
+
+<!-- page 1 -->
+	<string id="p1text1"> You know that there are 26 letters in the English language.</string>
+	<string id="p1text2"> We are going to focus on five special letters.</string>
+	<string id="p1text3">These five letters are called #vowels@. </string>
+	<string id="p1text4">Vowels are special because they change the way other letters sound in words.
+</string>
+	<string id="p1text5">Sometimes vowels make short sounds. &lt;br&gt;
+Sometimes vowels make  long sounds.
+</string>
+	<string id="p1text6">In this lesson, we are going to look at
+                                 the short vowel sounds.
+</string>
+	<string id="p1text7"></string>
+<!--page 1 end-->
+
+
+<!-- page 2 -->
+	<string id="p2text1">Short Vowel Sounds</string>
+	<string id="p2text2">A</string>
+	<string id="p2text3">AT</string>
+	<string id="p2text4">CAT</string>
+	<string id="p2text5">HAT</string>
+	<string id="p2text3a">AN</string>
+	<string id="p2text6">PAN</string>
+	<string id="p2text3b">AP</string>
+	<string id="p2text7">TAP</string>
+<!--page 2 end-->
+
+<!-- page 3 -->
+
+	<string id="p3text1">E</string>
+	<string id="p3text1a">ET</string>
+	<string id="p3text1b">EN</string>
+	<string id="p3text1c">EG</string>
+	<string id="p3text2">NET</string>
+	<string id="p3text3">PEN</string>
+	<string id="p3text4">LEG</string>
+	<string id="p3text5">HEN</string>
+	<string id="p3text"></string>
+<!--page 3 end-->
+
+<!-- page 4 -->
+<string id="p4text1">I</string>
+<string id="p4text1a">IN</string>
+<string id="p4text1b">IG</string>
+<string id="p4text1c">IX</string>
+<string id="p4text2">PIN</string>
+<string id="p4text3">BIN</string>
+<string id="p4text4">PIG</string>
+<string id="p4text5">SIX</string>
+<string id="p4text"></string>
+<!--page 4 end-->
+
+<!--  page5 starts -->
+<string id="p5text1">O</string>
+<string id="p5text1a">OT</string>
+<string id="p5text1b">OD</string>
+<string id="p5text2">POT</string>
+<string id="p5text3">ROD</string>
+<string id="p5text4">COT</string>
+<string id="p5text5">DOT</string>
+<string id="p5text"></string>
+
+<!-- page5 ends -->
+
+
+<!-- page6 starts -->
+<string id="p6text1">U</string>
+<string id="p6text1a">UT</string>
+<string id="p6text1b">UP</string>
+<string id="p6text1c">UG</string>
+<string id="p6text1d">UN</string>
+<string id="p6text2">HUT</string>
+<string id="p6text3">CUP</string>
+<string id="p6text4">JUG</string>
+<string id="p6text5">BUN</string>
+<string id="p6text"></string>
+<!-- page6 ends -->
+
+
+<!-- page7 starts -->
+	<string id="p7text1">Listen to the word and select the correct vowel.</string>
+	<string id="p7text2">B <![CDATA[<span class="dropinto ">&nbsp;</span>]]> T </string>
+	<string id="p7text3">A</string>
+	<string id="p7text4">E</string>
+	<string id="p7text5">I</string>
+	<string id="p7text6">O</string>
+	<string id="p7text11">U</string>
+
+	<string id="p7text7">H <![CDATA[<span class="dropinto ">&nbsp;</span>]]> N </string>
+	<string id="p7text8">P <![CDATA[<span class="dropinto ">&nbsp;</span>]]> N </string>
+	<string id="p7text9">P <![CDATA[<span class="dropinto ">&nbsp;</span>]]> T </string>
+	<string id="p7text10">M <![CDATA[<span class="dropinto ">&nbsp;</span>]]> G </string>
+<!-- page7 ends -->
+<!-- exercise data start -->
+
+
+<string id="etext1">Listen to the word and click on the answer.</string>
+
+<string id="etext2">PAN</string>
+<string id="etext3">PEN</string>
+<string id="etext4">PIN</string>
+
+<string id="etext5">BIG</string>
+<string id="etext6">BAG</string>
+<string id="etext7">BUN</string>
+
+<string id="etext8">CAT</string>
+<string id="etext9">COW</string>
+<string id="etext10">CALF</string>
+
+<string id="etext11">PIG</string>
+<string id="etext12">POT</string>
+<string id="etext13">PEN</string>
+
+<string id="etext14">PAN</string>
+<string id="etext15">PEN</string>
+<string id="etext16">PIN</string>
+<!-- Exercise ends -->
+</strings>
+
+</olenepal>

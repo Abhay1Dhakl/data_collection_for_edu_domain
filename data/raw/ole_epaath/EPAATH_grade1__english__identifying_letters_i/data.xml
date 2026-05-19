@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<olenepal>
+
+<lesson>
+	<subject>English</subject>
+	<topic>English-EN</topic>
+	<chapter>Identifying Letters (A to H)</chapter>
+	<levelname>Level 1</levelname>
+	<leveldescription></leveldescription>
+
+	<objective>
+		<title>Objectives:</title>
+		<description>
+			<purpose>To identify letters from A to H</purpose>
+		</description>
+	</objective>
+
+	<definition>
+		<description>
+		</description>
+	</definition>
+
+	<lessonDirection>
+		<purposes></purposes>
+		<about></about>
+		<lessonhelp></lessonhelp>
+		<exercisehelp>
+			<exerciseText></exerciseText>
+		</exercisehelp>
+	</lessonDirection>
+
+</lesson>
+
+<strings>
+<!-- common strings -->
+	<!-- please take care you do not remove this spacecharacter string -->
+	<string id="spacecharacter">&#160;</string>
+	<string id="diytext">Do It Yourself</string>
+	<string id="definitiontext">Definition</string>
+	<string id="factorization">Factorization</string>
+	<string id="factorizeit">factorize it</string>
+	<string id="multiply">multiply</string>
+	<string id="reverseit">reverse</string>
+	<string id="forexample">For example:</string>
+	<string id="equal"> = </string>
+	<string id="okaytext">OK</string>
+	<string id="hinttext">Hint</string>
+
+
+<!-- page 1 -->
+
+	<string id="title">Identifying Letters &lt;br&gt;  (A to H)</string>
+
+	<string id="texta">A</string>
+	<string id="textb">B</string>
+	<string id="textc">C</string>
+	<string id="textd">D</string>
+	<string id="texte">E</string>
+	<string id="textf">F</string>
+	<string id="textg">G</string>
+	<string id="texth">H</string>
+	<string id="texti">I</string>
+	<string id="textj">J</string>
+	<string id="textk">K</string>
+	<string id="textl">L</string>
+	<string id="textm">M</string>
+	<string id="textn">N</string>
+	<string id="texto">O</string>
+	<string id="textp">P</string>
+	<string id="textq">Q</string>
+	<string id="textr">R</string>
+	<string id="texts">S</string>
+	<string id="textt">T</string>
+	<string id="textu">U</string>
+	<string id="textv">V</string>
+	<string id="textw">W</string>
+	<string id="textx">X</string>
+	<string id="texty">Y</string>
+	<string id="textz">Z</string>
+
+	<string id="p1text1">There are 26 letters in the English alphabet. Let us look at them.</string>
+	<string id="p1text2">Let’s look at the first 8 letters.</string>
+
+	<string id="p1text"></string>
+<!--page 1 end-->
+
+<!-- page 2 -->
+	<string id="ant">#A@NT</string>
+	<string id="apple">#A@PPLE</string>
+	<string id="arrow">#A@RROW</string>
+
+	<string id="ball">#B@ALL</string>
+	<string id="book">#B@OOK</string>
+	<string id="boy">#B@OY</string>
+
+	<string id="cat">#C@AT</string>
+	<string id="computer">#C@OMPUTER</string>
+	<string id="cow">#C@OW</string>
+
+	<string id="doctor">#D@OCTOR</string>
+	<string id="dog">#D@OG</string>
+	<string id="duck">#D@UCK</string>
+
+	<string id="eagle">#E@AGLE</string>
+	<string id="egg">#E@GG</string>
+	<string id="elephant">#E@LEPHANT</string>
+
+	<string id="fish">#F@ISH</string>
+	<string id="flag">#F@LAG</string>
+	<string id="flower">#F@LOWER</string>
+
+	<string id="girl">#G@IRL</string>
+	<string id="glass">#G@LASS</string>
+	<string id="goat">#G@OAT</string>
+
+	<string id="hand">#H@AND</string>
+	<string id="hat">#H@AT</string>
+	<string id="hen">#H@EN</string>
+
+<!--page 2 end-->
+
+
+<!-- ex 1 -->
+	<string id="e1text1">PLAY TIME</string>
+	<string id="e1ins">#Listen@ to the sound and #click@ on the correct letter.</string>
+	<string id="e1ins2">Click on the sound icon to hear the letter.</string>
+	<string id="end1">PLAY AGAIN</string>
+	<string id="end2">LESSON</string>
+	<string id="end3">MAIN MENU</string>
+	<string id="emsg">Yay!!! we learnt letters from A to H</string>
+
+<!--ex 1 end-->
+</strings>
+
+</olenepal>

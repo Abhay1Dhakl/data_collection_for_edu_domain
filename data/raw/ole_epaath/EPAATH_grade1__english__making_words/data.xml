@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<olenepal>
+
+    <lesson>
+        <subject>English</subject>
+        <topic>English-EN</topic>
+        <chapter>Making Words</chapter>
+        <subtitle>Let us make simple words with alphabets.</subtitle>
+        <levelname>Level 1</levelname>
+        <leveldescription></leveldescription>
+
+        <objective>
+            <title>Objectives:</title>
+            <description>
+                <purpose>To read simple unknown words phonetically</purpose>
+                <purpose>To read well-known words</purpose>
+            </description>
+        </objective>
+
+        <definition>
+            <description>
+            </description>
+        </definition>
+
+        <lessonDirection>
+            <purposes></purposes>
+            <about></about>
+            <lessonhelp></lessonhelp>
+            <exercisehelp>
+                <exerciseText></exerciseText>
+            </exercisehelp>
+        </lessonDirection>
+
+    </lesson>
+
+    <strings>
+        <string id="diy">DO IT YOURSELF</string>
+        <string id="clickmsg">Click on the sound icon to hear the sound.</string>
+        <string id="dragmsg">Drag the letters below to complete the word:</string>
+        <string id="opt">Options</string>
+
+        <string id="a">A</string>
+        <string id="b">B</string>
+        <string id="c">C</string>
+        <string id="d">D</string>
+        <string id="e">E</string>
+        <string id="f">F</string>
+        <string id="g">G</string>
+        <string id="h">H</string>
+        <string id="i">I</string>
+        <string id="j">J</string>
+        <string id="k">K</string>
+        <string id="l">L</string>
+        <string id="m">M</string>
+        <string id="n">N</string>
+        <string id="o">O</string>
+        <string id="p">P</string>
+        <string id="q">Q</string>
+        <string id="r">R</string>
+        <string id="s">S</string>
+        <string id="t">T</string>
+        <string id="u">U</string>
+        <string id="v">V</string>
+        <string id="w">W</string>
+        <string id="x">X</string>
+        <string id="y">Y</string>
+        <string id="z">Z</string>
+
+        <string id="playtime">Play Time</string>
+        <string id="clickplay">Click and play.</string>
+
+        <string id="p1text1">Making Words</string>
+        <string id="p1text2">Let us make simple words with alphabets.</string>
+
+        <!--playtime-->
+        <string id="pt1text1">Let’s make words together. </string>
+        <string id="pt1text2">Let’s keep trying! </string>
+        <string id="pt1text3">ONE last time!</string>
+
+
+    </strings>
+
+</olenepal>

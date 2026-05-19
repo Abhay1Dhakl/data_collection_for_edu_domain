@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<olenepal>
+
+<lesson>
+	<subject>गणित</subject>
+	<topic>अङ्क गणित-ने</topic>
+	<chapter>१ देखि ५ सम्मका सङ्ख्याहरू</chapter>
+	<levelname>तह १</levelname>
+	<leveldescription></leveldescription>
+
+	<objective>
+		<title>उद्देश्य:</title>
+		<description>
+			<purpose>१ - 5 सम्मका सङ्ख्याहरू चिन्न</purpose>
+			<purpose>१ - 5 सम्मका सङ्ख्याहरू अक्षरमा पढ्न</purpose>
+			<purpose>१ - 5 सम्म गन्न</purpose>
+		</description>
+	</objective>
+
+	<definition>
+		<description>
+		</description>
+	</definition>
+
+	<lessonDirection>
+		<purposes></purposes>
+		<about></about>
+		<lessonhelp></lessonhelp>
+		<exercisehelp>
+			<exerciseText></exerciseText>
+		</exercisehelp>
+	</lessonDirection>
+
+</lesson>
+
+<strings>
+	<string id="p1s1">१ ओटा बेलुन </string>
+	<string id="p1s2">२ ओटा बेलुन </string>
+	<string id="p1s3">३ ओटा बेलुन </string>
+	<string id="p1s4">४ ओटा बेलुन </string>
+	<string id="p1s5">५ ओटा बेलुन </string>
+    <!-- page2 starts -->
+    
+    <string id="p2s0">अब आफ्नो औंला भाँचेर गन।</string>
+    
+    <!-- page2 ends -->
+    <!-- page3 starts -->
+    
+    <string id="p3s0">फेरी एक चोटी गन।</string>
+    
+    <!-- page3 ends -->
+    <string id="p4s0">अब सङ्ख्याहरू लेख्न सिकौं।</string>
+	<string id="num1">१</string>
+	<string id="num2">२</string>
+	<string id="num3">३</string>
+	<string id="num4">४</string>
+	<string id="num5">५</string>
+
+	<string id="let1">एक</string>
+	<string id="let2">दुई</string>
+	<string id="let3">तीन</string>
+	<string id="let4">चार</string>
+	<string id="let5">पाँच</string>
+	<string id="let6">छ</string>
+	<string id="let7">सात</string>
+	<string id="let8">आठ</string>
+	<string id="let9">नौ</string>
+	<string id="let10">दश</string>
+	
+    <string id="grade">कक्षा १</string>
+    
+	<string id="playtime">खेलौँ</string>
+	<string id="pt1">बिरुवाहरूको सङ्ख्या गन।</string>
+	<string id="pt2">बिरुवाहरूको सङ्ख्या गन।</string>
+	<string id="pt3">बिरुवाहरूको सङ्ख्या गन।</string>
+	<string id="pt4">बिरुवाहरूको सङ्ख्या गन।</string>
+	<string id="pt5">बिरुवाहरूको सङ्ख्या गन।</string>
+
+	<string id="finmsg">आहा! हामीले १ देखी ५ सम्मका सङ्ख्याहरू पढ्यौं।</string>
+
+</strings>
+
+</olenepal>

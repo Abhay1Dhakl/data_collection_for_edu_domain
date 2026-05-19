@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<olenepal>
+
+<lesson>
+	<subject>English</subject>
+	<topic>English-EN</topic>
+	<chapter>RecognizingAndMatchingShapes</chapter>
+	<levelname>Level 1</levelname>
+	<leveldescription></leveldescription>
+
+	<objective>
+		<title>Objectives:</title>
+		<description>
+			<purpose>To recognize and match simple shapes</purpose>
+			<purpose>To read simple words and sentences</purpose>
+		</description>
+	</objective>
+
+	<definition>
+		<description>
+		</description>
+	</definition>
+
+	<lessonDirection>
+		<purposes></purposes>
+		<about></about>
+		<lessonhelp></lessonhelp>
+		<exercisehelp>
+			<exerciseText></exerciseText>
+		</exercisehelp>
+	</lessonDirection>
+
+</lesson>
+
+<strings>
+	<string id="cp">Recognizing And &lt;br&gt;Matching Shapes</string>
+	<string id="p1s0txt">Let us learn about shapes.</string>
+	<string id="p1s1txt">This is a circle.</string>
+	<string id="p1s2txt">Examples of a circle</string>
+	<string id="p1s2txt1">WHEEL</string>
+	<string id="p1s2txt2">ROTI</string>
+	<string id="p1s2txt3">PLATE</string>
+	<string id="p1s3txt">This is a square.</string>
+	<string id="p1s4txt">Examples of a square</string>
+	<string id="p1s4txt1">CLOCK</string>
+	<string id="p1s4txt2">MIRROR</string>
+	<string id="p1s4txt3">CHESSBOARD</string>
+	<string id="p1s5txt">This is a triangle.</string>
+	<string id="p1s6txt">Examples of a triangle</string>
+	<string id="p1s6txt1">ROAD SIGN</string>
+	<string id="p1s6txt2">WATERMELON SLICE</string>
+	<string id="p1s6txt3">ICECREAM CONE</string>
+	<string id="p1s7txt">This is a rectangle.</string>
+	<string id="p1s8txt">Examples of a rectangle</string>
+	<string id="p1s8txt1">DOOR</string>
+	<string id="p1s8txt2">BLACKBOARD</string>
+	<string id="p1s8txt3">BOOK</string>
+
+	<string id="p2s1txt">Click on the circle.</string>
+	<string id="p2s2txt">Click on the rectangle.</string>
+	<string id="p2s3txt">Click on the triangle.</string>
+	<string id="p2s4txt">Click on all the rectangle shapes.</string>
+	<string id="p2s5txt">Click on all the circle shapes.</string>
+
+	<string id="pttxt">What shapes are these?</string>
+	<string id="pttxt1">Circle</string>
+	<string id="pttxt2">Rectangle</string>
+	<string id="pttxt3">Triangle</string>
+
+    <string id="pt">PLAY TIME</string>
+
+</strings>
+
+</olenepal>

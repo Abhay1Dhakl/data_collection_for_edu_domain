@@ -1,0 +1,233 @@
+<!--
+Title : General Template
+-->
+<script type="text/javascript">
+	$cssLoader("exercise/css/common.css");
+	$cssLoader("exercise/css/page3.css");
+	$cssLoader("exercise/css/exercise.css");
+
+</script>
+<!-- cssloader ends -->
+
+<head>
+	<!-- added to load data directly from server TO REMOVE DURING DEPLOYMENT-->
+	<meta http-equiv=“Pragma” content=”no-cache”>
+	<meta http-equiv=“Expires” content=”-1″>
+	<meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>
+	<!-- added to load data directly from server ends -->
+</head>
+
+<div class="my_activity  activity_container">
+	<div id="loading-wrapper">
+		<div id="loading-text">
+			LOADING
+		</div>
+		<div id="loading-content"></div>
+	</div>
+	<div class="board"></div>
+	<div class="nextBtn myNextStyle"></div>
+	<div class="prevBtn myPrevStyle"></div>
+</div>
+
+<script id="general-template" type="text/x-handlebars-template">
+	<div id="audio-holder"></div>
+
+	{{! update templatecontains data for if it has header, instruction, headerinstruction
+	or only has content --}}
+	{{#if hasheaderblock}}
+		<div class="generalTemplateblock" data-templatecontains="hasheaderblock">
+	{{else}}
+		<div class="generalTemplateblock" data-templatecontains="hasonlycontent">
+	{{/if}}
+
+		{{! header block start--}}
+		{{#if headerblock}}
+			<div class="headerblock {{headerblockadditionalclass}}">
+				{{#each headerblock}}
+					{{> textcontent}}
+				{{/each}}
+			</div>
+		{{/if}}
+		{{! header block end--}}
+		{{! content block start--}}
+		<div class="contentblock {{contentblockadditionalclass}}">
+		{{!content block content wrapper used for content orientation - centered vertically and horizontally--}}
+			<div class="coverboardfull {{coverboardadditionalclass}}">
+				{{#if uppertextblock}}
+					<div class="textblock {{uppertextblockadditionalclass}}">
+						{{#each uppertextblock}}
+							{{> textcontent}}
+						{{/each}}
+					</div>
+				{{/if}}
+				{{#each imageblock}}
+					{{> imagecontent}}
+				{{/each}}
+				{{#each imagedivblock}}
+					<div class="{{imagediv}}" data-cpLetter={{cpLetter}}>
+						{{> imagecontent}}
+						{{#if svgdiv}}
+							<div id="{{svgdiv}}"></div>
+						{{/if}}
+					</div>
+				{{/each}}
+				{{#if questionBlock}}
+					<div class="questionDiv_exercise">
+						 <p class="que_sec1"></p>
+						&nbsp;<p class="ans_sec"></p>&nbsp;
+						<p class="que_sec2"></p>
+                    </div>
+                 <div class="hintDiv">
+                        <div class="hintBtn"><< सुझाव</div>
+                        <img src="" id="hintImg" alt="">
+                    </div>
+					
+                    <div class="btnHolder">
+                        <div class="optionBtnHolder">
+                            <label class="exe_option optexe1">
+		                        <img class="smallbtnImg" src="">
+                                <span></span>
+                            </label>
+                            <label class="exe_option optexe2">
+		                        <img class="smallbtnImg" src="">
+                                <span></span>
+                            </label>
+                            <label class="exe_option optexe3">
+		                        <img class="smallbtnImg" src="">
+                                <span></span>
+
+                            </label>
+                            <label class="exe_option optexe4">
+		                        <img class="smallbtnImg" src="">
+                                <span></span>
+
+                            </label>
+                            <label class="exe_option optexe5">
+		                        <img class="smallbtnImg" src="">
+                                <span></span>
+
+                            </label>
+                            <label class="exe_option optexe6">
+		                        <img class="smallbtnImg" src="">
+                                <span></span>
+
+                            </label>
+                            <label class="exe_option optexe7">
+		                        <img class="smallbtnImg" src="">
+                                <span></span>
+
+                            </label>
+                            <label class="exe_option optexe8">
+		                        <img class="smallbtnImg" src="">
+                                <span></span>
+
+                            </label>
+                            <label class="exe_option optexe9">
+		                        <img class="smallbtnImg" src="">
+                                <span></span>
+
+                            </label>
+
+							<label class="exe_option optexe10">
+		                        <img class="smallbtnImg" src="">
+                                <span></span>
+
+                            </label>
+
+							<label class="exe_option optexe11">
+		                        <img class="smallbtnImg" src="">
+                                <span></span>
+
+                            </label>
+
+							<label class="exe_option optexe12">
+		                        <img class="smallbtnImg" src="">
+                                <span></span>
+
+                            </label>
+                        </div>
+						
+                     <!-----   <div class="functionBtnHolder">
+                            <label class="exe_option2 clearBtn">
+		                        <img class="bigbtnImg" src="">
+                                <span>मेट्‍नुहोस्</span>
+                                
+                            </label>
+                            <label class="exe_option2 checkBtn">
+		                        <img class="bigbtnImg" src="">
+                                <span>जाँच्‍नुहोस्</span>
+                                
+                            </label>
+                        </div>-->
+                        
+                    </div>
+					
+
+				{{/if}}
+				{{#if lowertextblock}}
+					<div class="textblock {{lowertextblockadditionalclass}}">
+						{{#each lowertextblock}}
+							{{> textcontent}}
+						{{/each}}
+					</div>
+				{{/if}}
+				{{#each extratextblock}}
+				<div class="headerdiv">
+					<p class="{{textclass}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}">{{{textdata}}}</p>
+				</div>
+					{{/each}}
+
+				{{#each imgspkrcontainer}}
+				<div class="imgspkrcontainer">
+					{{#each imagedivblock}}
+					<div class="{{imagescontainerclass}}">
+							{{#each imagestoshow}}
+							<div class="{{imagediv}}">
+								<img class="{{imgclass}}" src="{{imgsrc}}">
+								{{#if speaker}}
+									<img class="{{speakerimgclass}}" src="images/speaker.png">
+								{{/if}}
+								<p class="{{textclass}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}">{{{textdata}}}</p>
+									{{#if ltranim}}
+									<span class="xtratxt" >{{{ltr}}}</span>
+									{{/if}}
+							</div>
+							{{/each}}
+					</div>
+					{{/each}}
+				</div>
+				{{/each}}
+
+				
+			</div>
+		</div>
+		{{! content block end--}}
+	</div>
+</script>
+<!-- partials separated as subtemplate in handlebars -->
+<script id="textcontent-partial" type="text/x-handlebars-template">
+	<p class="{{textclass}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}">{{{textdata}}}</p>
+</script>
+
+<script id="imagecontent-partial" type="text/x-handlebars-template">
+	{{#each imagestoshow}}
+		<img class="{{imgclass}}" src="{{imgsrc}}">
+	{{/each}}
+	{{#if imagelabels}}
+		{{#each imagelabels}}
+			<label class="{{imagelabelclass}}" data-highlight="{{datahighlightflag}}" data-highlightcustomclass="{{datahighlightcustomclass}}">{{{imagelabeldata}}}</label>
+		{{/each}}
+	{{/if}}
+</script>
+
+
+<!-- js loader starts -->
+<script type="text/javascript" src="js/preloadjs-0.6.2.min.js"></script>
+<script type="text/javascript" src="js/soundjs-0.6.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>
+<script src="js/snap.svg/ver_0_5_1/snap.svg-min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery.hoverIntent.min.js"></script>
+<script type="text/javascript">
+	$jsLoader("exercise/js/exercise.js");
+</script>

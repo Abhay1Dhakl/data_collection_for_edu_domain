@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<olenepal>
+
+    <lesson>
+        <subject>गणित</subject>
+        <topic>गणित</topic>
+        <chapter>तीनओटा सङ्ख्‍याहरूको जोड</chapter>
+        <levelname>तह १</levelname>
+        <leveldescription></leveldescription>
+
+        <objective>
+            <title>उद्देश्‍य:</title>
+            <description>
+                <purpose>योगफल २० सम्म आउने तीनओटा सम्म सङ्ख्याहरूको जोड गर्न।</purpose>
+            </description>
+        </objective>
+
+    </lesson>
+    <strings>
+        <string id="chapter">तीनओटा सङ्ख्‍याहरूको जोड</string>
+        <string id="n_1">१</string>
+        <string id="n_2">२</string>
+        <string id="n_3">३</string>
+        <string id="n_4">४</string>
+        <string id="n_5">५</string>
+        <string id="n_6">६</string>
+        <string id="n_7">७</string>
+        <string id="n_8">८</string>
+        <string id="n_9">९</string>
+        <string id="n_10">१०</string>
+        <string id="n_11">११</string>
+        <string id="n_12">१२</string>
+        <string id="n_13">१३</string>
+        <string id="n_14">१४</string>
+        <string id="n_15">१५</string>
+        <string id="n_16">१६</string>
+        <string id="n_17">१७</string>
+        <string id="n_18">१८</string>
+        
+        <!-- page 1 -->
+        <string id="p1text1">तीनओटा सङ्ख्‍याहरू जोड्न सिकौँ!</string>
+        <string id="p1text2">मसँग ६ ओटा चकलेटहरू छन्।</string>
+        <string id="p1text3">सागरले मलाई ५ ओटा चकलेटहरू दियो।</string>
+        <string id="p1text4">नूमाले मलाई थप ७ ओटा चकलेटहरू दिइन्।</string>
+        <string id="p1text5">अब मसँग कति ओटा चकलेटहरू छन्?</string>
+        <string id="p1text6">सबै चकलेटहरू गनौँ।</string>
+        <string id="p1text7">अब मसँग १८ ओटा चकलेटहरू छन्।</string>
+        <string id="p1text8"><![CDATA[सँगै पढौँ! <br/> ६ + ५ + ७ ‍‍‍= १८]]></string>
+
+
+        <!--page2.html-->
+        <string id="roll">यहाँ क्‍लिक गर।</string>
+        <string id="p2text1"></string>
+        <string id="p2text2">अब गणना गर्न थोप्लाहरूमा क्लिक गर।</string>
+        <string id="p2text3">सबै थोप्लाहरूको योगफल</string>
+        <string id="p2text3a">हुन्‍छ।</string>
+
+        <!--page3.html-->
+        <string id="p3text1">अब औँलाहरूको प्रयोग गरेर जोड गर्न सिकौँ!</string>
+        <string id="p3text2">मसँग ७ ओटा गुच्‍चाहरू छन्।</string>
+        <string id="p3text2a">७ ओटा गुच्‍चाहरू</string>
+        <string id="p3text3">सागरले मलाई ३ ओटा गुच्‍चाहरू दियो।</string>
+        <string id="p3text3a">३ ओटा गुच्‍चाहरू</string>
+        <string id="p3text4">नूमाले मलाई थप ६ ओटा गुच्‍चाहरू दिइन्।</string>
+        <string id="p3text4a">६ ओटा गुच्‍चाहरू</string>
+        <string id="p3text5">अब हामीसँग जम्मा कति ओटा गुच्‍चाहरू छन् भनेर गणना गरौँ।</string>
+        <string id="p3text6">हामीसँग अहिले १६ ओटा गुच्‍चाहरू छन्।</string>
+        <string id="p3text7"><![CDATA[सँगै पढौँ! <br/> ७ + ३ + ६ = १६]]></string>
+
+        <string id="exques1">यहाँ कतिओटा बेलुनहरू छन्?</string>
+        <string id="exques2">यहाँ कतिओटा पुतलीहरू छन्?</string>
+        <string id="exques3">यहाँ कतिओटा चङ्‍गाहरू छन्?</string>
+        <string id="exques4">यहाँ कतिओटा चराहरू छन्?</string>
+        <string id="exques5">यहाँ कतिओटा हवाईजहाजहरू छन्?</string>
+    </strings>
+
+
+</olenepal>

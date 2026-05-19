@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<olenepal>
+
+    <lesson>
+        <subject>Math</subject>
+        <topic>Math</topic>
+        <chapter>Adding Three Numbers</chapter>
+        <levelname>Level 1</levelname>
+        <leveldescription></leveldescription>
+
+        <objective>
+            <title>Objectives:</title>
+            <description>
+                <purpose>To add three numbers that add up to 20.</purpose>
+            </description>
+        </objective>
+
+    </lesson>
+    <strings>
+        <string id="chapter">Adding Three Numbers</string>
+        <string id="n_1">1</string>
+        <string id="n_2">2</string>
+        <string id="n_3">3</string>
+        <string id="n_4">4</string>
+        <string id="n_5">5</string>
+        <string id="n_6">6</string>
+        <string id="n_7">7</string>
+        <string id="n_8">8</string>
+        <string id="n_9">9</string>
+        <string id="n_10">10</string>
+        <string id="n_11">11</string>
+        <string id="n_12">12</string>
+        <string id="n_13">13</string>
+        <string id="n_14">14</string>
+        <string id="n_15">15</string>
+        <string id="n_16">16</string>
+        <string id="n_17">17</string>
+        <string id="n_18">18</string>
+        
+        <!-- page 1 -->
+        <string id="p1text1">Let’s learn to add three numbers!</string>
+        <string id="p1text2">I have 6 sweets.</string>
+        <string id="p1text3">Sagar gave me 5 sweets.</string>
+        <string id="p1text4">Numa gave me 7 more sweets.</string>
+        <string id="p1text5">How many sweets do I have now?</string>
+        <string id="p1text6">Let’s count all the sweets.</string>
+        <string id="p1text7">I have 18 sweets now.</string>
+        <string id="p1text8"><![CDATA[Let’s read aloud! <br/> 6 + 5 + 7 = 18]]></string>
+
+
+        <!--page2.html-->
+        <string id="roll">Roll</string>
+        <string id="p2text1">Roll the dice!</string>
+        <string id="p2text2">Now click on the dots to count them.</string>
+        <string id="p2text3">The sum of all dice is</string>
+
+        <!--page3.html-->
+        <string id="p3text1">Now let’s learn to add using our fingers!</string>
+        <string id="p3text2">I have 7 marbles. </string>
+        <string id="p3text2a">7 marbles</string>
+        <string id="p3text3">Sagar gave me 3 marbles.</string>
+        <string id="p3text3a">3 marbles</string>
+        <string id="p3text4">Numa gave me 6 more marbles.</string>
+        <string id="p3text4a">6 marbles</string>
+        <string id="p3text5">Let’s count how many marbles we have in total. </string>
+        <string id="p3text6">We have 16 marbles now.</string>
+        <string id="p3text7"><![CDATA[Let’s read aloud! <br/> 7 + 3 + 6 = 16]]></string>
+
+        <string id="exques1">How many balloons are there?</string>
+        <string id="exques2">How many butterflies are there?</string>
+        <string id="exques3">How many kites are there?</string>
+        <string id="exques4">How many birds are there?</string>
+        <string id="exques5">How many airplanes are there?</string>
+    </strings>
+
+
+</olenepal>
