@@ -2,25 +2,23 @@
 
 - Gold readiness: NO
 - Registry modules: 630
-- Registry statuses: discovered=608, pair_failed=12, review_ready=10
-- Audited modules: 22
-- Module risk levels: high=15, low=3, medium=4
-- Sentence candidates for review: 146
-- Excluded low-value candidate pairs: 162
-- Record review queue items: 30
-- Manual review rows: 146
-- Manual review labeled: 0
-- Approved gold pairs: 0
-- Final JSONL pairs: 0
-- Train/Dev/Test sizes: 0/0/0
+- Registry statuses: discovered=57, pair_failed=157, review_ready=50, reviewed=366
+- Audited modules: 573
+- Module risk levels: high=138, low=387, medium=48
+- Sentence candidates for review: 44743
+- Excluded low-value candidate pairs: 17798
+- Record review queue items: 5639
+- Manual review rows: 15000
+- Manual review labeled: 15000
+- Approved gold pairs: 15000
+- Final JSONL pairs: 15000
+- Train/Dev/Test sizes: 12043/1576/1381
 
 ## Blockers
 
-- No manually approved gold pairs exist yet.
-- Manual review is incomplete.
-- 15 audited modules are still high risk.
+- 138 audited modules are still high risk.
 - Record-level review queue still contains unresolved items.
 
 ## Recommended Next Step
 
-- Finish the manual review sheet, starting with rows tagged `review_priority=high`.
+- Dataset artifacts exist; spot-check the final JSONL and audit report before research use.
